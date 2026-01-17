@@ -1,0 +1,2591 @@
+﻿graphrag_rag Evaluation Results
+Evaluation Date: 2026-01-17 09:31:07
+Total Questions: 135
+
+Configuration:
+{
+  "graph_documents_pkl_path": "data/researcher/entity_graph_documents.pkl",
+  "documents_pkl_path": "data/researcher/documents.pkl",
+  "documents_path": "new_data/researcher",
+  "artifacts_path": "data/researcher/graphrag_artifacts.pkl",
+  "vector_store_dir": "data/researcher/vector_stores",
+  "cache_dir": "data/researcher/cache",
+  "model_name": "gpt-5-mini",
+  "embedding_model": "text-embedding-3-small",
+  "search_strategy": "local",
+  "community_level": 2,
+  "top_k_nodes": 20,
+  "top_k_chunks": 4,
+  "max_hops": 1,
+  "similarity_threshold": 0.5,
+  "node_freq_weight": 0.4,
+  "node_sim_weight": 0.6,
+  "normalize_answers": false
+}
+================================================================================
+
+Question 1/135:
+Question: What was the time span of Humayan Kabir Rana's research publications?
+Expected Answer: 2019 to 2021
+Model Answer: Short answer
+- The publications for Humayan Kabir Rana in the provided data span from 2019 through 2021.
+
+Supporting evidence
+- Several of Rana's papers in the dataset are dated 2019 (example: a paper on Parkinson’s disease biomarkers) [Data: Sources (39)].  
+- He has multiple papers dated 2021 (examples: pathogenetic profiling of COVID‑19 and related Briefings/Computers‑in‑Biology‑and‑Medicine papers) [Data: Sources (36); Sources (38)].  
+- The dataset also includes a 2020 paper on genetic profiling and comorbidities of type 2 diabetes, showing activity in 2020 between those endpoints [Data: Sources (6)].
+
+Notes and caveats
+- I'm reporting the time span visible in the supplied tables only; the researcher may have additional publications outside 2019–2021 that are not included in this dataset.  
+- If you want, I can list the specific papers and their publication details that support each year.
+Reasoning:
+Short answer
+- The publications for Humayan Kabir Rana in the provided data span from 2019 through 2021.
+Supporting evidence
+- Several of Rana's papers in the dataset are dated 2019 (example: a paper on Parkinson’s disease biomarkers) [Data: Sources (39)].  
+- He has multiple papers dated 2021 (examples: pathogenetic profiling of COVID‑19 and related Briefings/Computers‑in‑Biology‑and‑Medicine papers) [Data: Sources (36); Sources (38)].  
+- The dataset also includes a 2020 paper on genetic profiling and comorbidities of type 2 diabetes, showing activity in 2020 between those endpoints [Data: Sources (6)].
+Notes and caveats
+- I'm reporting the time span visible in the supplied tables only; the researcher may have additional publications outside 2019–2021 that are not included in this dataset.  
+- If you want, I can list the specific papers and their publication details that support each year.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 2/135:
+Question: Which researcher published on sentiment analysis in 2024?
+Expected Answer: Muhammad Nomani Kabir
+Model Answer: Short answer
+- Muhammad Nomani Kabir (with co-authors MS Islam, NA Ghani, KZ Zamli, NSA Zulkifli, and MM Rahman) published a 2024 review on deep learning for sentiment analysis in Artificial Intelligence Review [Data: Sources (32); Relationships (197)].
+
+Details and sources
+- The paper "Challenges and future in deep learning for sentiment analysis: a comprehensive review and a proposed novel hybrid approach" (Artificial Intelligence Review, 57 (3), 2024) lists MS Islam, MN Kabir, NA Ghani, KZ Zamli, NSA Zulkifli, MM Rahman, ... as authors — confirming those researchers published on sentiment analysis in 2024 [Data: Sources (32)].
+- Co-authorship relationships recording MN Kabir’s connection to the Artificial Intelligence Review and to several of the named co-authors are present in the graph data (examples: MN Kabir — Artificial Intelligence Review; MN Kabir — MS Islam; MN Kabir — NA Ghani; MN Kabir — NSA Zulkifli; MN Kabir — MM Rahman) [Data: Relationships (197, 198, 199, 200, 48)].
+
+If you’d like, I can extract the full citation or provide the paper link from the source record.
+Reasoning:
+Short answer
+- Muhammad Nomani Kabir (with co-authors MS Islam, NA Ghani, KZ Zamli, NSA Zulkifli, and MM Rahman) published a 2024 review on deep learning for sentiment analysis in Artificial Intelligence Review [Data: Sources (32); Relationships (197)].
+Details and sources
+- The paper "Challenges and future in deep learning for sentiment analysis: a comprehensive review and a proposed novel hybrid approach" (Artificial Intelligence Review, 57 (3), 2024) lists MS Islam, MN Kabir, NA Ghani, KZ Zamli, NSA Zulkifli, MM Rahman, ... as authors — confirming those researchers published on sentiment analysis in 2024 [Data: Sources (32)].
+- Co-authorship relationships recording MN Kabir’s connection to the Artificial Intelligence Review and to several of the named co-authors are present in the graph data (examples: MN Kabir — Artificial Intelligence Review; MN Kabir — MS Islam; MN Kabir — NA Ghani; MN Kabir — NSA Zulkifli; MN Kabir — MM Rahman) [Data: Relationships (197, 198, 199, 200, 48)].
+If you’d like, I can extract the full citation or provide the paper link from the source record.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 3/135:
+Question: Which researchers collaborated on the PyBangla paper and when was it published?
+Expected Answer: J Islam, M Ataullha, S Azad in 2025
+Model Answer: Answer
+
+- Collaborators: The PyBangla paper "PyBangla at BLP-2025 Task 2" was authored by J Islam, M Ataullha, and S Azad [Data: Entities (224); Relationships (258, 257, 154)].
+
+- Publication: The work was released as an arXiv preprint (arXiv:2512.23713) in 2025 [Data: Entities (224); Sources (44); Relationships (259)].
+
+If you’d like, I can pull the paper link or the authors’ affiliations/details from the records.
+Reasoning:
+Answer
+- Collaborators: The PyBangla paper "PyBangla at BLP-2025 Task 2" was authored by J Islam, M Ataullha, and S Azad [Data: Entities (224); Relationships (258, 257, 154)].
+- Publication: The work was released as an arXiv preprint (arXiv:2512.23713) in 2025 [Data: Entities (224); Sources (44); Relationships (259)].
+If you’d like, I can pull the paper link or the authors’ affiliations/details from the records.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 4/135:
+Question: How many papers did Ashish Vaswani publish in 2018?
+Expected Answer: 4
+Model Answer: Answer
+
+Ashish Vaswani published four papers in 2018.
+
+Which papers (from the dataset)
+- Relational Inductive Biases, Deep Learning, and Graph Networks  
+- Self-attention with Relative Position Representations  
+- Image Transformer  
+- Music Transformer
+
+Evidence
+- The dataset lists these four works with Ashish Vaswani as an author and with year = 2018 [Data: Relationships (265, 266, 267, 270); Sources (45); Entities (231)].
+
+Notes
+- This count is based only on the records provided in the dataset (the Sources episodes that include Vaswani as researcher and show content.year = 2018). There may be other 2018 works by Vaswani not present in these records.
+Reasoning:
+Answer
+Ashish Vaswani published four papers in 2018.
+Which papers (from the dataset)
+- Relational Inductive Biases, Deep Learning, and Graph Networks  
+- Self-attention with Relative Position Representations  
+- Image Transformer  
+- Music Transformer
+Evidence
+- The dataset lists these four works with Ashish Vaswani as an author and with year = 2018 [Data: Relationships (265, 266, 267, 270); Sources (45); Entities (231)].
+Notes
+- This count is based only on the records provided in the dataset (the Sources episodes that include Vaswani as researcher and show content.year = 2018). There may be other 2018 works by Vaswani not present in these records.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 5/135:
+Question: Which researcher published on nanofluid bioconvection in 2016?
+Expected Answer: Muhammad Nomani Kabir
+Model Answer: Answer
+-------
+
+The 2016 paper on nanofluid bioconvection titled "Numerical solutions for gyrotactic bioconvection in nanofluid-saturated porous media with Stefan blowing and multiple slip effects" was published by MJ Uddin, Y Alginahi, OA Bég, and MN Kabir (co‑authors) in Computers & Mathematics with Applications in 2016 [Data: Sources (31); Entities (158, 161, 159, 162)].
+
+Supporting details
+------------------
+- Paper metadata (title, authors, journal, year) is available in the Sources record [Data: Sources (31)].  
+- The four named authors appear as entities in the dataset: MJ Uddin (158), Y Alginahi (161), OA Bég (159), and MN Kabir (162) [Data: Entities (158, 161, 159, 162)].
+Reasoning:
+Answer
+-------
+The 2016 paper on nanofluid bioconvection titled "Numerical solutions for gyrotactic bioconvection in nanofluid-saturated porous media with Stefan blowing and multiple slip effects" was published by MJ Uddin, Y Alginahi, OA Bég, and MN Kabir (co‑authors) in Computers & Mathematics with Applications in 2016 [Data: Sources (31); Entities (158, 161, 159, 162)].
+Supporting details
+------------------
+- Paper metadata (title, authors, journal, year) is available in the Sources record [Data: Sources (31)].  
+- The four named authors appear as entities in the dataset: MJ Uddin (158), Y Alginahi (161), OA Bég (159), and MN Kabir (162) [Data: Entities (158, 161, 159, 162)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 6/135:
+Question: What is the latest publication year among all researchers?
+Expected Answer: 2025
+Model Answer: Answer
+The latest publication year present in the data is 2025.
+
+Explanation and supporting records
+- The arXiv preprint arXiv:2512.23713 is recorded as published in 2025 [Data: Entities (226, 227); Relationships (262)].
+- For context, other recent publications in the dataset are from 2024 (for example, The Lancet and The Lancet Neurology) [Data: Entities (255, 283)].
+
+If you want, I can list all publications and their years found in the dataset.
+Reasoning:
+Answer
+The latest publication year present in the data is 2025.
+Explanation and supporting records
+- The arXiv preprint arXiv:2512.23713 is recorded as published in 2025 [Data: Entities (226, 227); Relationships (262)].
+- For context, other recent publications in the dataset are from 2024 (for example, The Lancet and The Lancet Neurology) [Data: Entities (255, 283)].
+If you want, I can list all publications and their years found in the dataset.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 7/135:
+Question: Which researcher published on underwater networking protocols?
+Expected Answer: Saiful Azad
+Model Answer: Short answer
+- Saiful Azad (also shown as "S Azad") published research on underwater networking protocols — notably the DESERT Underwater paper and a 2014 IEEE Network article (Open-source suites for underwater networking: WOSS and DESERT underwater). This is supported by the dataset records below [Data: Entities (104); Relationships (130); Entities (119); Relationships (153); Sources (21)].
+
+Evidence and sources
+- DESERT Underwater: Saiful Azad is listed as an author of the DESERT Underwater paper (DESERT Underwater: an NS-Miracle–based framework for underwater network protocols) [Data: Entities (104); Relationships (130)].
+- IEEE Network (2014) paper: S. Azad (listed as S Azad) is a co-author on the IEEE Network 2014 article about WOSS and DESERT underwater (the open-source suites for underwater networking) [Data: Entities (119); Relationships (153); Sources (21)].
+- Records use both forms of his name (Saiful Azad / S Azad) in different entries [Data: Relationships (130, 153)].
+
+If you want, I can fetch the full citation details (authors, venue, year, or a link) from the records I have. Which paper would you like details for first — DESERT Underwater or the IEEE Network 2014 article?
+Reasoning:
+Short answer
+- Saiful Azad (also shown as "S Azad") published research on underwater networking protocols — notably the DESERT Underwater paper and a 2014 IEEE Network article (Open-source suites for underwater networking: WOSS and DESERT underwater). This is supported by the dataset records below [Data: Entities (104); Relationships (130); Entities (119); Relationships (153); Sources (21)].
+Evidence and sources
+- DESERT Underwater: Saiful Azad is listed as an author of the DESERT Underwater paper (DESERT Underwater: an NS-Miracle–based framework for underwater network protocols) [Data: Entities (104); Relationships (130)].
+- IEEE Network (2014) paper: S. Azad (listed as S Azad) is a co-author on the IEEE Network 2014 article about WOSS and DESERT underwater (the open-source suites for underwater networking) [Data: Entities (119); Relationships (153); Sources (21)].
+- Records use both forms of his name (Saiful Azad / S Azad) in different entries [Data: Relationships (130, 153)].
+If you want, I can fetch the full citation details (authors, venue, year, or a link) from the records I have. Which paper would you like details for first — DESERT Underwater or the IEEE Network 2014 article?
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 8/135:
+Question: What is the time range of Md Ataullha's publications?
+Expected Answer: 2024-2025
+Model Answer: # Md Ataullha — publication time range
+
+Summary
+- Based on the records provided, Md Ataullha's publications span from 2024 to 2025 (inclusive). This is supported by the dengue outbreak paper (2024) and the PyBangla paper (2025) linked to his profile [Data: Entities (228); Sources (43); Relationships (263, 257)].
+
+Evidence (papers in the dataset)
+- "Mathematical analysis and prediction of future outbreak of dengue on time-varying contact rate using machine learning approach" — published in Computers in Biology and Medicine (2024). This paper lists M Ataullha as an author [Data: Sources (43); Relationships (263)].
+- "PyBangla at BLP-2025 Task 2: Enhancing Bangla-to-Python Code Generation with Iterative Self-Correction and Multilingual Agents" — arXiv preprint (2025). M Ataullha is an author on this paper as well [Data: Sources (43); Relationships (257)].
+
+Note
+- The 2024–2025 range reflects the publications present in the provided tables only. If you want a complete bibliography or confirmation of earlier/later works, I can search the dataset further or check external sources (e.g., his Google Scholar profile) — say if you’d like that.
+Reasoning:
+# Md Ataullha — publication time range
+Summary
+- Based on the records provided, Md Ataullha's publications span from 2024 to 2025 (inclusive). This is supported by the dengue outbreak paper (2024) and the PyBangla paper (2025) linked to his profile [Data: Entities (228); Sources (43); Relationships (263, 257)].
+Evidence (papers in the dataset)
+- "Mathematical analysis and prediction of future outbreak of dengue on time-varying contact rate using machine learning approach" — published in Computers in Biology and Medicine (2024). This paper lists M Ataullha as an author [Data: Sources (43); Relationships (263)].
+- "PyBangla at BLP-2025 Task 2: Enhancing Bangla-to-Python Code Generation with Iterative Self-Correction and Multilingual Agents" — arXiv preprint (2025). M Ataullha is an author on this paper as well [Data: Sources (43); Relationships (257)].
+Note
+- The 2024–2025 range reflects the publications present in the provided tables only. If you want a complete bibliography or confirmation of earlier/later works, I can search the dataset further or check external sources (e.g., his Google Scholar profile) — say if you’d like that.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 9/135:
+Question: What is the title of Humayan Kabir Rana's paper on iris recognition?
+Expected Answer: A fast iris recognition system through optimum feature extraction
+Model Answer: Answer
+
+The paper's title is: "A FAST IRIS RECOGNITION SYSTEM THROUGH OPTIMUM FEATURE EXTRACTION." This is supported by the dataset records linking Humayan Kabir Rana to that paper [Data: Entities (181); Relationships (217); Sources (35)].
+Reasoning:
+Answer
+The paper's title is: "A FAST IRIS RECOGNITION SYSTEM THROUGH OPTIMUM FEATURE EXTRACTION." This is supported by the dataset records linking Humayan Kabir Rana to that paper [Data: Entities (181); Relationships (217); Sources (35)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 10/135:
+Question: How many citations does the iris recognition paper by Humayan Kabir Rana have?
+Expected Answer: 71
+Model Answer: Answer
+
+- The paper "A fast iris recognition system through optimum feature extraction" (PeerJ Computer Science, 2019) has 71 citations.
+
+Supporting data
+
+- This citation count comes from the researcher/paper metadata in the Sources dataset [Data: Sources (35); Entities (181); Relationships (237)].
+Reasoning:
+Answer
+- The paper "A fast iris recognition system through optimum feature extraction" (PeerJ Computer Science, 2019) has 71 citations.
+Supporting data
+- This citation count comes from the researcher/paper metadata in the Sources dataset [Data: Sources (35); Entities (181); Relationships (237)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 11/135:
+Question: What is the publication venue for Humayan Kabir Rana's iris recognition paper?
+Expected Answer: PeerJ Computer Science
+Model Answer: ### Answer
+
+The paper "A fast iris recognition system through optimum feature extraction" (co‑authored by Humayan Kabir Rana) was published in the journal PeerJ Computer Science (PeerJ Computer Science 5, e184) in 2019. [Data: Entities (181, 182); Sources (35); Relationships (217, 237)]
+
+If you want the publisher record or the Scholar citation link, the paper's metadata (including the PeerJ publication entry and a Google Scholar citation link) is available in the source record. [Data: Sources (35)]
+Reasoning:
+### Answer
+The paper "A fast iris recognition system through optimum feature extraction" (co‑authored by Humayan Kabir Rana) was published in the journal PeerJ Computer Science (PeerJ Computer Science 5, e184) in 2019. [Data: Entities (181, 182); Sources (35); Relationships (217, 237)]
+If you want the publisher record or the Scholar citation link, the paper's metadata (including the PeerJ publication entry and a Google Scholar citation link) is available in the source record. [Data: Sources (35)]
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 12/135:
+Question: How many citations does the COVID-19 pathogenetic profiling paper have?
+Expected Answer: 65
+Model Answer: Answer
+The paper "Pathogenetic profiling of COVID-19 and SARS-like viruses" is listed with 65 citations. This comes from the paper metadata in the dataset [Data: Sources (36)].
+
+Context and note
+The Sources record (id 36) shows the paper's publication details (Briefings in Bioinformatics, 2021) and a cited_by value of 65. Citation counts change over time, so the current number may be higher if checked on citation indexes now [Data: Sources (36)].
+Reasoning:
+Answer
+The paper "Pathogenetic profiling of COVID-19 and SARS-like viruses" is listed with 65 citations. This comes from the paper metadata in the dataset [Data: Sources (36)].
+Context and note
+The Sources record (id 36) shows the paper's publication details (Briefings in Bioinformatics, 2021) and a cited_by value of 65. Citation counts change over time, so the current number may be higher if checked on citation indexes now [Data: Sources (36)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 13/135:
+Question: What is the title of Mohammad Shorif Uddin's most cited paper?
+Expected Answer: Image quality assessment through FSIM, SSIM, MSE and PSNR—a comparative study
+Model Answer: ### Most-cited paper (per the provided data)
+
+The most-cited paper by Mohammad Shorif Uddin in the provided data is:
+- "Image quality assessment through FSIM, SSIM, MSE and PSNR — a comparative study" — listed with 2,065 citations in the dataset. This is the highest citation count among his papers in the data provided [Data: Sources (1); Sources (2,3,4,5,6)].
+
+If you want, I can list his other papers and their citation counts from the dataset for comparison.
+Reasoning:
+### Most-cited paper (per the provided data)
+The most-cited paper by Mohammad Shorif Uddin in the provided data is:
+- "Image quality assessment through FSIM, SSIM, MSE and PSNR — a comparative study" — listed with 2,065 citations in the dataset. This is the highest citation count among his papers in the data provided [Data: Sources (1); Sources (2,3,4,5,6)].
+If you want, I can list his other papers and their citation counts from the dataset for comparison.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 14/135:
+Question: How many citations does the paper 'Machine vision based papaya disease recognition' have?
+Expected Answer: 235
+Model Answer: Answer
+The paper "Machine vision based papaya disease recognition" has 235 citations [Data: Sources (1); Entities (14)].
+
+Supporting details
+- The citation count (cited_by = 235) is listed in the source record for the paper [Data: Sources (1)].  
+- The paper is recorded in the dataset as "Machine vision based papaya disease recognition" (Entity id 14) and linked to the Journal of King Saud University–Computer (Relationship id 23) [Data: Entities (14); Relationships (23)].
+Reasoning:
+Answer
+The paper "Machine vision based papaya disease recognition" has 235 citations [Data: Sources (1); Entities (14)].
+Supporting details
+- The citation count (cited_by = 235) is listed in the source record for the paper [Data: Sources (1)].  
+- The paper is recorded in the dataset as "Machine vision based papaya disease recognition" (Entity id 14) and linked to the Journal of King Saud University–Computer (Relationship id 23) [Data: Entities (14); Relationships (23)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 15/135:
+Question: What paper did Mohammad Shorif Uddin publish on skin disease detection?
+Expected Answer: A machine learning approach for skin disease detection and classification using image segmentation
+Model Answer: ### Paper title — quick answer
+Mohammad Shorif Uddin is one of the authors of the paper titled "A Machine Learning Approach for Skin Disease Detection and Classification Using Image Segmentation." [Data: Entities (17); Relationships (11)]
+
+### Details
+- Journal and year: The paper was published in Healthcare Analytics in 2022. [Data: Sources (4); Relationships (30)]  
+- Authors (as listed): M Ahammed, M Al Mamun, MS Uddin. [Data: Sources (4)]
+
+If you’d like, I can fetch the paper link or the Google Scholar entry for this publication. The paper metadata and link are available in the source record I used [Data: Sources (4)].
+Reasoning:
+### Paper title — quick answer
+Mohammad Shorif Uddin is one of the authors of the paper titled "A Machine Learning Approach for Skin Disease Detection and Classification Using Image Segmentation." [Data: Entities (17); Relationships (11)]
+### Details
+- Journal and year: The paper was published in Healthcare Analytics in 2022. [Data: Sources (4); Relationships (30)]  
+- Authors (as listed): M Ahammed, M Al Mamun, MS Uddin. [Data: Sources (4)]
+If you’d like, I can fetch the paper link or the Google Scholar entry for this publication. The paper metadata and link are available in the source record I used [Data: Sources (4)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 16/135:
+Question: In what year was the paper on depression prediction by Mohammad Shorif Uddin published?
+Expected Answer: 2021
+Model Answer: Answer
+
+The paper "An in-depth analysis of machine learning approaches to predict depression" by Mohammad Shorif Uddin was published in 2021 [Data: Sources (5); Entities (18); Relationships (12)].
+Reasoning:
+Answer
+The paper "An in-depth analysis of machine learning approaches to predict depression" by Mohammad Shorif Uddin was published in 2021 [Data: Sources (5); Entities (18); Relationships (12)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 17/135:
+Question: How many citations does the heart disease prediction paper have?
+Expected Answer: 168
+Model Answer: Answer
+
+The paper "Analysis of data mining techniques for heart disease prediction" has 168 citations [Data: Sources (3)].
+
+If you want, I can also list the paper's authors and where it was presented (those are recorded in the same source).
+Reasoning:
+Answer
+The paper "Analysis of data mining techniques for heart disease prediction" has 168 citations [Data: Sources (3)].
+If you want, I can also list the paper's authors and where it was presented (those are recorded in the same source).
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 18/135:
+Question: What is the title of Farhana Akter Sunny's paper on IoT in education?
+Expected Answer: IoLT: an IOT based collaborative blended learning platform in higher education
+Model Answer: # Answer
+
+The paper is titled: "IoLT: An IOT Based Collaborative Blended Learning Platform in Higher Education."
+
+# Supporting evidence
+
+- Farhana Akter Sunny is listed as an author of that paper [Data: Relationships (54); Entities (47)].  
+- The paper was presented at the 2018 International Conference on Innovation in Engineering and Technology and has 49 citations in the source metadata [Data: Sources (7)].
+Reasoning:
+# Answer
+The paper is titled: "IoLT: An IOT Based Collaborative Blended Learning Platform in Higher Education."
+# Supporting evidence
+- Farhana Akter Sunny is listed as an author of that paper [Data: Relationships (54); Entities (47)].  
+- The paper was presented at the 2018 International Conference on Innovation in Engineering and Technology and has 49 citations in the source metadata [Data: Sources (7)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 19/135:
+Question: What paper did Farhana Akter Sunny publish on UAV systems?
+Expected Answer: A UAV-based traffic monitoring system for smart cities
+Model Answer: Answer
+
+Farhana Akter Sunny co-authored the paper titled "A UAV‑Based Traffic Monitoring System for Smart Cities." The paper was presented at the 2019 International Conference on Sustainable Technologies for Industry 4.0 and (per the record) has been cited 42 times [Data: Entities (48); Relationships (55); Reports (38)].
+
+Details (authors and provenance)
+
+- Authors listed for the paper include M Hossain, MDA Hossain, and FA Sunny (Farhana Akter Sunny) [Data: Entities (45, 46, 48); Relationships (74, 75, 55); Reports (38)].  
+- The paper is recorded in the dataset as a 2019 conference contribution focused on UAV traffic monitoring for smart cities [Data: Entities (48); Reports (38)].
+
+If you want, I can fetch the paper link/DOI and its bibliographic entry from the source records next.
+Reasoning:
+Answer
+Farhana Akter Sunny co-authored the paper titled "A UAV‑Based Traffic Monitoring System for Smart Cities." The paper was presented at the 2019 International Conference on Sustainable Technologies for Industry 4.0 and (per the record) has been cited 42 times [Data: Entities (48); Relationships (55); Reports (38)].
+Details (authors and provenance)
+- Authors listed for the paper include M Hossain, MDA Hossain, and FA Sunny (Farhana Akter Sunny) [Data: Entities (45, 46, 48); Relationships (74, 75, 55); Reports (38)].  
+- The paper is recorded in the dataset as a 2019 conference contribution focused on UAV traffic monitoring for smart cities [Data: Entities (48); Reports (38)].
+If you want, I can fetch the paper link/DOI and its bibliographic entry from the source records next.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 20/135:
+Question: How many citations does the UAV traffic monitoring paper have?
+Expected Answer: 42
+Model Answer: Answer
+The paper "A UAV-based traffic monitoring system for smart cities" has 42 citations [Data: Entities (48); Reports (38)].
+
+Context (optional)
+- The paper was presented at the 2019 International Conference on Sustainable Technologies for Industry 4.0 and lists M Hossain and MDA Hossain among its authors — these details are included in the same records that report the citation count [Data: Entities (48); Relationships (74, 75)].
+Reasoning:
+Answer
+The paper "A UAV-based traffic monitoring system for smart cities" has 42 citations [Data: Entities (48); Reports (38)].
+Context (optional)
+- The paper was presented at the 2019 International Conference on Sustainable Technologies for Industry 4.0 and lists M Hossain and MDA Hossain among its authors — these details are included in the same records that report the citation count [Data: Entities (48); Relationships (74, 75)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 21/135:
+Question: What year did Farhana Akter Sunny publish her paper on cognitive radio?
+Expected Answer: 2015
+Model Answer: Answer
+
+Farhana Akter Sunny published her paper on cognitive radio in 2015.
+
+Details — supporting evidence
+- The paper titled "Trust and energy aware Cluster modeling and spectrum handoff for cognitive radio ad-hoc network" is listed as a 2015 conference publication, with Farhana Akter Sunny as one of the authors [Data: Entities (49); Relationships (56)].
+Reasoning:
+Answer
+Farhana Akter Sunny published her paper on cognitive radio in 2015.
+Details — supporting evidence
+- The paper titled "Trust and energy aware Cluster modeling and spectrum handoff for cognitive radio ad-hoc network" is listed as a 2015 conference publication, with Farhana Akter Sunny as one of the authors [Data: Entities (49); Relationships (56)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 22/135:
+Question: What is the title of Ashish Vaswani's paper on graph networks?
+Expected Answer: Relational inductive biases, deep learning, and graph networks
+Model Answer: ## Answer
+
+The paper is titled "Relational Inductive Biases, Deep Learning, and Graph Networks" [Data: Entities (241); Relationships (265); Sources (46)].
+
+## Publication note
+
+This work was published as an arXiv preprint in 2018 and is highly cited (citation count listed as 4869 in the data) [Data: Sources (46); Entities (241)].
+Reasoning:
+## Answer
+The paper is titled "Relational Inductive Biases, Deep Learning, and Graph Networks" [Data: Entities (241); Relationships (265); Sources (46)].
+## Publication note
+This work was published as an arXiv preprint in 2018 and is highly cited (citation count listed as 4869 in the data) [Data: Sources (46); Entities (241)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 23/135:
+Question: How many citations does the graph networks paper have?
+Expected Answer: 4869
+Model Answer: Answer
+
+The paper "Relational Inductive Biases, Deep Learning, and Graph Networks" is listed with 4,869 citations. This count comes from the paper metadata [Data: Entities (241); Sources (46)].
+
+Notes
+
+- The paper is an arXiv preprint published in 2018 and authored by PW Battaglia, JB Hamrick, V Bapst, A Sanchez-Gonzalez, V Zambaldi, and Ashish Vaswani (metadata source) [Data: Entities (241); Sources (46)].  
+- If you need a live, up-to-date citation count, check the paper's Google Scholar or arXiv entry directly (I can fetch that for you if you want).
+Reasoning:
+Answer
+The paper "Relational Inductive Biases, Deep Learning, and Graph Networks" is listed with 4,869 citations. This count comes from the paper metadata [Data: Entities (241); Sources (46)].
+Notes
+- The paper is an arXiv preprint published in 2018 and authored by PW Battaglia, JB Hamrick, V Bapst, A Sanchez-Gonzalez, V Zambaldi, and Ashish Vaswani (metadata source) [Data: Entities (241); Sources (46)].  
+- If you need a live, up-to-date citation count, check the paper's Google Scholar or arXiv entry directly (I can fetch that for you if you want).
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 24/135:
+Question: What is the title of Ashish Vaswani's paper on self-attention with relative positions?
+Expected Answer: Self-attention with relative position representations
+Model Answer: Answer
+-------
+The paper is titled "Self-Attention with Relative Position Representations" [Data: Entities (242); Reports (24)].
+
+Details
+-------
+It was authored by P. Shaw, J. Uszkoreit, and A. Vaswani and published as an arXiv preprint in 2018 (cited many times) [Data: Reports (24); Entities (242)].
+Reasoning:
+Answer
+-------
+The paper is titled "Self-Attention with Relative Position Representations" [Data: Entities (242); Reports (24)].
+Details
+-------
+It was authored by P. Shaw, J. Uszkoreit, and A. Vaswani and published as an arXiv preprint in 2018 (cited many times) [Data: Reports (24); Entities (242)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 25/135:
+Question: How many citations does 'Self-attention with relative position representations' have?
+Expected Answer: 3647
+Model Answer: Answer
+
+The paper "Self-attention with relative position representations" has 3,647 citations. [Data: Entities (242); Sources (46)]
+
+Context
+
+This paper is an arXiv preprint (2018) authored by P. Shaw, J. Uszkoreit, and A. Vaswani. [Data: Entities (242); Sources (46)]
+Reasoning:
+Answer
+The paper "Self-attention with relative position representations" has 3,647 citations. [Data: Entities (242); Sources (46)]
+Context
+This paper is an arXiv preprint (2018) authored by P. Shaw, J. Uszkoreit, and A. Vaswani. [Data: Entities (242); Sources (46)]
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 26/135:
+Question: What paper did Ashish Vaswani publish on music generation?
+Expected Answer: Music transformer
+Model Answer: Short answer
+- Ashish Vaswani co‑authored the paper "Music Transformer," an arXiv preprint on music generation published in 2018 [Data: Entities (246); Relationships (270)].
+
+Details
+- Title and topic: The paper is titled "Music Transformer" and focuses on applying transformer/self‑attention models to music generation tasks [Data: Entities (246)].
+- Authorship: The paper’s authors include CZA Huang, A. Vaswani, J. Uszkoreit, N. Shazeer, I. Simon, C. Hawthorne, and others, with Ashish Vaswani listed among the co‑authors [Data: Entities (246)].
+
+If you’d like, I can fetch or summarize the paper’s abstract, give a brief explanation of its method (how it adapts transformers to model musical structure), or provide a link to the arXiv entry.
+Reasoning:
+Short answer
+- Ashish Vaswani co‑authored the paper "Music Transformer," an arXiv preprint on music generation published in 2018 [Data: Entities (246); Relationships (270)].
+Details
+- Title and topic: The paper is titled "Music Transformer" and focuses on applying transformer/self‑attention models to music generation tasks [Data: Entities (246)].
+- Authorship: The paper’s authors include CZA Huang, A. Vaswani, J. Uszkoreit, N. Shazeer, I. Simon, C. Hawthorne, and others, with Ashish Vaswani listed among the co‑authors [Data: Entities (246)].
+If you’d like, I can fetch or summarize the paper’s abstract, give a brief explanation of its method (how it adapts transformers to model musical structure), or provide a link to the arXiv entry.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 27/135:
+Question: How many citations does the Music transformer paper have?
+Expected Answer: 1277
+Model Answer: Answer
+
+The Music Transformer (arXiv:1809.04281, 2018) has 1,277 citations according to the dataset. This is supported by the source record that lists the paper and its citation count [Data: Sources (48); Entities (246); Relationships (270)].
+Reasoning:
+Answer
+The Music Transformer (arXiv:1809.04281, 2018) has 1,277 citations according to the dataset. This is supported by the source record that lists the paper and its citation count [Data: Sources (48); Entities (246); Relationships (270)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 28/135:
+Question: What is the title of Ashish Vaswani's paper on vision models published in 2019?
+Expected Answer: Stand-alone self-attention in vision models
+Model Answer: Answer
+- The paper is titled "Stand-alone Self-Attention in Vision Models."
+
+Context (supported by the dataset)
+- That paper (authored by P. Ramachandran, N. Parmar, A. Vaswani, I. Bello, A. Levskaya, and J. Shlens) was published in Advances in Neural Information Processing Systems in 2019 [Data: Entities (244); Sources (47); Relationships (268)].
+Reasoning:
+Answer
+- The paper is titled "Stand-alone Self-Attention in Vision Models."
+Context (supported by the dataset)
+- That paper (authored by P. Ramachandran, N. Parmar, A. Vaswani, I. Bello, A. Levskaya, and J. Shlens) was published in Advances in Neural Information Processing Systems in 2019 [Data: Entities (244); Sources (47); Relationships (268)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 29/135:
+Question: What year was 'Bottleneck transformers for visual recognition' published?
+Expected Answer: 2021
+Model Answer: Answer
+-------
+The paper "Bottleneck Transformers for Visual Recognition" was published in 2021 [Data: Entities (245); Sources (48)].
+
+Supporting details
+------------------
+- Authors (as listed in the record): A. Srinivas, T. Y. Lin, N. Parmar, J. Shlens, P. Abbeel, and A. Vaswani [Data: Entities (245); Sources (48)].
+- Publication venue (as listed): Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2021 [Data: Entities (245); Sources (48)].
+Reasoning:
+Answer
+-------
+The paper "Bottleneck Transformers for Visual Recognition" was published in 2021 [Data: Entities (245); Sources (48)].
+Supporting details
+------------------
+- Authors (as listed in the record): A. Srinivas, T. Y. Lin, N. Parmar, J. Shlens, P. Abbeel, and A. Vaswani [Data: Entities (245); Sources (48)].
+- Publication venue (as listed): Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2021 [Data: Entities (245); Sources (48)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 30/135:
+Question: How many citations does 'Bottleneck transformers for visual recognition' have?
+Expected Answer: 1637
+Model Answer: Answer
+
+- The paper "Bottleneck Transformers for Visual Recognition" (2021) has 1,637 citations. This is supported by the source record for the paper and the paper entity metadata [Data: Sources (48); Entities (245)].
+
+Context / evidence
+
+- Publication and authors: the paper is listed as published in the Proceedings of the IEEE/CVF conference on computer vision and pattern recognition in 2021, authored by A. Srinivas, T.Y. Lin, N. Parmar, J. Shlens, P. Abbeel, and A. Vaswani [Data: Entities (245); Sources (48)].
+Reasoning:
+Answer
+- The paper "Bottleneck Transformers for Visual Recognition" (2021) has 1,637 citations. This is supported by the source record for the paper and the paper entity metadata [Data: Sources (48); Entities (245)].
+Context / evidence
+- Publication and authors: the paper is listed as published in the Proceedings of the IEEE/CVF conference on computer vision and pattern recognition in 2021, authored by A. Srinivas, T.Y. Lin, N. Parmar, J. Shlens, P. Abbeel, and A. Vaswani [Data: Entities (245); Sources (48)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 31/135:
+Question: What is the title of Ashish Vaswani's paper on routing transformers?
+Expected Answer: Efficient content-based sparse attention with routing transformers
+Model Answer: The paper is titled "Efficient Content-Based Sparse Attention with Routing Transformers" [Data: Entities (248); Relationships (271)].
+
+Additional context: the paper was authored by A. Roy, M. Saffar, A. Vaswani, and D. Grangier, was published in 2021 in the Transactions of the Association for Computational Linguistics, and was initially shared as an arXiv preprint [Data: Sources (8); Entities (247); Relationships (261)].
+Reasoning:
+The paper is titled "Efficient Content-Based Sparse Attention with Routing Transformers" [Data: Entities (248); Relationships (271)].
+Additional context: the paper was authored by A. Roy, M. Saffar, A. Vaswani, and D. Grangier, was published in 2021 in the Transactions of the Association for Computational Linguistics, and was initially shared as an arXiv preprint [Data: Sources (8); Entities (247); Relationships (261)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 32/135:
+Question: How many citations does the routing transformers paper have?
+Expected Answer: 799
+Model Answer: Answer
+
+As of the paper metadata (reference time 2021-01-01), "Efficient content-based sparse attention with routing transformers" has 799 citations [Data: Sources (49); Entities (248)].
+
+Evidence / notes
+
+- The cited-by count comes from the paper metadata in the sources entry for the paper (cited_by: 799) and the corresponding entity record for the paper [Data: Sources (49); Entities (248)].
+Reasoning:
+Answer
+As of the paper metadata (reference time 2021-01-01), "Efficient content-based sparse attention with routing transformers" has 799 citations [Data: Sources (49); Entities (248)].
+Evidence / notes
+- The cited-by count comes from the paper metadata in the sources entry for the paper (cited_by: 799) and the corresponding entity record for the paper [Data: Sources (49); Entities (248)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 33/135:
+Question: What year was the Image transformer paper published?
+Expected Answer: 2018
+Model Answer: ## Answer
+
+The Image Transformer paper was published in 2018.
+
+This is supported by the dataset records for the paper (publication year and venue) [Data: Entities (243); Sources (47)].
+Reasoning:
+## Answer
+The Image Transformer paper was published in 2018.
+This is supported by the dataset records for the paper (publication year and venue) [Data: Entities (243); Sources (47)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 34/135:
+Question: How many citations does the Image transformer have?
+Expected Answer: 2505
+Model Answer: Answer
+
+The Image Transformer (2018) has 2,505 citations according to the provided data [Data: Entities (243); Sources (47)].
+
+If you want a live/updated citation count I can fetch the current Google Scholar record (I don't have live web access unless you request a lookup).
+Reasoning:
+Answer
+The Image Transformer (2018) has 2,505 citations according to the provided data [Data: Entities (243); Sources (47)].
+If you want a live/updated citation count I can fetch the current Google Scholar record (I don't have live web access unless you request a lookup).
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 35/135:
+Question: What is the title of Saiful Azad's paper on keyphrase extraction published in 2018?
+Expected Answer: A flexible keyphrase extraction technique for academic literature
+Model Answer: Answer
+
+The 2018 paper by Saiful Azad on keyphrase extraction is titled "A flexible keyphrase extraction technique for academic literature".  
+
+Source support: This title and publication metadata appear in the research paper record for 2018 [Data: Sources (22); Entities (122); Relationships (139)].
+Reasoning:
+Answer
+The 2018 paper by Saiful Azad on keyphrase extraction is titled "A flexible keyphrase extraction technique for academic literature".  
+Source support: This title and publication metadata appear in the research paper record for 2018 [Data: Sources (22); Entities (122); Relationships (139)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 36/135:
+Question: How many citations does the flexible keyphrase extraction paper have?
+Expected Answer: 56
+Model Answer: Answer
+
+The paper "A flexible keyphrase extraction technique for academic literature" (Procedia Computer Science, 2018) has 56 citations. This comes from the paper metadata in the sources provided [Data: Sources (6); Entities (122)].
+
+Supporting details (from the same metadata)
+- Authors: G. Rabby, S. Azad, M. Mahmud, K.Z. Zamli, M.M. Rahman.  
+- Publication: Procedia Computer Science 135, 553–563, 2018.  
+(These details are present in the same source record that reports the 56 citations) [Data: Sources (6); Entities (122)].
+Reasoning:
+Answer
+The paper "A flexible keyphrase extraction technique for academic literature" (Procedia Computer Science, 2018) has 56 citations. This comes from the paper metadata in the sources provided [Data: Sources (6); Entities (122)].
+Supporting details (from the same metadata)
+- Authors: G. Rabby, S. Azad, M. Mahmud, K.Z. Zamli, M.M. Rahman.  
+- Publication: Procedia Computer Science 135, 553–563, 2018.  
+(These details are present in the same source record that reports the 56 citations) [Data: Sources (6); Entities (122)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 37/135:
+Question: What paper did Saiful Azad publish in 2014 on underwater networking?
+Expected Answer: Open source suites for underwater networking: WOSS and DESERT underwater
+Model Answer: Answer
+
+Saiful Azad was a co‑author of the IEEE Network 2014 paper titled "Open source suites for underwater networking: WOSS and DESERT underwater," published in IEEE Network 28(5), 38–46 (2014). [Data: Sources (21); Entities (119, 103); Relationships (153)]
+
+Brief context
+
+- The paper lists several co‑authors (e.g., P. Casari, C. Tapparello, F. Guerra, F. Favaro, I. Calabrese, G. Toso) alongside S. Azad and focuses on open‑source suites for underwater networking (WOSS and DESERT Underwater) [Data: Sources (21)].  
+- Saiful Azad also appears as an author on the earlier DESERT Underwater framework paper (2012), which is related work in the same underwater‑networking area [Data: Entities (104); Sources (21); Relationships (130)].
+Reasoning:
+Answer
+Saiful Azad was a co‑author of the IEEE Network 2014 paper titled "Open source suites for underwater networking: WOSS and DESERT underwater," published in IEEE Network 28(5), 38–46 (2014). [Data: Sources (21); Entities (119, 103); Relationships (153)]
+Brief context
+- The paper lists several co‑authors (e.g., P. Casari, C. Tapparello, F. Guerra, F. Favaro, I. Calabrese, G. Toso) alongside S. Azad and focuses on open‑source suites for underwater networking (WOSS and DESERT Underwater) [Data: Sources (21)].  
+- Saiful Azad also appears as an author on the earlier DESERT Underwater framework paper (2012), which is related work in the same underwater‑networking area [Data: Entities (104); Sources (21); Relationships (130)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 38/135:
+Question: What is the title of Saiful Azad's paper on MANET routing protocols?
+Expected Answer: A performance comparison of proactive and reactive routing protocols of Mobile Ad-hoc NETwork (MANET)
+Model Answer: ### Answer
+
+The title is: A PERFORMANCE COMPARISON OF PROACTIVE AND REACTIVE ROUTING PROTOCOLS OF MOBILE AD-HOC NETWORK (MANET).
+
+### Details / source
+This paper (authored by S. Azad, M. Rahman, and F. Anwar and published in 2007) is recorded in the dataset [Data: Sources (23); Entities (126)].
+Reasoning:
+### Answer
+The title is: A PERFORMANCE COMPARISON OF PROACTIVE AND REACTIVE ROUTING PROTOCOLS OF MOBILE AD-HOC NETWORK (MANET).
+### Details / source
+This paper (authored by S. Azad, M. Rahman, and F. Anwar and published in 2007) is recorded in the dataset [Data: Sources (23); Entities (126)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 39/135:
+Question: What year was the MANET routing protocols paper published?
+Expected Answer: 2007
+Model Answer: ### Answer
+
+The MANET routing protocols paper ("A Performance Comparison of Proactive and Reactive Routing Protocols of Mobile Ad-Hoc Network (MANET)") was published in 2007. This is supported by the source and entity records [Data: Sources (23); Entities (126); Relationships (165)].
+Reasoning:
+### Answer
+The MANET routing protocols paper ("A Performance Comparison of Proactive and Reactive Routing Protocols of Mobile Ad-Hoc Network (MANET)") was published in 2007. This is supported by the source and entity records [Data: Sources (23); Entities (126); Relationships (165)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 40/135:
+Question: How many citations does the MANET routing protocols paper have?
+Expected Answer: 55
+Model Answer: the MANET routing protocols paper has 55 citations
+Reasoning:
+Answer
+-------
+Details and source
+------------------
+The paper "A Performance Comparison of Proactive and Reactive Routing Protocols of Mobile Ad-hoc NETwork (MANET)" (published 2007) is listed with 55 citations in the dataset [Data: Sources (23); Entities (126)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 41/135:
+Question: What is the title of Saiful Azad's paper on Mobile WiMAX?
+Expected Answer: Performance Analysis of Ad hoc Routing Protocols in Mobile WiMAX Environment
+Model Answer: ### Short answer
+The paper is titled: "Performance Analysis of Ad hoc Routing Protocols in Mobile WiMAX Environment."  
+This title is recorded in the sources for Saiful Azad's publications [Data: Sources (22)].
+
+### Additional details
+- The paper is associated with Saiful Azad and co-authorship/collaboration with SA Farhat Anwar [Data: Relationships (133); Entities (120); Sources (22)].  
+- It was published in IAENG International Journal of Computer Science (IAENG Int. J. of Computer Science) in 2008 [Data: Sources (22); Entities (121)].
+Reasoning:
+### Short answer
+The paper is titled: "Performance Analysis of Ad hoc Routing Protocols in Mobile WiMAX Environment."  
+This title is recorded in the sources for Saiful Azad's publications [Data: Sources (22)].
+### Additional details
+- The paper is associated with Saiful Azad and co-authorship/collaboration with SA Farhat Anwar [Data: Relationships (133); Entities (120); Sources (22)].  
+- It was published in IAENG International Journal of Computer Science (IAENG Int. J. of Computer Science) in 2008 [Data: Sources (22); Entities (121)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 42/135:
+Question: What year was the Mobile WiMAX paper published?
+Expected Answer: 2008
+Model Answer: # Answer
+
+The Mobile WiMAX paper "Performance Analysis of Ad hoc Routing Protocols in Mobile WiMAX Environment" was published in 2008.
+
+This is supported by the publication metadata for the IAENG journal entry (year = 2008) [Data: Sources (22); Entities (121)].
+Reasoning:
+# Answer
+The Mobile WiMAX paper "Performance Analysis of Ad hoc Routing Protocols in Mobile WiMAX Environment" was published in 2008.
+This is supported by the publication metadata for the IAENG journal entry (year = 2008) [Data: Sources (22); Entities (121)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 43/135:
+Question: How many citations does the Mobile WiMAX paper have?
+Expected Answer: 63
+Model Answer: Answer
+
+The paper "Performance Analysis of Ad hoc Routing Protocols in Mobile WiMAX Environment" (IAENG International Journal of Computer Science, 2008) has 63 citations. This count comes from the source metadata for that paper [Data: Sources (22); Entities (121)].
+
+Details
+
+The paper is associated with researcher Saiful Azad and lists SA Farhat Anwar among its authors in the IAENG International Journal of Computer Science (2008) record [Data: Sources (22); Relationships (133)].
+Reasoning:
+Answer
+The paper "Performance Analysis of Ad hoc Routing Protocols in Mobile WiMAX Environment" (IAENG International Journal of Computer Science, 2008) has 63 citations. This count comes from the source metadata for that paper [Data: Sources (22); Entities (121)].
+Details
+The paper is associated with researcher Saiful Azad and lists SA Farhat Anwar among its authors in the IAENG International Journal of Computer Science (2008) record [Data: Sources (22); Relationships (133)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 44/135:
+Question: How many citations does the iWorksafe COVID-19 paper by Saiful Azad have?
+Expected Answer: 110
+Model Answer: Answer
+
+The iWorksafe paper ("iWorksafe: Towards Healthy Workplaces During COVID-19 With an Intelligent Phealth App for Industrial Settings") has 110 citations.
+
+Supporting details and sources
+
+- The paper is listed as iWorksafe (published in IEEE Access, 2021) [Data: Entities (107); Sources (20)].  
+- The citation count for the iWorksafe record is given as 110 citations in the paper metadata [Data: Sources (20); Entities (107)].
+
+If you’d like, I can pull the full metadata (authors, publication details, link) or list citation sources that cite this paper.
+Reasoning:
+Answer
+The iWorksafe paper ("iWorksafe: Towards Healthy Workplaces During COVID-19 With an Intelligent Phealth App for Industrial Settings") has 110 citations.
+Supporting details and sources
+- The paper is listed as iWorksafe (published in IEEE Access, 2021) [Data: Entities (107); Sources (20)].  
+- The citation count for the iWorksafe record is given as 110 citations in the paper metadata [Data: Sources (20); Entities (107)].
+If you’d like, I can pull the full metadata (authors, publication details, link) or list citation sources that cite this paper.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 45/135:
+Question: What is the title of Dr. Md. Abdur Razzaque's paper on body sensor networks published in 2011?
+Expected Answer: Data-centric multiobjective QoS-aware routing protocol for body sensor networks
+Model Answer: Answer
+
+The paper is titled "Data-centric multiobjective QoS-aware routing protocol for body sensor networks."  
+
+It was published in the journal Sensors in 2011. This record links Dr. Md. Abdur Razzaque to that paper and its journal publication [Data: Entities (79); Relationships (100, 111); Reports (27)].
+Reasoning:
+Answer
+The paper is titled "Data-centric multiobjective QoS-aware routing protocol for body sensor networks."  
+It was published in the journal Sensors in 2011. This record links Dr. Md. Abdur Razzaque to that paper and its journal publication [Data: Entities (79); Relationships (100, 111); Reports (27)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 46/135:
+Question: What is the title of Dr. Md. Abdur Razzaque's paper on sensor networks published in 2008?
+Expected Answer: Multi-constrained QoS geographic routing for heterogeneous traffic in sensor networks
+Model Answer: Answer
+
+The paper is titled "Multi-constrained QoS geographic routing for heterogeneous traffic in sensor networks." This title is recorded in the dataset linking Dr. Md. Abdur Razzaque to that paper [Data: Entities (73); Relationships (101)].
+Reasoning:
+Answer
+The paper is titled "Multi-constrained QoS geographic routing for heterogeneous traffic in sensor networks." This title is recorded in the dataset linking Dr. Md. Abdur Razzaque to that paper [Data: Entities (73); Relationships (101)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 47/135:
+Question: How many citations does the 2008 sensor networks paper have?
+Expected Answer: 130
+Model Answer: Short answer
+
+The 2008 sensor‑networks paper "Multi‑constrained QoS geographic routing for heterogeneous traffic in sensor networks" has 130 citations [Data: Sources (3); Entities (80)].
+
+Context / supporting details
+
+- The paper is the 2008 work titled "Multi‑constrained QoS geographic routing for heterogeneous traffic in sensor networks" (entity record) [Data: Entities (80)].  
+- The citation count (130) is recorded in the source metadata for that paper [Data: Sources (3)].
+Reasoning:
+Short answer
+The 2008 sensor‑networks paper "Multi‑constrained QoS geographic routing for heterogeneous traffic in sensor networks" has 130 citations [Data: Sources (3); Entities (80)].
+Context / supporting details
+- The paper is the 2008 work titled "Multi‑constrained QoS geographic routing for heterogeneous traffic in sensor networks" (entity record) [Data: Entities (80)].  
+- The citation count (130) is recorded in the source metadata for that paper [Data: Sources (3)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 48/135:
+Question: What year was 'Mobile cloud-based big healthcare data processing in smart cities' published?
+Expected Answer: 2017
+Model Answer: Answer
+
+The paper "Mobile cloud-based big healthcare data processing in smart cities" was published in 2017 [Data: Sources (17)].
+
+Supporting detail
+
+The paper appears in IEEE Access, volume 5, pages 11887–11899, and the source metadata lists the publication year as 2017 [Data: Sources (17)].
+Reasoning:
+Answer
+The paper "Mobile cloud-based big healthcare data processing in smart cities" was published in 2017 [Data: Sources (17)].
+Supporting detail
+The paper appears in IEEE Access, volume 5, pages 11887–11899, and the source metadata lists the publication year as 2017 [Data: Sources (17)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 49/135:
+Question: How many citations does the mobile cloud healthcare paper have?
+Expected Answer: 114
+Model Answer: Answer (short)
+The paper "Mobile cloud-based big healthcare data processing in smart cities" has 114 citations [Data: Sources (15)].
+
+Details / context
+- Title: Mobile cloud-based big healthcare data processing in smart cities.  
+- Authors (as listed in the paper): MM Islam, MA Razzaque, MM Hassan, WN Ismail, B Song.  
+- Publication: IEEE Access 5, pages 11887–11899, year 2017.  
+All of the above details, including the citation count (114), come from the same metadata record for the paper [Data: Sources (15)].
+Reasoning:
+Answer (short)
+The paper "Mobile cloud-based big healthcare data processing in smart cities" has 114 citations [Data: Sources (15)].
+Details / context
+- Title: Mobile cloud-based big healthcare data processing in smart cities.  
+- Authors (as listed in the paper): MM Islam, MA Razzaque, MM Hassan, WN Ismail, B Song.  
+- Publication: IEEE Access 5, pages 11887–11899, year 2017.  
+All of the above details, including the citation count (114), come from the same metadata record for the paper [Data: Sources (15)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 50/135:
+Question: What is the title of Dr. Md. Abdur Razzaque's paper on MAC protocol?
+Expected Answer: Traffic priority and load adaptive MAC protocol for QoS provisioning in body sensor networks
+Model Answer: Answer
+
+- The paper is titled "Traffic priority and load adaptive MAC protocol for QoS provisioning in body sensor networks."
+
+Supporting details
+
+- It was published in the International Journal of Distributed Sensor Networks (2013) and lists MA Razzaque / Dr. Md. Abdur Razzaque among the authors [Data: Sources (13); Entities (73, 90)].
+Reasoning:
+Answer
+- The paper is titled "Traffic priority and load adaptive MAC protocol for QoS provisioning in body sensor networks."
+Supporting details
+- It was published in the International Journal of Distributed Sensor Networks (2013) and lists MA Razzaque / Dr. Md. Abdur Razzaque among the authors [Data: Sources (13); Entities (73, 90)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 51/135:
+Question: What year was the MAC protocol paper published?
+Expected Answer: 2013
+Model Answer: Short answer
+I don’t know which specific “MAC protocol” paper you mean from the materials you provided — there’s no clear record titled or labeled “MAC protocol” in the supplied tables. Please tell me the paper title, an author, or a link and I’ll look up the publication year.
+
+Related items in the dataset (in case one of these is what you meant)
+- The paper "A Performance Comparison of Proactive and Reactive Routing Protocols of Mobile Ad-Hoc Network (MANET)" was published in 2007 [Data: Entities (126); Sources (23)].  
+- The IAENG journal paper "Performance Analysis of Ad hoc Routing Protocols in Mobile WiMAX Environment" (Saiful Azad et al.) is from 2008 [Data: Sources (22); Entities (121)].  
+- The paper "Data-Centric Multiobjective QoS-Aware Routing Protocol for Body Sensor Networks" was published in Sensors in 2011 [Data: Entities (79); Sources (2)].
+
+Next steps
+- If one of the three papers above is the “MAC protocol” paper you meant, tell me which one and I’ll extract more bibliographic details.  
+- Otherwise, please provide the paper title, an author name, or a link so I can find the exact publication year.
+Reasoning:
+Short answer
+I don’t know which specific “MAC protocol” paper you mean from the materials you provided — there’s no clear record titled or labeled “MAC protocol” in the supplied tables. Please tell me the paper title, an author, or a link and I’ll look up the publication year.
+Related items in the dataset (in case one of these is what you meant)
+- The paper "A Performance Comparison of Proactive and Reactive Routing Protocols of Mobile Ad-Hoc Network (MANET)" was published in 2007 [Data: Entities (126); Sources (23)].  
+- The IAENG journal paper "Performance Analysis of Ad hoc Routing Protocols in Mobile WiMAX Environment" (Saiful Azad et al.) is from 2008 [Data: Sources (22); Entities (121)].  
+- The paper "Data-Centric Multiobjective QoS-Aware Routing Protocol for Body Sensor Networks" was published in Sensors in 2011 [Data: Entities (79); Sources (2)].
+Next steps
+- If one of the three papers above is the “MAC protocol” paper you meant, tell me which one and I’ll extract more bibliographic details.  
+- Otherwise, please provide the paper title, an author name, or a link so I can find the exact publication year.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 52/135:
+Question: How many citations does the MAC protocol paper have?
+Expected Answer: 99
+Model Answer: Answer
+
+The MAC protocol paper "Traffic priority and load adaptive MAC protocol for QoS provisioning in body sensor networks" (International Journal of Distributed Sensor Networks, 2013) has 99 citations [Data: Sources (16)].
+
+If you meant a different MAC paper, tell me which title and I’ll check its citation count.
+Reasoning:
+Answer
+The MAC protocol paper "Traffic priority and load adaptive MAC protocol for QoS provisioning in body sensor networks" (International Journal of Distributed Sensor Networks, 2013) has 99 citations [Data: Sources (16)].
+If you meant a different MAC paper, tell me which title and I’ll check its citation count.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 53/135:
+Question: What is the title of Dr. Md. Abdur Razzaque's paper on power line communications?
+Expected Answer: Medium access control for power line communications: an overview of the IEEE 1901 and ITU-T G. hn standards
+Model Answer: Answer
+
+The paper is titled: "Medium access control for power line communications: an overview of the IEEE 1901 and ITU‑T G.hn standards." This paper was published in IEEE Communications Magazine (49(6), 183–191, 2011) and lists Dr. Md. Abdur Razzaque as a co-author [Data: Sources (16); Relationships (104); Entities (91)].
+Reasoning:
+Answer
+The paper is titled: "Medium access control for power line communications: an overview of the IEEE 1901 and ITU‑T G.hn standards." This paper was published in IEEE Communications Magazine (49(6), 183–191, 2011) and lists Dr. Md. Abdur Razzaque as a co-author [Data: Sources (16); Relationships (104); Entities (91)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 54/135:
+Question: What is the title of Dr. Md. Abdur Razzaque's paper on mobile cloud published in 2018?
+Expected Answer: A mobility-aware optimal resource allocation architecture for big data task execution on mobile cloud in smart cities
+Model Answer: Answer
+
+The paper is titled: "A mobility-aware optimal resource allocation architecture for big data task execution on mobile cloud in smart cities."
+
+Supporting information: this title and its association with Dr. Md. Abdur Razzaque are recorded in the dataset [Data: Entities (96); Relationships (124)].
+Reasoning:
+Answer
+The paper is titled: "A mobility-aware optimal resource allocation architecture for big data task execution on mobile cloud in smart cities."
+Supporting information: this title and its association with Dr. Md. Abdur Razzaque are recorded in the dataset [Data: Entities (96); Relationships (124)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 55/135:
+Question: How many citations does the 2018 mobile cloud paper have?
+Expected Answer: 92
+Model Answer: Answer
+- The 2018 paper "A mobility-aware optimal resource allocation architecture for big data task execution on mobile cloud in smart cities" has 92 citations (cited_by: 92) [Data: Sources (17); Entities (96); Relationships (124)].
+
+Supporting note
+- The citation count comes from the paper's metadata (Google Scholar entry) recorded in the source dataset [Data: Sources (17)].
+Reasoning:
+Answer
+- The 2018 paper "A mobility-aware optimal resource allocation architecture for big data task execution on mobile cloud in smart cities" has 92 citations (cited_by: 92) [Data: Sources (17); Entities (96); Relationships (124)].
+Supporting note
+- The citation count comes from the paper's metadata (Google Scholar entry) recorded in the source dataset [Data: Sources (17)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 56/135:
+Question: What is the title of Dr. Md. Abdur Razzaque's paper on IoT in developing countries?
+Expected Answer: Enabling the Internet of Things in developing countries: Opportunities and challenges
+Model Answer: Answer
+The paper is titled "ENABLING THE INTERNET OF THINGS IN DEVELOPING COUNTRIES: OPPORTUNITIES AND CHALLENGES." 
+
+Supporting evidence
+- The title is recorded in the Entities dataset [Data: Entities (97)].  
+- The paper metadata listing Dr. Md. Abdur Razzaque as the researcher is present in the source records [Data: Sources (17); Relationships (106)].
+Reasoning:
+Answer
+The paper is titled "ENABLING THE INTERNET OF THINGS IN DEVELOPING COUNTRIES: OPPORTUNITIES AND CHALLENGES." 
+Supporting evidence
+- The title is recorded in the Entities dataset [Data: Entities (97)].  
+- The paper metadata listing Dr. Md. Abdur Razzaque as the researcher is present in the source records [Data: Sources (17); Relationships (106)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 57/135:
+Question: What year was the IoT in developing countries paper published?
+Expected Answer: 2016
+Model Answer: Answer
+
+The paper "Enabling the Internet of Things in Developing Countries: Opportunities and Challenges" was published in 2016. This is supported by the dataset records for the paper [Data: Entities (97); Sources (17)].
+Reasoning:
+Answer
+The paper "Enabling the Internet of Things in Developing Countries: Opportunities and Challenges" was published in 2016. This is supported by the dataset records for the paper [Data: Entities (97); Sources (17)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 58/135:
+Question: How many citations does the IoT in developing countries paper have?
+Expected Answer: 90
+Model Answer: Answer
+
+The paper "Enabling the Internet of Things in Developing Countries: Opportunities and Challenges" has 306 citations.
+
+Evidence
+
+This citation count comes from the source record for the paper (listed with its Google Scholar metadata) showing cited_by: 306 [Data: Sources (17); Entities (97); Reports (26)].
+Reasoning:
+Answer
+The paper "Enabling the Internet of Things in Developing Countries: Opportunities and Challenges" has 306 citations.
+Evidence
+This citation count comes from the source record for the paper (listed with its Google Scholar metadata) showing cited_by: 306 [Data: Sources (17); Entities (97); Reports (26)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 59/135:
+Question: What is the title of Md. Arafatur Rahman's paper on IoT in automotive industry?
+Expected Answer: Evolution of IoT-enabled connectivity and applications in automotive industry: A review
+Model Answer: ### Answer
+
+The paper's title is: "Evolution of IoT-enabled connectivity and applications in automotive industry: A review".
+
+This is supported by the dataset records linking Md. Arafatur Rahman to that paper and its metadata [Data: Entities (132); Sources (25); Relationships (168)].
+Reasoning:
+### Answer
+The paper's title is: "Evolution of IoT-enabled connectivity and applications in automotive industry: A review".
+This is supported by the dataset records linking Md. Arafatur Rahman to that paper and its metadata [Data: Entities (132); Sources (25); Relationships (168)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 60/135:
+Question: How many citations does the automotive IoT paper have?
+Expected Answer: 263
+Model Answer: Short answer
+
+The paper "Evolution of IoT-enabled connectivity and applications in automotive industry: A review" has 263 citations.
+
+Context and sources
+
+- The paper (published in Vehicular Communications, 2021) is recorded with 263 citations [Data: Sources (25); Relationships (172); Entities (132)].
+Reasoning:
+Short answer
+The paper "Evolution of IoT-enabled connectivity and applications in automotive industry: A review" has 263 citations.
+Context and sources
+- The paper (published in Vehicular Communications, 2021) is recorded with 263 citations [Data: Sources (25); Relationships (172); Entities (132)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 61/135:
+Question: How many citations does the intrusion detection paper have?
+Expected Answer: 237
+Model Answer: Answer — short
+I don't have a citation count for that paper in the provided data.
+
+What the dataset does show
+- The paper "Scalable machine learning-based intrusion detection system for IoT-enabled smart cities" is present in the dataset (Entities record 131).  
+- The dataset also contains metadata for this paper (Sources record 25) and a relationship showing Md. Arafatur Rahman contributed to it (Relationships record 169). However, none of these records include a citation count.  
+This is supported by the dataset entries for the paper and its metadata [Data: Entities (131); Sources (25); Relationships (169)].
+
+If you want the citation number
+- I can look it up for you (for example on Google Scholar or the paper's publisher page) if you want me to fetch that externally.
+Reasoning:
+Answer — short
+I don't have a citation count for that paper in the provided data.
+What the dataset does show
+- The paper "Scalable machine learning-based intrusion detection system for IoT-enabled smart cities" is present in the dataset (Entities record 131).  
+- The dataset also contains metadata for this paper (Sources record 25) and a relationship showing Md. Arafatur Rahman contributed to it (Relationships record 169). However, none of these records include a citation count.  
+This is supported by the dataset entries for the paper and its metadata [Data: Entities (131); Sources (25); Relationships (169)].
+If you want the citation number
+- I can look it up for you (for example on Google Scholar or the paper's publisher page) if you want me to fetch that externally.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 62/135:
+Question: What is the title of Md. Arafatur Rahman's paper on COVID-19 clustering?
+Expected Answer: Data-driven dynamic clustering framework for mitigating the adverse economic impact of Covid-19 lockdown practices
+Model Answer: The paper is titled: "Data-driven dynamic clustering framework for mitigating the adverse economic impact of Covid-19 lockdown practices."
+
+This title and the association with Md. Arafatur Rahman (the researcher) are supported by the dataset records [Data: Sources (25); Entities (127); Relationships (170)].
+Reasoning:
+The paper is titled: "Data-driven dynamic clustering framework for mitigating the adverse economic impact of Covid-19 lockdown practices."
+This title and the association with Md. Arafatur Rahman (the researcher) are supported by the dataset records [Data: Sources (25); Entities (127); Relationships (170)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 63/135:
+Question: What is the title of Md. Arafatur Rahman's paper on big data security?
+Expected Answer: Economic perspective analysis of protecting big data security and privacy
+Model Answer: Answer
+
+Md. Arafatur Rahman's paper on big data security is titled "Economic perspective analysis of protecting big data security and privacy."  
+
+Evidence
+
+This title appears in the researcher paper metadata for Md. Arafatur Rahman [Data: Sources (25); Relationships (171)].
+Reasoning:
+Answer
+Md. Arafatur Rahman's paper on big data security is titled "Economic perspective analysis of protecting big data security and privacy."  
+Evidence
+This title appears in the researcher paper metadata for Md. Arafatur Rahman [Data: Sources (25); Relationships (171)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 64/135:
+Question: What is the title of Md. Arafatur Rahman's paper on smart city infrastructure?
+Expected Answer: Big Data Reduction for a Smart City's Critical Infrastructural Health Monitoring
+Model Answer: ### Answer
+
+Md. Arafatur Rahman's paper on smart city infrastructure is titled:  
+"Big Data Reduction for a Smart City’s Critical Infrastructural Health Monitoring."  
+
+This title and the author association are supported by the dataset entries [Data: Entities (127); Entities (153); Sources (6)].
+Reasoning:
+### Answer
+Md. Arafatur Rahman's paper on smart city infrastructure is titled:  
+"Big Data Reduction for a Smart City’s Critical Infrastructural Health Monitoring."  
+This title and the author association are supported by the dataset entries [Data: Entities (127); Entities (153); Sources (6)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 65/135:
+Question: What is the title of Muhammad Nomani Kabir's paper on fall detection?
+Expected Answer: Deep learning based systems developed for fall detection: A review
+Model Answer: Answer
+
+The paper title is: "Deep learning based systems developed for fall detection: A review" (also shown in the dataset as DEEP LEARNING BASED SYSTEMS DEVELOPED FOR FALL DETECTION: A REVIEW).
+
+This is supported by the dataset records linking Muhammad Nomani Kabir to that paper [Data: Entities (157); Relationships (191)].
+Reasoning:
+Answer
+The paper title is: "Deep learning based systems developed for fall detection: A review" (also shown in the dataset as DEEP LEARNING BASED SYSTEMS DEVELOPED FOR FALL DETECTION: A REVIEW).
+This is supported by the dataset records linking Muhammad Nomani Kabir to that paper [Data: Entities (157); Relationships (191)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 66/135:
+Question: What is the title of Muhammad Nomani Kabir's paper on Stefan blowing?
+Expected Answer: Computational investigation of Stefan blowing and multiple-slip effects on buoyancy-driven bioconvection nanofluid flow with microorganisms
+Model Answer: Short answer
+- Muhammad Nomani Kabir is an author on the paper titled "Computational investigation of Stefan blowing and multiple-slip effects on buoyancy-driven bioconvection nanofluid flow with microorganisms" [Data: Sources (4); Entities (154)].
+- He is also associated with the paper titled "Numerical solutions for gyrotactic bioconvection in nanofluid‑saturated porous media with Stefan blowing and multiple slip effects" [Data: Sources (31); Entities (154); Entities (162)].
+
+Notes
+- Both papers concern Stefan blowing and related bioconvection/nanofluid phenomena and were published in 2016 (see the cited source records) [Data: Sources (4); Sources (31)].
+Reasoning:
+Short answer
+- Muhammad Nomani Kabir is an author on the paper titled "Computational investigation of Stefan blowing and multiple-slip effects on buoyancy-driven bioconvection nanofluid flow with microorganisms" [Data: Sources (4); Entities (154)].
+- He is also associated with the paper titled "Numerical solutions for gyrotactic bioconvection in nanofluid‑saturated porous media with Stefan blowing and multiple slip effects" [Data: Sources (31); Entities (154); Entities (162)].
+Notes
+- Both papers concern Stefan blowing and related bioconvection/nanofluid phenomena and were published in 2016 (see the cited source records) [Data: Sources (4); Sources (31)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 67/135:
+Question: How many citations does the Stefan blowing paper have?
+Expected Answer: 154
+Model Answer: Citations for the Stefan-blowing paper
+
+The paper "Numerical solutions for gyrotactic bioconvection in nanofluid-saturated porous media with Stefan blowing and multiple slip effects" (published in Computers & Mathematics with Applications, 2016) has 153 citations according to the metadata in the dataset [Data: Sources (31); Entities (163)].
+
+Source note: the citation count comes from the Google Scholar-style metadata included in Sources (record 31) [Data: Sources (31)].
+Reasoning:
+Citations for the Stefan-blowing paper
+The paper "Numerical solutions for gyrotactic bioconvection in nanofluid-saturated porous media with Stefan blowing and multiple slip effects" (published in Computers & Mathematics with Applications, 2016) has 153 citations according to the metadata in the dataset [Data: Sources (31); Entities (163)].
+Source note: the citation count comes from the Google Scholar-style metadata included in Sources (record 31) [Data: Sources (31)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 68/135:
+Question: What year was the Stefan blowing paper published?
+Expected Answer: 2016
+Model Answer: Answer
+
+The paper "Numerical solutions for gyrotactic bioconvection in nanofluid-saturated porous media with Stefan blowing and multiple slip effects" was published in 2016. This is supported by the publication metadata and the journal record [Data: Sources (31); Entities (163)].
+Reasoning:
+Answer
+The paper "Numerical solutions for gyrotactic bioconvection in nanofluid-saturated porous media with Stefan blowing and multiple slip effects" was published in 2016. This is supported by the publication metadata and the journal record [Data: Sources (31); Entities (163)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 69/135:
+Question: What is the title of Muhammad Nomani Kabir's paper on gyrotactic bioconvection?
+Expected Answer: Numerical solutions for gyrotactic bioconvection in nanofluid-saturated porous media with Stefan blowing and multiple slip effects
+Model Answer: ### Title
+
+The paper is titled:  
+Numerical solutions for gyrotactic bioconvection in nanofluid-saturated porous media with Stefan blowing and multiple slip effects [Data: Sources (31); Entities (154)].
+
+### Publication (brief)
+
+This work was published in Computers & Mathematics with Applications in 2016 [Data: Sources (31); Relationships (206)].
+Reasoning:
+### Title
+The paper is titled:  
+Numerical solutions for gyrotactic bioconvection in nanofluid-saturated porous media with Stefan blowing and multiple slip effects [Data: Sources (31); Entities (154)].
+### Publication (brief)
+This work was published in Computers & Mathematics with Applications in 2016 [Data: Sources (31); Relationships (206)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 70/135:
+Question: What is the title of Muhammad Nomani Kabir's paper on sensor-based fall detection published in 2022?
+Expected Answer: Sensor-based fall detection systems: a review
+Model Answer: Answer
+The paper's title is "Sensor-based fall detection systems: a review."
+
+Supporting evidence
+- The paper metadata lists that title and shows Muhammad Nomani Kabir as a co-author and the publication year 2022 [Data: Sources (31); Entities (162, 154)].
+- The paper was published in the Journal of Ambient Intelligence and Humanized Computing in 2022, which connects the work to that journal record [Data: Sources (31); Relationships (207); Entities (167)].
+Reasoning:
+Answer
+The paper's title is "Sensor-based fall detection systems: a review."
+Supporting evidence
+- The paper metadata lists that title and shows Muhammad Nomani Kabir as a co-author and the publication year 2022 [Data: Sources (31); Entities (162, 154)].
+- The paper was published in the Journal of Ambient Intelligence and Humanized Computing in 2022, which connects the work to that journal record [Data: Sources (31); Relationships (207); Entities (167)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 71/135:
+Question: What is the title of Muhammad Nomani Kabir's paper on RDWT-SVD watermarking?
+Expected Answer: A block-based RDWT-SVD image watermarking method using human visual system characteristics
+Model Answer: ## Title
+A block-based RDWT-SVD image watermarking method using human visual system characteristics.
+
+This title is recorded in the source metadata for the paper by Muhammad Nomani Kabir [Data: Sources (32); Entities (154)].
+
+## Publication (from the same record)
+The paper was published in The Visual Computer, 36(1), 19–37, 2020 [Data: Sources (32)].
+Reasoning:
+## Title
+A block-based RDWT-SVD image watermarking method using human visual system characteristics.
+This title is recorded in the source metadata for the paper by Muhammad Nomani Kabir [Data: Sources (32); Entities (154)].
+## Publication (from the same record)
+The paper was published in The Visual Computer, 36(1), 19–37, 2020 [Data: Sources (32)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 72/135:
+Question: How many citations does the RDWT-SVD watermarking paper have?
+Expected Answer: 128
+Model Answer: Answer
+
+The RDWT-SVD watermarking paper ("A block-based RDWT-SVD image watermarking method using human visual system characteristics") has 128 citations according to the provided metadata. This paper was published in The Visual Computer (2020) and is listed with 128 cited-by entries in the source record [Data: Sources (32); Entities (169)].
+Reasoning:
+Answer
+The RDWT-SVD watermarking paper ("A block-based RDWT-SVD image watermarking method using human visual system characteristics") has 128 citations according to the provided metadata. This paper was published in The Visual Computer (2020) and is listed with 128 cited-by entries in the source record [Data: Sources (32); Entities (169)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 73/135:
+Question: How many citations does the sentiment analysis paper have?
+Expected Answer: 118
+Model Answer: Answer
+
+The sentiment-analysis review "Challenges and future in deep learning for sentiment analysis: a comprehensive review and a proposed novel hybrid approach" has 118 citations [Data: Sources (32); Entities (170)].
+Reasoning:
+Answer
+The sentiment-analysis review "Challenges and future in deep learning for sentiment analysis: a comprehensive review and a proposed novel hybrid approach" has 118 citations [Data: Sources (32); Entities (170)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 74/135:
+Question: What is the title of Muhammad Nomani Kabir's paper on information systems alignment?
+Expected Answer: Strategic information systems alignment: alignment of IS/IT with business strategy
+Model Answer: Answer
+
+The paper is titled "Strategic information systems alignment: alignment of IS/IT with business strategy." This work was published in the Journal of Information Processing Systems, 6(1), 2010 [Data: Sources (33); Entities (154); Relationships (201)].
+Reasoning:
+Answer
+The paper is titled "Strategic information systems alignment: alignment of IS/IT with business strategy." This work was published in the Journal of Information Processing Systems, 6(1), 2010 [Data: Sources (33); Entities (154); Relationships (201)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 75/135:
+Question: What year was the IS alignment paper published?
+Expected Answer: 2010
+Model Answer: ### Answer
+The strategic information systems (IS) alignment paper was published in 2010.
+
+### Supporting evidence
+The paper "Strategic information systems alignment: alignment of IS/IT with business strategy" appears in the Journal of Information Processing Systems, volume 6 issue 1, published in 2010 [Data: Sources (33); Entities (174); Relationships (201)].
+Reasoning:
+### Answer
+The strategic information systems (IS) alignment paper was published in 2010.
+### Supporting evidence
+The paper "Strategic information systems alignment: alignment of IS/IT with business strategy" appears in the Journal of Information Processing Systems, volume 6 issue 1, published in 2010 [Data: Sources (33); Entities (174); Relationships (201)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 76/135:
+Question: What is the title of Muhammad Nomani Kabir's paper on handwritten character recognition?
+Expected Answer: Handwritten character recognition using convolutional neural network
+Model Answer: Answer
+
+The paper's title is "Handwritten character recognition using convolutional neural network." This title and its publication details are recorded in the dataset [Data: Sources (10); Entities (154)].
+
+Context (from the data)
+- The paper appears with that title and authorship metadata in the Sources records (publication: Journal of Physics: Conference Series, 2021) [Data: Sources (10)].
+Reasoning:
+Answer
+The paper's title is "Handwritten character recognition using convolutional neural network." This title and its publication details are recorded in the dataset [Data: Sources (10); Entities (154)].
+Context (from the data)
+- The paper appears with that title and authorship metadata in the Sources records (publication: Journal of Physics: Conference Series, 2021) [Data: Sources (10)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 77/135:
+Question: What year was the handwritten recognition paper published?
+Expected Answer: 2021
+Model Answer: Short answer
+I don't know — the supplied tables do not include a paper titled or described as "handwritten recognition," so I can't tell its publication year from the provided data.
+
+What I checked
+- I reviewed the provided Entities/Relationships/Sources and did not find an entry labelled "handwritten recognition" or an obvious match to that exact title or topic in the supplied records.  
+- The dataset does include other "recognition" papers (examples below), so if you meant one of those, I can report its year.
+
+Nearby records in the data (examples)
+- "A fast iris recognition system through optimum feature extraction" — published in PeerJ Computer Science, 2019 [Data: Sources (35); Relationships (237); Entities (182)].  
+- "Machine vision based papaya disease recognition" — published in Journal of King Saud University‑Computer (recording of that paper appears in the provided sources) [Data: Sources (1); Relationships (23); Entities (12)].
+
+Next steps I can take
+- If you can give the exact title, an author name, or upload the paper (or a snippet), I will look up the publication year in the data you give or attempt to find it in the supplied records.  
+- If you want, I can also search for "handwritten recognition" papers (e.g., handwritten character/digit recognition) and return candidates — tell me whether to search within the supplied tables only or to perform an external search.
+Reasoning:
+Short answer
+I don't know — the supplied tables do not include a paper titled or described as "handwritten recognition," so I can't tell its publication year from the provided data.
+What I checked
+- I reviewed the provided Entities/Relationships/Sources and did not find an entry labelled "handwritten recognition" or an obvious match to that exact title or topic in the supplied records.  
+- The dataset does include other "recognition" papers (examples below), so if you meant one of those, I can report its year.
+Nearby records in the data (examples)
+- "A fast iris recognition system through optimum feature extraction" — published in PeerJ Computer Science, 2019 [Data: Sources (35); Relationships (237); Entities (182)].  
+- "Machine vision based papaya disease recognition" — published in Journal of King Saud University‑Computer (recording of that paper appears in the provided sources) [Data: Sources (1); Relationships (23); Entities (12)].
+Next steps I can take
+- If you can give the exact title, an author name, or upload the paper (or a snippet), I will look up the publication year in the data you give or attempt to find it in the supplied records.  
+- If you want, I can also search for "handwritten recognition" papers (e.g., handwritten character/digit recognition) and return candidates — tell me whether to search within the supplied tables only or to perform an external search.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 78/135:
+Question: How many citations does the handwritten recognition paper have?
+Expected Answer: 91
+Model Answer: Short answer
+I can’t find any paper labeled “handwritten recognition” in the datasets you provided. Please tell me the exact paper title (or paste a record id) and I’ll report its citation count.
+
+Notes and helpful examples from the provided data
+- If you meant the iris recognition paper instead, "A fast iris recognition system through optimum feature extraction" is listed with 71 citations [Data: Sources (35); Entities (181)].
+- For comparison, the well-known "Attention is All You Need" paper is listed with 223,052 citations in the dataset [Data: Sources (45); Entities (232)].
+
+Next steps
+- Tell me the exact paper title (or paste a snippet/record id) for the “handwritten recognition” paper and I’ll look up the citation count in the provided data.
+- If the paper isn’t in these tables, I can suggest how to check Google Scholar or other bibliographic sources.
+Reasoning:
+Short answer
+I can’t find any paper labeled “handwritten recognition” in the datasets you provided. Please tell me the exact paper title (or paste a record id) and I’ll report its citation count.
+Notes and helpful examples from the provided data
+- If you meant the iris recognition paper instead, "A fast iris recognition system through optimum feature extraction" is listed with 71 citations [Data: Sources (35); Entities (181)].
+- For comparison, the well-known "Attention is All You Need" paper is listed with 223,052 citations in the dataset [Data: Sources (45); Entities (232)].
+Next steps
+- Tell me the exact paper title (or paste a snippet/record id) for the “handwritten recognition” paper and I’ll look up the citation count in the provided data.
+- If the paper isn’t in these tables, I can suggest how to check Google Scholar or other bibliographic sources.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 79/135:
+Question: What is the title of Humayan Kabir Rana's paper on welding fumes?
+Expected Answer: Genetic effects of welding fumes on the progression of neurodegenerative diseases
+Model Answer: Short answer
+The paper is titled "Genetic effects of welding fumes on the progression of neurodegenerative diseases" [Data: Entities (197); Sources (37); Relationships (242)].
+
+Details
+- Authors / attribution: the paper is authored by HK Rana and co-authors (listed in the source metadata) [Data: Sources (37); Relationships (242)].
+- Publication: it was published in Neurotoxicology (volume 71, pages 93–101) in 2019, per the source metadata [Data: Sources (37); Entities (197)].
+Reasoning:
+Short answer
+The paper is titled "Genetic effects of welding fumes on the progression of neurodegenerative diseases" [Data: Entities (197); Sources (37); Relationships (242)].
+Details
+- Authors / attribution: the paper is authored by HK Rana and co-authors (listed in the source metadata) [Data: Sources (37); Relationships (242)].
+- Publication: it was published in Neurotoxicology (volume 71, pages 93–101) in 2019, per the source metadata [Data: Sources (37); Entities (197)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 80/135:
+Question: What year was the welding fumes paper published?
+Expected Answer: 2019
+Model Answer: Answer
+
+The paper "Genetic effects of welding fumes on the progression of neurodegenerative diseases" was published in 2019, in the journal Neurotoxicology [Data: Entities (197); Sources (37); Relationships (250)].
+Reasoning:
+Answer
+The paper "Genetic effects of welding fumes on the progression of neurodegenerative diseases" was published in 2019, in the journal Neurotoxicology [Data: Entities (197); Sources (37); Relationships (250)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 81/135:
+Question: What is the title of Humayan Kabir Rana's paper on type 2 diabetes?
+Expected Answer: A system biological approach to investigate the genetic profiling and comorbidities of type 2 diabetes
+Model Answer: Answer
+
+The paper is titled: "A system biological approach to investigate the genetic profiling and comorbidities of type 2 diabetes."  
+
+Supporting details
+
+- This title and the paper metadata (publication: Gene Reports 21, 100830, 2020) are recorded in the source data [Data: Sources (38)].  
+- Humayan Kabir Rana is listed as the researcher/author of that paper, with several co-authors (NK Podder, MS Azam, MS Rana, MR Akhtar, MR Rahman) in the dataset [Data: Entities (180); Relationships (230, 231, 232, 233, 234)].
+Reasoning:
+Answer
+The paper is titled: "A system biological approach to investigate the genetic profiling and comorbidities of type 2 diabetes."  
+Supporting details
+- This title and the paper metadata (publication: Gene Reports 21, 100830, 2020) are recorded in the source data [Data: Sources (38)].  
+- Humayan Kabir Rana is listed as the researcher/author of that paper, with several co-authors (NK Podder, MS Azam, MS Rana, MR Akhtar, MR Rahman) in the dataset [Data: Entities (180); Relationships (230, 231, 232, 233, 234)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 82/135:
+Question: What year was the type 2 diabetes paper published?
+Expected Answer: 2020
+Model Answer: Answer
+-------
+The paper "A system biological approach to investigate the genetic profiling and comorbidities of type 2 diabetes" was published in 2020 [Data: Entities (209); Relationships (252); Sources (38)].
+
+Supporting details
+------------------
+- Journal: Gene Reports (the publication that published the paper) [Data: Entities (209); Relationships (252)].
+- Paper metadata listing (title, authors, journal, year) is recorded in the sources/metadata entries [Data: Sources (38)].
+Reasoning:
+Answer
+-------
+The paper "A system biological approach to investigate the genetic profiling and comorbidities of type 2 diabetes" was published in 2020 [Data: Entities (209); Relationships (252); Sources (38)].
+Supporting details
+------------------
+- Journal: Gene Reports (the publication that published the paper) [Data: Entities (209); Relationships (252)].
+- Paper metadata listing (title, authors, journal, year) is recorded in the sources/metadata entries [Data: Sources (38)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 83/135:
+Question: What is the title of Humayan Kabir Rana's paper on lung cancer detection?
+Expected Answer: Detection of Lung cancer from CT scan images using GLCM and SVM
+Model Answer: Answer
+
+The paper is titled "Detection of Lung cancer from CT scan images using GLCM and SVM" [Data: Entities (219); Sources (39); Relationships (236)].
+
+Supporting note
+
+Humayan Kabir Rana is recorded as a researcher/author on this lung cancer detection paper in the dataset [Data: Relationships (236); Sources (39)].
+Reasoning:
+Answer
+The paper is titled "Detection of Lung cancer from CT scan images using GLCM and SVM" [Data: Entities (219); Sources (39); Relationships (236)].
+Supporting note
+Humayan Kabir Rana is recorded as a researcher/author on this lung cancer detection paper in the dataset [Data: Relationships (236); Sources (39)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 84/135:
+Question: What is the title of Mohammad Shorif Uddin's paper on rice leaf disease?
+Expected Answer: An efficient disease detection technique of rice leaf using AlexNet
+Model Answer: Answer
+
+The paper is titled "An efficient disease detection technique of rice leaf using AlexNet." This attribution is supported by the dataset records linking Mohammad Shorif Uddin to that paper [Data: Entities (36); Sources (9); Relationships (16)].
+
+Evidence / publication note
+
+The paper appears in the Journal of Computer and Communications (publication metadata) as recorded in the source entry for the paper [Data: Sources (9)].
+Reasoning:
+Answer
+The paper is titled "An efficient disease detection technique of rice leaf using AlexNet." This attribution is supported by the dataset records linking Mohammad Shorif Uddin to that paper [Data: Entities (36); Sources (9); Relationships (16)].
+Evidence / publication note
+The paper appears in the Journal of Computer and Communications (publication metadata) as recorded in the source entry for the paper [Data: Sources (9)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 85/135:
+Question: How many citations does the rice leaf disease paper have?
+Expected Answer: 91
+Model Answer: Answer
+-------
+The paper "An efficient disease detection technique of rice leaf using AlexNet" has 91 citations [Data: Sources (5); Entities (36)].
+
+Source / evidence
+-----------------
+- Citation count and paper metadata are recorded in the Sources data (record 5), which lists the paper and shows content.cited_by: 91 [Data: Sources (5)].
+Reasoning:
+Answer
+-------
+The paper "An efficient disease detection technique of rice leaf using AlexNet" has 91 citations [Data: Sources (5); Entities (36)].
+Source / evidence
+-----------------
+- Citation count and paper metadata are recorded in the Sources data (record 5), which lists the paper and shows content.cited_by: 91 [Data: Sources (5)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 86/135:
+Question: What year was the rice leaf disease paper published?
+Expected Answer: 2020
+Model Answer: Short answer
+- The paper is listed as published in 2020 in the paper metadata and the paper entity [Data: Sources (5); Entities (36)].
+
+Note about conflicting records
+- Some other records (a report summary and the Journal entity / relationship) state the paper appeared in the Journal of Computer and Communications 7(3) in 2019 [Data: Reports (49); Entities (10); Relationships (21)].
+
+Interpretation
+- The dataset contains conflicting publication-year entries (2019 vs. 2020). The paper metadata and the paper entity both indicate 2020, while the journal/report entries indicate 2019. I cannot resolve the conflict beyond reporting these records; you may want to check the journal issue or the paper PDF for a definitive publication date.
+Reasoning:
+Short answer
+- The paper is listed as published in 2020 in the paper metadata and the paper entity [Data: Sources (5); Entities (36)].
+Note about conflicting records
+- Some other records (a report summary and the Journal entity / relationship) state the paper appeared in the Journal of Computer and Communications 7(3) in 2019 [Data: Reports (49); Entities (10); Relationships (21)].
+Interpretation
+- The dataset contains conflicting publication-year entries (2019 vs. 2020). The paper metadata and the paper entity both indicate 2020, while the journal/report entries indicate 2019. I cannot resolve the conflict beyond reporting these records; you may want to check the journal issue or the paper PDF for a definitive publication date.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 87/135:
+Question: What is the title of Mohammad Shorif Uddin's paper on COVID-19 detection?
+Expected Answer: Covid-19 detection in chest X-ray through random forest classifier using a hybridization of deep CNN and DWT optimized features
+Model Answer: Answer
+
+The paper is titled: "Covid-19 detection in chest X‑ray through random forest classifier using a hybridization of deep CNN and DWT optimized features."  
+
+This title is recorded in the dataset linking Mohammad Shorif Uddin to that COVID‑19 detection paper [Data: Sources (8); Entities (0)].
+Reasoning:
+Answer
+The paper is titled: "Covid-19 detection in chest X‑ray through random forest classifier using a hybridization of deep CNN and DWT optimized features."  
+This title is recorded in the dataset linking Mohammad Shorif Uddin to that COVID‑19 detection paper [Data: Sources (8); Entities (0)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 88/135:
+Question: How many citations does the COVID-19 X-ray detection paper have?
+Expected Answer: 98
+Model Answer: Short answer
+- The COVID-19 chest X‑ray detection paper has 98 citations (as recorded for the paper) [Data: Sources (8)].
+
+Supporting details
+- The Sources entry for the paper "Covid-19 detection in chest X‑ray through random forest classifier using a hybridization of deep CNN and DWT optimized features" lists cited_by = 98 and shows it was published in Journal of King Saud University — Computer and Information Sciences in 2022 [Data: Sources (8)].  
+- The paper is co‑authored by R Mostafiz, MS Uddin, MM Reza and MM Rahman; co‑authorship relationships for these authors are recorded in the dataset [Data: Sources (8); Relationships (42, 36, 37, 43, 44)].
+
+If you’d like, I can fetch the paper link or list the citation details (title, authors, venue) in full.
+Reasoning:
+Short answer
+- The COVID-19 chest X‑ray detection paper has 98 citations (as recorded for the paper) [Data: Sources (8)].
+Supporting details
+- The Sources entry for the paper "Covid-19 detection in chest X‑ray through random forest classifier using a hybridization of deep CNN and DWT optimized features" lists cited_by = 98 and shows it was published in Journal of King Saud University — Computer and Information Sciences in 2022 [Data: Sources (8)].  
+- The paper is co‑authored by R Mostafiz, MS Uddin, MM Reza and MM Rahman; co‑authorship relationships for these authors are recorded in the dataset [Data: Sources (8); Relationships (42, 36, 37, 43, 44)].
+If you’d like, I can fetch the paper link or list the citation details (title, authors, venue) in full.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 89/135:
+Question: What is the title of Mohammad Shorif Uddin's hybrid watermarking paper?
+Expected Answer: A Hybrid robust watermarking system based on discrete cosine transform, discrete wavelet transform, and singular value decomposition
+Model Answer: ### Answer
+
+The paper is titled: "A Hybrid robust watermarking system based on discrete cosine transform, discrete wavelet transform, and singular value decomposition." [Data: Sources (4); Relationships (34, 35, 41)]
+
+### Additional context
+
+The paper is published in the Journal of King Saud University — Computer and Information Sciences (2022, vol. 34) and lists M. Begum, J. Ferdush, and M.S. Uddin among its authors [Data: Sources (4); Entities (28, 29, 23)].
+Reasoning:
+### Answer
+The paper is titled: "A Hybrid robust watermarking system based on discrete cosine transform, discrete wavelet transform, and singular value decomposition." [Data: Sources (4); Relationships (34, 35, 41)]
+### Additional context
+The paper is published in the Journal of King Saud University — Computer and Information Sciences (2022, vol. 34) and lists M. Begum, J. Ferdush, and M.S. Uddin among its authors [Data: Sources (4); Entities (28, 29, 23)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 90/135:
+Question: How many citations does the hybrid watermarking paper have?
+Expected Answer: 155
+Model Answer: Answer
+The hybrid robust watermarking paper has 155 citations.
+
+Details
+- Paper: "A Hybrid robust watermarking system based on discrete cosine transform, discrete wavelet transform, and singular value decomposition" (authors: M. Begum, J. Ferdush, M. S. Uddin), published in Journal of King Saud University — Computer and Information Sciences, 2022.  
+- Citation count: 155.
+
+Supporting data
+This citation count is reported in the source metadata for the paper [Data: Sources (4); Entities (29, 28); Relationships (41)].
+
+If you'd like, I can provide the Google Scholar entry or list other metrics (e.g., publication venue and year) from the same source.
+Reasoning:
+Answer
+The hybrid robust watermarking paper has 155 citations.
+Details
+- Paper: "A Hybrid robust watermarking system based on discrete cosine transform, discrete wavelet transform, and singular value decomposition" (authors: M. Begum, J. Ferdush, M. S. Uddin), published in Journal of King Saud University — Computer and Information Sciences, 2022.  
+- Citation count: 155.
+Supporting data
+This citation count is reported in the source metadata for the paper [Data: Sources (4); Entities (29, 28); Relationships (41)].
+If you'd like, I can provide the Google Scholar entry or list other metrics (e.g., publication venue and year) from the same source.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 91/135:
+Question: What year was the hybrid watermarking paper published?
+Expected Answer: 2022
+Model Answer: Answer
+
+The hybrid robust watermarking paper was published in 2022 [Data: Sources (4); Relationships (41)].
+
+Supporting details
+
+- Publication venue (as recorded): Journal of King Saud University — Computer and Information Sciences, volume 34 (2022) [Data: Sources (4)].  
+- Co-authors recorded for the hybrid watermarking paper include M. Begum and J. Ferdush [Data: Relationships (41)].
+Reasoning:
+Answer
+The hybrid robust watermarking paper was published in 2022 [Data: Sources (4); Relationships (41)].
+Supporting details
+- Publication venue (as recorded): Journal of King Saud University — Computer and Information Sciences, volume 34 (2022) [Data: Sources (4)].  
+- Co-authors recorded for the hybrid watermarking paper include M. Begum and J. Ferdush [Data: Relationships (41)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 92/135:
+Question: What is the title of Mohammad Shorif Uddin's paper on depression prediction?
+Expected Answer: An in-depth analysis of machine learning approaches to predict depression
+Model Answer: ### Answer
+
+The paper title is: "An in-depth analysis of machine learning approaches to predict depression."
+
+### Supporting data
+This title and its authorship (Mohammad Shorif Uddin) are documented in the dataset [Data: Entities (18); Relationships (12); Sources (5)].
+Reasoning:
+### Answer
+The paper title is: "An in-depth analysis of machine learning approaches to predict depression."
+### Supporting data
+This title and its authorship (Mohammad Shorif Uddin) are documented in the dataset [Data: Entities (18); Relationships (12); Sources (5)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 93/135:
+Question: How many citations does the depression prediction paper have?
+Expected Answer: 168
+Model Answer: Answer
+
+The paper "An in-depth analysis of machine learning approaches to predict depression" has 168 citations according to the provided data [Data: Sources (2); Entities (18)].
+
+Additional context: the paper is listed as published in Current Research in Behavioral Sciences in 2021 (same sources) [Data: Sources (2); Entities (18)].
+Reasoning:
+Answer
+The paper "An in-depth analysis of machine learning approaches to predict depression" has 168 citations according to the provided data [Data: Sources (2); Entities (18)].
+Additional context: the paper is listed as published in Current Research in Behavioral Sciences in 2021 (same sources) [Data: Sources (2); Entities (18)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 94/135:
+Question: What is the title of Mohammad Shorif Uddin's paper on skin disease detection published in 2022?
+Expected Answer: A machine learning approach for skin disease detection and classification using image segmentation
+Model Answer: Answer
+- The 2022 paper by Mohammad Shorif Uddin is titled: "A Machine Learning Approach for Skin Disease Detection and Classification Using Image Segmentation." [Data: Entities (17); Relationships (11)]
+
+Publication detail
+- The paper was published in the journal Healthcare Analytics in 2022 [Data: Entities (17); Relationships (30)].
+Reasoning:
+Answer
+- The 2022 paper by Mohammad Shorif Uddin is titled: "A Machine Learning Approach for Skin Disease Detection and Classification Using Image Segmentation." [Data: Entities (17); Relationships (11)]
+Publication detail
+- The paper was published in the journal Healthcare Analytics in 2022 [Data: Entities (17); Relationships (30)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 95/135:
+Question: What is the title of Farhana Akter Sunny's paper on fraud detection in audits?
+Expected Answer: Investigating external audit records to detect fraudulent firms employing various machine learning methods
+Model Answer: Answer
+-------
+The paper is titled: "Investigating external audit records to detect fraudulent firms employing various machine learning methods."
+
+Source / evidence
+-----------------
+This title and its authorship by Farhana Akter Sunny are recorded in the dataset [Data: Entities (50); Sources (8); Relationships (57)].
+Reasoning:
+Answer
+-------
+The paper is titled: "Investigating external audit records to detect fraudulent firms employing various machine learning methods."
+Source / evidence
+-----------------
+This title and its authorship by Farhana Akter Sunny are recorded in the dataset [Data: Entities (50); Sources (8); Relationships (57)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 96/135:
+Question: What year was the audit fraud detection paper published?
+Expected Answer: 2022
+Model Answer: Answer
+
+The audit fraud detection paper was published/presented in 2022.
+
+Supporting details: the paper "Investigating External Audit Records to Detect Fraudulent Firms Employing Various Machine Learning Methods" (Entity 50) was presented at the 2022 4th International Conference on Sustainable Technologies for Industry 4 (Entity 67) and is linked to Farhana Akter Sunny (Relationship 57) [Data: Entities (50, 67); Relationships (57)].
+Reasoning:
+Answer
+The audit fraud detection paper was published/presented in 2022.
+Supporting details: the paper "Investigating External Audit Records to Detect Fraudulent Firms Employing Various Machine Learning Methods" (Entity 50) was presented at the 2022 4th International Conference on Sustainable Technologies for Industry 4 (Entity 67) and is linked to Farhana Akter Sunny (Relationship 57) [Data: Entities (50, 67); Relationships (57)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 97/135:
+Question: What is the title of Farhana Akter Sunny's paper on multi-path selection?
+Expected Answer: Multi-priority and trusted multi-path selection algorithm for ad-hoc network
+Model Answer: Answer
+
+The paper is titled "Multi-priority and trusted multi-path selection algorithm for ad-hoc network." This title is recorded in the source metadata for the 2014 conference paper and the conference relationship linking Farhana Akter Sunny to the 2014 International Conference on Electrical Engineering and Information [Data: Sources (9); Relationships (58)].
+
+Supporting details
+
+- The paper was presented at the 2014 International Conference on Electrical Engineering and Information and lists co-authors including F Afsana, NZ Zenia, N Islam, MS Kaiser, and SA Mamun in the same source record [Data: Sources (9); Entities (60)].
+Reasoning:
+Answer
+The paper is titled "Multi-priority and trusted multi-path selection algorithm for ad-hoc network." This title is recorded in the source metadata for the 2014 conference paper and the conference relationship linking Farhana Akter Sunny to the 2014 International Conference on Electrical Engineering and Information [Data: Sources (9); Relationships (58)].
+Supporting details
+- The paper was presented at the 2014 International Conference on Electrical Engineering and Information and lists co-authors including F Afsana, NZ Zenia, N Islam, MS Kaiser, and SA Mamun in the same source record [Data: Sources (9); Entities (60)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 98/135:
+Question: What year was the multi-path selection paper published?
+Expected Answer: 2014
+Model Answer: Short answer
+The multi-path selection paper was published in 2014.
+
+Evidence
+The paper "Multi-priority and trusted multi-path selection algorithm for ad-hoc network" is listed with the 2014 International Conference on Electrical Engineering and Information and has year metadata showing 2014 [Data: Sources (9); Entities (60)].
+Reasoning:
+Short answer
+The multi-path selection paper was published in 2014.
+Evidence
+The paper "Multi-priority and trusted multi-path selection algorithm for ad-hoc network" is listed with the 2014 International Conference on Electrical Engineering and Information and has year metadata showing 2014 [Data: Sources (9); Entities (60)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 99/135:
+Question: What is the title of Farhana Akter Sunny's paper on credit card fraud?
+Expected Answer: Fraud detection of credit card using data mining techniques
+Model Answer: Answer
+
+The paper is titled "Fraud detection of credit card using data mining techniques" [Data: Sources (8); Relationships (61, 62); Entities (37, 65, 66)].
+
+Additional details (from the records)
+- Co‑authors listed are NJ Nishi and SC Bakchy, with Farhana Akter Sunny as a co‑author [Data: Sources (8); Relationships (61, 62); Entities (37, 65, 66)].
+- The paper was presented at the 2022 4th International Conference on Sustainable Technologies for Industry 4 (2022) according to the metadata [Data: Sources (8); Relationships (60)].
+Reasoning:
+Answer
+The paper is titled "Fraud detection of credit card using data mining techniques" [Data: Sources (8); Relationships (61, 62); Entities (37, 65, 66)].
+Additional details (from the records)
+- Co‑authors listed are NJ Nishi and SC Bakchy, with Farhana Akter Sunny as a co‑author [Data: Sources (8); Relationships (61, 62); Entities (37, 65, 66)].
+- The paper was presented at the 2022 4th International Conference on Sustainable Technologies for Industry 4 (2022) according to the metadata [Data: Sources (8); Relationships (60)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 100/135:
+Question: How many citations does the credit card fraud detection paper have?
+Expected Answer: 4
+Model Answer: Answer
+
+The paper "Fraud detection of credit card using data mining techniques" (authors: NJ Nishi, Farhana Akter Sunny, SC Bakchy) has 4 citations. This citation count is recorded in the source metadata [Data: Sources (10); Entities (65, 66, 67); Relationships (61, 62, 90)].
+
+If you'd like, I can pull the citation history or list the citing works (if available).
+Reasoning:
+Answer
+The paper "Fraud detection of credit card using data mining techniques" (authors: NJ Nishi, Farhana Akter Sunny, SC Bakchy) has 4 citations. This citation count is recorded in the source metadata [Data: Sources (10); Entities (65, 66, 67); Relationships (61, 62, 90)].
+If you'd like, I can pull the citation history or list the citing works (if available).
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 101/135:
+Question: What is the title of Farhana Akter Sunny's paper on beamforming?
+Expected Answer: Counter propagation ANN based massive adaptive array antenna beamforming for mmWave communication system
+Model Answer: Answer
+
+- The paper is titled "Counter propagation ANN based massive adaptive array antenna beamforming for mmWave communication system."  
+  This title is recorded in the source metadata for the paper [Data: Sources (9); Entities (51)].
+
+Additional context (supported by the data)
+
+- The paper lists FA Sunny (Farhana Akter Sunny) as an author and was co-authored with ZI Chowdhury and MS Kaiser [Data: Sources (9); Relationships (78, 79)].  
+- The work was published in the proceedings of the 2015 IEEE International Conference on Telecommunications and Photonics (ICTP) [Data: Sources (9); Relationships (80)].
+Reasoning:
+Answer
+- The paper is titled "Counter propagation ANN based massive adaptive array antenna beamforming for mmWave communication system."  
+  This title is recorded in the source metadata for the paper [Data: Sources (9); Entities (51)].
+Additional context (supported by the data)
+- The paper lists FA Sunny (Farhana Akter Sunny) as an author and was co-authored with ZI Chowdhury and MS Kaiser [Data: Sources (9); Relationships (78, 79)].  
+- The work was published in the proceedings of the 2015 IEEE International Conference on Telecommunications and Photonics (ICTP) [Data: Sources (9); Relationships (80)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 102/135:
+Question: What is the title of Farhana Akter Sunny's paper on COVID-19 detection?
+Expected Answer: Machine learning and deep learning algorithms in detecting COVID-19 utilizing medical images: a comprehensive review
+Model Answer: Answer
+
+The paper is titled "Machine learning and deep learning algorithms in detecting COVID-19 utilizing medical images: a comprehensive review" [Data: Sources (10); Entities (37)].
+
+If you’d like, I can provide the publication year and link from the source record.
+Reasoning:
+Answer
+The paper is titled "Machine learning and deep learning algorithms in detecting COVID-19 utilizing medical images: a comprehensive review" [Data: Sources (10); Entities (37)].
+If you’d like, I can provide the publication year and link from the source record.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 103/135:
+Question: What year was the COVID-19 detection review published?
+Expected Answer: 2024
+Model Answer: I’m not certain which specific “COVID‑19 detection review” you mean — can you confirm the paper title or author?
+
+Possible matches in the dataset
+- The paper "Pathogenetic profiling of COVID‑19 and SARS‑like viruses" was published in 2021 [Data: Sources (36)].
+- A related review-style paper, "Bioinformatics and system biology approaches to identify pathophysiological impact of COVID‑19 to the progression and severity of neurological diseases," was also published in 2021 (this work appears in Computers in Biology and Medicine) [Data: Sources (36); Entities (199); Relationships (243)].
+
+If you tell me the title or an author, I can confirm the exact record and citation year.
+Reasoning:
+I’m not certain which specific “COVID‑19 detection review” you mean — can you confirm the paper title or author?
+Possible matches in the dataset
+- The paper "Pathogenetic profiling of COVID‑19 and SARS‑like viruses" was published in 2021 [Data: Sources (36)].
+- A related review-style paper, "Bioinformatics and system biology approaches to identify pathophysiological impact of COVID‑19 to the progression and severity of neurological diseases," was also published in 2021 (this work appears in Computers in Biology and Medicine) [Data: Sources (36); Entities (199); Relationships (243)].
+If you tell me the title or an author, I can confirm the exact record and citation year.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 104/135:
+Question: What is the title of Abdullah-Al Masud's meta-learning paper?
+Expected Answer: Meta-Learning in Supervised Machine Learning
+Model Answer: # Answer
+
+The title is "Meta-Learning in Supervised Machine Learning" [Data: Entities (72); Sources (12)].
+
+# Details
+
+- Abdullah-Al Masud is listed as a co-author of that paper [Data: Relationships (93); Sources (12)].  
+- The paper's metadata (authors: A Al Masud, S Hossain, M Rifa, F Akter, A Zaman, DM Farid) and publication venue (2022 14th International Conference on Software, Knowledge, Information …, 2022) are recorded in the source entry for the paper [Data: Sources (12)].
+Reasoning:
+# Answer
+The title is "Meta-Learning in Supervised Machine Learning" [Data: Entities (72); Sources (12)].
+# Details
+- Abdullah-Al Masud is listed as a co-author of that paper [Data: Relationships (93); Sources (12)].  
+- The paper's metadata (authors: A Al Masud, S Hossain, M Rifa, F Akter, A Zaman, DM Farid) and publication venue (2022 14th International Conference on Software, Knowledge, Information …, 2022) are recorded in the source entry for the paper [Data: Sources (12)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 105/135:
+Question: How many citations does the meta-learning paper have?
+Expected Answer: 2
+Model Answer: Answer
+
+The paper "Meta‑Learning in Supervised Machine Learning" is recorded as having 2 citations (cited_by = 2) in the dataset [Data: Sources (12); Entities (72)].
+
+Context and next steps
+
+- The citation count comes from the paper metadata entry whose reference time is 2022-01-01, so the recorded count reflects citations up to that date [Data: Sources (12)].  
+- If you want the current (up-to-date) citation count, you can check the paper's Google Scholar entry linked in the record; the dataset includes that link in the same source entry [Data: Sources (12)].
+Reasoning:
+Answer
+The paper "Meta‑Learning in Supervised Machine Learning" is recorded as having 2 citations (cited_by = 2) in the dataset [Data: Sources (12); Entities (72)].
+Context and next steps
+- The citation count comes from the paper metadata entry whose reference time is 2022-01-01, so the recorded count reflects citations up to that date [Data: Sources (12)].  
+- If you want the current (up-to-date) citation count, you can check the paper's Google Scholar entry linked in the record; the dataset includes that link in the same source entry [Data: Sources (12)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 106/135:
+Question: What year was the meta-learning paper published?
+Expected Answer: 2022
+Model Answer: ### Publication year
+
+The paper "Meta-Learning in Supervised Machine Learning" was published in 2022.
+
+This is supported by the paper entity and the source metadata listing the paper and year [Data: Entities (72); Sources (12)].
+Reasoning:
+### Publication year
+The paper "Meta-Learning in Supervised Machine Learning" was published in 2022.
+This is supported by the paper entity and the source metadata listing the paper and year [Data: Entities (72); Sources (12)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 107/135:
+Question: What is Abdullah-Al Masud's Google Scholar author ID?
+Expected Answer: QQ51Ty8AAAAJ
+Model Answer: Answer
+- Abdullah-Al Masud's Google Scholar author ID is: QQ51Ty8AAAAJ [Data: Sources (12); Entities (70)].
+
+Profile URL
+- The Google Scholar profile URL recorded for him is: https://scholar.google.com/citations?user=QQ51Ty8AAAAJ&hl=en [Data: Sources (12); Entities (70)].
+Reasoning:
+Answer
+- Abdullah-Al Masud's Google Scholar author ID is: QQ51Ty8AAAAJ [Data: Sources (12); Entities (70)].
+Profile URL
+- The Google Scholar profile URL recorded for him is: https://scholar.google.com/citations?user=QQ51Ty8AAAAJ&hl=en [Data: Sources (12); Entities (70)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 108/135:
+Question: What is the email of Abdullah-Al Masud?
+Expected Answer: amasud183040@bscse.uiu.ac.bd
+Model Answer: Answer
+
+Abdullah‑Al Masud's email is: amasud183040@bscse.uiu.ac.bd.
+
+Source / confirmation
+
+This is supported by the researcher profile in the dataset [Data: Sources (12); Entities (70); Relationships (92)].
+Reasoning:
+Answer
+Abdullah‑Al Masud's email is: amasud183040@bscse.uiu.ac.bd.
+Source / confirmation
+This is supported by the researcher profile in the dataset [Data: Sources (12); Entities (70); Relationships (92)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 109/135:
+Question: What are Abdullah-Al Masud's research interests?
+Expected Answer: robotics, computer vision, meta-learning, deep-learning
+Model Answer: # Abdullah-Al Masud — research interests
+
+Abdullah‑Al Masud's stated research interests are robotics, computer vision, meta‑learning, and deep learning [Data: Entities (70); Sources (12)].
+
+He is affiliated with United International University, and he co‑authored the paper "Meta-Learning in Supervised Machine Learning," which further supports his work in meta‑learning [Data: Entities (70); Relationships (93); Sources (12)].
+Reasoning:
+# Abdullah-Al Masud — research interests
+Abdullah‑Al Masud's stated research interests are robotics, computer vision, meta‑learning, and deep learning [Data: Entities (70); Sources (12)].
+He is affiliated with United International University, and he co‑authored the paper "Meta-Learning in Supervised Machine Learning," which further supports his work in meta‑learning [Data: Entities (70); Relationships (93); Sources (12)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 110/135:
+Question: What is Jahidul Islam's Google Scholar author ID?
+Expected Answer: MOEMgYoAAAAJ
+Model Answer: ### Answer
+
+Jahidul Islam's Google Scholar author ID is: **MOEMgYoAAAAJ**.
+
+This is recorded in the researcher profile metadata (the Google Scholar author_id and profile URL) for Jahidul Islam [Data: Sources (41); Entities (223)].
+
+The profile URL on Google Scholar (as recorded) is: https://scholar.google.com/citations?user=MOEMgYoAAAAJ&hl=en [Data: Sources (41)].
+Reasoning:
+### Answer
+Jahidul Islam's Google Scholar author ID is: **MOEMgYoAAAAJ**.
+This is recorded in the researcher profile metadata (the Google Scholar author_id and profile URL) for Jahidul Islam [Data: Sources (41); Entities (223)].
+The profile URL on Google Scholar (as recorded) is: https://scholar.google.com/citations?user=MOEMgYoAAAAJ&hl=en [Data: Sources (41)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 111/135:
+Question: What is Jahidul Islam's email?
+Expected Answer: jahidul.cse.gub@gmail.com
+Model Answer: Answer
+
+Jahidul Islam's email is jahidul.cse.gub@gmail.com [Data: Sources (41); Entities (223)].
+
+Note
+
+He is affiliated with the Green University of Bangladesh (Department of Computer Science and Engineering) according to the same profile data [Data: Sources (41); Relationships (19)].
+Reasoning:
+Answer
+Jahidul Islam's email is jahidul.cse.gub@gmail.com [Data: Sources (41); Entities (223)].
+Note
+He is affiliated with the Green University of Bangladesh (Department of Computer Science and Engineering) according to the same profile data [Data: Sources (41); Relationships (19)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 112/135:
+Question: What is Jahidul Islam's affiliation?
+Expected Answer: Green University of Bangladesh (Department of Computer Science and Engineering)
+Model Answer: # Jahidul Islam — affiliation
+
+Jahidul Islam is affiliated with the Green University of Bangladesh, specifically the Department of Computer Science and Engineering. This is supported by the entity and relationship records and the researcher profile in the sources [Data: Entities (223); Relationships (19); Sources (41); Reports (47)].
+
+His profile also lists research interests in Machine Learning, Natural Language Processing, LLMs, and RAG, which is noted in the same supporting records [Data: Entities (223); Sources (41)].
+Reasoning:
+# Jahidul Islam — affiliation
+Jahidul Islam is affiliated with the Green University of Bangladesh, specifically the Department of Computer Science and Engineering. This is supported by the entity and relationship records and the researcher profile in the sources [Data: Entities (223); Relationships (19); Sources (41); Reports (47)].
+His profile also lists research interests in Machine Learning, Natural Language Processing, LLMs, and RAG, which is noted in the same supporting records [Data: Entities (223); Sources (41)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 113/135:
+Question: What is Md Ataullha's Google Scholar author ID?
+Expected Answer: N2dzzwsAAAAJ
+Model Answer: ### Answer
+
+Md Ataullha's Google Scholar author ID is **N2dzzwsAAAAJ** [Data: Sources (43); Entities (228)].
+
+You can view the profile at: https://scholar.google.com/citations?user=N2dzzwsAAAAJ&hl=en [Data: Sources (43)].
+Reasoning:
+### Answer
+Md Ataullha's Google Scholar author ID is **N2dzzwsAAAAJ** [Data: Sources (43); Entities (228)].
+You can view the profile at: https://scholar.google.com/citations?user=N2dzzwsAAAAJ&hl=en [Data: Sources (43)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 114/135:
+Question: What is Md Ataullha's affiliation?
+Expected Answer: Lecturer, Department of Computer Science and Engineering, Green University of Bangladesh
+Model Answer: Answer
+- Md Ataullha is a Lecturer in the Department of Computer Science and Engineering at Green University of Bangladesh [Data: Entities (228); Relationships (20); Sources (43)].
+
+Supporting notes
+- The researcher profile for Md Ataullha lists his affiliation as Lecturer, Department of Computer Science and Engineering, Green University of Bangladesh [Data: Sources (43)].
+- The Entities and Relationships records also link Md Ataullha to Green University of Bangladesh (lecturer/affiliation) [Data: Entities (228); Relationships (20)].
+Reasoning:
+Answer
+- Md Ataullha is a Lecturer in the Department of Computer Science and Engineering at Green University of Bangladesh [Data: Entities (228); Relationships (20); Sources (43)].
+Supporting notes
+- The researcher profile for Md Ataullha lists his affiliation as Lecturer, Department of Computer Science and Engineering, Green University of Bangladesh [Data: Sources (43)].
+- The Entities and Relationships records also link Md Ataullha to Green University of Bangladesh (lecturer/affiliation) [Data: Entities (228); Relationships (20)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 115/135:
+Question: How many citations does Md Ataullha's dengue paper have?
+Expected Answer: 28
+Model Answer: Answer
+
+Md Ataullha’s paper "Mathematical analysis and prediction of future outbreak of dengue on time-varying contact rate using machine learning approach" is listed with 28 citations in the provided metadata [Data: Sources (43); Entities (229); Relationships (263)].
+
+Context
+
+- Paper (title, publication year, venue) is in the metadata and linked to Md Ataullha as an author [Data: Sources (43); Relationships (263); Entities (229)].
+- The citation count (28) comes from that same paper metadata snapshot [Data: Sources (43)].
+
+Note: I used the citation count recorded in the supplied data. If you need a live / updated count, I can guide you how to check Google Scholar or similar sources.
+Reasoning:
+Answer
+Md Ataullha’s paper "Mathematical analysis and prediction of future outbreak of dengue on time-varying contact rate using machine learning approach" is listed with 28 citations in the provided metadata [Data: Sources (43); Entities (229); Relationships (263)].
+Context
+- Paper (title, publication year, venue) is in the metadata and linked to Md Ataullha as an author [Data: Sources (43); Relationships (263); Entities (229)].
+- The citation count (28) comes from that same paper metadata snapshot [Data: Sources (43)].
+Note: I used the citation count recorded in the supplied data. If you need a live / updated count, I can guide you how to check Google Scholar or similar sources.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 116/135:
+Question: What year was the dengue prediction paper published?
+Expected Answer: 2024
+Model Answer: Answer
+The dengue prediction paper was published in 2024.
+
+Supporting details
+The paper "Mathematical analysis and prediction of future outbreak of dengue on time-varying contact rate using machine learning approach" appears in Computers in Biology and Medicine, volume 178, 2024 [Data: Sources (43); Entities (229); Relationships (263)].
+Reasoning:
+Answer
+The dengue prediction paper was published in 2024.
+Supporting details
+The paper "Mathematical analysis and prediction of future outbreak of dengue on time-varying contact rate using machine learning approach" appears in Computers in Biology and Medicine, volume 178, 2024 [Data: Sources (43); Entities (229); Relationships (263)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 117/135:
+Question: Which researchers are affiliated with Green University of Bangladesh?
+Expected Answer: Saiful Azad, Humayan Kabir Rana, Jahidul Islam, Md Ataullha, Farhana Akter Sunny
+Model Answer: Below are the researchers in the data who are shown as affiliated with Green University of Bangladesh, with their role / a short note and the supporting dataset references.
+
+- Humayan Kabir Rana — Senior Lecturer, Department of Computer Science & Engineering (affiliated with Green University of Bangladesh) [Data: Entities (180); Relationships (18)].  
+- Saiful Azad, PhD — Professor, Department of Computer Science & Engineering (affiliated with Green University of Bangladesh) [Data: Entities (103); Relationships (17)].  
+- Md Ataullha — Lecturer, Department of Computer Science & Engineering; research interests include applied ML, speech processing, NLP [Data: Entities (228); Relationships (20); Sources (43)].  
+- Jahidul Islam — Researcher specializing in Machine Learning, NLP, LLMs and RAG (affiliated with Green University of Bangladesh) [Data: Entities (223); Sources (41); Relationships (19)].  
+- Mohammad Shorif Uddin — Researcher with multiple affiliations including Green University of Bangladesh (listed among his affiliations) [Data: Entities (0); Relationships (1); Sources (0)].  
+- Farhana Akter Sunny — Assistant Professor (profile shows affiliation with Green University / email at cse.green.edu.bd) [Data: Entities (38); Sources (6)].
+
+If you want, I can (a) produce a short one-paragraph bio for each person using only the provided data, or (b) return this list as a table (name, role, primary interests, supporting record ids). Which would you prefer?
+Reasoning:
+Below are the researchers in the data who are shown as affiliated with Green University of Bangladesh, with their role / a short note and the supporting dataset references.
+- Humayan Kabir Rana — Senior Lecturer, Department of Computer Science & Engineering (affiliated with Green University of Bangladesh) [Data: Entities (180); Relationships (18)].  
+- Saiful Azad, PhD — Professor, Department of Computer Science & Engineering (affiliated with Green University of Bangladesh) [Data: Entities (103); Relationships (17)].  
+- Md Ataullha — Lecturer, Department of Computer Science & Engineering; research interests include applied ML, speech processing, NLP [Data: Entities (228); Relationships (20); Sources (43)].  
+- Jahidul Islam — Researcher specializing in Machine Learning, NLP, LLMs and RAG (affiliated with Green University of Bangladesh) [Data: Entities (223); Sources (41); Relationships (19)].  
+- Mohammad Shorif Uddin — Researcher with multiple affiliations including Green University of Bangladesh (listed among his affiliations) [Data: Entities (0); Relationships (1); Sources (0)].  
+- Farhana Akter Sunny — Assistant Professor (profile shows affiliation with Green University / email at cse.green.edu.bd) [Data: Entities (38); Sources (6)].
+If you want, I can (a) produce a short one-paragraph bio for each person using only the provided data, or (b) return this list as a table (name, role, primary interests, supporting record ids). Which would you prefer?
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 118/135:
+Question: Which researcher works on Deep Learning as their primary interest?
+Expected Answer: Ashish Vaswani
+Model Answer: Answer
+Ashish Vaswani is the researcher who lists Deep Learning as his primary interest [Data: Sources (45); Entities (231)].
+
+Note on other researchers
+Abdullah-Al Masud also lists "deep-learning" among several interests (robotics, computer vision, meta-learning, deep-learning), but it is not presented as his sole/primary interest in the profile data [Data: Sources (12); Entities (70)].
+Reasoning:
+Answer
+Ashish Vaswani is the researcher who lists Deep Learning as his primary interest [Data: Sources (45); Entities (231)].
+Note on other researchers
+Abdullah-Al Masud also lists "deep-learning" among several interests (robotics, computer vision, meta-learning, deep-learning), but it is not presented as his sole/primary interest in the profile data [Data: Sources (12); Entities (70)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 119/135:
+Question: Which researchers work on Machine Learning?
+Expected Answer: Saiful Azad, Humayan Kabir Rana, Jahidul Islam, Md Ataullha
+Model Answer: Below is a concise list of researchers in the dataset who work on (or have published research in) machine learning, with a short note on the ML topic and the supporting data references.
+
+Overview
+- The list below is drawn from entity profiles, publication records and community reports in the provided data. Each entry includes the dataset record(s) that support the statement.
+
+Researchers who work on machine learning
+
+- Abdullah‑Al Masud — Researcher with stated interests in meta‑learning and deep learning; co‑author of a paper titled "Meta‑Learning in Supervised Machine Learning" [Data: Entities (70); Relationships (93)].
+
+- Md Ataullha — Lecturer whose research interests include Applied Machine Learning; co‑author of a machine‑learning paper on dengue outbreak prediction and an author on the PyBangla (Bangla→Python code generation) project (NLP/ML) [Data: Entities (228); Relationships (263, 257)].
+
+- MM Rahman — Prolific researcher working in AI and deep learning (listed contributions include deep‑learning papers and co‑authorship on Covid‑19 chest X‑ray detection) [Data: Entities (32); Relationships (38, 46)].
+
+- Muhammad Nomani Kabir — Author of machine‑learning applications such as "Breast Cancer Prediction: A Comparative Study Using Machine Learning Techniques" (highly cited) and other ML/deep‑learning works [Data: Entities (155); Relationships (189)].
+
+- Mohammad Shorif Uddin — Central researcher in the dataset with multiple ML/AI works (e.g., skin disease detection using ML, depression prediction); documented in community reports and as an author on relevant ML papers [Data: Reports (11, 48); Relationships (11, 12)].
+
+- Farhana Akter Sunny — Co‑author on a study titled "Investigating external audit records to detect fraudulent firms employing various machine learning methods" and described as conducting ML‑related research in community reports [Data: Relationships (57); Reports (8, 39)].
+
+- Jahidul Islam (and PyBangla co‑authors) — Authors on the PyBangla paper (Bangla→Python code generation) which is an NLP/ML project; listed as part of the Green University PyBangla initiative [Data: Reports (47); Relationships (257)].
+
+- MS Uddin (co‑author) — Co‑author on ML/AI papers such as Covid‑19 detection in chest X‑rays and other ML applications in the community; appears in co‑authorship relationships in the dataset [Data: Reports (51); Relationships (38)].
+
+Notes and next steps
+- The entries above are limited to people and items explicitly supported by the provided datasets (Entities, Relationships, Reports). If you want, I can:
+  - Export this list as CSV, or
+  - Produce a co‑authorship network (graph) for these ML researchers,
+  - Or search the dataset for additional names with ML keywords and return a longer list.
+
+Which of those would you like next?
+Reasoning:
+Below is a concise list of researchers in the dataset who work on (or have published research in) machine learning, with a short note on the ML topic and the supporting data references.
+Overview
+- The list below is drawn from entity profiles, publication records and community reports in the provided data. Each entry includes the dataset record(s) that support the statement.
+Researchers who work on machine learning
+- Abdullah‑Al Masud — Researcher with stated interests in meta‑learning and deep learning; co‑author of a paper titled "Meta‑Learning in Supervised Machine Learning" [Data: Entities (70); Relationships (93)].
+- Md Ataullha — Lecturer whose research interests include Applied Machine Learning; co‑author of a machine‑learning paper on dengue outbreak prediction and an author on the PyBangla (Bangla→Python code generation) project (NLP/ML) [Data: Entities (228); Relationships (263, 257)].
+- MM Rahman — Prolific researcher working in AI and deep learning (listed contributions include deep‑learning papers and co‑authorship on Covid‑19 chest X‑ray detection) [Data: Entities (32); Relationships (38, 46)].
+- Muhammad Nomani Kabir — Author of machine‑learning applications such as "Breast Cancer Prediction: A Comparative Study Using Machine Learning Techniques" (highly cited) and other ML/deep‑learning works [Data: Entities (155); Relationships (189)].
+- Mohammad Shorif Uddin — Central researcher in the dataset with multiple ML/AI works (e.g., skin disease detection using ML, depression prediction); documented in community reports and as an author on relevant ML papers [Data: Reports (11, 48); Relationships (11, 12)].
+- Farhana Akter Sunny — Co‑author on a study titled "Investigating external audit records to detect fraudulent firms employing various machine learning methods" and described as conducting ML‑related research in community reports [Data: Relationships (57); Reports (8, 39)].
+- Jahidul Islam (and PyBangla co‑authors) — Authors on the PyBangla paper (Bangla→Python code generation) which is an NLP/ML project; listed as part of the Green University PyBangla initiative [Data: Reports (47); Relationships (257)].
+- MS Uddin (co‑author) — Co‑author on ML/AI papers such as Covid‑19 detection in chest X‑rays and other ML applications in the community; appears in co‑authorship relationships in the dataset [Data: Reports (51); Relationships (38)].
+Notes and next steps
+- The entries above are limited to people and items explicitly supported by the provided datasets (Entities, Relationships, Reports). If you want, I can:
+  - Export this list as CSV, or
+  - Produce a co‑authorship network (graph) for these ML researchers,
+  - Or search the dataset for additional names with ML keywords and return a longer list.
+Which of those would you like next?
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 120/135:
+Question: Which researchers work on Bioinformatics?
+Expected Answer: Humayan Kabir Rana
+Model Answer: Below I list researchers in the provided data who are shown to work on or author papers in bioinformatics (short justification and data references included).
+
+Overview
+- The dataset shows a small research community publishing in journals such as Briefings in Bioinformatics and Computers in Biology and Medicine; authors on those papers are the primary evidence for who works in bioinformatics [Data: Sources (37); Relationships (241)].
+
+Researchers (with supporting evidence)
+- Humayan Kabir Rana — described as a Senior Lecturer whose research interests explicitly include Bioinformatics; he is an author on multiple bioinformatics-related papers in the dataset [Data: Entities (180); Sources (37)].  
+- MH Rahman — described as a researcher who “contributed significantly to the field of bioinformatics and neurological diseases” and is an author on a Briefings in Bioinformatics paper in 2021 [Data: Entities (188); Sources (37)].  
+- S Peng — listed as a co-author on a Briefings in Bioinformatics paper (and a co-author on COVID-19 / neurological-disease work), indicating involvement in bioinformatics research [Data: Entities (192); Relationships (245)].  
+- C Chen — identified as an author of a paper published in Briefings in Bioinformatics (2021) in the dataset [Data: Entities (194); Sources (37)].  
+- X Hu — identified as an author of a Briefings in Bioinformatics paper in 2021 in the dataset [Data: Entities (193); Relationships (246)].  
+- MA Moni — appears among authors of bioinformatics papers in the dataset (e.g., Briefings in Bioinformatics and Computers in Biology and Medicine) and is linked to those publications [Data: Sources (37); Relationships (239)].  
+- JMW Quinn — listed among the authors on Briefings in Bioinformatics papers in the dataset (co-author relationships to that journal) [Data: Sources (37); Relationships (249)].
+
+Notes and caveats
+- The list above is limited to researchers explicitly present in the supplied tables and sources. There may be additional bioinformatics researchers referenced indirectly (e.g., in collaborative author lists) but not represented as Entities with full metadata in these tables. If you want, I can expand the list by scanning the author lists of specific papers in the Sources (e.g., the Briefings in Bioinformatics and Computers in Biology and Medicine entries) and return a fuller author roster with citations.
+Reasoning:
+Below I list researchers in the provided data who are shown to work on or author papers in bioinformatics (short justification and data references included).
+Overview
+- The dataset shows a small research community publishing in journals such as Briefings in Bioinformatics and Computers in Biology and Medicine; authors on those papers are the primary evidence for who works in bioinformatics [Data: Sources (37); Relationships (241)].
+Researchers (with supporting evidence)
+- Humayan Kabir Rana — described as a Senior Lecturer whose research interests explicitly include Bioinformatics; he is an author on multiple bioinformatics-related papers in the dataset [Data: Entities (180); Sources (37)].  
+- MH Rahman — described as a researcher who “contributed significantly to the field of bioinformatics and neurological diseases” and is an author on a Briefings in Bioinformatics paper in 2021 [Data: Entities (188); Sources (37)].  
+- S Peng — listed as a co-author on a Briefings in Bioinformatics paper (and a co-author on COVID-19 / neurological-disease work), indicating involvement in bioinformatics research [Data: Entities (192); Relationships (245)].  
+- C Chen — identified as an author of a paper published in Briefings in Bioinformatics (2021) in the dataset [Data: Entities (194); Sources (37)].  
+- X Hu — identified as an author of a Briefings in Bioinformatics paper in 2021 in the dataset [Data: Entities (193); Relationships (246)].  
+- MA Moni — appears among authors of bioinformatics papers in the dataset (e.g., Briefings in Bioinformatics and Computers in Biology and Medicine) and is linked to those publications [Data: Sources (37); Relationships (239)].  
+- JMW Quinn — listed among the authors on Briefings in Bioinformatics papers in the dataset (co-author relationships to that journal) [Data: Sources (37); Relationships (249)].
+Notes and caveats
+- The list above is limited to researchers explicitly present in the supplied tables and sources. There may be additional bioinformatics researchers referenced indirectly (e.g., in collaborative author lists) but not represented as Entities with full metadata in these tables. If you want, I can expand the list by scanning the author lists of specific papers in the Sources (e.g., the Briefings in Bioinformatics and Computers in Biology and Medicine entries) and return a fuller author roster with citations.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 121/135:
+Question: Which researchers work on Computer Vision?
+Expected Answer: Mohammad Shorif Uddin, Abdullah-Al Masud
+Model Answer: Below are the researchers in the provided data who are shown to work on (or have interests closely tied to) Computer Vision and related image-processing / vision tasks.
+
+Researchers identified
+- Mohammad Shorif Uddin — explicitly lists "Computer Vision" among his research interests and has a researcher profile in the dataset [Data: Entities (0); Sources (0)].
+- Abdullah‑Al Masud — lists "computer vision" as one of his interests in his profile [Data: Entities (70); Sources (12)].
+- Ashish Vaswani — author on multiple vision-related transformer papers (e.g., Image Transformer; Stand‑alone self‑attention in vision models; Bottleneck Transformers for visual recognition), indicating active work on vision-model research [Data: Entities (231); Relationships (267, 268, 269)].
+- Humayan Kabir Rana — profile lists image processing / machine‑learning interests and he is an author on an iris‑recognition (vision) paper published in PeerJ Computer Science [Data: Sources (35); Reports (42)].
+- Muhammad Nomani Kabir — authorship of image‑watermarking and other image-related papers (e.g., in The Visual Computer) places his work in image-processing / vision areas [Data: Sources (32); Reports (2)].
+
+Notes and caveats
+- I included people who either (a) have "Computer Vision" / "image processing" explicitly listed in their profile, or (b) are authors on vision/image‑processing papers in the dataset. If you want, I can: (1) list the specific vision-related publications for any of these researchers, or (2) expand the list to include authors with related image‑processing papers that do not explicitly state "computer vision" in their profile.
+Reasoning:
+Below are the researchers in the provided data who are shown to work on (or have interests closely tied to) Computer Vision and related image-processing / vision tasks.
+Researchers identified
+- Mohammad Shorif Uddin — explicitly lists "Computer Vision" among his research interests and has a researcher profile in the dataset [Data: Entities (0); Sources (0)].
+- Abdullah‑Al Masud — lists "computer vision" as one of his interests in his profile [Data: Entities (70); Sources (12)].
+- Ashish Vaswani — author on multiple vision-related transformer papers (e.g., Image Transformer; Stand‑alone self‑attention in vision models; Bottleneck Transformers for visual recognition), indicating active work on vision-model research [Data: Entities (231); Relationships (267, 268, 269)].
+- Humayan Kabir Rana — profile lists image processing / machine‑learning interests and he is an author on an iris‑recognition (vision) paper published in PeerJ Computer Science [Data: Sources (35); Reports (42)].
+- Muhammad Nomani Kabir — authorship of image‑watermarking and other image-related papers (e.g., in The Visual Computer) places his work in image-processing / vision areas [Data: Sources (32); Reports (2)].
+Notes and caveats
+- I included people who either (a) have "Computer Vision" / "image processing" explicitly listed in their profile, or (b) are authors on vision/image‑processing papers in the dataset. If you want, I can: (1) list the specific vision-related publications for any of these researchers, or (2) expand the list to include authors with related image‑processing papers that do not explicitly state "computer vision" in their profile.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 122/135:
+Question: Which researchers work on Natural Language Processing?
+Expected Answer: Jahidul Islam, Md Ataullha
+Model Answer: Here are the researchers in the provided data who are shown to work on problems in Natural Language Processing (NLP), with a short note on the NLP-related evidence for each.
+
+Researchers and supporting evidence
+
+- Md Ataullha — explicitly lists Natural Language Processing among his research interests (Applied Machine Learning, Speech Processing, Natural Language Processing) and is an author on PyBangla (Bangla→Python code generation) and other NLP-related work [Data: Entities (228); Sources (43)].
+
+- Ashish Vaswani — central researcher on transformer / self-attention work (e.g., "Attention Is All You Need" and other transformer papers) that underpins many NLP advances; he is an author on those core papers [Data: Entities (231); Relationships (264, 271)].
+
+- G Rabby — author on a 2020 Cognitive Computation paper about keyphrase extraction for academic literature (a classical NLP/information-retrieval task) [Data: Entities (109); Relationships (144)].
+
+- NA Ghani — identified as a co-author of a paper on deep learning for sentiment analysis (an NLP task) [Data: Entities (172); Relationships (199)].
+
+- NSA Zulkifli — identified as a co-author of the same deep-learning-for-sentiment-analysis paper [Data: Entities (173); Relationships (200)].
+
+- Muhammad Nomani Kabir — listed as the researcher/author of a comprehensive review on deep learning for sentiment analysis (and appears as co-author with NA Ghani and NSA Zulkifli), i.e., active in NLP research on sentiment analysis [Data: Sources (32); Relationships (199, 200)].
+
+Short commentary
+- The listed work spans core NLP model research (transformers and self-attention authored/advocated by Ashish Vaswani) and applied NLP tasks such as sentiment analysis and keyphrase extraction (authors listed above) [Data: Entities (231, 109, 172, 173, 228); Relationships (199, 200, 264, 271)].
+- If you want, I can (a) expand this list to include additional co-authors mentioned in the sources (e.g., KZ Zamli, MS Islam) with supporting references, or (b) produce a simple co-authorship table or graph showing who collaborated with whom. Which would you prefer?
+Reasoning:
+Here are the researchers in the provided data who are shown to work on problems in Natural Language Processing (NLP), with a short note on the NLP-related evidence for each.
+Researchers and supporting evidence
+- Md Ataullha — explicitly lists Natural Language Processing among his research interests (Applied Machine Learning, Speech Processing, Natural Language Processing) and is an author on PyBangla (Bangla→Python code generation) and other NLP-related work [Data: Entities (228); Sources (43)].
+- Ashish Vaswani — central researcher on transformer / self-attention work (e.g., "Attention Is All You Need" and other transformer papers) that underpins many NLP advances; he is an author on those core papers [Data: Entities (231); Relationships (264, 271)].
+- G Rabby — author on a 2020 Cognitive Computation paper about keyphrase extraction for academic literature (a classical NLP/information-retrieval task) [Data: Entities (109); Relationships (144)].
+- NA Ghani — identified as a co-author of a paper on deep learning for sentiment analysis (an NLP task) [Data: Entities (172); Relationships (199)].
+- NSA Zulkifli — identified as a co-author of the same deep-learning-for-sentiment-analysis paper [Data: Entities (173); Relationships (200)].
+- Muhammad Nomani Kabir — listed as the researcher/author of a comprehensive review on deep learning for sentiment analysis (and appears as co-author with NA Ghani and NSA Zulkifli), i.e., active in NLP research on sentiment analysis [Data: Sources (32); Relationships (199, 200)].
+Short commentary
+- The listed work spans core NLP model research (transformers and self-attention authored/advocated by Ashish Vaswani) and applied NLP tasks such as sentiment analysis and keyphrase extraction (authors listed above) [Data: Entities (231, 109, 172, 173, 228); Relationships (199, 200, 264, 271)].
+- If you want, I can (a) expand this list to include additional co-authors mentioned in the sources (e.g., KZ Zamli, MS Islam) with supporting references, or (b) produce a simple co-authorship table or graph showing who collaborated with whom. Which would you prefer?
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 123/135:
+Question: Which researcher published on blockchain applications?
+Expected Answer: Farhana Akter Sunny
+Model Answer: Answer
+- Farhana Akter Sunny is the researcher who published the paper titled "A systematic review of blockchain applications." This paper was published in IEEE Access in 2022. [Data: Sources (6); Entities (39); Relationships (53); Relationships (63)].
+
+Evidence and details
+- Paper title and lead author: "A systematic review of blockchain applications" — lead author Farhana Akter Sunny [Data: Sources (6); Entities (39); Relationships (53)].
+- Publication venue and year: published in IEEE Access (2022) and listed with 170 citations in the paper metadata [Data: Sources (6); Entities (40); Relationships (63)].
+
+Would you like the full author list, the Google Scholar link, or a copy of the paper metadata? I can provide those details from the source record.
+Reasoning:
+Answer
+- Farhana Akter Sunny is the researcher who published the paper titled "A systematic review of blockchain applications." This paper was published in IEEE Access in 2022. [Data: Sources (6); Entities (39); Relationships (53); Relationships (63)].
+Evidence and details
+- Paper title and lead author: "A systematic review of blockchain applications" — lead author Farhana Akter Sunny [Data: Sources (6); Entities (39); Relationships (53)].
+- Publication venue and year: published in IEEE Access (2022) and listed with 170 citations in the paper metadata [Data: Sources (6); Entities (40); Relationships (63)].
+Would you like the full author list, the Google Scholar link, or a copy of the paper metadata? I can provide those details from the source record.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 124/135:
+Question: Which researcher published on smart grid cyber security?
+Expected Answer: Dr. Md. Abdur Razzaque
+Model Answer: Answer (short)
+- Dr. Md. Abdur Razzaque published a review on cyber-physical and cyber‑security systems in the smart grid [Data: Entities (76); Relationships (99); Sources (13)].
+
+Details
+- Paper title: "Review on cyber-physical and cyber-security system in smart grid: Standards, protocols, constraints, and recommendations" — represented in the dataset as the smart‑grid cyber‑security review paper [Data: Entities (76); Sources (13)].
+- Publication: Journal of Network and Computer Applications, 2023 (the paper’s publication metadata is recorded in the sources) [Data: Sources (13)].
+- Authorship: Dr. Md. Abdur Razzaque is listed as one of the authors of that review; the sources list co-authors as MK Hasan, AKMA Habib, Z Shukur, F Ibrahim, S Islam, and MA Razzaque alongside Dr. Md. Abdur Razzaque [Data: Sources (13); Relationships (99)].
+- Affiliation (context): Dr. Md. Abdur Razzaque is profiled as Professor of Computer Science and Engineering at the University of Dhaka in the dataset [Data: Sources (13); Reports (5)].
+
+If you want, I can:
+- Pull the full author list and DOI/link from the record,
+- Summarize the paper’s main findings (if the dataset contains the paper text), or
+- Find other researchers in the dataset who have published on smart‑grid security.
+Reasoning:
+Answer (short)
+- Dr. Md. Abdur Razzaque published a review on cyber-physical and cyber‑security systems in the smart grid [Data: Entities (76); Relationships (99); Sources (13)].
+Details
+- Paper title: "Review on cyber-physical and cyber-security system in smart grid: Standards, protocols, constraints, and recommendations" — represented in the dataset as the smart‑grid cyber‑security review paper [Data: Entities (76); Sources (13)].
+- Publication: Journal of Network and Computer Applications, 2023 (the paper’s publication metadata is recorded in the sources) [Data: Sources (13)].
+- Authorship: Dr. Md. Abdur Razzaque is listed as one of the authors of that review; the sources list co-authors as MK Hasan, AKMA Habib, Z Shukur, F Ibrahim, S Islam, and MA Razzaque alongside Dr. Md. Abdur Razzaque [Data: Sources (13); Relationships (99)].
+- Affiliation (context): Dr. Md. Abdur Razzaque is profiled as Professor of Computer Science and Engineering at the University of Dhaka in the dataset [Data: Sources (13); Reports (5)].
+If you want, I can:
+- Pull the full author list and DOI/link from the record,
+- Summarize the paper’s main findings (if the dataset contains the paper text), or
+- Find other researchers in the dataset who have published on smart‑grid security.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 125/135:
+Question: Which researcher published on transformer architectures?
+Expected Answer: Ashish Vaswani
+Model Answer: Short answer
+Ashish Vaswani — he is an author on multiple influential papers about transformer architectures and self-attention mechanisms [Data: Entities (231); Relationships (264, 267, 270, 269)].
+
+Supporting details (selected papers)
+- "Attention Is All You Need" — the seminal Transformer paper that lists Vaswani as an author [Data: Relationships (264)].  
+- "Image Transformer" — Vaswani is one of the authors of this transformer-applied-to-images paper [Data: Entities (243); Relationships (267)].  
+- "Music Transformer" — Vaswani is a coauthor of this work applying transformers to music generation [Data: Entities (246); Relationships (270)].  
+- "Bottleneck Transformers for Visual Recognition" — Vaswani is a coauthor of this vision-transformer paper [Data: Entities (245); Relationships (269)].  
+- "Efficient Content-Based Sparse Attention with Routing Transformers" — Vaswani is a coauthor; the work was shared on arXiv and published in Transactions of the Association for Computational Linguistics [Data: Entities (248); Relationships (271, 280)].
+
+If you want, I can list full citations or provide links to any of the papers above.
+Reasoning:
+Short answer
+Ashish Vaswani — he is an author on multiple influential papers about transformer architectures and self-attention mechanisms [Data: Entities (231); Relationships (264, 267, 270, 269)].
+Supporting details (selected papers)
+- "Attention Is All You Need" — the seminal Transformer paper that lists Vaswani as an author [Data: Relationships (264)].  
+- "Image Transformer" — Vaswani is one of the authors of this transformer-applied-to-images paper [Data: Entities (243); Relationships (267)].  
+- "Music Transformer" — Vaswani is a coauthor of this work applying transformers to music generation [Data: Entities (246); Relationships (270)].  
+- "Bottleneck Transformers for Visual Recognition" — Vaswani is a coauthor of this vision-transformer paper [Data: Entities (245); Relationships (269)].  
+- "Efficient Content-Based Sparse Attention with Routing Transformers" — Vaswani is a coauthor; the work was shared on arXiv and published in Transactions of the Association for Computational Linguistics [Data: Entities (248); Relationships (271, 280)].
+If you want, I can list full citations or provide links to any of the papers above.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 126/135:
+Question: Which researcher published on keyphrase extraction?
+Expected Answer: Saiful Azad
+Model Answer: ERROR: Connection error.
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 127/135:
+Question: Which researcher published on fall detection systems?
+Expected Answer: Muhammad Nomani Kabir
+Model Answer: ERROR: Connection error.
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 128/135:
+Question: Which researcher published on UAV-based traffic monitoring?
+Expected Answer: Farhana Akter Sunny
+Model Answer: ERROR: Connection error.
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 129/135:
+Question: Which researcher published on cognitive radio networks?
+Expected Answer: Farhana Akter Sunny
+Model Answer: Answer
+
+- Researcher: Farhana Akter Sunny (also listed as FA Sunny). She is an author of the paper "Trust and Energy Aware Cluster Modeling and Spectrum Handoff for Cognitive Radio Ad-Hoc Network" — a publication on cognitive radio ad-hoc networks [Data: Entities (49); Relationships (56); Sources (8)].
+
+- Paper / publication details: the paper appears in the 2015 International Conference on Electrical Engineering and Information (authors listed include F Afsana, N Jahan, FA Sunny, MS Kaiser, SA Mamun) [Data: Sources (8); Entities (49)].
+
+If you want, I can list the paper’s co-authors, citation count, or provide a link to the record.
+Reasoning:
+Answer
+- Researcher: Farhana Akter Sunny (also listed as FA Sunny). She is an author of the paper "Trust and Energy Aware Cluster Modeling and Spectrum Handoff for Cognitive Radio Ad-Hoc Network" — a publication on cognitive radio ad-hoc networks [Data: Entities (49); Relationships (56); Sources (8)].
+- Paper / publication details: the paper appears in the 2015 International Conference on Electrical Engineering and Information (authors listed include F Afsana, N Jahan, FA Sunny, MS Kaiser, SA Mamun) [Data: Sources (8); Entities (49)].
+If you want, I can list the paper’s co-authors, citation count, or provide a link to the record.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 130/135:
+Question: Which researcher published papers in 2007?
+Expected Answer: Saiful Azad
+Model Answer: Short answer
+I cannot find any researcher in the provided tables who published papers in 2007.
+
+What I checked
+- The dataset contains many publication-year entries (examples include 2008, 2017, 2019, 2018, 2021, 2023, 2024, 2025), but no record shows 2007. This is supported by the listed source records that show years other than 2007 [Data: Sources (15); Sources (27); Sources (37); Relationships (262)].
+
+Conclusion
+Based on the tables you supplied, there is no evidence of any researcher publishing in 2007. If you have additional data (other source records or files) that might contain 2007 publications, please share them and I will re-check.
+Reasoning:
+Short answer
+I cannot find any researcher in the provided tables who published papers in 2007.
+What I checked
+- The dataset contains many publication-year entries (examples include 2008, 2017, 2019, 2018, 2021, 2023, 2024, 2025), but no record shows 2007. This is supported by the listed source records that show years other than 2007 [Data: Sources (15); Sources (27); Sources (37); Relationships (262)].
+Conclusion
+Based on the tables you supplied, there is no evidence of any researcher publishing in 2007. If you have additional data (other source records or files) that might contain 2007 publications, please share them and I will re-check.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 131/135:
+Question: Which researchers published papers in 2013?
+Expected Answer: MA Razzaque
+Model Answer: Summary
+
+Per the provided data, the following researchers (and author groups) are recorded as having published papers in 2013.
+
+Details
+
+- AK Das — author of a 2013 paper in The International (recorded in the dataset) [Data: Sources (59); Relationships (327); Entities (297)].
+
+- Authors of a 2013 paper in the International Journal of Distributed Sensor Networks — I Anjum; N Alam; MA Razzaque; M Mehedi Hassan; and A Alamri (these names appear as the paper’s authors in the dataset) [Data: Sources (16)].
+
+- Dr. Md. Abdur Razzaque — recorded in the dataset as a co‑author associated with the International Journal of Distributed Sensor Networks (the dataset links him to that journal/publication) [Data: Relationships (103); Entities (90)].
+
+Notes and caveats
+
+- I listed names exactly as they appear in the source records; the dataset shows both “MA Razzaque” among the paper authors and “Dr. Md. Abdur Razzaque” as a linked co‑author of the same journal, but it does not explicitly state in these records whether those two name forms refer to the same individual. I have not conflated or inferred identity beyond what the records provide.
+Reasoning:
+Summary
+Per the provided data, the following researchers (and author groups) are recorded as having published papers in 2013.
+Details
+- AK Das — author of a 2013 paper in The International (recorded in the dataset) [Data: Sources (59); Relationships (327); Entities (297)].
+- Authors of a 2013 paper in the International Journal of Distributed Sensor Networks — I Anjum; N Alam; MA Razzaque; M Mehedi Hassan; and A Alamri (these names appear as the paper’s authors in the dataset) [Data: Sources (16)].
+- Dr. Md. Abdur Razzaque — recorded in the dataset as a co‑author associated with the International Journal of Distributed Sensor Networks (the dataset links him to that journal/publication) [Data: Relationships (103); Entities (90)].
+Notes and caveats
+- I listed names exactly as they appear in the source records; the dataset shows both “MA Razzaque” among the paper authors and “Dr. Md. Abdur Razzaque” as a linked co‑author of the same journal, but it does not explicitly state in these records whether those two name forms refer to the same individual. I have not conflated or inferred identity beyond what the records provide.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 132/135:
+Question: Which researchers published papers in 2012?
+Expected Answer: Saiful Azad
+Model Answer: Summary
+
+- The provided dataset contains an event/publication record for "2012 OCEANS‑YEOSU" but does not list a clear, complete set of author names tied to 2012 publications in the Entities or Relationships tables. The event record is present in the Entities table [Data: Entities (106)].
+- One source entry references a 2012 "Oceans‑Yeosu" publication and begins with an author name fragment ("P Casari..."), but that source text is truncated in the provided data so a full author list for 2012 cannot be confirmed from these tables alone [Data: Sources (20)].
+
+What I can say from the tables
+
+- The dataset explicitly records the 2012 OCEANS‑YEOSU event/publication [Data: Entities (106)].
+- A source item in the Sources table references a 2012 Oceans‑Yeosu publication and includes the fragment "P Casari..." but the full author information is not available in the provided excerpt [Data: Sources (20)].
+
+Limitations and next steps
+
+- The tables you supplied do not contain a complete, explicit list of researcher names paired with a 2012 publication year (no Entities or Relationships entries clearly show authors with year = 2012 except the event entry and the truncated source).
+- If you can share the full source text for the 2012 Oceans‑Yeosu entry or upload additional records that list authors with their publication years, I can extract and list all researchers who published in 2012 from the dataset.
+Reasoning:
+Summary
+- The provided dataset contains an event/publication record for "2012 OCEANS‑YEOSU" but does not list a clear, complete set of author names tied to 2012 publications in the Entities or Relationships tables. The event record is present in the Entities table [Data: Entities (106)].
+- One source entry references a 2012 "Oceans‑Yeosu" publication and begins with an author name fragment ("P Casari..."), but that source text is truncated in the provided data so a full author list for 2012 cannot be confirmed from these tables alone [Data: Sources (20)].
+What I can say from the tables
+- The dataset explicitly records the 2012 OCEANS‑YEOSU event/publication [Data: Entities (106)].
+- A source item in the Sources table references a 2012 Oceans‑Yeosu publication and includes the fragment "P Casari..." but the full author information is not available in the provided excerpt [Data: Sources (20)].
+Limitations and next steps
+- The tables you supplied do not contain a complete, explicit list of researcher names paired with a 2012 publication year (no Entities or Relationships entries clearly show authors with year = 2012 except the event entry and the truncated source).
+- If you can share the full source text for the 2012 Oceans‑Yeosu entry or upload additional records that list authors with their publication years, I can extract and list all researchers who published in 2012 from the dataset.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 133/135:
+Question: Which researchers published papers in 2011?
+Expected Answer: S Lee, CS Hong, MA Razzaque, Dr. Md. Abdur Razzaque, MM Rahman, JH Kim, J Lee
+Model Answer: Summary
+
+From the provided data, the researchers in the dataset who have publications dated 2011 are:
+- Dr. Md. Abdur Razzaque (listed as MA Razzaque) — author of the 2011 Sensors paper "Data‑centric multiobjective QoS‑aware routing protocol for body sensor networks" [Data: Reports (27)].
+- The co‑authors on 2011 publications that include MA Razzaque are CS Hong and S Lee (co‑authors on the Sensors 2011 paper) [Data: Reports (27)].  
+- MA Razzaque also appears as a co‑author on an IEEE Communications Magazine paper dated 2011 alongside MM Rahman, CS Hong, S Lee, J Lee, and JH Kim [Data: Sources (6)].
+
+Details / supporting notes
+
+- The Sensors 2011 paper "Data‑centric multiobjective QoS‑aware routing protocol for body sensor networks" is documented in the dataset and is explicitly dated 2011; Dr. Md. Abdur Razzaque (MA Razzaque) is identified with that work and CS Hong and S Lee are listed as co‑authors [Data: Reports (27)].
+- A separate 2011 IEEE Communications Magazine entry in the dataset lists MA Razzaque among the authors together with MM Rahman, CS Hong, S Lee, J Lee, and JH Kim (this shows MA Razzaque had at least one additional 2011 co‑authorship) [Data: Sources (6)].
+
+If you’d like, I can extract the full bibliographic entries (titles, venues, pages, links) for these 2011 papers from the dataset.
+Reasoning:
+Summary
+From the provided data, the researchers in the dataset who have publications dated 2011 are:
+- Dr. Md. Abdur Razzaque (listed as MA Razzaque) — author of the 2011 Sensors paper "Data‑centric multiobjective QoS‑aware routing protocol for body sensor networks" [Data: Reports (27)].
+- The co‑authors on 2011 publications that include MA Razzaque are CS Hong and S Lee (co‑authors on the Sensors 2011 paper) [Data: Reports (27)].  
+- MA Razzaque also appears as a co‑author on an IEEE Communications Magazine paper dated 2011 alongside MM Rahman, CS Hong, S Lee, J Lee, and JH Kim [Data: Sources (6)].
+Details / supporting notes
+- The Sensors 2011 paper "Data‑centric multiobjective QoS‑aware routing protocol for body sensor networks" is documented in the dataset and is explicitly dated 2011; Dr. Md. Abdur Razzaque (MA Razzaque) is identified with that work and CS Hong and S Lee are listed as co‑authors [Data: Reports (27)].
+- A separate 2011 IEEE Communications Magazine entry in the dataset lists MA Razzaque among the authors together with MM Rahman, CS Hong, S Lee, J Lee, and JH Kim (this shows MA Razzaque had at least one additional 2011 co‑authorship) [Data: Sources (6)].
+If you’d like, I can extract the full bibliographic entries (titles, venues, pages, links) for these 2011 papers from the dataset.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 134/135:
+Question: Which researchers published papers in 2010?
+Expected Answer: Muhammad Nomani Kabir
+Model Answer: Answer — researchers in the dataset with 2010 publications
+----------------------------------------------------------------
+
+- MA Razzaque — listed as an author of the paper "Analysis of energy-tax for multipath routing in wireless sensor networks," published in Annals of Telecommunications in 2010 [Data: Sources (63); Relationships (121); Entities (305)].
+- CS Hong — listed as a co-author of the same 2010 paper in Annals of Telecommunications [Data: Sources (63); Relationships (122); Entities (305)].
+
+Note: These are the researchers in the provided tables who are explicitly associated with a 2010 publication. If you want, I can list all metadata for that paper (title, authors, link, citation counts) or search the dataset for other years.
+Reasoning:
+Answer — researchers in the dataset with 2010 publications
+----------------------------------------------------------------
+- MA Razzaque — listed as an author of the paper "Analysis of energy-tax for multipath routing in wireless sensor networks," published in Annals of Telecommunications in 2010 [Data: Sources (63); Relationships (121); Entities (305)].
+- CS Hong — listed as a co-author of the same 2010 paper in Annals of Telecommunications [Data: Sources (63); Relationships (122); Entities (305)].
+Note: These are the researchers in the provided tables who are explicitly associated with a 2010 publication. If you want, I can list all metadata for that paper (title, authors, link, citation counts) or search the dataset for other years.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 135/135:
+Question: Which researchers published papers in 2008?
+Expected Answer: Dr. Md. Abdur Razzaque, Saiful Azad
+Model Answer: # Researchers who published papers in 2008
+
+Based on the records in the provided data tables, the following researchers are shown as authors of papers published in 2008:
+
+- Md. Abdur Razzaque (MA Razzaque) — co‑author of a paper in IEICE Transactions on Communications, 2008 [Data: Sources (15); Relationships (112)].  
+- MM Alam — co‑author (with MA Razzaque et al.) on the IEICE Transactions on Communications paper, 2008 [Data: Sources (15)].  
+- M Mamun‑Or‑Rashid — co‑author (with MA Razzaque et al.) on the IEICE Transactions on Communications paper, 2008 [Data: Sources (15)].  
+- CS Hong — co‑author (with MA Razzaque et al.) on the IEICE Transactions on Communications paper, 2008 [Data: Sources (15)].  
+- Saiful Azad — author associated with a paper in IAENG International Journal of Computer Science, 2008 [Data: Sources (22); Relationships (138)].  
+- SA Farhat Anwar — author of the IAENG International Journal of Computer Science paper (Performance Analysis of Ad hoc Routing Protocols in Mobile WiMAX Environment), 2008 [Data: Sources (22)].
+
+Notes
+- These names appear in the supplied Sources / Relationships records for publications dated 2008. There may be other 2008 authors in broader bibliographic sources, but I list only those explicitly present in the provided data [Data: Sources (15, 22); Relationships (112, 138)].
+Reasoning:
+# Researchers who published papers in 2008
+Based on the records in the provided data tables, the following researchers are shown as authors of papers published in 2008:
+- Md. Abdur Razzaque (MA Razzaque) — co‑author of a paper in IEICE Transactions on Communications, 2008 [Data: Sources (15); Relationships (112)].  
+- MM Alam — co‑author (with MA Razzaque et al.) on the IEICE Transactions on Communications paper, 2008 [Data: Sources (15)].  
+- M Mamun‑Or‑Rashid — co‑author (with MA Razzaque et al.) on the IEICE Transactions on Communications paper, 2008 [Data: Sources (15)].  
+- CS Hong — co‑author (with MA Razzaque et al.) on the IEICE Transactions on Communications paper, 2008 [Data: Sources (15)].  
+- Saiful Azad — author associated with a paper in IAENG International Journal of Computer Science, 2008 [Data: Sources (22); Relationships (138)].  
+- SA Farhat Anwar — author of the IAENG International Journal of Computer Science paper (Performance Analysis of Ad hoc Routing Protocols in Mobile WiMAX Environment), 2008 [Data: Sources (22)].
+Notes
+- These names appear in the supplied Sources / Relationships records for publications dated 2008. There may be other 2008 authors in broader bibliographic sources, but I list only those explicitly present in the provided data [Data: Sources (15, 22); Relationships (112, 138)].
+Correct: False
+--------------------------------------------------------------------------------
+
+
+Evaluation Summary
+================================================================================
+Total Questions: 135
+Correct Answers: 0
+Accuracy: 0.00%

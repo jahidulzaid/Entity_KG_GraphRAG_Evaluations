@@ -117,6 +117,8 @@ class GraphRAGBasedKGRAG:
             print(f"Processing query: {question}")
             print(f"Using {self.search_strategy} search strategy")
 
+        retrieved_context = self._get_retrieved_context(question)
+
         # Perform search
         if self.search_strategy == "local":
             raw_response = self.local_search.search(question)
@@ -129,6 +131,7 @@ class GraphRAGBasedKGRAG:
             if self.use_cot or self.numerical_answer:
                 result = self._parse_json_response(raw_response)
                 if result:
+                    result["context"] = retrieved_context
                     return result
 
                 # Fallback for structured format
@@ -137,9 +140,12 @@ class GraphRAGBasedKGRAG:
                     if self.numerical_answer
                     else raw_response,
                     "reasoning": f"Failed to parse JSON response. Raw response: {raw_response[:500]}...",
+                    "context": retrieved_context,
                 }
             # For standard mode, extract info from text
-            return self._extract_info_from_text(raw_response, question)
+            result = self._extract_info_from_text(raw_response, question)
+            result["context"] = retrieved_context
+            return result
 
         except Exception as e:
             if self.verbose:
@@ -148,7 +154,37 @@ class GraphRAGBasedKGRAG:
             return {
                 "answer": raw_response,
                 "reasoning": "Error processing the response.",
+                "context": retrieved_context,
             }
+
+    def _get_retrieved_context(self, question: str) -> str:
+        if self.search_strategy != "local":
+            return ""
+        try:
+            docs = self.local_search.retriever.get_relevant_documents(question)
+        except Exception as exc:
+            if self.verbose:
+                print(f"Failed to retrieve context documents: {exc}")
+            return ""
+        return self._format_retrieved_documents(docs)
+
+    def _format_retrieved_documents(self, docs: list[Any]) -> str:
+        if not docs:
+            return ""
+        lines = []
+        for idx, doc in enumerate(docs, start=1):
+            content = getattr(doc, "page_content", str(doc))
+            metadata = getattr(doc, "metadata", {}) or {}
+            source = metadata.get("source") or metadata.get("document_id") or "unknown"
+            unit_id = metadata.get("text_unit_id") or metadata.get("id") or ""
+            header = f"Chunk {idx}: [Source: {source}"
+            if unit_id:
+                header += f", TextUnit: {unit_id}"
+            header += "]"
+            lines.append(header)
+            lines.append(content)
+            lines.append("---")
+        return "\n".join(lines)
 
     def _parse_json_response(self, response: str) -> dict[str, Any] | None:
         """

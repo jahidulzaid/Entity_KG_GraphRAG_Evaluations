@@ -178,7 +178,7 @@ class Evaluator:
         total = len(df)
 
         # Start evaluation
-        with open(output_file, "w") as f:
+        with open(output_file, "w", encoding="utf-8-sig") as f:
             # Write header
             f.write(f"{self.experiment_name} Evaluation Results\n")
             f.write(
@@ -264,10 +264,12 @@ class Evaluator:
         results_df.to_csv(
             self.output_dir / f"{self.experiment_name}_details_{timestamp}.csv",
             index=False,
+            encoding="utf-8-sig",
         )
         pd.DataFrame(context_rows).to_csv(
             self.output_dir / f"{self.experiment_name}_context_{timestamp}.csv",
             index=False,
+            encoding="utf-8-sig",
         )
 
         # Return summary results

@@ -775,3 +775,1459 @@ Correct: False
 Question 54/202:
 Question: How many papers did Muhammad Nomani Kabir publish in 2020?
 Expected Answer: 3
+Model Answer: In 2020, Muhammad Nomani Kabir published several research papers. Notably, he authored "Breast Cancer Prediction: A Comparative Study Using Machine Learning Techniques," which was published in SN Computer Science and has been cited 438 times [Data: Sources (1); Entities (155); Relationships (189)]. Additionally, he contributed to "Deep Learning Based Systems Developed for Fall Detection: A Review," published in IEEE Access, which has been cited 159 times [Data: Sources (3); Relationships (191)]. Another significant publication from 2020 is "A Block-Based RDWT-SVD Image Watermarking Method Using Human Visual System Characteristics," published in The Visual Computer, cited 128 times [Data: Sources (32); Relationships (196)].
+
+These publications highlight Kabir's active involvement in research during 2020, with contributions spanning various fields such as machine learning, deep learning, and image watermarking.
+Reasoning:
+In 2020, Muhammad Nomani Kabir published several research papers. Notably, he authored "Breast Cancer Prediction: A Comparative Study Using Machine Learning Techniques," which was published in SN Computer Science and has been cited 438 times [Data: Sources (1); Entities (155); Relationships (189)]. Additionally, he contributed to "Deep Learning Based Systems Developed for Fall Detection: A Review," published in IEEE Access, which has been cited 159 times [Data: Sources (3); Relationships (191)]. Another significant publication from 2020 is "A Block-Based RDWT-SVD Image Watermarking Method Using Human Visual System Characteristics," published in The Visual Computer, cited 128 times [Data: Sources (32); Relationships (196)].
+These publications highlight Kabir's active involvement in research during 2020, with contributions spanning various fields such as machine learning, deep learning, and image watermarking.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 55/202:
+Question: What is the time gap between Ashish Vaswani's 'Attention is all you need' and 'Image transformer'?
+Expected Answer: 1 year
+Model Answer: the time gap between the publication of these two papers is approximately one year [Data: Entities (232, 243); Sources (47, 48)]
+Reasoning:
+### Time Gap Between Publications
+Ashish Vaswani's paper "Attention is All You Need" was published in 2017, while the "Image Transformer" paper was published in 2018. Therefore, the time gap between the publication of these two papers is approximately one year [Data: Entities (232, 243); Sources (47, 48)]. 
+### Contextual Significance
+The publication of "Attention is All You Need" marked a significant milestone in the field of machine learning, introducing the transformer model, which has since become foundational in natural language processing and other AI applications [Data: Entities (232); Reports (23)]. Following this, the "Image Transformer" paper extended the application of transformer models to image processing tasks, demonstrating the versatility and power of self-attention mechanisms in handling complex data [Data: Entities (243); Reports (22)]. 
+This progression highlights the rapid development and application of transformer models across different domains within a short period, showcasing the transformative impact of Vaswani's work in the field of deep learning.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 56/202:
+Question: Which papers did Dr. Md. Abdur Razzaque publish between 2016 and 2018?
+Expected Answer: Enabling the Internet of Things in developing countries: Opportunities and challenges (2016), Mobile cloud-based big healthcare data processing in smart cities (2017), A mobility-aware optimal resource allocation architecture for big data task execution on mobile cloud in smart cities (2018)
+Model Answer: Dr. Md. Abdur Razzaque published several notable papers between 2016 and 2018, contributing significantly to the fields of smart cities, mobile cloud computing, and the Internet of Things (IoT).
+
+### 2016
+In 2016, Dr. Razzaque co-authored a paper titled "Enabling the Internet of Things in developing countries: Opportunities and challenges." This research was presented at the 5th International Conference on Informatics, Electronics and Vision, highlighting the potential and challenges of IoT implementation in developing regions [Data: Sources (8, 18); Entities (73); Relationships (106)].
+
+### 2017
+In 2017, Dr. Razzaque contributed to the paper "Mobile cloud-based big healthcare data processing in smart cities," published in IEEE Access. This work focused on the integration of mobile cloud computing with healthcare data processing, addressing the challenges of managing large datasets in urban environments [Data: Sources (4); Entities (73); Relationships (64)].
+
+### 2018
+In 2018, Dr. Razzaque was involved in the research paper "A mobility-aware optimal resource allocation architecture for big data task execution on mobile cloud in smart cities," published in IEEE Communications Magazine. This paper explored resource allocation strategies in mobile cloud environments, crucial for the efficient functioning of smart city applications [Data: Sources (7); Entities (73, 91); Relationships (105, 124)].
+
+These publications underscore Dr. Razzaque's active engagement in advancing technologies that are pivotal for modern urban development and connectivity.
+Reasoning:
+Dr. Md. Abdur Razzaque published several notable papers between 2016 and 2018, contributing significantly to the fields of smart cities, mobile cloud computing, and the Internet of Things (IoT).
+### 2016
+In 2016, Dr. Razzaque co-authored a paper titled "Enabling the Internet of Things in developing countries: Opportunities and challenges." This research was presented at the 5th International Conference on Informatics, Electronics and Vision, highlighting the potential and challenges of IoT implementation in developing regions [Data: Sources (8, 18); Entities (73); Relationships (106)].
+### 2017
+In 2017, Dr. Razzaque contributed to the paper "Mobile cloud-based big healthcare data processing in smart cities," published in IEEE Access. This work focused on the integration of mobile cloud computing with healthcare data processing, addressing the challenges of managing large datasets in urban environments [Data: Sources (4); Entities (73); Relationships (64)].
+### 2018
+In 2018, Dr. Razzaque was involved in the research paper "A mobility-aware optimal resource allocation architecture for big data task execution on mobile cloud in smart cities," published in IEEE Communications Magazine. This paper explored resource allocation strategies in mobile cloud environments, crucial for the efficient functioning of smart city applications [Data: Sources (7); Entities (73, 91); Relationships (105, 124)].
+These publications underscore Dr. Razzaque's active engagement in advancing technologies that are pivotal for modern urban development and connectivity.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 57/202:
+Question: How many papers did Md. Arafatur Rahman publish in 2018?
+Expected Answer: 2
+Model Answer: Md. Arafatur Rahman published two papers in 2018. The first paper is titled "PrivacyProtector: Privacy-Protected Patient Data Collection in IoT-Based Healthcare Systems," which was published in IEEE Communications Magazine [Data: Sources (1); Entities (127); Relationships (167)]. The second paper is "Big Data Reduction for a Smart City’s Critical Infrastructural Health Monitoring," also published in IEEE Communications Magazine [Data: Sources (6); Entities (127); Relationships (166)].
+Reasoning:
+Md. Arafatur Rahman published two papers in 2018. The first paper is titled "PrivacyProtector: Privacy-Protected Patient Data Collection in IoT-Based Healthcare Systems," which was published in IEEE Communications Magazine [Data: Sources (1); Entities (127); Relationships (167)]. The second paper is "Big Data Reduction for a Smart City’s Critical Infrastructural Health Monitoring," also published in IEEE Communications Magazine [Data: Sources (6); Entities (127); Relationships (166)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 58/202:
+Question: What was Saiful Azad's research focus in 2012-2014?
+Expected Answer: Underwater networking protocols and frameworks
+Model Answer: ### Saiful Azad's Research Focus (2012-2014)
+
+During the period from 2012 to 2014, Saiful Azad, a distinguished researcher and professor at Green University of Bangladesh, concentrated his research efforts on several key areas within computer science. His work prominently featured contributions to underwater networking and Mobile Ad-Hoc Networks (MANET).
+
+#### Underwater Networking
+
+In 2014, Saiful Azad co-authored a significant research paper on underwater networking, which was published in the IEEE Network journal. This paper, titled "Open source suites for underwater networking: WOSS and DESERT underwater," involved collaboration with other researchers such as P Casari, C Tapparello, F Guerra, F Favaro, I Calabrese, and G Toso. The research focused on designing, simulating, emulating, and realizing test-beds for underwater network protocols, highlighting a multidisciplinary approach to addressing challenges in network protocols [Data: Entities (103, 110); Relationships (153, 147, 149, 148, 150, 151, 141, +more)].
+
+#### Mobile Ad-Hoc Networks (MANET)
+
+Saiful Azad also made significant contributions to the field of MANET during this period. He co-authored a research paper titled "A Performance Comparison of Proactive and Reactive Routing Protocols of Mobile Ad-Hoc Network (MANET)," which was published in the Journal of Engineering and Applied Sciences. This work, in collaboration with M Rahman and F Anwar, provided insights into the performance of different routing protocols in MANET environments, showcasing a collaborative effort to advance knowledge in MANET technologies [Data: Entities (103, 110); Relationships (140, 130, 135, 137, 132, +more)].
+
+### Conclusion
+
+Overall, Saiful Azad's research from 2012 to 2014 was characterized by a focus on advancing network technologies, particularly in the areas of underwater networking and MANET. His work during this period was marked by collaboration with other researchers and publication in reputable journals, underscoring his role as a central figure in these research communities.
+Reasoning:
+### Saiful Azad's Research Focus (2012-2014)
+During the period from 2012 to 2014, Saiful Azad, a distinguished researcher and professor at Green University of Bangladesh, concentrated his research efforts on several key areas within computer science. His work prominently featured contributions to underwater networking and Mobile Ad-Hoc Networks (MANET).
+#### Underwater Networking
+In 2014, Saiful Azad co-authored a significant research paper on underwater networking, which was published in the IEEE Network journal. This paper, titled "Open source suites for underwater networking: WOSS and DESERT underwater," involved collaboration with other researchers such as P Casari, C Tapparello, F Guerra, F Favaro, I Calabrese, and G Toso. The research focused on designing, simulating, emulating, and realizing test-beds for underwater network protocols, highlighting a multidisciplinary approach to addressing challenges in network protocols [Data: Entities (103, 110); Relationships (153, 147, 149, 148, 150, 151, 141, +more)].
+#### Mobile Ad-Hoc Networks (MANET)
+Saiful Azad also made significant contributions to the field of MANET during this period. He co-authored a research paper titled "A Performance Comparison of Proactive and Reactive Routing Protocols of Mobile Ad-Hoc Network (MANET)," which was published in the Journal of Engineering and Applied Sciences. This work, in collaboration with M Rahman and F Anwar, provided insights into the performance of different routing protocols in MANET environments, showcasing a collaborative effort to advance knowledge in MANET technologies [Data: Entities (103, 110); Relationships (140, 130, 135, 137, 132, +more)].
+### Conclusion
+Overall, Saiful Azad's research from 2012 to 2014 was characterized by a focus on advancing network technologies, particularly in the areas of underwater networking and MANET. His work during this period was marked by collaboration with other researchers and publication in reputable journals, underscoring his role as a central figure in these research communities.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 59/202:
+Question: Which researcher has publications spanning from 2016 to 2024?
+Expected Answer: Muhammad Nomani Kabir
+Model Answer: ### Researcher with Publications from 2016 to 2024
+
+The researcher with publications spanning from 2016 to 2024 is **SE Vollset**. SE Vollset has authored research papers published in The Lancet in both 2023 and 2024 [Data: Entities (255); Relationships (291)]. 
+
+### SE Vollset's Contributions
+
+SE Vollset's work is prominently featured in The Lancet, a prestigious medical journal known for its significant contributions to global health research. The Lancet's role in disseminating research findings underscores its influence in shaping global health policies and advancing medical knowledge [Data: Reports (7, 34)]. 
+
+### The Lancet's Influence
+
+The Lancet is recognized for publishing influential research on critical health topics, including the global burden of diseases. Its publications cover a wide range of issues, which underscores its importance in the medical community [Data: Reports (34)]. SE Vollset's ongoing involvement with The Lancet demonstrates a sustained commitment to advancing medical research through high-impact publications [Data: Reports (34)]. 
+
+In summary, SE Vollset is a researcher with a notable publication record from 2016 to 2024, contributing significantly to the field of medical research through The Lancet.
+Reasoning:
+### Researcher with Publications from 2016 to 2024
+The researcher with publications spanning from 2016 to 2024 is **SE Vollset**. SE Vollset has authored research papers published in The Lancet in both 2023 and 2024 [Data: Entities (255); Relationships (291)]. 
+### SE Vollset's Contributions
+SE Vollset's work is prominently featured in The Lancet, a prestigious medical journal known for its significant contributions to global health research. The Lancet's role in disseminating research findings underscores its influence in shaping global health policies and advancing medical knowledge [Data: Reports (7, 34)]. 
+### The Lancet's Influence
+The Lancet is recognized for publishing influential research on critical health topics, including the global burden of diseases. Its publications cover a wide range of issues, which underscores its importance in the medical community [Data: Reports (34)]. SE Vollset's ongoing involvement with The Lancet demonstrates a sustained commitment to advancing medical research through high-impact publications [Data: Reports (34)]. 
+In summary, SE Vollset is a researcher with a notable publication record from 2016 to 2024, contributing significantly to the field of medical research through The Lancet.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 60/202:
+Question: What year was the transformer architecture paper published?
+Expected Answer: 2017
+Model Answer: The transformer architecture paper, titled "Attention is All You Need," was published in 2017. This paper introduced the transformer model, which has become a foundational architecture in natural language processing and beyond. It was published at the Advances in Neural Information Processing Systems conference, underscoring its impact and the recognition it has received within the academic community [Data: Reports (22)].
+Reasoning:
+The transformer architecture paper, titled "Attention is All You Need," was published in 2017. This paper introduced the transformer model, which has become a foundational architecture in natural language processing and beyond. It was published at the Advances in Neural Information Processing Systems conference, underscoring its impact and the recognition it has received within the academic community [Data: Reports (22)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 61/202:
+Question: Which researcher published papers on COVID-19 in 2020?
+Expected Answer: Md. Arafatur Rahman
+Model Answer: Based on the data provided, there is no record of any researcher publishing papers specifically on COVID-19 in the year 2020. The available data includes research on COVID-19 and its impact on neurological diseases, as well as pathogenetic profiling of COVID-19 and SARS-like viruses, but these studies were published in subsequent years, such as 2021 [Data: Sources (36, 38, 51); Reports (9, 43, 45)]. 
+
+If you have any other questions or need information on different topics, feel free to ask!
+Reasoning:
+Based on the data provided, there is no record of any researcher publishing papers specifically on COVID-19 in the year 2020. The available data includes research on COVID-19 and its impact on neurological diseases, as well as pathogenetic profiling of COVID-19 and SARS-like viruses, but these studies were published in subsequent years, such as 2021 [Data: Sources (36, 38, 51); Reports (9, 43, 45)]. 
+If you have any other questions or need information on different topics, feel free to ask!
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 62/202:
+Question: How many papers did Saiful Azad publish before 2010?
+Expected Answer: 2
+Model Answer: I cannot determine the number of papers he published before 2010 based on the given information
+Reasoning:
+The data provided does not specify the exact number of papers published by Saiful Azad before 2010. The available information highlights his contributions to various research papers, but specific publication dates for papers before 2010 are not detailed in the data. Therefore, I cannot determine the number of papers he published before 2010 based on the given information.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 63/202:
+Question: Which researcher published on blockchain technology in 2022?
+Expected Answer: Farhana Akter Sunny
+Model Answer: ### Researcher on Blockchain Technology in 2022
+
+The researcher who published on blockchain technology in 2022 is Farhana Akter Sunny. She is the lead author of the paper titled "A Systematic Review of Blockchain Applications," which was published in the journal IEEE Access. This paper has been cited 170 times, indicating its impact and relevance in the field of blockchain technology [Data: Entities (39, 40); Relationships (53, 63); Sources (6)].
+
+Farhana Akter Sunny is an Assistant Professor with research interests that include Cyber Security, Semantic Communication, Blockchain Technology, IoT, and Wireless Communication. Her work in blockchain technology is part of her broader research portfolio, which spans multiple advanced technological fields [Data: Sources (6); Reports (8, 39)].
+Reasoning:
+### Researcher on Blockchain Technology in 2022
+The researcher who published on blockchain technology in 2022 is Farhana Akter Sunny. She is the lead author of the paper titled "A Systematic Review of Blockchain Applications," which was published in the journal IEEE Access. This paper has been cited 170 times, indicating its impact and relevance in the field of blockchain technology [Data: Entities (39, 40); Relationships (53, 63); Sources (6)].
+Farhana Akter Sunny is an Assistant Professor with research interests that include Cyber Security, Semantic Communication, Blockchain Technology, IoT, and Wireless Communication. Her work in blockchain technology is part of her broader research portfolio, which spans multiple advanced technological fields [Data: Sources (6); Reports (8, 39)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 64/202:
+Question: How many papers did Dr. Md. Abdur Razzaque publish in 2011?
+Expected Answer: 2
+Model Answer: In 2011, Dr. Md. Abdur Razzaque published at least two papers. One of these papers is titled "Data-centric multiobjective QoS-aware routing protocol for body sensor networks," which was published in the journal Sensors [Data: Sources (13, 14)]. Another paper, "Medium access control for power line communications: an overview of the IEEE 1901 and ITU-T G. hn standards," was published in IEEE Communications Magazine [Data: Sources (13, 14)]. These publications highlight his active involvement in research during that year.
+Reasoning:
+In 2011, Dr. Md. Abdur Razzaque published at least two papers. One of these papers is titled "Data-centric multiobjective QoS-aware routing protocol for body sensor networks," which was published in the journal Sensors [Data: Sources (13, 14)]. Another paper, "Medium access control for power line communications: an overview of the IEEE 1901 and ITU-T G. hn standards," was published in IEEE Communications Magazine [Data: Sources (13, 14)]. These publications highlight his active involvement in research during that year.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 65/202:
+Question: What was the publication trend for Ashish Vaswani between 2017-2021?
+Expected Answer: Multiple papers on transformer architectures and attention mechanisms
+Model Answer: ### Publication Trend of Ashish Vaswani (2017-2021)
+
+Ashish Vaswani, a prominent figure in the field of deep learning, has made significant contributions through various influential research papers between 2017 and 2021. His work during this period primarily focused on self-attention mechanisms and their applications across different domains.
+
+#### 2017: Introduction of the Transformer Model
+
+In 2017, Ashish Vaswani co-authored the groundbreaking paper "Attention is All You Need," which introduced the transformer model. This paper was published at the Advances in Neural Information Processing Systems (NeurIPS) conference and has since become a foundational work in natural language processing and other AI applications. The paper's introduction of the transformer architecture marked a significant milestone in AI research, leading to numerous advancements and applications in various domains [Data: Entities (232); Relationships (272)].
+
+#### 2018: Expansion into Image and Music Processing
+
+The year 2018 saw Vaswani's exploration of transformer models in new areas. He co-authored the "Image Transformer" paper, which applied transformer models to image processing tasks. This work was presented at the International Conference on Machine Learning and has been highly influential, with over 2500 citations [Data: Entities (243); Relationships (267)]. Additionally, Vaswani contributed to the "Music Transformer" paper, which explored the use of transformers in modeling long-term structure in music, offering new possibilities for creative AI applications [Data: Entities (246); Relationships (270)].
+
+#### 2019: Advancements in Vision Models
+
+In 2019, Vaswani co-authored the "Stand-alone Self-attention in Vision Models" paper, which contributed to the development of vision models that rely solely on self-attention mechanisms. This work was published in Advances in Neural Information Processing Systems and has been cited over 1600 times, underscoring its impact on the field and its role in advancing the capabilities of vision models [Data: Entities (244); Relationships (268)].
+
+#### 2021: Focus on Sparse Attention and Visual Recognition
+
+By 2021, Vaswani's research had expanded to include efficient content-based sparse attention mechanisms. He co-authored the paper "Efficient Content-based Sparse Attention with Routing Transformers," which was published in the Transactions of the Association for Computational Linguistics [Data: Sources (49)]. Additionally, he contributed to the "Bottleneck Transformers for Visual Recognition" paper, which explored the use of bottleneck transformers to enhance visual recognition capabilities. This work was published in the Proceedings of the IEEE/CVF conference, showcasing the potential of self-attention mechanisms in improving model performance [Data: Entities (245); Relationships (269)].
+
+### Conclusion
+
+Throughout 2017 to 2021, Ashish Vaswani's research consistently pushed the boundaries of deep learning, particularly in the development and application of transformer models. His work has had a profound impact on various fields, including natural language processing, image processing, music generation, and visual recognition, highlighting his pivotal role in advancing deep learning technologies.
+Reasoning:
+### Publication Trend of Ashish Vaswani (2017-2021)
+Ashish Vaswani, a prominent figure in the field of deep learning, has made significant contributions through various influential research papers between 2017 and 2021. His work during this period primarily focused on self-attention mechanisms and their applications across different domains.
+#### 2017: Introduction of the Transformer Model
+In 2017, Ashish Vaswani co-authored the groundbreaking paper "Attention is All You Need," which introduced the transformer model. This paper was published at the Advances in Neural Information Processing Systems (NeurIPS) conference and has since become a foundational work in natural language processing and other AI applications. The paper's introduction of the transformer architecture marked a significant milestone in AI research, leading to numerous advancements and applications in various domains [Data: Entities (232); Relationships (272)].
+#### 2018: Expansion into Image and Music Processing
+The year 2018 saw Vaswani's exploration of transformer models in new areas. He co-authored the "Image Transformer" paper, which applied transformer models to image processing tasks. This work was presented at the International Conference on Machine Learning and has been highly influential, with over 2500 citations [Data: Entities (243); Relationships (267)]. Additionally, Vaswani contributed to the "Music Transformer" paper, which explored the use of transformers in modeling long-term structure in music, offering new possibilities for creative AI applications [Data: Entities (246); Relationships (270)].
+#### 2019: Advancements in Vision Models
+In 2019, Vaswani co-authored the "Stand-alone Self-attention in Vision Models" paper, which contributed to the development of vision models that rely solely on self-attention mechanisms. This work was published in Advances in Neural Information Processing Systems and has been cited over 1600 times, underscoring its impact on the field and its role in advancing the capabilities of vision models [Data: Entities (244); Relationships (268)].
+#### 2021: Focus on Sparse Attention and Visual Recognition
+By 2021, Vaswani's research had expanded to include efficient content-based sparse attention mechanisms. He co-authored the paper "Efficient Content-based Sparse Attention with Routing Transformers," which was published in the Transactions of the Association for Computational Linguistics [Data: Sources (49)]. Additionally, he contributed to the "Bottleneck Transformers for Visual Recognition" paper, which explored the use of bottleneck transformers to enhance visual recognition capabilities. This work was published in the Proceedings of the IEEE/CVF conference, showcasing the potential of self-attention mechanisms in improving model performance [Data: Entities (245); Relationships (269)].
+### Conclusion
+Throughout 2017 to 2021, Ashish Vaswani's research consistently pushed the boundaries of deep learning, particularly in the development and application of transformer models. His work has had a profound impact on various fields, including natural language processing, image processing, music generation, and visual recognition, highlighting his pivotal role in advancing deep learning technologies.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 66/202:
+Question: Which year had the most paper publications for Muhammad Nomani Kabir?
+Expected Answer: 2020
+Model Answer: Based on the available data, the year 2020 appears to have been particularly productive for Muhammad Nomani Kabir in terms of paper publications. During this year, he authored or co-authored several significant research papers. Notable publications from 2020 include "Breast Cancer Prediction: A Comparative Study Using Machine Learning Techniques," which has been cited 438 times, and "Deep Learning Based Systems Developed for Fall Detection: A Review," published in IEEE Access [Data: Entities (155); Relationships (189, 191); Sources (1, 3)].
+
+Additionally, his work on "A Robust Image Watermarking Technique with an Optimal DCT-Psychovisual Threshold" was published in IEEE Access in 2018, but it continued to be influential in 2020, as indicated by its citation count [Data: Sources (2, 3)]. This suggests that 2020 was a significant year for Kabir's research output and impact.
+Reasoning:
+Based on the available data, the year 2020 appears to have been particularly productive for Muhammad Nomani Kabir in terms of paper publications. During this year, he authored or co-authored several significant research papers. Notable publications from 2020 include "Breast Cancer Prediction: A Comparative Study Using Machine Learning Techniques," which has been cited 438 times, and "Deep Learning Based Systems Developed for Fall Detection: A Review," published in IEEE Access [Data: Entities (155); Relationships (189, 191); Sources (1, 3)].
+Additionally, his work on "A Robust Image Watermarking Technique with an Optimal DCT-Psychovisual Threshold" was published in IEEE Access in 2018, but it continued to be influential in 2020, as indicated by its citation count [Data: Sources (2, 3)]. This suggests that 2020 was a significant year for Kabir's research output and impact.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 67/202:
+Question: How many citations did Dr. Md. Abdur Razzaque's papers receive in total for papers published between 2011 and 2013?
+Expected Answer: 291
+Model Answer: Dr. Md. Abdur Razzaque's papers published between 2011 and 2013 have received a significant number of citations. Specifically, the paper titled "Data-centric multiobjective QoS-aware routing protocol for body sensor networks," published in 2011, has been cited 192 times [Data: Sources (14)]. Another paper, "Medium access control for power line communications: an overview of the IEEE 1901 and ITU-T G. hn standards," also published in 2011, has received 94 citations [Data: Sources (14)]. Additionally, the paper "Traffic priority and load adaptive MAC protocol for QoS provisioning in body sensor networks," published in 2013, has been cited 99 times [Data: Sources (14)].
+
+In total, these papers have received 385 citations. This total reflects the impact and relevance of Dr. Razzaque's research during this period, particularly in the fields of sensor networks and communications.
+Reasoning:
+Dr. Md. Abdur Razzaque's papers published between 2011 and 2013 have received a significant number of citations. Specifically, the paper titled "Data-centric multiobjective QoS-aware routing protocol for body sensor networks," published in 2011, has been cited 192 times [Data: Sources (14)]. Another paper, "Medium access control for power line communications: an overview of the IEEE 1901 and ITU-T G. hn standards," also published in 2011, has received 94 citations [Data: Sources (14)]. Additionally, the paper "Traffic priority and load adaptive MAC protocol for QoS provisioning in body sensor networks," published in 2013, has been cited 99 times [Data: Sources (14)].
+In total, these papers have received 385 citations. This total reflects the impact and relevance of Dr. Razzaque's research during this period, particularly in the fields of sensor networks and communications.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 68/202:
+Question: What was the time span of Humayan Kabir Rana's research publications?
+Expected Answer: 2019 to 2021
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 69/202:
+Question: Which researcher published on sentiment analysis in 2024?
+Expected Answer: Muhammad Nomani Kabir
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 70/202:
+Question: Which researchers collaborated on the PyBangla paper and when was it published?
+Expected Answer: J Islam, M Ataullha, S Azad in 2025
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 71/202:
+Question: How many papers did Ashish Vaswani publish in 2018?
+Expected Answer: 4
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 72/202:
+Question: Which researcher published on nanofluid bioconvection in 2016?
+Expected Answer: Muhammad Nomani Kabir
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 73/202:
+Question: What is the latest publication year among all researchers?
+Expected Answer: 2025
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 74/202:
+Question: Which researcher published on underwater networking protocols?
+Expected Answer: Saiful Azad
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 75/202:
+Question: What is the time range of Md Ataullha's publications?
+Expected Answer: 2024-2025
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 76/202:
+Question: What is the title of Humayan Kabir Rana's paper on iris recognition?
+Expected Answer: A fast iris recognition system through optimum feature extraction
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 77/202:
+Question: How many citations does the iris recognition paper by Humayan Kabir Rana have?
+Expected Answer: 71
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 78/202:
+Question: What is the publication venue for Humayan Kabir Rana's iris recognition paper?
+Expected Answer: PeerJ Computer Science
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 79/202:
+Question: How many citations does the COVID-19 pathogenetic profiling paper have?
+Expected Answer: 65
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 80/202:
+Question: What is the title of Mohammad Shorif Uddin's most cited paper?
+Expected Answer: Image quality assessment through FSIM, SSIM, MSE and PSNR—a comparative study
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 81/202:
+Question: How many citations does the paper 'Machine vision based papaya disease recognition' have?
+Expected Answer: 235
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 82/202:
+Question: What paper did Mohammad Shorif Uddin publish on skin disease detection?
+Expected Answer: A machine learning approach for skin disease detection and classification using image segmentation
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 83/202:
+Question: In what year was the paper on depression prediction by Mohammad Shorif Uddin published?
+Expected Answer: 2021
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 84/202:
+Question: How many citations does the heart disease prediction paper have?
+Expected Answer: 168
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 85/202:
+Question: What is the title of Farhana Akter Sunny's paper on IoT in education?
+Expected Answer: IoLT: an IOT based collaborative blended learning platform in higher education
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 86/202:
+Question: What paper did Farhana Akter Sunny publish on UAV systems?
+Expected Answer: A UAV-based traffic monitoring system for smart cities
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 87/202:
+Question: How many citations does the UAV traffic monitoring paper have?
+Expected Answer: 42
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 88/202:
+Question: What year did Farhana Akter Sunny publish her paper on cognitive radio?
+Expected Answer: 2015
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 89/202:
+Question: What is the title of Ashish Vaswani's paper on graph networks?
+Expected Answer: Relational inductive biases, deep learning, and graph networks
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 90/202:
+Question: How many citations does the graph networks paper have?
+Expected Answer: 4869
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 91/202:
+Question: What is the title of Ashish Vaswani's paper on self-attention with relative positions?
+Expected Answer: Self-attention with relative position representations
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 92/202:
+Question: How many citations does 'Self-attention with relative position representations' have?
+Expected Answer: 3647
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 93/202:
+Question: What paper did Ashish Vaswani publish on music generation?
+Expected Answer: Music transformer
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 94/202:
+Question: How many citations does the Music transformer paper have?
+Expected Answer: 1277
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 95/202:
+Question: What is the title of Ashish Vaswani's paper on vision models published in 2019?
+Expected Answer: Stand-alone self-attention in vision models
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 96/202:
+Question: What year was 'Bottleneck transformers for visual recognition' published?
+Expected Answer: 2021
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 97/202:
+Question: How many citations does 'Bottleneck transformers for visual recognition' have?
+Expected Answer: 1637
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 98/202:
+Question: What is the title of Ashish Vaswani's paper on routing transformers?
+Expected Answer: Efficient content-based sparse attention with routing transformers
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 99/202:
+Question: How many citations does the routing transformers paper have?
+Expected Answer: 799
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 100/202:
+Question: What year was the Image transformer paper published?
+Expected Answer: 2018
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 101/202:
+Question: How many citations does the Image transformer have?
+Expected Answer: 2505
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 102/202:
+Question: What is the title of Saiful Azad's paper on keyphrase extraction published in 2018?
+Expected Answer: A flexible keyphrase extraction technique for academic literature
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 103/202:
+Question: How many citations does the flexible keyphrase extraction paper have?
+Expected Answer: 56
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 104/202:
+Question: What paper did Saiful Azad publish in 2014 on underwater networking?
+Expected Answer: Open source suites for underwater networking: WOSS and DESERT underwater
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 105/202:
+Question: What is the title of Saiful Azad's paper on MANET routing protocols?
+Expected Answer: A performance comparison of proactive and reactive routing protocols of Mobile Ad-hoc NETwork (MANET)
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 106/202:
+Question: What year was the MANET routing protocols paper published?
+Expected Answer: 2007
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 107/202:
+Question: How many citations does the MANET routing protocols paper have?
+Expected Answer: 55
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 108/202:
+Question: What is the title of Saiful Azad's paper on Mobile WiMAX?
+Expected Answer: Performance Analysis of Ad hoc Routing Protocols in Mobile WiMAX Environment
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 109/202:
+Question: What year was the Mobile WiMAX paper published?
+Expected Answer: 2008
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 110/202:
+Question: How many citations does the Mobile WiMAX paper have?
+Expected Answer: 63
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 111/202:
+Question: How many citations does the iWorksafe COVID-19 paper by Saiful Azad have?
+Expected Answer: 110
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 112/202:
+Question: What is the title of Dr. Md. Abdur Razzaque's paper on body sensor networks published in 2011?
+Expected Answer: Data-centric multiobjective QoS-aware routing protocol for body sensor networks
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 113/202:
+Question: What is the title of Dr. Md. Abdur Razzaque's paper on sensor networks published in 2008?
+Expected Answer: Multi-constrained QoS geographic routing for heterogeneous traffic in sensor networks
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 114/202:
+Question: How many citations does the 2008 sensor networks paper have?
+Expected Answer: 130
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 115/202:
+Question: What year was 'Mobile cloud-based big healthcare data processing in smart cities' published?
+Expected Answer: 2017
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 116/202:
+Question: How many citations does the mobile cloud healthcare paper have?
+Expected Answer: 114
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 117/202:
+Question: What is the title of Dr. Md. Abdur Razzaque's paper on MAC protocol?
+Expected Answer: Traffic priority and load adaptive MAC protocol for QoS provisioning in body sensor networks
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 118/202:
+Question: What year was the MAC protocol paper published?
+Expected Answer: 2013
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 119/202:
+Question: How many citations does the MAC protocol paper have?
+Expected Answer: 99
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 120/202:
+Question: What is the title of Dr. Md. Abdur Razzaque's paper on power line communications?
+Expected Answer: Medium access control for power line communications: an overview of the IEEE 1901 and ITU-T G. hn standards
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 121/202:
+Question: What is the title of Dr. Md. Abdur Razzaque's paper on mobile cloud published in 2018?
+Expected Answer: A mobility-aware optimal resource allocation architecture for big data task execution on mobile cloud in smart cities
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 122/202:
+Question: How many citations does the 2018 mobile cloud paper have?
+Expected Answer: 92
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 123/202:
+Question: What is the title of Dr. Md. Abdur Razzaque's paper on IoT in developing countries?
+Expected Answer: Enabling the Internet of Things in developing countries: Opportunities and challenges
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 124/202:
+Question: What year was the IoT in developing countries paper published?
+Expected Answer: 2016
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 125/202:
+Question: How many citations does the IoT in developing countries paper have?
+Expected Answer: 90
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 126/202:
+Question: What is the title of Md. Arafatur Rahman's paper on IoT in automotive industry?
+Expected Answer: Evolution of IoT-enabled connectivity and applications in automotive industry: A review
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 127/202:
+Question: How many citations does the automotive IoT paper have?
+Expected Answer: 263
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 128/202:
+Question: How many citations does the intrusion detection paper have?
+Expected Answer: 237
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 129/202:
+Question: What is the title of Md. Arafatur Rahman's paper on COVID-19 clustering?
+Expected Answer: Data-driven dynamic clustering framework for mitigating the adverse economic impact of Covid-19 lockdown practices
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 130/202:
+Question: What is the title of Md. Arafatur Rahman's paper on big data security?
+Expected Answer: Economic perspective analysis of protecting big data security and privacy
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 131/202:
+Question: What is the title of Md. Arafatur Rahman's paper on smart city infrastructure?
+Expected Answer: Big Data Reduction for a Smart City's Critical Infrastructural Health Monitoring
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 132/202:
+Question: What is the title of Muhammad Nomani Kabir's paper on fall detection?
+Expected Answer: Deep learning based systems developed for fall detection: A review
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 133/202:
+Question: What is the title of Muhammad Nomani Kabir's paper on Stefan blowing?
+Expected Answer: Computational investigation of Stefan blowing and multiple-slip effects on buoyancy-driven bioconvection nanofluid flow with microorganisms
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 134/202:
+Question: How many citations does the Stefan blowing paper have?
+Expected Answer: 154
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 135/202:
+Question: What year was the Stefan blowing paper published?
+Expected Answer: 2016
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 136/202:
+Question: What is the title of Muhammad Nomani Kabir's paper on gyrotactic bioconvection?
+Expected Answer: Numerical solutions for gyrotactic bioconvection in nanofluid-saturated porous media with Stefan blowing and multiple slip effects
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 137/202:
+Question: What is the title of Muhammad Nomani Kabir's paper on sensor-based fall detection published in 2022?
+Expected Answer: Sensor-based fall detection systems: a review
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 138/202:
+Question: What is the title of Muhammad Nomani Kabir's paper on RDWT-SVD watermarking?
+Expected Answer: A block-based RDWT-SVD image watermarking method using human visual system characteristics
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 139/202:
+Question: How many citations does the RDWT-SVD watermarking paper have?
+Expected Answer: 128
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 140/202:
+Question: How many citations does the sentiment analysis paper have?
+Expected Answer: 118
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 141/202:
+Question: What is the title of Muhammad Nomani Kabir's paper on information systems alignment?
+Expected Answer: Strategic information systems alignment: alignment of IS/IT with business strategy
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 142/202:
+Question: What year was the IS alignment paper published?
+Expected Answer: 2010
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 143/202:
+Question: What is the title of Muhammad Nomani Kabir's paper on handwritten character recognition?
+Expected Answer: Handwritten character recognition using convolutional neural network
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 144/202:
+Question: What year was the handwritten recognition paper published?
+Expected Answer: 2021
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 145/202:
+Question: How many citations does the handwritten recognition paper have?
+Expected Answer: 91
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 146/202:
+Question: What is the title of Humayan Kabir Rana's paper on welding fumes?
+Expected Answer: Genetic effects of welding fumes on the progression of neurodegenerative diseases
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 147/202:
+Question: What year was the welding fumes paper published?
+Expected Answer: 2019
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 148/202:
+Question: What is the title of Humayan Kabir Rana's paper on type 2 diabetes?
+Expected Answer: A system biological approach to investigate the genetic profiling and comorbidities of type 2 diabetes
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 149/202:
+Question: What year was the type 2 diabetes paper published?
+Expected Answer: 2020
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 150/202:
+Question: What is the title of Humayan Kabir Rana's paper on lung cancer detection?
+Expected Answer: Detection of Lung cancer from CT scan images using GLCM and SVM
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 151/202:
+Question: What is the title of Mohammad Shorif Uddin's paper on rice leaf disease?
+Expected Answer: An efficient disease detection technique of rice leaf using AlexNet
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 152/202:
+Question: How many citations does the rice leaf disease paper have?
+Expected Answer: 91
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 153/202:
+Question: What year was the rice leaf disease paper published?
+Expected Answer: 2020
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 154/202:
+Question: What is the title of Mohammad Shorif Uddin's paper on COVID-19 detection?
+Expected Answer: Covid-19 detection in chest X-ray through random forest classifier using a hybridization of deep CNN and DWT optimized features
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 155/202:
+Question: How many citations does the COVID-19 X-ray detection paper have?
+Expected Answer: 98
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 156/202:
+Question: What is the title of Mohammad Shorif Uddin's hybrid watermarking paper?
+Expected Answer: A Hybrid robust watermarking system based on discrete cosine transform, discrete wavelet transform, and singular value decomposition
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 157/202:
+Question: How many citations does the hybrid watermarking paper have?
+Expected Answer: 155
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 158/202:
+Question: What year was the hybrid watermarking paper published?
+Expected Answer: 2022
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 159/202:
+Question: What is the title of Mohammad Shorif Uddin's paper on depression prediction?
+Expected Answer: An in-depth analysis of machine learning approaches to predict depression
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 160/202:
+Question: How many citations does the depression prediction paper have?
+Expected Answer: 168
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 161/202:
+Question: What is the title of Mohammad Shorif Uddin's paper on skin disease detection published in 2022?
+Expected Answer: A machine learning approach for skin disease detection and classification using image segmentation
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 162/202:
+Question: What is the title of Farhana Akter Sunny's paper on fraud detection in audits?
+Expected Answer: Investigating external audit records to detect fraudulent firms employing various machine learning methods
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 163/202:
+Question: What year was the audit fraud detection paper published?
+Expected Answer: 2022
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 164/202:
+Question: What is the title of Farhana Akter Sunny's paper on multi-path selection?
+Expected Answer: Multi-priority and trusted multi-path selection algorithm for ad-hoc network
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 165/202:
+Question: What year was the multi-path selection paper published?
+Expected Answer: 2014
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 166/202:
+Question: What is the title of Farhana Akter Sunny's paper on credit card fraud?
+Expected Answer: Fraud detection of credit card using data mining techniques
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 167/202:
+Question: How many citations does the credit card fraud detection paper have?
+Expected Answer: 4
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 168/202:
+Question: What is the title of Farhana Akter Sunny's paper on beamforming?
+Expected Answer: Counter propagation ANN based massive adaptive array antenna beamforming for mmWave communication system
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 169/202:
+Question: What is the title of Farhana Akter Sunny's paper on COVID-19 detection?
+Expected Answer: Machine learning and deep learning algorithms in detecting COVID-19 utilizing medical images: a comprehensive review
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 170/202:
+Question: What year was the COVID-19 detection review published?
+Expected Answer: 2024
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 171/202:
+Question: What is the title of Abdullah-Al Masud's meta-learning paper?
+Expected Answer: Meta-Learning in Supervised Machine Learning
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 172/202:
+Question: How many citations does the meta-learning paper have?
+Expected Answer: 2
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 173/202:
+Question: What year was the meta-learning paper published?
+Expected Answer: 2022
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 174/202:
+Question: What is Abdullah-Al Masud's Google Scholar author ID?
+Expected Answer: QQ51Ty8AAAAJ
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 175/202:
+Question: What is the email of Abdullah-Al Masud?
+Expected Answer: amasud183040@bscse.uiu.ac.bd
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 176/202:
+Question: What are Abdullah-Al Masud's research interests?
+Expected Answer: robotics, computer vision, meta-learning, deep-learning
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 177/202:
+Question: What is Jahidul Islam's Google Scholar author ID?
+Expected Answer: MOEMgYoAAAAJ
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 178/202:
+Question: What is Jahidul Islam's email?
+Expected Answer: jahidul.cse.gub@gmail.com
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 179/202:
+Question: What is Jahidul Islam's affiliation?
+Expected Answer: Green University of Bangladesh (Department of Computer Science and Engineering)
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 180/202:
+Question: What is Md Ataullha's Google Scholar author ID?
+Expected Answer: N2dzzwsAAAAJ
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 181/202:
+Question: What is Md Ataullha's affiliation?
+Expected Answer: Lecturer, Department of Computer Science and Engineering, Green University of Bangladesh
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 182/202:
+Question: How many citations does Md Ataullha's dengue paper have?
+Expected Answer: 28
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 183/202:
+Question: What year was the dengue prediction paper published?
+Expected Answer: 2024
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 184/202:
+Question: Which researchers are affiliated with Green University of Bangladesh?
+Expected Answer: Saiful Azad, Humayan Kabir Rana, Jahidul Islam, Md Ataullha, Farhana Akter Sunny
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 185/202:
+Question: Which researcher works on Deep Learning as their primary interest?
+Expected Answer: Ashish Vaswani
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 186/202:
+Question: Which researchers work on Machine Learning?
+Expected Answer: Saiful Azad, Humayan Kabir Rana, Jahidul Islam, Md Ataullha
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 187/202:
+Question: Which researchers work on Bioinformatics?
+Expected Answer: Humayan Kabir Rana
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 188/202:
+Question: Which researchers work on Computer Vision?
+Expected Answer: Mohammad Shorif Uddin, Abdullah-Al Masud
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 189/202:
+Question: Which researchers work on Natural Language Processing?
+Expected Answer: Jahidul Islam, Md Ataullha
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 190/202:
+Question: Which researcher published on blockchain applications?
+Expected Answer: Farhana Akter Sunny
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 191/202:
+Question: Which researcher published on smart grid cyber security?
+Expected Answer: Dr. Md. Abdur Razzaque
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 192/202:
+Question: Which researcher published on transformer architectures?
+Expected Answer: Ashish Vaswani
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 193/202:
+Question: Which researcher published on keyphrase extraction?
+Expected Answer: Saiful Azad
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 194/202:
+Question: Which researcher published on fall detection systems?
+Expected Answer: Muhammad Nomani Kabir
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 195/202:
+Question: Which researcher published on UAV-based traffic monitoring?
+Expected Answer: Farhana Akter Sunny
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 196/202:
+Question: Which researcher published on cognitive radio networks?
+Expected Answer: Farhana Akter Sunny
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 197/202:
+Question: Which researcher published papers in 2007?
+Expected Answer: Saiful Azad
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 198/202:
+Question: Which researchers published papers in 2013?
+Expected Answer: MA Razzaque
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 199/202:
+Question: Which researchers published papers in 2012?
+Expected Answer: Saiful Azad
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 200/202:
+Question: Which researchers published papers in 2011?
+Expected Answer: S Lee, CS Hong, MA Razzaque, Dr. Md. Abdur Razzaque, MM Rahman, JH Kim, J Lee
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 201/202:
+Question: Which researchers published papers in 2010?
+Expected Answer: Muhammad Nomani Kabir
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 202/202:
+Question: Which researchers published papers in 2008?
+Expected Answer: Dr. Md. Abdur Razzaque, Saiful Azad
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+
+Evaluation Summary
+================================================================================
+Total Questions: 202
+Correct Answers: 0
+Accuracy: 0.00%
