@@ -1,0 +1,154 @@
+{
+  "group_id": "research_papers_profiling",
+  "episodes": [
+    {
+      "name": "Profile - Dr. Syed Masudur Rahman Dewan",
+      "type": "json",
+      "description": "Researcher profile metadata",
+      "reference_time": "2025-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Dr. Syed Masudur Rahman Dewan",
+        "author_id": "p0Nc0hwAAAAJ",
+        "google_scholar_author_url": "https://scholar.google.com/citations?user=p0Nc0hwAAAAJ&hl=en",
+        "affiliations": "Assistant Professor, Department of Pharmacy, United International University",
+        "email": "Dewan@pharmacy.uiu.ac.bd",
+        "interests": "Vascular Biology, Inflammation, Pharmacology, Genetic Polymorphism, Public health"
+      }
+    },
+    {
+      "name": "Paper - Global, regional, and national burden of diabetes from 1990 to 2021, with projections of prevalence to 2050: a systematic analysis for the Global Burden of Disease Study 2021",
+      "type": "json",
+      "description": "Research paper metadata for Global, regional, and national burden of diabetes from 1990 to 2021, with projections of prevalence to 2050: a systematic analysis for the Global Burden of Disease Study 2021",
+      "reference_time": "2023-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Dr. Syed Masudur Rahman Dewan",
+        "title": "Global, regional, and national burden of diabetes from 1990 to 2021, with projections of prevalence to 2050: a systematic analysis for the Global Burden of Disease Study 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=p0Nc0hwAAAAJ&citation_for_view=p0Nc0hwAAAAJ:hMod-77fHWUC",
+        "authors": "KL Ong, LK Stafford, SA McLaughlin, EJ Boyko, SE Vollset, AE Smith, ...",
+        "publication": "The Lancet 402 (10397), 203-234, 2023",
+        "cited_by": 4147,
+        "year": "2023"
+      }
+    },
+    {
+      "name": "Paper - Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease …",
+      "type": "json",
+      "description": "Research paper metadata for Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease …",
+      "reference_time": "2024-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Dr. Syed Masudur Rahman Dewan",
+        "title": "Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease …",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=p0Nc0hwAAAAJ&citation_for_view=p0Nc0hwAAAAJ:D03iK_w7-QYC",
+        "authors": "M Brauer, GA Roth, AY Aravkin, P Zheng, KH Abate, YH Abate, C Abbafati, ...",
+        "publication": "The Lancet 403 (10440), 2162-2203, 2024",
+        "cited_by": 1959,
+        "year": "2024"
+      }
+    },
+    {
+      "name": "Paper - Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the …",
+      "type": "json",
+      "description": "Research paper metadata for Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the …",
+      "reference_time": "2024-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Dr. Syed Masudur Rahman Dewan",
+        "title": "Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the …",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=p0Nc0hwAAAAJ&citation_for_view=p0Nc0hwAAAAJ:4OULZ7Gr8RgC",
+        "authors": "M Naghavi, KL Ong, A Aali, HS Ababneh, YH Abate, C Abbafati, ...",
+        "publication": "The Lancet 403 (10440), 2100-2132, 2024",
+        "cited_by": 1936,
+        "year": "2024"
+      }
+    },
+    {
+      "name": "Paper - Global, regional, and national burden of low back pain, 1990–2020, its attributable risk factors, and projections to 2050: a systematic analysis of the Global Burden of Disease …",
+      "type": "json",
+      "description": "Research paper metadata for Global, regional, and national burden of low back pain, 1990–2020, its attributable risk factors, and projections to 2050: a systematic analysis of the Global Burden of Disease …",
+      "reference_time": "2023-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Dr. Syed Masudur Rahman Dewan",
+        "title": "Global, regional, and national burden of low back pain, 1990–2020, its attributable risk factors, and projections to 2050: a systematic analysis of the Global Burden of Disease …",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=p0Nc0hwAAAAJ&citation_for_view=p0Nc0hwAAAAJ:k_IJM867U9cC",
+        "authors": "ML Ferreira, K De Luca, LM Haile, JD Steinmetz, GT Culbreth, M Cross, ...",
+        "publication": "The Lancet Rheumatology 5 (6), e316-e329, 2023",
+        "cited_by": 1633,
+        "year": "2023"
+      }
+    },
+    {
+      "name": "Paper - Global burden of cardiovascular diseases and risks, 1990-2022",
+      "type": "json",
+      "description": "Research paper metadata for Global burden of cardiovascular diseases and risks, 1990-2022",
+      "reference_time": "2023-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Dr. Syed Masudur Rahman Dewan",
+        "title": "Global burden of cardiovascular diseases and risks, 1990-2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=p0Nc0hwAAAAJ&citation_for_view=p0Nc0hwAAAAJ:vV6vV6tmYwMC",
+        "authors": "GA Mensah, V Fuster, CJL Murray, GA Roth, YH Abate, M Abbasian, ...",
+        "publication": "Journal of the American College of Cardiology 82 (25), 2350-2473, 2023",
+        "cited_by": 1374,
+        "year": "2023"
+      }
+    },
+    {
+      "name": "Paper - The global burden of cancer attributable to risk factors, 2010–19: a systematic analysis for the Global Burden of Disease Study 2019",
+      "type": "json",
+      "description": "Research paper metadata for The global burden of cancer attributable to risk factors, 2010–19: a systematic analysis for the Global Burden of Disease Study 2019",
+      "reference_time": "2022-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Dr. Syed Masudur Rahman Dewan",
+        "title": "The global burden of cancer attributable to risk factors, 2010–19: a systematic analysis for the Global Burden of Disease Study 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=p0Nc0hwAAAAJ&citation_for_view=p0Nc0hwAAAAJ:r0BpntZqJG4C",
+        "authors": "KB Tran, JJ Lang, K Compton, R Xu, AR Acheson, HJ Henrikson, ...",
+        "publication": "The Lancet 400 (10352), 563-591, 2022",
+        "cited_by": 972,
+        "year": "2022"
+      }
+    },
+    {
+      "name": "Paper - Global, regional, and national burden of stroke and its risk factors, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+      "type": "json",
+      "description": "Research paper metadata for Global, regional, and national burden of stroke and its risk factors, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+      "reference_time": "2024-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Dr. Syed Masudur Rahman Dewan",
+        "title": "Global, regional, and national burden of stroke and its risk factors, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=p0Nc0hwAAAAJ&citation_for_view=p0Nc0hwAAAAJ:NhqRSupF_l8C",
+        "authors": "VL Feigin, MD Abate, YH Abate, S Abd ElHafeez, F Abd-Allah, ...",
+        "publication": "The Lancet Neurology 23 (10), 973-1003, 2024",
+        "cited_by": 836,
+        "year": "2024"
+      }
+    },
+    {
+      "name": "Paper - Burden of disease scenarios for 204 countries and territories, 2022–2050: a forecasting analysis for the Global Burden of Disease Study 2021",
+      "type": "json",
+      "description": "Research paper metadata for Burden of disease scenarios for 204 countries and territories, 2022–2050: a forecasting analysis for the Global Burden of Disease Study 2021",
+      "reference_time": "2024-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Dr. Syed Masudur Rahman Dewan",
+        "title": "Burden of disease scenarios for 204 countries and territories, 2022–2050: a forecasting analysis for the Global Burden of Disease Study 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=p0Nc0hwAAAAJ&citation_for_view=p0Nc0hwAAAAJ:pyW8ca7W8N0C",
+        "authors": "SE Vollset, HS Ababneh, YH Abate, C Abbafati, R Abbasgholizadeh, ...",
+        "publication": "The Lancet 403 (10440), 2204-2256, 2024",
+        "cited_by": 821,
+        "year": "2024"
+      }
+    },
+    {
+      "name": "Paper - Global, regional, and national prevalence of adult overweight and obesity, 1990–2021, with forecasts to 2050: a forecasting study for the Global Burden of Disease Study 2021",
+      "type": "json",
+      "description": "Research paper metadata for Global, regional, and national prevalence of adult overweight and obesity, 1990–2021, with forecasts to 2050: a forecasting study for the Global Burden of Disease Study 2021",
+      "reference_time": "2025-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Dr. Syed Masudur Rahman Dewan",
+        "title": "Global, regional, and national prevalence of adult overweight and obesity, 1990–2021, with forecasts to 2050: a forecasting study for the Global Burden of Disease Study 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=p0Nc0hwAAAAJ&citation_for_view=p0Nc0hwAAAAJ:u9iWguZQMMsC",
+        "authors": "M Ng, E Gakidou, J Lo, YH Abate, C Abbafati, N Abbas, M Abbasian, ...",
+        "publication": "The Lancet 405 (10481), 813-838, 2025",
+        "cited_by": 544,
+        "year": "2025"
+      }
+    }
+  ]
+}

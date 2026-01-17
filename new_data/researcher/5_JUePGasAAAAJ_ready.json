@@ -1,0 +1,139 @@
+{
+  "group_id": "research_papers_profiling",
+  "episodes": [
+    {
+      "name": "Profile - Humayan Kabir Rana",
+      "type": "json",
+      "description": "Researcher profile metadata",
+      "reference_time": "2025-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Humayan Kabir Rana",
+        "author_id": "JUePGasAAAAJ",
+        "google_scholar_author_url": "https://scholar.google.com/citations?user=JUePGasAAAAJ&hl=en",
+        "affiliations": "Sr. Lecturer, Department of Computer Science and Engineering, Green University of Bangladesh",
+        "email": "humayan@cse.green.edu.bd",
+        "interests": "Bioinformatics, Machine Learning, Data Mining, Image Processing"
+      }
+    },
+    {
+      "name": "Paper - A fast iris recognition system through optimum feature extraction",
+      "type": "json",
+      "description": "Research paper metadata for A fast iris recognition system through optimum feature extraction",
+      "reference_time": "2019-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Humayan Kabir Rana",
+        "title": "A fast iris recognition system through optimum feature extraction",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JUePGasAAAAJ&citation_for_view=JUePGasAAAAJ:MXK_kJrjxJIC",
+        "authors": "HK Rana, MS Azam, MR Akhtar, JMW Quinn, MA Moni",
+        "publication": "PeerJ Computer Science 5, e184, 2019",
+        "cited_by": 71,
+        "year": "2019"
+      }
+    },
+    {
+      "name": "Paper - Pathogenetic profiling of COVID-19 and SARS-like viruses",
+      "type": "json",
+      "description": "Research paper metadata for Pathogenetic profiling of COVID-19 and SARS-like viruses",
+      "reference_time": "2021-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Humayan Kabir Rana",
+        "title": "Pathogenetic profiling of COVID-19 and SARS-like viruses",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JUePGasAAAAJ&citation_for_view=JUePGasAAAAJ:hMod-77fHWUC",
+        "authors": "Z Nain, HK Rana, P Liò, SMS Islam, MA Summers, MA Moni",
+        "publication": "Briefings in bioinformatics 22 (2), 1175-1196, 2021",
+        "cited_by": 65,
+        "year": "2021"
+      }
+    },
+    {
+      "name": "Paper - Bioinformatics and machine learning methodologies to identify the effects of central nervous system disorders on glioblastoma progression",
+      "type": "json",
+      "description": "Research paper metadata for Bioinformatics and machine learning methodologies to identify the effects of central nervous system disorders on glioblastoma progression",
+      "reference_time": "2021-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Humayan Kabir Rana",
+        "title": "Bioinformatics and machine learning methodologies to identify the effects of central nervous system disorders on glioblastoma progression",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JUePGasAAAAJ&citation_for_view=JUePGasAAAAJ:J_g5lzvAfSwC",
+        "authors": "MH Rahman, HK Rana, S Peng, X Hu, C Chen, JMW Quinn, MA Moni",
+        "publication": "Briefings in Bioinformatics 22 (5), bbaa365, 2021",
+        "cited_by": 60,
+        "year": "2021"
+      }
+    },
+    {
+      "name": "Paper - Genetic effects of welding fumes on the progression of neurodegenerative diseases",
+      "type": "json",
+      "description": "Research paper metadata for Genetic effects of welding fumes on the progression of neurodegenerative diseases",
+      "reference_time": "2019-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Humayan Kabir Rana",
+        "title": "Genetic effects of welding fumes on the progression of neurodegenerative diseases",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JUePGasAAAAJ&citation_for_view=JUePGasAAAAJ:KlAtU1dfN6UC",
+        "authors": "HK Rana, MR Akhtar, MB Ahmed, P Lio, JMW Quinn, F Huq, MA Moni",
+        "publication": "Neurotoxicology 71, 93-101, 2019",
+        "cited_by": 56,
+        "year": "2019"
+      }
+    },
+    {
+      "name": "Paper - Bioinformatics and system biology approaches to identify pathophysiological impact of COVID-19 to the progression and severity of neurological diseases",
+      "type": "json",
+      "description": "Research paper metadata for Bioinformatics and system biology approaches to identify pathophysiological impact of COVID-19 to the progression and severity of neurological diseases",
+      "reference_time": "2021-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Humayan Kabir Rana",
+        "title": "Bioinformatics and system biology approaches to identify pathophysiological impact of COVID-19 to the progression and severity of neurological diseases",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JUePGasAAAAJ&citation_for_view=JUePGasAAAAJ:vV6vV6tmYwMC",
+        "authors": "MH Rahman, HK Rana, S Peng, MG Kibria, MZ Islam, SMH Mahmud, ...",
+        "publication": "Computers in biology and medicine 138, 104859, 2021",
+        "cited_by": 41,
+        "year": "2021"
+      }
+    },
+    {
+      "name": "Paper - A system biological approach to investigate the genetic profiling and comorbidities of type 2 diabetes",
+      "type": "json",
+      "description": "Research paper metadata for A system biological approach to investigate the genetic profiling and comorbidities of type 2 diabetes",
+      "reference_time": "2020-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Humayan Kabir Rana",
+        "title": "A system biological approach to investigate the genetic profiling and comorbidities of type 2 diabetes",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JUePGasAAAAJ&citation_for_view=JUePGasAAAAJ:YFjsv_pBGBYC",
+        "authors": "NK Podder, HK Rana, MS Azam, MS Rana, MR Akhtar, MR Rahman, ...",
+        "publication": "Gene Reports 21, 100830, 2020",
+        "cited_by": 41,
+        "year": "2020"
+      }
+    },
+    {
+      "name": "Paper - A computational approach to identify blood cell-expressed Parkinson's disease biomarkers that are coordinately expressed in brain tissue",
+      "type": "json",
+      "description": "Research paper metadata for A computational approach to identify blood cell-expressed Parkinson's disease biomarkers that are coordinately expressed in brain tissue",
+      "reference_time": "2019-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Humayan Kabir Rana",
+        "title": "A computational approach to identify blood cell-expressed Parkinson's disease biomarkers that are coordinately expressed in brain tissue",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JUePGasAAAAJ&citation_for_view=JUePGasAAAAJ:R3hNpaxXUhUC",
+        "authors": "MA Moni, HK Rana, MB Islam, MB Ahmed, H Xu, MAM Hasan, Y Lei, ...",
+        "publication": "Computers in biology and medicine 113, 103385, 2019",
+        "cited_by": 38,
+        "year": "2019"
+      }
+    },
+    {
+      "name": "Paper - Detection of Lung cancer from CT scan images using GLCM and SVM",
+      "type": "json",
+      "description": "Research paper metadata for Detection of Lung cancer from CT scan images using GLCM and SVM",
+      "reference_time": "2019-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Humayan Kabir Rana",
+        "title": "Detection of Lung cancer from CT scan images using GLCM and SVM",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JUePGasAAAAJ&citation_for_view=JUePGasAAAAJ:aqlVkmm33-oC",
+        "authors": "MH Jony, FT Johora, P Khatun, HK Rana",
+        "publication": "2019 1st International Conference on Advances in Science, Engineering and …, 2019",
+        "cited_by": 38,
+        "year": "2019"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "group_id": "research_papers_profiling",
+  "episodes": [
+    {
+      "name": "Profile - Abdullah-Al Masud",
+      "type": "json",
+      "description": "Researcher profile metadata",
+      "reference_time": "2025-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Abdullah-Al Masud",
+        "author_id": "QQ51Ty8AAAAJ",
+        "google_scholar_author_url": "https://scholar.google.com/citations?user=QQ51Ty8AAAAJ&hl=en",
+        "affiliations": "United International University",
+        "email": "amasud183040@bscse.uiu.ac.bd",
+        "interests": "robotics, computer vision, meta-learning, deep-learning"
+      }
+    },
+    {
+      "name": "Paper - Meta-Learning in Supervised Machine Learning",
+      "type": "json",
+      "description": "Research paper metadata for Meta-Learning in Supervised Machine Learning",
+      "reference_time": "2022-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Abdullah-Al Masud",
+        "title": "Meta-Learning in Supervised Machine Learning",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QQ51Ty8AAAAJ&citation_for_view=QQ51Ty8AAAAJ:u5HHmVD_uO8C",
+        "authors": "A Al Masud, S Hossain, M Rifa, F Akter, A Zaman, DM Farid",
+        "publication": "2022 14th International Conference on Software, Knowledge, Information …, 2022",
+        "cited_by": 2,
+        "year": "2022"
+      }
+    }
+  ]
+}

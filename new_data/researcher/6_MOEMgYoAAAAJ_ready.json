@@ -1,0 +1,34 @@
+{
+  "group_id": "research_papers_profiling",
+  "episodes": [
+    {
+      "name": "Profile - Jahidul Islam",
+      "type": "json",
+      "description": "Researcher profile metadata",
+      "reference_time": "2025-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Jahidul Islam",
+        "author_id": "MOEMgYoAAAAJ",
+        "google_scholar_author_url": "https://scholar.google.com/citations?user=MOEMgYoAAAAJ&hl=en",
+        "affiliations": "Green University of Bangladesh (Department of Computer Science and Engineering)",
+        "email": "jahidul.cse.gub@gmail.com",
+        "interests": "Machine Learning, Natural Language Processing, LLMs, RAG"
+      }
+    },
+    {
+      "name": "Paper - PyBangla at BLP-2025 Task 2: Enhancing Bangla-to-Python Code Generation with Iterative Self-Correction and Multilingual Agents",
+      "type": "json",
+      "description": "Research paper metadata for PyBangla at BLP-2025 Task 2: Enhancing Bangla-to-Python Code Generation with Iterative Self-Correction and Multilingual Agents",
+      "reference_time": "2025-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Jahidul Islam",
+        "title": "PyBangla at BLP-2025 Task 2: Enhancing Bangla-to-Python Code Generation with Iterative Self-Correction and Multilingual Agents",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MOEMgYoAAAAJ&citation_for_view=MOEMgYoAAAAJ:Y0pCki6q_DkC",
+        "authors": "J Islam, M Ataullha, S Azad",
+        "publication": "arXiv preprint arXiv:2512.23713, 2025",
+        "cited_by": null,
+        "year": "2025"
+      }
+    }
+  ]
+}

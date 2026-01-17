@@ -1,0 +1,139 @@
+{
+  "group_id": "research_papers_profiling",
+  "episodes": [
+    {
+      "name": "Profile - Dr. Md. Abdur Razzaque",
+      "type": "json",
+      "description": "Researcher profile metadata",
+      "reference_time": "2025-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Dr. Md. Abdur Razzaque",
+        "author_id": "1yMUb7wAAAAJ",
+        "google_scholar_author_url": "https://scholar.google.com/citations?user=1yMUb7wAAAAJ&hl=en",
+        "affiliations": "Professor of Computer Science and Engineering, University of Dhaka, Bangladesh",
+        "email": "razzaque@du.ac.bd",
+        "interests": "Cloud and Edge Intelligence, AI for Internet of Things, 5IR Technologies, Energy Optimization"
+      }
+    },
+    {
+      "name": "Paper - Review on cyber-physical and cyber-security system in smart grid: Standards, protocols, constraints, and recommendations",
+      "type": "json",
+      "description": "Research paper metadata for Review on cyber-physical and cyber-security system in smart grid: Standards, protocols, constraints, and recommendations",
+      "reference_time": "2023-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Dr. Md. Abdur Razzaque",
+        "title": "Review on cyber-physical and cyber-security system in smart grid: Standards, protocols, constraints, and recommendations",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1yMUb7wAAAAJ&citation_for_view=1yMUb7wAAAAJ:-jrNzM816MMC",
+        "authors": "MK Hasan, AKMA Habib, Z Shukur, F Ibrahim, S Islam, MA Razzaque",
+        "publication": "Journal of network and computer applications 209, 103540, 2023",
+        "cited_by": 393,
+        "year": "2023"
+      }
+    },
+    {
+      "name": "Paper - Data-centric multiobjective QoS-aware routing protocol for body sensor networks",
+      "type": "json",
+      "description": "Research paper metadata for Data-centric multiobjective QoS-aware routing protocol for body sensor networks",
+      "reference_time": "2011-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Dr. Md. Abdur Razzaque",
+        "title": "Data-centric multiobjective QoS-aware routing protocol for body sensor networks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1yMUb7wAAAAJ&citation_for_view=1yMUb7wAAAAJ:kNdYIx-mwKoC",
+        "authors": "MA Razzaque, CS Hong, S Lee",
+        "publication": "Sensors 11 (1), 917-937, 2011",
+        "cited_by": 192,
+        "year": "2011"
+      }
+    },
+    {
+      "name": "Paper - Multi-constrained QoS geographic routing for heterogeneous traffic in sensor networks",
+      "type": "json",
+      "description": "Research paper metadata for Multi-constrained QoS geographic routing for heterogeneous traffic in sensor networks",
+      "reference_time": "2008-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Dr. Md. Abdur Razzaque",
+        "title": "Multi-constrained QoS geographic routing for heterogeneous traffic in sensor networks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1yMUb7wAAAAJ&citation_for_view=1yMUb7wAAAAJ:3fE2CSJIrl8C",
+        "authors": "MA Razzaque, MM Alam, M Mamun-Or-Rashid, CS Hong",
+        "publication": "IEICE Transactions on communications 91 (8), 2589-2601, 2008",
+        "cited_by": 130,
+        "year": "2008"
+      }
+    },
+    {
+      "name": "Paper - Mobile cloud-based big healthcare data processing in smart cities",
+      "type": "json",
+      "description": "Research paper metadata for Mobile cloud-based big healthcare data processing in smart cities",
+      "reference_time": "2017-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Dr. Md. Abdur Razzaque",
+        "title": "Mobile cloud-based big healthcare data processing in smart cities",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1yMUb7wAAAAJ&citation_for_view=1yMUb7wAAAAJ:u_35RYKgDlwC",
+        "authors": "MM Islam, MA Razzaque, MM Hassan, WN Ismail, B Song",
+        "publication": "IEEE Access 5, 11887-11899, 2017",
+        "cited_by": 114,
+        "year": "2017"
+      }
+    },
+    {
+      "name": "Paper - Traffic priority and load adaptive MAC protocol for QoS provisioning in body sensor networks",
+      "type": "json",
+      "description": "Research paper metadata for Traffic priority and load adaptive MAC protocol for QoS provisioning in body sensor networks",
+      "reference_time": "2013-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Dr. Md. Abdur Razzaque",
+        "title": "Traffic priority and load adaptive MAC protocol for QoS provisioning in body sensor networks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1yMUb7wAAAAJ&citation_for_view=1yMUb7wAAAAJ:qxL8FJ1GzNcC",
+        "authors": "I Anjum, N Alam, MA Razzaque, M Mehedi Hassan, A Alamri",
+        "publication": "International Journal of Distributed Sensor Networks 9 (3), 205192, 2013",
+        "cited_by": 99,
+        "year": "2013"
+      }
+    },
+    {
+      "name": "Paper - Medium access control for power line communications: an overview of the IEEE 1901 and ITU-T G. hn standards",
+      "type": "json",
+      "description": "Research paper metadata for Medium access control for power line communications: an overview of the IEEE 1901 and ITU-T G. hn standards",
+      "reference_time": "2011-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Dr. Md. Abdur Razzaque",
+        "title": "Medium access control for power line communications: an overview of the IEEE 1901 and ITU-T G. hn standards",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1yMUb7wAAAAJ&citation_for_view=1yMUb7wAAAAJ:ULOm3_A8WrAC",
+        "authors": "MM Rahman, CS Hong, S Lee, J Lee, MA Razzaque, JH Kim",
+        "publication": "IEEE Communications Magazine 49 (6), 183-191, 2011",
+        "cited_by": 94,
+        "year": "2011"
+      }
+    },
+    {
+      "name": "Paper - A mobility-aware optimal resource allocation architecture for big data task execution on mobile cloud in smart cities",
+      "type": "json",
+      "description": "Research paper metadata for A mobility-aware optimal resource allocation architecture for big data task execution on mobile cloud in smart cities",
+      "reference_time": "2018-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Dr. Md. Abdur Razzaque",
+        "title": "A mobility-aware optimal resource allocation architecture for big data task execution on mobile cloud in smart cities",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1yMUb7wAAAAJ&citation_for_view=1yMUb7wAAAAJ:dshw04ExmUIC",
+        "authors": "A Enayet, MA Razzaque, MM Hassan, A Alamri, G Fortino",
+        "publication": "IEEE Communications Magazine 56 (2), 110-117, 2018",
+        "cited_by": 92,
+        "year": "2018"
+      }
+    },
+    {
+      "name": "Paper - Enabling the Internet of Things in developing countries: Opportunities and challenges",
+      "type": "json",
+      "description": "Research paper metadata for Enabling the Internet of Things in developing countries: Opportunities and challenges",
+      "reference_time": "2016-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Dr. Md. Abdur Razzaque",
+        "title": "Enabling the Internet of Things in developing countries: Opportunities and challenges",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1yMUb7wAAAAJ&citation_for_view=1yMUb7wAAAAJ:J_g5lzvAfSwC",
+        "authors": "MNS Miazi, Z Erasmus, MA Razzaque, M Zennaro, A Bagula",
+        "publication": "2016 5th International Conference on Informatics, Electronics and Vision …, 2016",
+        "cited_by": 90,
+        "year": "2016"
+      }
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "group_id": "research_papers_profiling",
+  "episodes": [
+    {
+      "name": "Profile - Farhana Akter Sunny",
+      "type": "json",
+      "description": "Researcher profile metadata",
+      "reference_time": "2025-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Farhana Akter Sunny",
+        "author_id": "QBtvL4EAAAAJ",
+        "google_scholar_author_url": "https://scholar.google.com/citations?user=QBtvL4EAAAAJ&hl=en",
+        "affiliations": "Assistant Professor",
+        "email": "farhana@cse.green.edu.bd",
+        "interests": "Cyber Security, Semantic Communication, Blockchain Technology, IoT, Wireless Communication"
+      }
+    },
+    {
+      "name": "Paper - A systematic review of blockchain applications",
+      "type": "json",
+      "description": "Research paper metadata for A systematic review of blockchain applications",
+      "reference_time": "2022-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Farhana Akter Sunny",
+        "title": "A systematic review of blockchain applications",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QBtvL4EAAAAJ&citation_for_view=QBtvL4EAAAAJ:Tyk-4Ss8FVUC",
+        "authors": "FA Sunny, P Hajek, M Munk, MZ Abedin, MS Satu, MIA Efat, MJ Islam",
+        "publication": "Ieee Access 10, 59155-59177, 2022",
+        "cited_by": 170,
+        "year": "2022"
+      }
+    },
+    {
+      "name": "Paper - IoLT: an IOT based collaborative blended learning platform in higher education",
+      "type": "json",
+      "description": "Research paper metadata for IoLT: an IOT based collaborative blended learning platform in higher education",
+      "reference_time": "2018-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Farhana Akter Sunny",
+        "title": "IoLT: an IOT based collaborative blended learning platform in higher education",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QBtvL4EAAAAJ&citation_for_view=QBtvL4EAAAAJ:IjCSPb-OGe4C",
+        "authors": "MS Satu, S Roy, F Akhter, M Whaiduzzaman",
+        "publication": "2018 International Conference on Innovation in Engineering and technology …, 2018",
+        "cited_by": 49,
+        "year": "2018"
+      }
+    },
+    {
+      "name": "Paper - A UAV-based traffic monitoring system for smart cities",
+      "type": "json",
+      "description": "Research paper metadata for A UAV-based traffic monitoring system for smart cities",
+      "reference_time": "2019-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Farhana Akter Sunny",
+        "title": "A UAV-based traffic monitoring system for smart cities",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QBtvL4EAAAAJ&citation_for_view=QBtvL4EAAAAJ:2osOgNQ5qMEC",
+        "authors": "M Hossain, MDA Hossain, FA Sunny",
+        "publication": "2019 International Conference on Sustainable Technologies for Industry 4.0 …, 2019",
+        "cited_by": 42,
+        "year": "2019"
+      }
+    },
+    {
+      "name": "Paper - Trust and energy aware Cluster modeling and spectrum handoff for cognitive radio ad-hoc network",
+      "type": "json",
+      "description": "Research paper metadata for Trust and energy aware Cluster modeling and spectrum handoff for cognitive radio ad-hoc network",
+      "reference_time": "2015-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Farhana Akter Sunny",
+        "title": "Trust and energy aware Cluster modeling and spectrum handoff for cognitive radio ad-hoc network",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QBtvL4EAAAAJ&citation_for_view=QBtvL4EAAAAJ:u5HHmVD_uO8C",
+        "authors": "F Afsana, N Jahan, FA Sunny, MS Kaiser, SA Mamun",
+        "publication": "2015 International Conference on Electrical Engineering and Information …, 2015",
+        "cited_by": 10,
+        "year": "2015"
+      }
+    },
+    {
+      "name": "Paper - Investigating external audit records to detect fraudulent firms employing various machine learning methods",
+      "type": "json",
+      "description": "Research paper metadata for Investigating external audit records to detect fraudulent firms employing various machine learning methods",
+      "reference_time": "2022-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Farhana Akter Sunny",
+        "title": "Investigating external audit records to detect fraudulent firms employing various machine learning methods",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QBtvL4EAAAAJ&citation_for_view=QBtvL4EAAAAJ:Y0pCki6q_DkC",
+        "authors": "FA Sunny, MI Khan, MS Satu, MZ Abedin",
+        "publication": "Proceedings of the Seventh International Conference on Mathematics and …, 2022",
+        "cited_by": 9,
+        "year": "2022"
+      }
+    },
+    {
+      "name": "Paper - Multi-priority and trusted multi-path selection algorithm for ad-hoc network",
+      "type": "json",
+      "description": "Research paper metadata for Multi-priority and trusted multi-path selection algorithm for ad-hoc network",
+      "reference_time": "2014-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Farhana Akter Sunny",
+        "title": "Multi-priority and trusted multi-path selection algorithm for ad-hoc network",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QBtvL4EAAAAJ&citation_for_view=QBtvL4EAAAAJ:9yKSN-GCB0IC",
+        "authors": "F Afsana, NZ Zenia, N Islam, FA Sunny, MS Kaiser, SA Mamun",
+        "publication": "2014 International Conference on Electrical Engineering and Information …, 2014",
+        "cited_by": 8,
+        "year": "2014"
+      }
+    },
+    {
+      "name": "Paper - Machine learning and deep learning algorithms in detecting COVID-19 utilizing medical images: a comprehensive review",
+      "type": "json",
+      "description": "Research paper metadata for Machine learning and deep learning algorithms in detecting COVID-19 utilizing medical images: a comprehensive review",
+      "reference_time": "2024-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Farhana Akter Sunny",
+        "title": "Machine learning and deep learning algorithms in detecting COVID-19 utilizing medical images: a comprehensive review",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QBtvL4EAAAAJ&citation_for_view=QBtvL4EAAAAJ:eQOLeE2rZwMC",
+        "authors": "Nurjahan, M Mahbub-Or-Rashid, MS Satu, SR Tammim, FA Sunny, ...",
+        "publication": "Iran Journal of Computer Science 7 (3), 699-721, 2024",
+        "cited_by": 4,
+        "year": "2024"
+      }
+    },
+    {
+      "name": "Paper - Fraud detection of credit card using data mining techniques",
+      "type": "json",
+      "description": "Research paper metadata for Fraud detection of credit card using data mining techniques",
+      "reference_time": "2022-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Farhana Akter Sunny",
+        "title": "Fraud detection of credit card using data mining techniques",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QBtvL4EAAAAJ&citation_for_view=QBtvL4EAAAAJ:W7OEmFMy1HYC",
+        "authors": "NJ Nishi, FA Sunny, SC Bakchy",
+        "publication": "2022 4th International Conference on Sustainable Technologies for Industry 4 …, 2022",
+        "cited_by": 4,
+        "year": "2022"
+      }
+    },
+    {
+      "name": "Paper - Counter propagation ANN based massive adaptive array antenna beamforming for mmWave communication system",
+      "type": "json",
+      "description": "Research paper metadata for Counter propagation ANN based massive adaptive array antenna beamforming for mmWave communication system",
+      "reference_time": "2015-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Farhana Akter Sunny",
+        "title": "Counter propagation ANN based massive adaptive array antenna beamforming for mmWave communication system",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QBtvL4EAAAAJ&citation_for_view=QBtvL4EAAAAJ:u-x6o8ySG0sC",
+        "authors": "FA Sunny, ZI Chowdhury, MS Kaiser",
+        "publication": "2015 IEEE International Conference on Telecommunications and Photonics (ICTP …, 2015",
+        "cited_by": 1,
+        "year": "2015"
+      }
+    }
+  ]
+}

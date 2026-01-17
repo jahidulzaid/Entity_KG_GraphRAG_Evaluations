@@ -1,0 +1,124 @@
+{
+  "group_id": "research_papers_profiling",
+  "episodes": [
+    {
+      "name": "Profile - Saiful Azad, PhD",
+      "type": "json",
+      "description": "Researcher profile metadata",
+      "reference_time": "2025-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Saiful Azad, PhD",
+        "author_id": "9nMul40AAAAJ",
+        "google_scholar_author_url": "https://scholar.google.com/citations?user=9nMul40AAAAJ&hl=en",
+        "affiliations": "Professor, Department of Computer Science and Engineering, Green University of Bangladesh",
+        "email": "dean@fse.green.edu.bd",
+        "interests": "Computer communication, Machine learning, data mining, information security"
+      }
+    },
+    {
+      "name": "Paper - DESERT Underwater: An NS-Miracle-based framework to design, simulate, emulate and realize test-beds for underwater network protocols",
+      "type": "json",
+      "description": "Research paper metadata for DESERT Underwater: An NS-Miracle-based framework to design, simulate, emulate and realize test-beds for underwater network protocols",
+      "reference_time": "2012-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Saiful Azad, PhD",
+        "title": "DESERT Underwater: An NS-Miracle-based framework to design, simulate, emulate and realize test-beds for underwater network protocols",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9nMul40AAAAJ&citation_for_view=9nMul40AAAAJ:Se3iqnhoufwC",
+        "authors": "R Masiero, S Azad, F Favaro, M Petrani, G Toso, F Guerra, P Casari, ...",
+        "publication": "2012 Oceans-Yeosu, 1-10, 2012",
+        "cited_by": 154,
+        "year": "2012"
+      }
+    },
+    {
+      "name": "Paper - iWorksafe: Towards Healthy Workplaces During COVID-19 With an Intelligent Phealth App for Industrial Settings",
+      "type": "json",
+      "description": "Research paper metadata for iWorksafe: Towards Healthy Workplaces During COVID-19 With an Intelligent Phealth App for Industrial Settings",
+      "reference_time": "2021-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Saiful Azad, PhD",
+        "title": "iWorksafe: Towards Healthy Workplaces During COVID-19 With an Intelligent Phealth App for Industrial Settings",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9nMul40AAAAJ&citation_for_view=9nMul40AAAAJ:eMMeJKvmdy0C",
+        "authors": "MS Kaiser, M Mahmud, MBT Noor, NZ Zenia, S Al Mamun, KMA Mahmud, ...",
+        "publication": "Ieee Access 9, 13814-13828, 2021",
+        "cited_by": 110,
+        "year": "2021"
+      }
+    },
+    {
+      "name": "Paper - TeKET: a Tree-Based Unsupervised Keyphrase Extraction Technique",
+      "type": "json",
+      "description": "Research paper metadata for TeKET: a Tree-Based Unsupervised Keyphrase Extraction Technique",
+      "reference_time": "2020-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Saiful Azad, PhD",
+        "title": "TeKET: a Tree-Based Unsupervised Keyphrase Extraction Technique",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9nMul40AAAAJ&citation_for_view=9nMul40AAAAJ:XiVPGOgt02cC",
+        "authors": "G Rabby, S Azad, M Mahmud, KZ Zamli, MM Rahman",
+        "publication": "Cognitive Computation 12 (4), 811-833, 2020",
+        "cited_by": 104,
+        "year": "2020"
+      }
+    },
+    {
+      "name": "Paper - Open source suites for underwater networking: WOSS and DESERT underwater",
+      "type": "json",
+      "description": "Research paper metadata for Open source suites for underwater networking: WOSS and DESERT underwater",
+      "reference_time": "2014-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Saiful Azad, PhD",
+        "title": "Open source suites for underwater networking: WOSS and DESERT underwater",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9nMul40AAAAJ&citation_for_view=9nMul40AAAAJ:qUcmZB5y_30C",
+        "authors": "P Casari, C Tapparello, F Guerra, F Favaro, I Calabrese, G Toso, S Azad, ...",
+        "publication": "IEEE Network 28 (5), 38-46, 2014",
+        "cited_by": 65,
+        "year": "2014"
+      }
+    },
+    {
+      "name": "Paper - Performance Analysis of Ad hoc Routing Protocols in Mobile WiMAX Environment",
+      "type": "json",
+      "description": "Research paper metadata for Performance Analysis of Ad hoc Routing Protocols in Mobile WiMAX Environment",
+      "reference_time": "2008-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Saiful Azad, PhD",
+        "title": "Performance Analysis of Ad hoc Routing Protocols in Mobile WiMAX Environment",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9nMul40AAAAJ&citation_for_view=9nMul40AAAAJ:M3ejUd6NZC8C",
+        "authors": "SA Farhat Anwar",
+        "publication": "IAENG International Journal of Computer Science 35 (3), 353-360, 2008",
+        "cited_by": 63,
+        "year": "2008"
+      }
+    },
+    {
+      "name": "Paper - A flexible keyphrase extraction technique for academic literature",
+      "type": "json",
+      "description": "Research paper metadata for A flexible keyphrase extraction technique for academic literature",
+      "reference_time": "2018-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Saiful Azad, PhD",
+        "title": "A flexible keyphrase extraction technique for academic literature",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9nMul40AAAAJ&citation_for_view=9nMul40AAAAJ:fQNAKQ3IYiAC",
+        "authors": "G Rabby, S Azad, M Mahmud, KZ Zamli, MM Rahman",
+        "publication": "Procedia computer science 135, 553-563, 2018",
+        "cited_by": 56,
+        "year": "2018"
+      }
+    },
+    {
+      "name": "Paper - A performance comparison of proactive and reactive routing protocols of Mobile Ad-hoc NETwork (MANET)",
+      "type": "json",
+      "description": "Research paper metadata for A performance comparison of proactive and reactive routing protocols of Mobile Ad-hoc NETwork (MANET)",
+      "reference_time": "2007-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Saiful Azad, PhD",
+        "title": "A performance comparison of proactive and reactive routing protocols of Mobile Ad-hoc NETwork (MANET)",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9nMul40AAAAJ&citation_for_view=9nMul40AAAAJ:u5HHmVD_uO8C",
+        "authors": "S Azad, M Rahman, F Anwar",
+        "publication": "Journal of Engineering and Applied Sciences 2 (5), 891-896, 2007",
+        "cited_by": 55,
+        "year": "2007"
+      }
+    }
+  ]
+}

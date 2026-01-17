@@ -1,0 +1,154 @@
+{
+  "group_id": "research_papers_profiling",
+  "episodes": [
+    {
+      "name": "Profile - Mohammad Shorif Uddin",
+      "type": "json",
+      "description": "Researcher profile metadata",
+      "reference_time": "2025-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Mohammad Shorif Uddin",
+        "author_id": "Q0_7DJAAAAAJ",
+        "google_scholar_author_url": "https://scholar.google.com/citations?user=Q0_7DJAAAAAJ&hl=en",
+        "affiliations": "Jahangirnagar Univ. | Green Univ. of Bangladesh | KIT, TTI, BII, CAS, Chiba Univ, Saitama Univ.",
+        "email": "shorifuddin@juniv.edu",
+        "interests": "Computer Vision, Agro-Biomedical Imaging, Artificial Intelligence, Smart Technologies"
+      }
+    },
+    {
+      "name": "Paper - Image quality assessment through FSIM, SSIM, MSE and PSNR—a comparative study",
+      "type": "json",
+      "description": "Research paper metadata for Image quality assessment through FSIM, SSIM, MSE and PSNR—a comparative study",
+      "reference_time": "2019-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Mohammad Shorif Uddin",
+        "title": "Image quality assessment through FSIM, SSIM, MSE and PSNR—a comparative study",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q0_7DJAAAAAJ&citation_for_view=Q0_7DJAAAAAJ:2v_ZtQDX9iAC",
+        "authors": "U Sara, M Akter, MS Uddin",
+        "publication": "Journal of Computer and Communications 7 (3), 8-18, 2019",
+        "cited_by": 2065,
+        "year": "2019"
+      }
+    },
+    {
+      "name": "Paper - Digital image watermarking techniques: a review",
+      "type": "json",
+      "description": "Research paper metadata for Digital image watermarking techniques: a review",
+      "reference_time": "2020-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Mohammad Shorif Uddin",
+        "title": "Digital image watermarking techniques: a review",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q0_7DJAAAAAJ&citation_for_view=Q0_7DJAAAAAJ:NtCmTCuxid4C",
+        "authors": "M Begum, MS Uddin",
+        "publication": "Information 11 (2), 110, 2020",
+        "cited_by": 361,
+        "year": "2020"
+      }
+    },
+    {
+      "name": "Paper - Machine vision based papaya disease recognition",
+      "type": "json",
+      "description": "Research paper metadata for Machine vision based papaya disease recognition",
+      "reference_time": "2020-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Mohammad Shorif Uddin",
+        "title": "Machine vision based papaya disease recognition",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q0_7DJAAAAAJ&citation_for_view=Q0_7DJAAAAAJ:HtEfBTGE9r8C",
+        "authors": "MT Habib, A Majumder, AZM Jakaria, M Akter, MS Uddin, F Ahmed",
+        "publication": "Journal of King Saud University-Computer and Information Sciences 32 (3 …, 2020",
+        "cited_by": 235,
+        "year": "2020"
+      }
+    },
+    {
+      "name": "Paper - A machine learning approach for skin disease detection and classification using image segmentation",
+      "type": "json",
+      "description": "Research paper metadata for A machine learning approach for skin disease detection and classification using image segmentation",
+      "reference_time": "2022-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Mohammad Shorif Uddin",
+        "title": "A machine learning approach for skin disease detection and classification using image segmentation",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q0_7DJAAAAAJ&citation_for_view=Q0_7DJAAAAAJ:rzmi0EmCOGEC",
+        "authors": "M Ahammed, M Al Mamun, MS Uddin",
+        "publication": "Healthcare Analytics 2, 100122, 2022",
+        "cited_by": 224,
+        "year": "2022"
+      }
+    },
+    {
+      "name": "Paper - An in-depth analysis of machine learning approaches to predict depression",
+      "type": "json",
+      "description": "Research paper metadata for An in-depth analysis of machine learning approaches to predict depression",
+      "reference_time": "2021-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Mohammad Shorif Uddin",
+        "title": "An in-depth analysis of machine learning approaches to predict depression",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q0_7DJAAAAAJ&citation_for_view=Q0_7DJAAAAAJ:ybfzIt2tCtgC",
+        "authors": "MS Zulfiker, N Kabir, AA Biswas, T Nazneen, MS Uddin",
+        "publication": "Current Research in Behavioral Sciences 2, 100044, 2021",
+        "cited_by": 168,
+        "year": "2021"
+      }
+    },
+    {
+      "name": "Paper - Analysis of data mining techniques for heart disease prediction",
+      "type": "json",
+      "description": "Research paper metadata for Analysis of data mining techniques for heart disease prediction",
+      "reference_time": "2016-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Mohammad Shorif Uddin",
+        "title": "Analysis of data mining techniques for heart disease prediction",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q0_7DJAAAAAJ&citation_for_view=Q0_7DJAAAAAJ:zLWjf1WUPmwC",
+        "authors": "M Sultana, A Haider, MS Uddin",
+        "publication": "2016 3rd international conference on electrical engineering and information …, 2016",
+        "cited_by": 168,
+        "year": "2016"
+      }
+    },
+    {
+      "name": "Paper - A Hybrid robust watermarking system based on discrete cosine transform, discrete wavelet transform, and singular value decomposition",
+      "type": "json",
+      "description": "Research paper metadata for A Hybrid robust watermarking system based on discrete cosine transform, discrete wavelet transform, and singular value decomposition",
+      "reference_time": "2022-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Mohammad Shorif Uddin",
+        "title": "A Hybrid robust watermarking system based on discrete cosine transform, discrete wavelet transform, and singular value decomposition",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q0_7DJAAAAAJ&citation_for_view=Q0_7DJAAAAAJ:Cvh0bltMcLgC",
+        "authors": "M Begum, J Ferdush, MS Uddin",
+        "publication": "Journal of King Saud University-Computer and Information Sciences 34 (8 …, 2022",
+        "cited_by": 155,
+        "year": "2022"
+      }
+    },
+    {
+      "name": "Paper - Covid-19 detection in chest X-ray through random forest classifier using a hybridization of deep CNN and DWT optimized features",
+      "type": "json",
+      "description": "Research paper metadata for Covid-19 detection in chest X-ray through random forest classifier using a hybridization of deep CNN and DWT optimized features",
+      "reference_time": "2022-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Mohammad Shorif Uddin",
+        "title": "Covid-19 detection in chest X-ray through random forest classifier using a hybridization of deep CNN and DWT optimized features",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q0_7DJAAAAAJ&citation_for_view=Q0_7DJAAAAAJ:5LPo_wSKItgC",
+        "authors": "R Mostafiz, MS Uddin, MM Reza, MM Rahman",
+        "publication": "Journal of King Saud University-Computer and Information Sciences 34 (6 …, 2022",
+        "cited_by": 98,
+        "year": "2022"
+      }
+    },
+    {
+      "name": "Paper - An efficient disease detection technique of rice leaf using AlexNet",
+      "type": "json",
+      "description": "Research paper metadata for An efficient disease detection technique of rice leaf using AlexNet",
+      "reference_time": "2020-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Mohammad Shorif Uddin",
+        "title": "An efficient disease detection technique of rice leaf using AlexNet",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q0_7DJAAAAAJ&citation_for_view=Q0_7DJAAAAAJ:oldoQiaHq2UC",
+        "authors": "MMH Matin, A Khatun, MG Moazzam, MS Uddin",
+        "publication": "Journal of Computer and Communications 8 (12), 49-57, 2020",
+        "cited_by": 91,
+        "year": "2020"
+      }
+    }
+  ]
+}

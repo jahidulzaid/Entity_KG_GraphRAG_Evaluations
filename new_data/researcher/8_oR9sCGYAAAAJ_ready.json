@@ -1,0 +1,139 @@
+{
+  "group_id": "research_papers_profiling",
+  "episodes": [
+    {
+      "name": "Profile - Ashish Vaswani",
+      "type": "json",
+      "description": "Researcher profile metadata",
+      "reference_time": "2025-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Ashish Vaswani",
+        "author_id": "oR9sCGYAAAAJ",
+        "google_scholar_author_url": "https://scholar.google.com/citations?user=oR9sCGYAAAAJ&hl=en",
+        "affiliations": "Startup",
+        "email": "Vaswani@fastmail.com",
+        "interests": "Deep Learning"
+      }
+    },
+    {
+      "name": "Paper - Attention is all you need",
+      "type": "json",
+      "description": "Research paper metadata for Attention is all you need",
+      "reference_time": "2017-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Ashish Vaswani",
+        "title": "Attention is all you need",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oR9sCGYAAAAJ&citation_for_view=oR9sCGYAAAAJ:zYLM7Y9cAGgC",
+        "authors": "A Vaswani, N Shazeer, N Parmar, J Uszkoreit, L Jones, AN Gomez, ...",
+        "publication": "Advances in neural information processing systems 30, 2017",
+        "cited_by": 223052,
+        "year": "2017"
+      }
+    },
+    {
+      "name": "Paper - Relational inductive biases, deep learning, and graph networks",
+      "type": "json",
+      "description": "Research paper metadata for Relational inductive biases, deep learning, and graph networks",
+      "reference_time": "2018-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Ashish Vaswani",
+        "title": "Relational inductive biases, deep learning, and graph networks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oR9sCGYAAAAJ&citation_for_view=oR9sCGYAAAAJ:JV2RwH3_ST0C",
+        "authors": "PW Battaglia, JB Hamrick, V Bapst, A Sanchez-Gonzalez, V Zambaldi, ...",
+        "publication": "arXiv preprint arXiv:1806.01261, 2018",
+        "cited_by": 4869,
+        "year": "2018"
+      }
+    },
+    {
+      "name": "Paper - Self-attention with relative position representations",
+      "type": "json",
+      "description": "Research paper metadata for Self-attention with relative position representations",
+      "reference_time": "2018-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Ashish Vaswani",
+        "title": "Self-attention with relative position representations",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oR9sCGYAAAAJ&citation_for_view=oR9sCGYAAAAJ:0EnyYjriUFMC",
+        "authors": "P Shaw, J Uszkoreit, A Vaswani",
+        "publication": "arXiv preprint arXiv:1803.02155, 2018",
+        "cited_by": 3647,
+        "year": "2018"
+      }
+    },
+    {
+      "name": "Paper - Image transformer",
+      "type": "json",
+      "description": "Research paper metadata for Image transformer",
+      "reference_time": "2018-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Ashish Vaswani",
+        "title": "Image transformer",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oR9sCGYAAAAJ&citation_for_view=oR9sCGYAAAAJ:ULOm3_A8WrAC",
+        "authors": "N Parmar, A Vaswani, J Uszkoreit, L Kaiser, N Shazeer, A Ku, D Tran",
+        "publication": "International conference on machine learning, 4055-4064, 2018",
+        "cited_by": 2505,
+        "year": "2018"
+      }
+    },
+    {
+      "name": "Paper - Stand-alone self-attention in vision models",
+      "type": "json",
+      "description": "Research paper metadata for Stand-alone self-attention in vision models",
+      "reference_time": "2019-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Ashish Vaswani",
+        "title": "Stand-alone self-attention in vision models",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oR9sCGYAAAAJ&citation_for_view=oR9sCGYAAAAJ:TFP_iSt0sucC",
+        "authors": "P Ramachandran, N Parmar, A Vaswani, I Bello, A Levskaya, J Shlens",
+        "publication": "Advances in neural information processing systems 32, 2019",
+        "cited_by": 1678,
+        "year": "2019"
+      }
+    },
+    {
+      "name": "Paper - Bottleneck transformers for visual recognition",
+      "type": "json",
+      "description": "Research paper metadata for Bottleneck transformers for visual recognition",
+      "reference_time": "2021-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Ashish Vaswani",
+        "title": "Bottleneck transformers for visual recognition",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oR9sCGYAAAAJ&citation_for_view=oR9sCGYAAAAJ:j3f4tGmQtD8C",
+        "authors": "A Srinivas, TY Lin, N Parmar, J Shlens, P Abbeel, A Vaswani",
+        "publication": "Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2021",
+        "cited_by": 1637,
+        "year": "2021"
+      }
+    },
+    {
+      "name": "Paper - Music transformer",
+      "type": "json",
+      "description": "Research paper metadata for Music transformer",
+      "reference_time": "2018-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Ashish Vaswani",
+        "title": "Music transformer",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oR9sCGYAAAAJ&citation_for_view=oR9sCGYAAAAJ:NJ774b8OgUMC",
+        "authors": "CZA Huang, A Vaswani, J Uszkoreit, N Shazeer, I Simon, C Hawthorne, ...",
+        "publication": "arXiv preprint arXiv:1809.04281, 2018",
+        "cited_by": 1277,
+        "year": "2018"
+      }
+    },
+    {
+      "name": "Paper - Efficient content-based sparse attention with routing transformers",
+      "type": "json",
+      "description": "Research paper metadata for Efficient content-based sparse attention with routing transformers",
+      "reference_time": "2021-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Ashish Vaswani",
+        "title": "Efficient content-based sparse attention with routing transformers",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oR9sCGYAAAAJ&citation_for_view=oR9sCGYAAAAJ:dhFuZR0502QC",
+        "authors": "A Roy, M Saffar, A Vaswani, D Grangier",
+        "publication": "Transactions of the Association for Computational Linguistics 9, 53-68, 2021",
+        "cited_by": 799,
+        "year": "2021"
+      }
+    }
+  ]
+}

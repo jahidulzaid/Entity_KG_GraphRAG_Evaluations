@@ -1,0 +1,169 @@
+{
+  "group_id": "research_papers_profiling",
+  "episodes": [
+    {
+      "name": "Profile - Muhammad Nomani Kabir",
+      "type": "json",
+      "description": "Researcher profile metadata",
+      "reference_time": "2025-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Muhammad Nomani Kabir",
+        "author_id": "J0V0RYkAAAAJ",
+        "google_scholar_author_url": "https://scholar.google.com/citations?user=J0V0RYkAAAAJ&hl=en",
+        "affiliations": "United International University, Bangladesh",
+        "email": "kabir@cse.uiu.ac.bd",
+        "interests": "Computational methods, Networking, Information System, Cryptography, Combustion Engine"
+      }
+    },
+    {
+      "name": "Paper - Breast cancer prediction: a comparative study using machine learning techniques",
+      "type": "json",
+      "description": "Research paper metadata for Breast cancer prediction: a comparative study using machine learning techniques",
+      "reference_time": "2020-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Muhammad Nomani Kabir",
+        "title": "Breast cancer prediction: a comparative study using machine learning techniques",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J0V0RYkAAAAJ&citation_for_view=J0V0RYkAAAAJ:O0nohqN1r9EC",
+        "authors": "MM Islam, MR Haque, H Iqbal, MM Hasan, M Hasan, MN Kabir",
+        "publication": "SN Computer Science 1 (5), 290, 2020",
+        "cited_by": 438,
+        "year": "2020"
+      }
+    },
+    {
+      "name": "Paper - A robust image watermarking technique with an optimal DCT-psychovisual threshold",
+      "type": "json",
+      "description": "Research paper metadata for A robust image watermarking technique with an optimal DCT-psychovisual threshold",
+      "reference_time": "2018-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Muhammad Nomani Kabir",
+        "title": "A robust image watermarking technique with an optimal DCT-psychovisual threshold",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J0V0RYkAAAAJ&citation_for_view=J0V0RYkAAAAJ:MhiOAD_qIWkC",
+        "authors": "F Ernawan, MN Kabir",
+        "publication": "IEEE Access 6, 20464-20480, 2018",
+        "cited_by": 162,
+        "year": "2018"
+      }
+    },
+    {
+      "name": "Paper - Deep learning based systems developed for fall detection: A review",
+      "type": "json",
+      "description": "Research paper metadata for Deep learning based systems developed for fall detection: A review",
+      "reference_time": "2020-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Muhammad Nomani Kabir",
+        "title": "Deep learning based systems developed for fall detection: A review",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J0V0RYkAAAAJ&citation_for_view=J0V0RYkAAAAJ:uVUOdF_882EC",
+        "authors": "MM Islam, O Tayan, MR Islam, MS Islam, S Nooruddin, MN Kabir, ...",
+        "publication": "IEEE Access 8, 166117-166137, 2020",
+        "cited_by": 159,
+        "year": "2020"
+      }
+    },
+    {
+      "name": "Paper - Computational investigation of Stefan blowing and multiple-slip effects on buoyancy-driven bioconvection nanofluid flow with microorganisms",
+      "type": "json",
+      "description": "Research paper metadata for Computational investigation of Stefan blowing and multiple-slip effects on buoyancy-driven bioconvection nanofluid flow with microorganisms",
+      "reference_time": "2016-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Muhammad Nomani Kabir",
+        "title": "Computational investigation of Stefan blowing and multiple-slip effects on buoyancy-driven bioconvection nanofluid flow with microorganisms",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J0V0RYkAAAAJ&citation_for_view=J0V0RYkAAAAJ:artPoR2Yc-kC",
+        "authors": "MJ Uddin, MN Kabir, OA Bég",
+        "publication": "International Journal of Heat and Mass Transfer 95, 116-130, 2016",
+        "cited_by": 154,
+        "year": "2016"
+      }
+    },
+    {
+      "name": "Paper - Numerical solutions for gyrotactic bioconvection in nanofluid-saturated porous media with Stefan blowing and multiple slip effects",
+      "type": "json",
+      "description": "Research paper metadata for Numerical solutions for gyrotactic bioconvection in nanofluid-saturated porous media with Stefan blowing and multiple slip effects",
+      "reference_time": "2016-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Muhammad Nomani Kabir",
+        "title": "Numerical solutions for gyrotactic bioconvection in nanofluid-saturated porous media with Stefan blowing and multiple slip effects",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J0V0RYkAAAAJ&citation_for_view=J0V0RYkAAAAJ:uDGL6kOW6j0C",
+        "authors": "MJ Uddin, Y Alginahi, OA Bég, MN Kabir",
+        "publication": "Computers & Mathematics with Applications 72 (10), 2562-2581, 2016",
+        "cited_by": 153,
+        "year": "2016"
+      }
+    },
+    {
+      "name": "Paper - Sensor-based fall detection systems: a review",
+      "type": "json",
+      "description": "Research paper metadata for Sensor-based fall detection systems: a review",
+      "reference_time": "2022-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Muhammad Nomani Kabir",
+        "title": "Sensor-based fall detection systems: a review",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J0V0RYkAAAAJ&citation_for_view=J0V0RYkAAAAJ:mUJArPsKIAAC",
+        "authors": "S Nooruddin, MM Islam, FA Sharna, H Alhetari, MN Kabir",
+        "publication": "Journal of Ambient Intelligence and Humanized Computing 13 (5), 2735-2751, 2022",
+        "cited_by": 128,
+        "year": "2022"
+      }
+    },
+    {
+      "name": "Paper - A block-based RDWT-SVD image watermarking method using human visual system characteristics",
+      "type": "json",
+      "description": "Research paper metadata for A block-based RDWT-SVD image watermarking method using human visual system characteristics",
+      "reference_time": "2020-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Muhammad Nomani Kabir",
+        "title": "A block-based RDWT-SVD image watermarking method using human visual system characteristics",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J0V0RYkAAAAJ&citation_for_view=J0V0RYkAAAAJ:7H_MAutzIkAC",
+        "authors": "F Ernawan, MN Kabir",
+        "publication": "The visual computer 36 (1), 19-37, 2020",
+        "cited_by": 128,
+        "year": "2020"
+      }
+    },
+    {
+      "name": "Paper - Challenges and future in deep learning for sentiment analysis: a comprehensive review and a proposed novel hybrid approach",
+      "type": "json",
+      "description": "Research paper metadata for Challenges and future in deep learning for sentiment analysis: a comprehensive review and a proposed novel hybrid approach",
+      "reference_time": "2024-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Muhammad Nomani Kabir",
+        "title": "Challenges and future in deep learning for sentiment analysis: a comprehensive review and a proposed novel hybrid approach",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J0V0RYkAAAAJ&citation_for_view=J0V0RYkAAAAJ:TlpoogIpr_IC",
+        "authors": "MS Islam, MN Kabir, NA Ghani, KZ Zamli, NSA Zulkifli, MM Rahman, ...",
+        "publication": "Artificial Intelligence Review 57 (3), 62, 2024",
+        "cited_by": 118,
+        "year": "2024"
+      }
+    },
+    {
+      "name": "Paper - Strategic information systems alignment: alignment of IS/IT with business strategy",
+      "type": "json",
+      "description": "Research paper metadata for Strategic information systems alignment: alignment of IS/IT with business strategy",
+      "reference_time": "2010-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Muhammad Nomani Kabir",
+        "title": "Strategic information systems alignment: alignment of IS/IT with business strategy",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J0V0RYkAAAAJ&citation_for_view=J0V0RYkAAAAJ:u5HHmVD_uO8C",
+        "authors": "A Issa-Salwe, M Ahmed, K Aloufi, M Kabir",
+        "publication": "Journal of Information Processing Systems 6 (1), 121-128, 2010",
+        "cited_by": 101,
+        "year": "2010"
+      }
+    },
+    {
+      "name": "Paper - Handwritten character recognition using convolutional neural network",
+      "type": "json",
+      "description": "Research paper metadata for Handwritten character recognition using convolutional neural network",
+      "reference_time": "2021-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Muhammad Nomani Kabir",
+        "title": "Handwritten character recognition using convolutional neural network",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J0V0RYkAAAAJ&citation_for_view=J0V0RYkAAAAJ:ziOE8S1-AIUC",
+        "authors": "I Khandokar, M Hasan, F Ernawan, S Islam, MN Kabir",
+        "publication": "Journal of Physics: Conference Series 1918 (4), 042152, 2021",
+        "cited_by": 91,
+        "year": "2021"
+      }
+    }
+  ]
+}

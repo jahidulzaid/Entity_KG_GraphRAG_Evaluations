@@ -1,0 +1,109 @@
+{
+  "group_id": "research_papers_profiling",
+  "episodes": [
+    {
+      "name": "Profile - Md. Arafatur Rahman",
+      "type": "json",
+      "description": "Researcher profile metadata",
+      "reference_time": "2025-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Md. Arafatur Rahman",
+        "author_id": "bkhRAYAAAAAJ",
+        "google_scholar_author_url": "https://scholar.google.com/citations?user=bkhRAYAAAAAJ&hl=en",
+        "affiliations": "Reader in Cyber Security, School of Mathematics and Computer Science, University of Wolverhampton",
+        "email": "arafatur.Rahman@wlv.ac.uk",
+        "interests": "Cyber Security, Vehicular Technology, Wireless Communication, IoT, Big Data Analytics"
+      }
+    },
+    {
+      "name": "Paper - PrivacyProtector: Privacy-Protected Patient Data Collection in IoT-Based Healthcare Systems",
+      "type": "json",
+      "description": "Research paper metadata for PrivacyProtector: Privacy-Protected Patient Data Collection in IoT-Based Healthcare Systems",
+      "reference_time": "2018-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Md. Arafatur Rahman",
+        "title": "PrivacyProtector: Privacy-Protected Patient Data Collection in IoT-Based Healthcare Systems",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bkhRAYAAAAAJ&citation_for_view=bkhRAYAAAAAJ:NJ774b8OgUMC",
+        "authors": "E Luo, MZA Bhuiyan, G Wang, MA Rahman, J Wu, M Atiquzzaman",
+        "publication": "IEEE Communications Magazine 56 (2), 163-168, 2018",
+        "cited_by": 306,
+        "year": "2018"
+      }
+    },
+    {
+      "name": "Paper - Evolution of IoT-enabled connectivity and applications in automotive industry: A review",
+      "type": "json",
+      "description": "Research paper metadata for Evolution of IoT-enabled connectivity and applications in automotive industry: A review",
+      "reference_time": "2021-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Md. Arafatur Rahman",
+        "title": "Evolution of IoT-enabled connectivity and applications in automotive industry: A review",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bkhRAYAAAAAJ&citation_for_view=bkhRAYAAAAAJ:TIZ-Mc8IlK0C",
+        "authors": "MA Rahim, MA Rahman, MM Rahman, AT Asyhari, MZA Bhuiyan, ...",
+        "publication": "Vehicular Communications 27, 100285, 2021",
+        "cited_by": 263,
+        "year": "2021"
+      }
+    },
+    {
+      "name": "Paper - Scalable machine learning-based intrusion detection system for IoT-enabled smart cities",
+      "type": "json",
+      "description": "Research paper metadata for Scalable machine learning-based intrusion detection system for IoT-enabled smart cities",
+      "reference_time": "2020-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Md. Arafatur Rahman",
+        "title": "Scalable machine learning-based intrusion detection system for IoT-enabled smart cities",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bkhRAYAAAAAJ&citation_for_view=bkhRAYAAAAAJ:g3aElNc5_aQC",
+        "authors": "MA Rahman, AT Asyhari, LS Leong, GB Satrya, MH Tao, MF Zolkipli",
+        "publication": "Sustainable Cities and Society 61, 102324, 2020",
+        "cited_by": 237,
+        "year": "2020"
+      }
+    },
+    {
+      "name": "Paper - Data-driven dynamic clustering framework for mitigating the adverse economic impact of Covid-19 lockdown practices",
+      "type": "json",
+      "description": "Research paper metadata for Data-driven dynamic clustering framework for mitigating the adverse economic impact of Covid-19 lockdown practices",
+      "reference_time": "2020-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Md. Arafatur Rahman",
+        "title": "Data-driven dynamic clustering framework for mitigating the adverse economic impact of Covid-19 lockdown practices",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bkhRAYAAAAAJ&citation_for_view=bkhRAYAAAAAJ:KUbvn5osdkgC",
+        "authors": "MA Rahman, N Zaman, AT Asyhari, F Al-Turjman, MZA Bhuiyan, ...",
+        "publication": "Sustainable cities and society 62, 102372, 2020",
+        "cited_by": 216,
+        "year": "2020"
+      }
+    },
+    {
+      "name": "Paper - Economic perspective analysis of protecting big data security and privacy",
+      "type": "json",
+      "description": "Research paper metadata for Economic perspective analysis of protecting big data security and privacy",
+      "reference_time": "2019-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Md. Arafatur Rahman",
+        "title": "Economic perspective analysis of protecting big data security and privacy",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bkhRAYAAAAAJ&citation_for_view=bkhRAYAAAAAJ:uc_IGeMz5qoC",
+        "authors": "H Tao, MZA Bhuiyan, MA Rahman, G Wang, T Wang, MM Ahmed, J Li",
+        "publication": "Future Generation Computer Systems 98, 660-671, 2019",
+        "cited_by": 170,
+        "year": "2019"
+      }
+    },
+    {
+      "name": "Paper - Big Data Reduction for a Smart City’s Critical Infrastructural Health Monitoring",
+      "type": "json",
+      "description": "Research paper metadata for Big Data Reduction for a Smart City’s Critical Infrastructural Health Monitoring",
+      "reference_time": "2018-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Md. Arafatur Rahman",
+        "title": "Big Data Reduction for a Smart City’s Critical Infrastructural Health Monitoring",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bkhRAYAAAAAJ&citation_for_view=bkhRAYAAAAAJ:_Re3VWB3Y0AC",
+        "authors": "T Wang, MZA Bhuiyan, G Wang, MA Rahman, J Wu, J Cao",
+        "publication": "IEEE Communications Magazine 56 (3), 128-133, 2018",
+        "cited_by": 157,
+        "year": "2018"
+      }
+    }
+  ]
+}

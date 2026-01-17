@@ -1,0 +1,210 @@
+{
+    "episodes": [
+        {
+            "profiles": {
+                "title": "User profiles for Dr. Md. Abdur Razzaque",
+                "authors": [
+                    {
+                        "name": "Dr. Md. Abdur Razzaque",
+                        "short_name": "MA Razzaque",
+                        "link": "https://scholar.google.com/citations?user=1yMUb7wAAAAJ&hl=en&oi=ao",
+                        "author_id": "1yMUb7wAAAAJ",
+                        "affiliations": "Professor of Computer Science and Engineering, University of Dhaka, Bangladesh",
+                        "email": "Verified email at du.ac.bd",
+                        "cited_by": 4203
+                    }
+                ]
+            },
+            "Papers": [
+
+                {
+                    "title": "Glycaemic status of patients with chronic obstructive pulmonary disease on inhaled corticosteroid",
+                    "type": "Pdf",
+                    "link": "https://www.academia.edu/download/68581512/C2008011623.pdf",
+                    "snippet": "Background: Although the hyperglycemic effects of systemic glucocorticoid therapy are well known, the effect of inhaled corticosteroids (ICS) on carbohydrate metabolism is still a …",
+                    "publication_info": {
+                        "summary": "A Razzaque, F Parvin, SR Amin, R Kabir… - IOSR Journal of Dental …, 2021 - academia.edu",
+                        "authors": [
+                            {
+                                "name": "A Razzaque"
+                            },
+                            {
+                                "name": "F Parvin"
+                            },
+                            {
+                                "name": "SR Amin",
+                                "link": "https://scholar.google.com/citations?user=ywtcSjoAAAAJ&hl=en&oi=sra",
+                                "author_id": "ywtcSjoAAAAJ"
+                            },
+                            {
+                                "name": "R Kabir"
+                            }
+                        ]
+                    },
+                    "resources": [
+                        {
+                            "title": "academia.edu",
+                            "file_format": "PDF",
+                            "link": "https://www.academia.edu/download/68581512/C2008011623.pdf"
+                        }
+                    ]
+                },
+                {
+                    "title": "Investigation of the structural and electrical properties of polypropylene-Bijoypur white clay composite",
+                    "link": "http://lib.buet.ac.bd:8080/xmlui/handle/123456789/1454",
+                    "snippet": "… I am extremely delighted to express my indebtedness and deepest sense of gratitude to my reverend teacher Dr. ,11d.Abu Hashan Shu/yan, Associate Professor, Department of Physics, …",
+                    "publication_info": {
+                        "summary": "A Razzaque - 1997 - lib.buet.ac.bd",
+                        "authors": [
+                            {
+                                "name": "A Razzaque"
+                            }
+                        ]
+                    },
+                    "resources": [
+                        {
+                            "title": "buet.ac.bd",
+                            "file_format": "PDF",
+                            "link": "http://lib.buet.ac.bd:8080/xmlui/bitstream/handle/123456789/1454/Full%20%20Thesis%20.pdf?sequence=1&isAllowed=y"
+                        }
+                    ]
+                },
+                {
+                    "title": "An Investigation of the Effect of Age, Severity of Hypertension and Duration of Hypertension for Erectile Dysfunction",
+                    "type": "Pdf",
+                    "link": "https://www.saspublishers.com/media/articles/SASJM_75_208-215.pdf",
+                    "snippet": "… Citation: Abdur Razzaque et al. An Investigation of the Effect of Age, Severity of Hypertension and Duration of Hypertension for Erectile … *Corresponding author: Dr. Abdur Razzaque …",
+                    "publication_info": {
+                        "summary": "A Razzaque - SAS J Med, 2021 - saspublishers.com",
+                        "authors": [
+                            {
+                                "name": "A Razzaque"
+                            }
+                        ]
+                    },
+                    "resources": [
+                        {
+                            "title": "saspublishers.com",
+                            "file_format": "PDF",
+                            "link": "https://www.saspublishers.com/media/articles/SASJM_75_208-215.pdf"
+                        }
+                    ]
+                },
+                {
+                    "title": "An intelligent approach for virtual machine and QoS provisioning in cloud computing",
+                    "link": "https://ieeexplore.ieee.org/abstract/document/6496423/",
+                    "snippet": "Cloud Computing has become the most popular distributed computing environment because it does not require any user level management and controlling on the low-level …",
+                    "publication_info": {
+                        "summary": "AK Das, T Adhikary, MA Razzaque… - The International …, 2013 - ieeexplore.ieee.org",
+                        "authors": [
+                            {
+                                "name": "AK Das",
+                                "link": "https://scholar.google.com/citations?user=yXXXbR4AAAAJ&hl=en&oi=sra",
+                                "author_id": "yXXXbR4AAAAJ"
+                            },
+                            {
+                                "name": "T Adhikary",
+                                "link": "https://scholar.google.com/citations?user=r_5qlzMAAAAJ&hl=en&oi=sra",
+                                "author_id": "r_5qlzMAAAAJ"
+                            },
+                            {
+                                "name": "MA Razzaque",
+                                "link": "https://scholar.google.com/citations?user=1yMUb7wAAAAJ&hl=en&oi=sra",
+                                "author_id": "1yMUb7wAAAAJ"
+                            }
+                        ]
+                    },
+                    "resources": [
+                        {
+                            "title": "academia.edu",
+                            "file_format": "PDF",
+                            "link": "https://www.academia.edu/download/35815990/Cloud_paper.pdf"
+                        }
+                    ]
+                },
+                {
+                    "title": "Real time detection of speed breakers and warning system for on-road drivers",
+                    "link": "https://ieeexplore.ieee.org/abstract/document/7443976/",
+                    "snippet": "… Motorists should drive within speed limits and with a speed consistent with road conditions. Speed breakers (speed humps… Md. Abdur Razzaque is the corresponding author of this work. …",
+                    "publication_info": {
+                        "summary": "…, MR Mahmud, MA Razzaque - 2015 IEEE international …, 2015 - ieeexplore.ieee.org",
+                        "authors": [
+                            {
+                                "name": ""
+                            },
+                            {
+                                "name": "MR Mahmud",
+                                "link": "https://scholar.google.com/citations?user=rliTpSsAAAAJ&hl=en&oi=sra",
+                                "author_id": "rliTpSsAAAAJ"
+                            },
+                            {
+                                "name": "MA Razzaque",
+                                "link": "https://scholar.google.com/citations?user=1yMUb7wAAAAJ&hl=en&oi=sra",
+                                "author_id": "1yMUb7wAAAAJ"
+                            }
+                        ]
+                    },
+                    "resources": [
+                        {
+                            "title": "researchgate.net",
+                            "file_format": "PDF",
+                            "link": "https://www.researchgate.net/profile/Md-Mahmud-11/publication/299821271_Real_time_detection_of_speed_breakers_and_warning_system_for_on-road_drivers/links/57fae3b008ae91deaa632e39/Real-time-detection-of-speed-breakers-and-warning-system-for-on-road-drivers.pdf"
+                        }
+                    ]
+                },
+                {
+                    "title": "A rule based bengali stemmer",
+                    "link": "https://ieeexplore.ieee.org/abstract/document/6968484/",
+                    "snippet": "… of Dhaka, Bangladesh Email: ratul06oct, afrinritu92 AT gmail DOT com, razzaque AT cse DOT univdhaka DOT edu … Md. Abdur Razzaque is the corresponding author of this paper. …",
+                    "publication_info": {
+                        "summary": "MR Mahmud, M Afrin, MA Razzaque… - … on advances in …, 2014 - ieeexplore.ieee.org",
+                        "authors": [
+                            {
+                                "name": "MR Mahmud",
+                                "link": "https://scholar.google.com/citations?user=rliTpSsAAAAJ&hl=en&oi=sra",
+                                "author_id": "rliTpSsAAAAJ"
+                            },
+                            {
+                                "name": "M Afrin",
+                                "link": "https://scholar.google.com/citations?user=mV1ReoMAAAAJ&hl=en&oi=sra",
+                                "author_id": "mV1ReoMAAAAJ"
+                            },
+                            {
+                                "name": "MA Razzaque",
+                                "link": "https://scholar.google.com/citations?user=1yMUb7wAAAAJ&hl=en&oi=sra",
+                                "author_id": "1yMUb7wAAAAJ"
+                            }
+                        ]
+                    },
+                    "resources": [
+                        {
+                            "title": "researchgate.net",
+                            "file_format": "PDF",
+                            "link": "https://www.researchgate.net/profile/Md-Mahmud-11/publication/286584414_A_rule_based_bengali_stemmer/links/57fae35a08ae91deaa632e2d/A-rule-based-bengali-stemmer.pdf"
+                        }
+                    ]
+                },
+                {
+                    "title": "Analysis of energy-tax for multipath routing in wireless sensor networks",
+                    "link": "https://link.springer.com/article/10.1007/s12243-009-0110-5",
+                    "snippet": "Recently, multipath routing in wireless sensor networks (WSN) has got immense research interest due to its capability of providing increased robustness, reliability, throughput, and …",
+                    "publication_info": {
+                        "summary": "MA Razzaque, CS Hong - annals of telecommunications-annales des …, 2010 - Springer",
+                        "authors": [
+                            {
+                                "name": "MA Razzaque",
+                                "link": "https://scholar.google.com/citations?user=1yMUb7wAAAAJ&hl=en&oi=sra",
+                                "author_id": "1yMUb7wAAAAJ"
+                            },
+                            {
+                                "name": "CS Hong",
+                                "link": "https://scholar.google.com/citations?user=oKANWloAAAAJ&hl=en&oi=sra",
+                                "author_id": "oKANWloAAAAJ"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+  "group_id": "research_papers_profiling",
+  "episodes": [
+    {
+      "name": "Profile - Md Ataullha",
+      "type": "json",
+      "description": "Researcher profile metadata",
+      "reference_time": "2025-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Md Ataullha",
+        "author_id": "N2dzzwsAAAAJ",
+        "google_scholar_author_url": "https://scholar.google.com/citations?user=N2dzzwsAAAAJ&hl=en",
+        "affiliations": "Lecturer, Department of Computer Science and Engineering, Green University of Bangladesh",
+        "email": "Ataullha@cse.green.edu.bd",
+        "interests": "Applied Machine Learning, Speech Processing, Natural Language Processing"
+      }
+    },
+    {
+      "name": "Paper - Mathematical analysis and prediction of future outbreak of dengue on time-varying contact rate using machine learning approach",
+      "type": "json",
+      "description": "Research paper metadata for Mathematical analysis and prediction of future outbreak of dengue on time-varying contact rate using machine learning approach",
+      "reference_time": "2024-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Md Ataullha",
+        "title": "Mathematical analysis and prediction of future outbreak of dengue on time-varying contact rate using machine learning approach",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=N2dzzwsAAAAJ&citation_for_view=N2dzzwsAAAAJ:IWHjjKOFINEC",
+        "authors": "MS Islam, P Shahrear, G Saha, M Ataullha, MS Rahman",
+        "publication": "Computers in biology and medicine 178, 108707, 2024",
+        "cited_by": 28,
+        "year": "2024"
+      }
+    },
+    {
+      "name": "Paper - PyBangla at BLP-2025 Task 2: Enhancing Bangla-to-Python Code Generation with Iterative Self-Correction and Multilingual Agents",
+      "type": "json",
+      "description": "Research paper metadata for PyBangla at BLP-2025 Task 2: Enhancing Bangla-to-Python Code Generation with Iterative Self-Correction and Multilingual Agents",
+      "reference_time": "2025-01-01T00:00:00Z",
+      "content": {
+        "researcher": "Md Ataullha",
+        "title": "PyBangla at BLP-2025 Task 2: Enhancing Bangla-to-Python Code Generation with Iterative Self-Correction and Multilingual Agents",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=N2dzzwsAAAAJ&citation_for_view=N2dzzwsAAAAJ:HDshCWvjkbEC",
+        "authors": "J Islam, M Ataullha, S Azad",
+        "publication": "arXiv preprint arXiv:2512.23713, 2025",
+        "cited_by": null,
+        "year": "2025"
+      }
+    }
+  ]
+}
