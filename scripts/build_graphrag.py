@@ -12,6 +12,9 @@ from dotenv import load_dotenv
 # Add the parent directory to the path so we can import the modules
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from kg_rag.methods.graphrag_based.indexer import GraphRAGIndexer
+from kg_rag.utils.document_loader import load_documents
+
 
 def parse_args():
     """Parse command line arguments."""
@@ -46,6 +49,12 @@ def parse_args():
         help="Optional string to filter filenames",
     )
     parser.add_argument(
+        "--file-extensions",
+        type=str,
+        default=".pdf",
+        help="Comma-separated list of file extensions to load (default: .pdf)",
+    )
+    parser.add_argument(
         "--chunk-size", type=int, default=512, help="Size of document chunks"
     )
     parser.add_argument(
@@ -75,3 +84,56 @@ def main():
     # Create output directory if it doesn't exist
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
+
+    artifacts_path = output_dir / f"{args.artifacts_name}.pkl"
+    cache_dir = resolve_output_path(output_dir, args.cache_dir)
+    vector_store_dir = resolve_output_path(output_dir, args.vector_store_dir)
+
+    print(f"Loading documents from {args.docs_dir}...")
+    documents = load_documents(
+        directory_path=args.docs_dir,
+        file_filter=args.file_filter,
+        chunk_size=args.chunk_size,
+        chunk_overlap=args.chunk_overlap,
+        file_extensions=parse_file_extensions(args.file_extensions),
+    )
+    print(f"Loaded {len(documents)} document chunks")
+
+    indexer = GraphRAGIndexer(
+        cache_dir=str(cache_dir),
+        vector_store_dir=str(vector_store_dir),
+        artifacts_dir=str(output_dir),
+        llm_model=args.llm_model,
+        embedding_model=args.embedding_model,
+        chunk_size=args.chunk_size,
+        chunk_overlap=args.chunk_overlap,
+        verbose=args.verbose,
+    )
+
+    artifacts = indexer.index_documents(documents)
+    indexer.save_artifacts(artifacts, str(artifacts_path))
+
+    print("\nGraphRAG artifacts built successfully")
+    print(f"Artifacts saved to {artifacts_path}")
+    print(f"Vector store directory: {vector_store_dir}")
+    print(f"Cache directory: {cache_dir}")
+
+
+def resolve_output_path(base_dir: Path, value: str) -> Path:
+    path = Path(value)
+    if path.is_absolute():
+        return path
+    return base_dir / path
+
+
+def parse_file_extensions(value: str | None) -> list[str] | None:
+    if not value:
+        return None
+    items = [item.strip() for item in value.split(",") if item.strip()]
+    if not items:
+        return None
+    return [item if item.startswith(".") else f".{item}" for item in items]
+
+
+if __name__ == "__main__":
+    main()

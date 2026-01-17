@@ -173,6 +173,7 @@ class Evaluator:
         output_file = self.output_dir / f"{self.experiment_name}_{timestamp}.txt"
 
         results = []
+        context_rows = []
         correct = 0
         total = len(df)
 
@@ -206,6 +207,11 @@ class Evaluator:
                     model_answer, model_reasoning, is_correct = self._process_answer(
                         response, normalize_answers, answer_processor, expected_answer
                     )
+                    context_text = (
+                        response.get("context", "")
+                        if isinstance(response, dict)
+                        else ""
+                    )
                     if is_correct:
                         correct += 1
 
@@ -213,6 +219,7 @@ class Evaluator:
                     model_answer = f"ERROR: {str(e)}"
                     model_reasoning = "Error occurred during processing"
                     is_correct = False
+                    context_text = ""
 
                 # Write results for this question
                 f.write(f"Question {i + 1}/{total}:\n")
@@ -231,7 +238,16 @@ class Evaluator:
                         "expected": expected_answer,
                         "answer": model_answer,
                         "reasoning": model_reasoning,
+                        "context": context_text,
                         "correct": is_correct,
+                    }
+                )
+                context_rows.append(
+                    {
+                        "question": question,
+                        "ground_truth": expected_answer,
+                        "answer": model_answer,
+                        "context": context_text,
                     }
                 )
 
@@ -249,6 +265,10 @@ class Evaluator:
             self.output_dir / f"{self.experiment_name}_details_{timestamp}.csv",
             index=False,
         )
+        pd.DataFrame(context_rows).to_csv(
+            self.output_dir / f"{self.experiment_name}_context_{timestamp}.csv",
+            index=False,
+        )
 
         # Return summary results
         summary = {
@@ -259,6 +279,9 @@ class Evaluator:
             "output_file": str(output_file),
             "details_file": str(
                 self.output_dir / f"{self.experiment_name}_details_{timestamp}.csv"
+            ),
+            "context_file": str(
+                self.output_dir / f"{self.experiment_name}_context_{timestamp}.csv"
             ),
         }
 

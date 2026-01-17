@@ -1,0 +1,19 @@
+{
+    "graph_documents_pkl_path": "data/researcher/entity_graph_documents.pkl",
+    "documents_pkl_path": "data/researcher/documents.pkl",
+    "documents_path": "new_data/researcher",
+    "artifacts_path": "data/researcher/graphrag_artifacts.pkl",
+    "vector_store_dir": "data/researcher/vector_stores",
+    "cache_dir": "data/researcher/cache",
+    "model_name": "gpt-4o",
+    "embedding_model": "text-embedding-3-small",
+    "search_strategy": "local",
+    "community_level": 2,
+    "top_k_nodes": 30,
+    "top_k_chunks": 5,
+    "max_hops": 1,
+    "similarity_threshold": 0.5,
+    "node_freq_weight": 0.4,
+    "node_sim_weight": 0.6,
+    "normalize_answers": false
+}

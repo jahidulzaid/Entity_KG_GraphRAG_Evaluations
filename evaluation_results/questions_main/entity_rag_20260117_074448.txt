@@ -1,0 +1,1897 @@
+entity_rag Evaluation Results
+Evaluation Date: 2026-01-17 07:44:48
+Total Questions: 202
+
+Configuration:
+{
+  "graph_documents_pkl_path": "data/researcher/entity_graph_documents.pkl",
+  "documents_pkl_path": "data/researcher/documents.pkl",
+  "documents_path": "new_data/researcher",
+  "artifacts_path": "data/researcher/graphrag_artifacts.pkl",
+  "vector_store_dir": "data/researcher/vector_stores",
+  "cache_dir": "data/researcher/cache",
+  "model_name": "gpt-4o",
+  "embedding_model": "text-embedding-3-small",
+  "search_strategy": "local",
+  "community_level": 2,
+  "top_k_nodes": 30,
+  "top_k_chunks": 5,
+  "max_hops": 1,
+  "similarity_threshold": 0.5,
+  "node_freq_weight": 0.4,
+  "node_sim_weight": 0.6,
+  "normalize_answers": false
+}
+================================================================================
+
+Question 1/202:
+Question: What is the email address of Dr. Md. Abdur Razzaque?
+Expected Answer: razzaque@du.ac.bd
+Model Answer: The email address of Dr. Md. Abdur Razzaque is razzaque@du.ac.bd.
+Reasoning:
+Answer generated based on 6 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 2/202:
+Question: What are the research interests of Dr. Md. Abdur Razzaque?
+Expected Answer: Cloud and Edge Intelligence, AI for Internet of Things, 5IR Technologies, Energy Optimization
+Model Answer: Dr. Md. Abdur Razzaque's research interests include Cloud and Edge Intelligence, AI for Internet of Things, 5IR Technologies, and Energy Optimization.
+Reasoning:
+Answer generated based on 15 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 3/202:
+Question: What is the affiliation of Saiful Azad, PhD?
+Expected Answer: Professor, Department of Computer Science and Engineering, Green University of Bangladesh
+Model Answer: Saiful Azad, PhD is affiliated with the Department of Computer Science and Engineering at Green University of Bangladesh, where he holds the position of Professor.
+Reasoning:
+Answer generated based on 1 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 4/202:
+Question: What is the email of Md. Arafatur Rahman?
+Expected Answer: arafatur.Rahman@wlv.ac.uk
+Model Answer: The email of Md. Arafatur Rahman is Arafatur.Rahman@wlv.ac.uk.
+Reasoning:
+Answer generated based on 2 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 5/202:
+Question: What are the research interests of Muhammad Nomani Kabir?
+Expected Answer: Computational methods, Networking, Information System, Cryptography, Combustion Engine
+Model Answer: Muhammad Nomani Kabir's research interests include:
+
+- Computational Methods
+- Networking
+- Information System
+- Cryptography
+- Combustion Engine
+Reasoning:
+Answer generated based on 2 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 6/202:
+Question: What is the affiliation of Humayan Kabir Rana?
+Expected Answer: Sr. Lecturer, Department of Computer Science and Engineering, Green University of Bangladesh
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 7/202:
+Question: What are Jahidul Islam's research interests?
+Expected Answer: Machine Learning, Natural Language Processing, LLMs, RAG
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 8/202:
+Question: What is the email address of Md Ataullha?
+Expected Answer: Ataullha@cse.green.edu.bd
+Model Answer: The provided context does not contain information about the email address of Md Ataullha.
+Reasoning:
+Answer generated based on 1 relevant entities, 1 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 9/202:
+Question: Where does Ashish Vaswani work?
+Expected Answer: Startup
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 10/202:
+Question: What is Mohammad Shorif Uddin's research focus area?
+Expected Answer: Computer Vision, Agro-Biomedical Imaging, Artificial Intelligence, Smart Technologies
+Model Answer: Mohammad Shorif Uddin's research focus areas include Computer Vision, Agro-Biomedical Imaging, Artificial Intelligence, and Smart Technologies.
+Reasoning:
+Answer generated based on 1 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 11/202:
+Question: What is the email address of Farhana Akter Sunny?
+Expected Answer: farhana@cse.green.edu.bd
+Model Answer: The email address of Farhana Akter Sunny is farhana@cse.green.edu.bd.
+Reasoning:
+Answer generated based on 1 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 12/202:
+Question: What is the email of Humayan Kabir Rana?
+Expected Answer: humayan@cse.green.edu.bd
+Model Answer: The provided context does not contain any information about Humayan Kabir Rana or his email address.
+Reasoning:
+Answer generated based on 1 relevant entities, 1 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 13/202:
+Question: What is the email of Mohammad Shorif Uddin?
+Expected Answer: shorifuddin@juniv.edu
+Model Answer: The email of Mohammad Shorif Uddin is shorifuddin@juniv.edu.
+Reasoning:
+Answer generated based on 1 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 14/202:
+Question: What is Ashish Vaswani's email address?
+Expected Answer: Vaswani@fastmail.com
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 15/202:
+Question: What are Humayan Kabir Rana's research interests?
+Expected Answer: Bioinformatics, Machine Learning, Data Mining, Image Processing
+Model Answer: Humayan Kabir Rana's research interests include Bioinformatics, Machine Learning, Data Mining, and Image Processing.
+Reasoning:
+Answer generated based on 2 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 16/202:
+Question: What are the research interests of Saiful Azad?
+Expected Answer: Computer communication, Machine learning, data mining, information security
+Model Answer: Saiful Azad's research interests include:
+
+- Computer Communication
+- Machine Learning
+- Data Mining
+- Information Security
+Reasoning:
+Answer generated based on 1 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 17/202:
+Question: What is the Google Scholar author ID of Dr. Md. Abdur Razzaque?
+Expected Answer: 1yMUb7wAAAAJ
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-Z0pCJ1N86MLLO2eyoKNdozCq on tokens per min (TPM): Limit 30000, Used 27032, Requested 3292. Please try again in 648ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 18/202:
+Question: What is the Google Scholar author ID of Ashish Vaswani?
+Expected Answer: oR9sCGYAAAAJ
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 19/202:
+Question: What is the Google Scholar author ID of Saiful Azad?
+Expected Answer: 9nMul40AAAAJ
+Model Answer: The Google Scholar author ID of Saiful Azad is `9nMul40AAAAJ`.
+Reasoning:
+Answer generated based on 1 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 20/202:
+Question: What university is Dr. Md. Abdur Razzaque affiliated with?
+Expected Answer: University of Dhaka, Bangladesh
+Model Answer: Dr. Md. Abdur Razzaque is affiliated with the University of Dhaka.
+Reasoning:
+Answer generated based on 5 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 21/202:
+Question: What is Mohammad Shorif Uddin's affiliation?
+Expected Answer: Jahangirnagar Univ. | Green Univ. of Bangladesh | KIT, TTI, BII, CAS, Chiba Univ, Saitama Univ.
+Model Answer: Mohammad Shorif Uddin is affiliated with several institutions, including Jahangirnagar University, Green University of Bangladesh, KIT, TTI, BII, CAS, Chiba University, and Saitama University.
+Reasoning:
+Answer generated based on 1 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 22/202:
+Question: What is the title of Dr. Md. Abdur Razzaque's most cited paper?
+Expected Answer: Review on cyber-physical and cyber-security system in smart grid: Standards, protocols, constraints, and recommendations
+Model Answer: The title of Dr. Md. Abdur Razzaque's most cited paper is "Review on cyber-physical and cyber-security system in smart grid: Standards, protocols, constraints, and recommendations," which has been cited 393 times.
+Reasoning:
+Answer generated based on 4 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 23/202:
+Question: How many citations does the paper 'Attention is all you need' by Ashish Vaswani have?
+Expected Answer: 223052
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 24/202:
+Question: What is the title of Saiful Azad's paper published in 2012?
+Expected Answer: DESERT Underwater: An NS-Miracle-based framework to design, simulate, emulate and realize test-beds for underwater network protocols
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 25/202:
+Question: What is the title of Muhammad Nomani Kabir's most cited paper?
+Expected Answer: Breast cancer prediction: a comparative study using machine learning techniques
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 26/202:
+Question: How many times has the paper 'PrivacyProtector: Privacy-Protected Patient Data Collection in IoT-Based Healthcare Systems' been cited?
+Expected Answer: 306
+Model Answer: The paper 'PrivacyProtector: Privacy-Protected Patient Data Collection in IoT-Based Healthcare Systems' has been cited 306 times.
+Reasoning:
+Answer generated based on 1 relevant entities, 8 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 27/202:
+Question: What paper did Md. Arafatur Rahman publish in 2021?
+Expected Answer: Evolution of IoT-enabled connectivity and applications in automotive industry: A review
+Model Answer: In 2021, Md. Arafatur Rahman published the paper titled "Evolution of IoT-enabled connectivity and applications in automotive industry: A review."
+Reasoning:
+Answer generated based on 2 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 28/202:
+Question: What is the title of Farhana Akter Sunny's most cited paper?
+Expected Answer: A systematic review of blockchain applications
+Model Answer: The title of Farhana Akter Sunny's most cited paper is "A systematic review of blockchain applications," which has been cited 170 times.
+Reasoning:
+Answer generated based on 1 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 29/202:
+Question: In which journal was Dr. Md. Abdur Razzaque's paper on smart grid published?
+Expected Answer: Journal of network and computer applications
+Model Answer: Dr. Md. Abdur Razzaque's paper on smart grid was published in the "Journal of Network and Computer Applications."
+Reasoning:
+Answer generated based on 1 relevant entities, 5 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 30/202:
+Question: Who are the authors of the paper 'Attention is all you need'?
+Expected Answer: A Vaswani, N Shazeer, N Parmar, J Uszkoreit, L Jones, AN Gomez, ...
+Model Answer: The authors of the paper "Attention is all you need" are A Vaswani, N Shazeer, N Parmar, J Uszkoreit, L Jones, and AN Gomez.
+Reasoning:
+Answer generated based on 1 relevant entities, 11 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 31/202:
+Question: In what year was 'Data-centric multiobjective QoS-aware routing protocol for body sensor networks' published?
+Expected Answer: 2011
+Model Answer: The paper 'Data-centric multiobjective QoS-aware routing protocol for body sensor networks' was published in the year 2011.
+Reasoning:
+Answer generated based on 5 relevant entities, 8 knowledge paths, and 3 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 32/202:
+Question: What is the citation count for 'Breast cancer prediction: a comparative study using machine learning techniques'?
+Expected Answer: 438
+Model Answer: The citation count for "Breast cancer prediction: a comparative study using machine learning techniques" is 438.
+Reasoning:
+Answer generated based on 1 relevant entities, 5 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 33/202:
+Question: In which year did Saiful Azad publish the paper 'TeKET: a Tree-Based Unsupervised Keyphrase Extraction Technique'?
+Expected Answer: 2020
+Model Answer: Saiful Azad published the paper 'TeKET: a Tree-Based Unsupervised Keyphrase Extraction Technique' in the year 2020.
+Reasoning:
+Answer generated based on 1 relevant entities, 1 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 34/202:
+Question: How many citations does Mohammad Shorif Uddin's paper on image quality assessment have?
+Expected Answer: 2065
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 35/202:
+Question: What is the email address of Saiful Azad?
+Expected Answer: dean@fse.green.edu.bd
+Model Answer: The email address of Saiful Azad is dean@fse.green.edu.bd.
+Reasoning:
+Answer generated based on 1 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 36/202:
+Question: What paper did Humayan Kabir Rana publish in 2021 about COVID-19?
+Expected Answer: Pathogenetic profiling of COVID-19 and SARS-like viruses
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 37/202:
+Question: What are the research interests of Farhana Akter Sunny?
+Expected Answer: Cyber Security, Semantic Communication, Blockchain Technology, IoT, Wireless Communication
+Model Answer: Farhana Akter Sunny's research interests include Cyber Security, Semantic Communication, Blockchain Technology, IoT (Internet of Things), and Wireless Communication.
+Reasoning:
+Answer generated based on 1 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 38/202:
+Question: What is the affiliation of Abdullah-Al Masud?
+Expected Answer: United International University
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 39/202:
+Question: How many citations does the paper 'iWorksafe: Towards Healthy Workplaces During COVID-19' have?
+Expected Answer: 110
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-Z0pCJ1N86MLLO2eyoKNdozCq on tokens per min (TPM): Limit 30000, Used 30000, Requested 1001. Please try again in 2.002s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 40/202:
+Question: In what year was the paper 'Scalable machine learning-based intrusion detection system for IoT-enabled smart cities' published?
+Expected Answer: 2020
+Model Answer: The paper "Scalable machine learning-based intrusion detection system for IoT-enabled smart cities" was published in the year 2020.
+Reasoning:
+Answer generated based on 1 relevant entities, 1 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 41/202:
+Question: What is the title of Md Ataullha's paper on dengue outbreak prediction?
+Expected Answer: Mathematical analysis and prediction of future outbreak of dengue on time-varying contact rate using machine learning approach
+Model Answer: The title of Md Ataullha's paper on dengue outbreak prediction is "Mathematical analysis and prediction of future outbreak of dengue on time-varying contact rate using machine learning approach."
+Reasoning:
+Answer generated based on 1 relevant entities, 13 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 42/202:
+Question: How many citations does the paper 'A systematic review of blockchain applications' have?
+Expected Answer: 170
+Model Answer: The paper 'A systematic review of blockchain applications' has 170 citations.
+Reasoning:
+Answer generated based on 1 relevant entities, 11 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 43/202:
+Question: What is the email of Muhammad Nomani Kabir?
+Expected Answer: kabir@cse.uiu.ac.bd
+Model Answer: The email of Muhammad Nomani Kabir is kabir@cse.uiu.ac.bd.
+Reasoning:
+Answer generated based on 1 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 44/202:
+Question: Which researcher is affiliated with University of Wolverhampton?
+Expected Answer: Md. Arafatur Rahman
+Model Answer: The researcher affiliated with the University of Wolverhampton is Md. Arafatur Rahman.
+Reasoning:
+Answer generated based on 1 relevant entities, 1 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 45/202:
+Question: Which researcher published a paper on iris recognition in 2019?
+Expected Answer: Humayan Kabir Rana
+Model Answer: The researcher who published a paper on iris recognition in 2019 is Humayan Kabir Rana. The paper is titled "A Fast Iris Recognition System Through Optimum Feature Extraction" and was published in PeerJ Computer Science in 2019.
+Reasoning:
+Answer generated based on 1 relevant entities, 9 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 46/202:
+Question: What is the title of the paper on cyber security in smart grid?
+Expected Answer: Review on cyber-physical and cyber-security system in smart grid: Standards, protocols, constraints, and recommendations
+Model Answer: The title of the paper on cyber security in smart grid is "Review on cyber-physical and cyber-security system in smart grid: Standards, protocols, constraints, and recommendations."
+Reasoning:
+Answer generated based on 1 relevant entities, 5 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 47/202:
+Question: Who are the co-authors of PyBangla paper?
+Expected Answer: J Islam, M Ataullha, S Azad
+Model Answer: The co-authors of the PyBangla paper titled "PyBangla at BLP-2025 Task 2: Enhancing Bangla-to-Python Code Generation with Iterative Self-Correction and Multilingual Agents" are J Islam, M Ataullha, and S Azad.
+Reasoning:
+Answer generated based on 2 relevant entities, 13 knowledge paths, and 2 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 48/202:
+Question: What paper did Ashish Vaswani publish on image processing in 2018?
+Expected Answer: Image transformer
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 49/202:
+Question: How many citations does 'Digital image watermarking techniques: a review' have?
+Expected Answer: 361
+Model Answer: The paper "Digital image watermarking techniques: a review" has 361 citations.
+Reasoning:
+Answer generated based on 1 relevant entities, 4 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 50/202:
+Question: How many papers did Dr. Md. Abdur Razzaque publish between 2008 and 2013?
+Expected Answer: 4
+Model Answer: Dr. Md. Abdur Razzaque published at least one paper between 2008 and 2013. Specifically, he authored a paper titled "Analysis of energy-tax for multipath routing in wireless sensor networks," which was published in 2010. The context does not provide information on any other papers published by him during this period.
+Reasoning:
+Answer generated based on 7 relevant entities, 24 knowledge paths, and 4 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 51/202:
+Question: What was the earliest paper published by Saiful Azad in the dataset?
+Expected Answer: A performance comparison of proactive and reactive routing protocols of Mobile Ad-hoc NETwork (MANET) in 2007
+Model Answer: The earliest paper published by Saiful Azad in the dataset is "A performance comparison of proactive and reactive routing protocols of Mobile Ad-hoc NETwork (MANET)," which was published in 2007.
+Reasoning:
+Answer generated based on 1 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 52/202:
+Question: How many years passed between Dr. Md. Abdur Razzaque's first and last recorded papers?
+Expected Answer: 15
+Model Answer: Dr. Md. Abdur Razzaque's first recorded paper was published in 2008, titled "Multi-constrained QoS geographic routing for heterogeneous traffic in sensor networks." His last recorded paper was published in 2023, titled "Review on cyber-physical and cyber-security system in smart grid: Standards, protocols, constraints, and recommendations." Therefore, 15 years passed between his first and last recorded papers.
+Reasoning:
+Answer generated based on 5 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 53/202:
+Question: Which researcher published the most recent paper in 2025?
+Expected Answer: Jahidul Islam
+Model Answer: The most recent paper published in 2025 is titled "Global, regional, and national prevalence of adult overweight and obesity, 1990–2021, with forecasts to 2050: a forecasting study for the Global Burden of Disease Study 2021." The researcher associated with this paper is Dr. Syed Masudur Rahman Dewan.
+Reasoning:
+Answer generated based on 7 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 54/202:
+Question: How many papers did Muhammad Nomani Kabir publish in 2020?
+Expected Answer: 3
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-Z0pCJ1N86MLLO2eyoKNdozCq on tokens per min (TPM): Limit 30000, Used 27430, Requested 4443. Please try again in 3.746s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 55/202:
+Question: What is the time gap between Ashish Vaswani's 'Attention is all you need' and 'Image transformer'?
+Expected Answer: 1 year
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 56/202:
+Question: Which papers did Dr. Md. Abdur Razzaque publish between 2016 and 2018?
+Expected Answer: Enabling the Internet of Things in developing countries: Opportunities and challenges (2016), Mobile cloud-based big healthcare data processing in smart cities (2017), A mobility-aware optimal resource allocation architecture for big data task execution on mobile cloud in smart cities (2018)
+Model Answer: Dr. Md. Abdur Razzaque published the following paper between 2016 and 2018:
+
+1. **Mobile cloud-based big healthcare data processing in smart cities** - Published in 2017 in IEEE Access. Authors include MM Islam, MA Razzaque, MM Hassan, WN Ismail, and B Song.
+Reasoning:
+Answer generated based on 7 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 57/202:
+Question: How many papers did Md. Arafatur Rahman publish in 2018?
+Expected Answer: 2
+Model Answer: Md. Arafatur Rahman published two papers in 2018:
+
+1. "PrivacyProtector: Privacy-Protected Patient Data Collection in IoT-Based Healthcare Systems" published in IEEE Communications Magazine.
+2. "Big Data Reduction for a Smart City’s Critical Infrastructural Health Monitoring" also published in IEEE Communications Magazine.
+Reasoning:
+Answer generated based on 2 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 58/202:
+Question: What was Saiful Azad's research focus in 2012-2014?
+Expected Answer: Underwater networking protocols and frameworks
+Model Answer: Saiful Azad's research focus during 2012-2014 included underwater network protocols, as evidenced by his work on the paper titled "DESERT Underwater: An NS-Miracle-based framework to design, simulate, emulate and realize test-beds for underwater network protocols" published in 2012, and "Open source suites for underwater networking: WOSS and DESERT underwater" published in 2014. These works indicate a focus on designing and simulating frameworks for underwater networking during that period.
+Reasoning:
+Answer generated based on 1 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 59/202:
+Question: Which researcher has publications spanning from 2016 to 2024?
+Expected Answer: Muhammad Nomani Kabir
+Model Answer: The researcher with publications spanning from 2016 to 2024 is Md. Abdur Razzaque.
+Reasoning:
+Answer generated based on 1 relevant entities, 11 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 60/202:
+Question: What year was the transformer architecture paper published?
+Expected Answer: 2017
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 61/202:
+Question: Which researcher published papers on COVID-19 in 2020?
+Expected Answer: Md. Arafatur Rahman
+Model Answer: The context provided does not specify any researcher who published papers on COVID-19 in 2020. The information available focuses on other topics and years, primarily related to the Global Burden of Disease studies and other health-related analyses.
+Reasoning:
+Answer generated based on 4 relevant entities, 23 knowledge paths, and 4 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 62/202:
+Question: How many papers did Saiful Azad publish before 2010?
+Expected Answer: 2
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 63/202:
+Question: Which researcher published on blockchain technology in 2022?
+Expected Answer: Farhana Akter Sunny
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-Z0pCJ1N86MLLO2eyoKNdozCq on tokens per min (TPM): Limit 30000, Used 29207, Requested 1082. Please try again in 578ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 64/202:
+Question: How many papers did Dr. Md. Abdur Razzaque publish in 2011?
+Expected Answer: 2
+Model Answer: Dr. Md. Abdur Razzaque published one paper in 2011 titled "Data-centric multiobjective QoS-aware routing protocol for body sensor networks."
+Reasoning:
+Answer generated based on 7 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 65/202:
+Question: What was the publication trend for Ashish Vaswani between 2017-2021?
+Expected Answer: Multiple papers on transformer architectures and attention mechanisms
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 66/202:
+Question: Which year had the most paper publications for Muhammad Nomani Kabir?
+Expected Answer: 2020
+Model Answer: Based on the provided context, the year 2020 had the most paper publications for Muhammad Nomani Kabir. Here are the papers published in 2020:
+
+1. "A block-based RDWT-SVD image watermarking method using human visual system characteristics"
+2. "Breast cancer prediction: a comparative study using machine learning techniques"
+3. "Deep learning based systems developed for fall detection: A review"
+
+These three papers were all published in 2020, which is more than any other year mentioned in the context.
+Reasoning:
+Answer generated based on 1 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 67/202:
+Question: How many citations did Dr. Md. Abdur Razzaque's papers receive in total for papers published between 2011 and 2013?
+Expected Answer: 291
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-Z0pCJ1N86MLLO2eyoKNdozCq on tokens per min (TPM): Limit 30000, Used 29403, Requested 2849. Please try again in 4.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 68/202:
+Question: What was the time span of Humayan Kabir Rana's research publications?
+Expected Answer: 2019 to 2021
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 69/202:
+Question: Which researcher published on sentiment analysis in 2024?
+Expected Answer: Muhammad Nomani Kabir
+Model Answer: The researcher who published on sentiment analysis in 2024 is Muhammad Nomani Kabir.
+Reasoning:
+Answer generated based on 2 relevant entities, 8 knowledge paths, and 2 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 70/202:
+Question: Which researchers collaborated on the PyBangla paper and when was it published?
+Expected Answer: J Islam, M Ataullha, S Azad in 2025
+Model Answer: The researchers who collaborated on the PyBangla paper are Md Ataullha, J Islam, and S Azad. The paper was published in 2025.
+Reasoning:
+Answer generated based on 1 relevant entities, 4 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 71/202:
+Question: How many papers did Ashish Vaswani publish in 2018?
+Expected Answer: 4
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 72/202:
+Question: Which researcher published on nanofluid bioconvection in 2016?
+Expected Answer: Muhammad Nomani Kabir
+Model Answer: The researcher who published on nanofluid bioconvection in 2016 is Muhammad Nomani Kabir. He is listed as a researcher and author for the paper titled "Numerical Solutions For Gyrotactic Bioconvection In Nanofluid-Saturated Porous Media With Stefan Blowing And Multiple Slip Effects," which was published in 2016.
+Reasoning:
+Answer generated based on 3 relevant entities, 12 knowledge paths, and 2 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 73/202:
+Question: What is the latest publication year among all researchers?
+Expected Answer: 2025
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 74/202:
+Question: Which researcher published on underwater networking protocols?
+Expected Answer: Saiful Azad
+Model Answer: The researchers who published on underwater networking protocols, specifically in the paper titled "DESERT Underwater: An NS-Miracle-based framework to design, simulate, emulate and realize test-beds for underwater network protocols," are:
+
+- R Masiero
+- S Azad (Saiful Azad, PhD)
+- F Favaro
+- M Petrani
+- G Toso
+- F Guerra
+- P Casari
+
+These authors contributed to the research on underwater networking protocols as indicated in the provided context.
+Reasoning:
+Answer generated based on 2 relevant entities, 23 knowledge paths, and 2 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 75/202:
+Question: What is the time range of Md Ataullha's publications?
+Expected Answer: 2024-2025
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 76/202:
+Question: What is the title of Humayan Kabir Rana's paper on iris recognition?
+Expected Answer: A fast iris recognition system through optimum feature extraction
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 77/202:
+Question: How many citations does the iris recognition paper by Humayan Kabir Rana have?
+Expected Answer: 71
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 78/202:
+Question: What is the publication venue for Humayan Kabir Rana's iris recognition paper?
+Expected Answer: PeerJ Computer Science
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 79/202:
+Question: How many citations does the COVID-19 pathogenetic profiling paper have?
+Expected Answer: 65
+Model Answer: The paper "Pathogenetic profiling of COVID-19 and SARS-like viruses" has been cited 65 times.
+Reasoning:
+Answer generated based on 1 relevant entities, 9 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 80/202:
+Question: What is the title of Mohammad Shorif Uddin's most cited paper?
+Expected Answer: Image quality assessment through FSIM, SSIM, MSE and PSNR—a comparative study
+Model Answer: The title of Mohammad Shorif Uddin's most cited paper is "Image quality assessment through FSIM, SSIM, MSE and PSNR—a comparative study," which has been cited 2065 times.
+Reasoning:
+Answer generated based on 1 relevant entities, 30 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 81/202:
+Question: How many citations does the paper 'Machine vision based papaya disease recognition' have?
+Expected Answer: 235
+Model Answer: The paper 'Machine vision based papaya disease recognition' has 2065 citations.
+Reasoning:
+Answer generated based on 1 relevant entities, 8 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 82/202:
+Question: What paper did Mohammad Shorif Uddin publish on skin disease detection?
+Expected Answer: A machine learning approach for skin disease detection and classification using image segmentation
+Model Answer: Mohammad Shorif Uddin published the paper titled "A machine learning approach for skin disease detection and classification using image segmentation."
+Reasoning:
+Answer generated based on 1 relevant entities, 2 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 83/202:
+Question: In what year was the paper on depression prediction by Mohammad Shorif Uddin published?
+Expected Answer: 2021
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 84/202:
+Question: How many citations does the heart disease prediction paper have?
+Expected Answer: 168
+Model Answer: The paper "Analysis of data mining techniques for heart disease prediction" has 168 citations.
+Reasoning:
+Answer generated based on 1 relevant entities, 1 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 85/202:
+Question: What is the title of Farhana Akter Sunny's paper on IoT in education?
+Expected Answer: IoLT: an IOT based collaborative blended learning platform in higher education
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 86/202:
+Question: What paper did Farhana Akter Sunny publish on UAV systems?
+Expected Answer: A UAV-based traffic monitoring system for smart cities
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 87/202:
+Question: How many citations does the UAV traffic monitoring paper have?
+Expected Answer: 42
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 88/202:
+Question: What year did Farhana Akter Sunny publish her paper on cognitive radio?
+Expected Answer: 2015
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 89/202:
+Question: What is the title of Ashish Vaswani's paper on graph networks?
+Expected Answer: Relational inductive biases, deep learning, and graph networks
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 90/202:
+Question: How many citations does the graph networks paper have?
+Expected Answer: 4869
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 91/202:
+Question: What is the title of Ashish Vaswani's paper on self-attention with relative positions?
+Expected Answer: Self-attention with relative position representations
+Model Answer: The title of Ashish Vaswani's paper on self-attention with relative positions is "Self-attention with relative position representations."
+Reasoning:
+Answer generated based on 1 relevant entities, 5 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 92/202:
+Question: How many citations does 'Self-attention with relative position representations' have?
+Expected Answer: 3647
+Model Answer: The paper "Self-attention with relative position representations" has been cited 3,647 times.
+Reasoning:
+Answer generated based on 1 relevant entities, 5 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 93/202:
+Question: What paper did Ashish Vaswani publish on music generation?
+Expected Answer: Music transformer
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 94/202:
+Question: How many citations does the Music transformer paper have?
+Expected Answer: 1277
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 95/202:
+Question: What is the title of Ashish Vaswani's paper on vision models published in 2019?
+Expected Answer: Stand-alone self-attention in vision models
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 96/202:
+Question: What year was 'Bottleneck transformers for visual recognition' published?
+Expected Answer: 2021
+Model Answer: The paper "Bottleneck transformers for visual recognition" was published in the year 2021.
+Reasoning:
+Answer generated based on 1 relevant entities, 7 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 97/202:
+Question: How many citations does 'Bottleneck transformers for visual recognition' have?
+Expected Answer: 1637
+Model Answer: The paper "Bottleneck transformers for visual recognition" has been cited 1,637 times.
+Reasoning:
+Answer generated based on 1 relevant entities, 7 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 98/202:
+Question: What is the title of Ashish Vaswani's paper on routing transformers?
+Expected Answer: Efficient content-based sparse attention with routing transformers
+Model Answer: The title of Ashish Vaswani's paper on routing transformers is "Efficient Content-Based Sparse Attention With Routing Transformers."
+Reasoning:
+Answer generated based on 2 relevant entities, 9 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 99/202:
+Question: How many citations does the routing transformers paper have?
+Expected Answer: 799
+Model Answer: The paper "Efficient Content-Based Sparse Attention With Routing Transformers" has been cited 799 times.
+Reasoning:
+Answer generated based on 2 relevant entities, 9 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 100/202:
+Question: What year was the Image transformer paper published?
+Expected Answer: 2018
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 101/202:
+Question: How many citations does the Image transformer have?
+Expected Answer: 2505
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 102/202:
+Question: What is the title of Saiful Azad's paper on keyphrase extraction published in 2018?
+Expected Answer: A flexible keyphrase extraction technique for academic literature
+Model Answer: The title of Saiful Azad's paper on keyphrase extraction published in 2018 is "A flexible keyphrase extraction technique for academic literature."
+Reasoning:
+Answer generated based on 1 relevant entities, 13 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 103/202:
+Question: How many citations does the flexible keyphrase extraction paper have?
+Expected Answer: 56
+Model Answer: The paper "A Flexible Keyphrase Extraction Technique For Academic Literature" has been cited 56 times.
+Reasoning:
+Answer generated based on 1 relevant entities, 13 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 104/202:
+Question: What paper did Saiful Azad publish in 2014 on underwater networking?
+Expected Answer: Open source suites for underwater networking: WOSS and DESERT underwater
+Model Answer: In 2014, Saiful Azad published the paper titled "Open Source Suites for Underwater Networking: WOSS and DESERT Underwater."
+Reasoning:
+Answer generated based on 2 relevant entities, 23 knowledge paths, and 2 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 105/202:
+Question: What is the title of Saiful Azad's paper on MANET routing protocols?
+Expected Answer: A performance comparison of proactive and reactive routing protocols of Mobile Ad-hoc NETwork (MANET)
+Model Answer: The title of Saiful Azad's paper on MANET routing protocols is "A performance comparison of proactive and reactive routing protocols of Mobile Ad-hoc NETwork (MANET)."
+Reasoning:
+Answer generated based on 5 relevant entities, 17 knowledge paths, and 3 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 106/202:
+Question: What year was the MANET routing protocols paper published?
+Expected Answer: 2007
+Model Answer: The paper "A Performance Comparison of Proactive and Reactive Routing Protocols of Mobile Ad-Hoc Network (MANET)" was published in the year 2007.
+Reasoning:
+Answer generated based on 4 relevant entities, 17 knowledge paths, and 3 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 107/202:
+Question: How many citations does the MANET routing protocols paper have?
+Expected Answer: 55
+Model Answer: The paper "A Performance Comparison Of Proactive And Reactive Routing Protocols Of Mobile Ad-Hoc Network (MANET)" has been cited 55 times.
+Reasoning:
+Answer generated based on 2 relevant entities, 9 knowledge paths, and 2 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 108/202:
+Question: What is the title of Saiful Azad's paper on Mobile WiMAX?
+Expected Answer: Performance Analysis of Ad hoc Routing Protocols in Mobile WiMAX Environment
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-Z0pCJ1N86MLLO2eyoKNdozCq on tokens per min (TPM): Limit 30000, Used 30000, Requested 854. Please try again in 1.708s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 109/202:
+Question: What year was the Mobile WiMAX paper published?
+Expected Answer: 2008
+Model Answer: The Mobile WiMAX paper, titled "Performance Analysis of Ad Hoc Routing Protocols in Mobile WiMAX Environment," was published in the year 2008.
+Reasoning:
+Answer generated based on 1 relevant entities, 5 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 110/202:
+Question: How many citations does the Mobile WiMAX paper have?
+Expected Answer: 63
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 111/202:
+Question: How many citations does the iWorksafe COVID-19 paper by Saiful Azad have?
+Expected Answer: 110
+Model Answer: The iWorksafe COVID-19 paper by Saiful Azad has 110 citations.
+Reasoning:
+Answer generated based on 1 relevant entities, 8 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 112/202:
+Question: What is the title of Dr. Md. Abdur Razzaque's paper on body sensor networks published in 2011?
+Expected Answer: Data-centric multiobjective QoS-aware routing protocol for body sensor networks
+Model Answer: The title of Dr. Md. Abdur Razzaque's paper on body sensor networks published in 2011 is "Data-Centric Multiobjective QoS-Aware Routing Protocol For Body Sensor Networks."
+Reasoning:
+Answer generated based on 3 relevant entities, 6 knowledge paths, and 3 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 113/202:
+Question: What is the title of Dr. Md. Abdur Razzaque's paper on sensor networks published in 2008?
+Expected Answer: Multi-constrained QoS geographic routing for heterogeneous traffic in sensor networks
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-Z0pCJ1N86MLLO2eyoKNdozCq on tokens per min (TPM): Limit 30000, Used 29287, Requested 1416. Please try again in 1.406s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 114/202:
+Question: How many citations does the 2008 sensor networks paper have?
+Expected Answer: 130
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 115/202:
+Question: What year was 'Mobile cloud-based big healthcare data processing in smart cities' published?
+Expected Answer: 2017
+Model Answer: The paper "Mobile cloud-based big healthcare data processing in smart cities" was published in the year 2017.
+Reasoning:
+Answer generated based on 4 relevant entities, 16 knowledge paths, and 3 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 116/202:
+Question: How many citations does the mobile cloud healthcare paper have?
+Expected Answer: 114
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 117/202:
+Question: What is the title of Dr. Md. Abdur Razzaque's paper on MAC protocol?
+Expected Answer: Traffic priority and load adaptive MAC protocol for QoS provisioning in body sensor networks
+Model Answer: The title of Dr. Md. Abdur Razzaque's paper on the MAC protocol is "Traffic priority and load adaptive MAC protocol for QoS provisioning in body sensor networks."
+Reasoning:
+Answer generated based on 1 relevant entities, 2 knowledge paths, and 2 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 118/202:
+Question: What year was the MAC protocol paper published?
+Expected Answer: 2013
+Model Answer: The MAC protocol paper titled "Traffic priority and load adaptive MAC protocol for QoS provisioning in body sensor networks" was published in the year 2013.
+Reasoning:
+Answer generated based on 1 relevant entities, 2 knowledge paths, and 2 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 119/202:
+Question: How many citations does the MAC protocol paper have?
+Expected Answer: 99
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 120/202:
+Question: What is the title of Dr. Md. Abdur Razzaque's paper on power line communications?
+Expected Answer: Medium access control for power line communications: an overview of the IEEE 1901 and ITU-T G. hn standards
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-Z0pCJ1N86MLLO2eyoKNdozCq on tokens per min (TPM): Limit 30000, Used 30000, Requested 643. Please try again in 1.286s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 121/202:
+Question: What is the title of Dr. Md. Abdur Razzaque's paper on mobile cloud published in 2018?
+Expected Answer: A mobility-aware optimal resource allocation architecture for big data task execution on mobile cloud in smart cities
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-Z0pCJ1N86MLLO2eyoKNdozCq on tokens per min (TPM): Limit 30000, Used 30000, Requested 1027. Please try again in 2.054s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 122/202:
+Question: How many citations does the 2018 mobile cloud paper have?
+Expected Answer: 92
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant document chunks found.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 123/202:
+Question: What is the title of Dr. Md. Abdur Razzaque's paper on IoT in developing countries?
+Expected Answer: Enabling the Internet of Things in developing countries: Opportunities and challenges
+Model Answer: The title of Dr. Md. Abdur Razzaque's paper on IoT in developing countries is "Enabling the Internet of Things in developing countries: Opportunities and challenges."
+Reasoning:
+Answer generated based on 1 relevant entities, 2 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 124/202:
+Question: What year was the IoT in developing countries paper published?
+Expected Answer: 2016
+Model Answer: The paper "Enabling the Internet of Things in Developing Countries: Opportunities and Challenges" was published in the year 2016.
+Reasoning:
+Answer generated based on 2 relevant entities, 5 knowledge paths, and 2 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 125/202:
+Question: How many citations does the IoT in developing countries paper have?
+Expected Answer: 90
+Model Answer: The paper "Enabling the Internet of Things in developing countries: Opportunities and challenges" has 92 citations.
+Reasoning:
+Answer generated based on 1 relevant entities, 2 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 126/202:
+Question: What is the title of Md. Arafatur Rahman's paper on IoT in automotive industry?
+Expected Answer: Evolution of IoT-enabled connectivity and applications in automotive industry: A review
+Model Answer: The title of Md. Arafatur Rahman's paper on IoT in the automotive industry is "Evolution of IoT-enabled connectivity and applications in automotive industry: A review."
+Reasoning:
+Answer generated based on 1 relevant entities, 3 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 127/202:
+Question: How many citations does the automotive IoT paper have?
+Expected Answer: 263
+Model Answer: The paper "Evolution of IoT-enabled connectivity and applications in automotive industry: A review" has 263 citations.
+Reasoning:
+Answer generated based on 1 relevant entities, 3 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 128/202:
+Question: How many citations does the intrusion detection paper have?
+Expected Answer: 237
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 129/202:
+Question: What is the title of Md. Arafatur Rahman's paper on COVID-19 clustering?
+Expected Answer: Data-driven dynamic clustering framework for mitigating the adverse economic impact of Covid-19 lockdown practices
+Model Answer: The title of Md. Arafatur Rahman's paper on COVID-19 clustering is "Data-Driven Dynamic Clustering Framework For Mitigating The Adverse Economic Impact Of Covid-19 Lockdown Practices."
+Reasoning:
+Answer generated based on 2 relevant entities, 3 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 130/202:
+Question: What is the title of Md. Arafatur Rahman's paper on big data security?
+Expected Answer: Economic perspective analysis of protecting big data security and privacy
+Model Answer: The title of Md. Arafatur Rahman's paper on big data security is "Economic Perspective Analysis Of Protecting Big Data Security And Privacy."
+Reasoning:
+Answer generated based on 2 relevant entities, 2 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 131/202:
+Question: What is the title of Md. Arafatur Rahman's paper on smart city infrastructure?
+Expected Answer: Big Data Reduction for a Smart City's Critical Infrastructural Health Monitoring
+Model Answer: The title of Md. Arafatur Rahman's paper on smart city infrastructure is "Big Data Reduction for a Smart City’s Critical Infrastructural Health Monitoring."
+Reasoning:
+Answer generated based on 1 relevant entities, 2 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 132/202:
+Question: What is the title of Muhammad Nomani Kabir's paper on fall detection?
+Expected Answer: Deep learning based systems developed for fall detection: A review
+Model Answer: The title of Muhammad Nomani Kabir's paper on fall detection is "Deep Learning Based Systems Developed For Fall Detection: A Review."
+Reasoning:
+Answer generated based on 2 relevant entities, 14 knowledge paths, and 2 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 133/202:
+Question: What is the title of Muhammad Nomani Kabir's paper on Stefan blowing?
+Expected Answer: Computational investigation of Stefan blowing and multiple-slip effects on buoyancy-driven bioconvection nanofluid flow with microorganisms
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 134/202:
+Question: How many citations does the Stefan blowing paper have?
+Expected Answer: 154
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 135/202:
+Question: What year was the Stefan blowing paper published?
+Expected Answer: 2016
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 136/202:
+Question: What is the title of Muhammad Nomani Kabir's paper on gyrotactic bioconvection?
+Expected Answer: Numerical solutions for gyrotactic bioconvection in nanofluid-saturated porous media with Stefan blowing and multiple slip effects
+Model Answer: The title of Muhammad Nomani Kabir's paper on gyrotactic bioconvection is "Numerical solutions for gyrotactic bioconvection in nanofluid-saturated porous media with Stefan blowing and multiple slip effects."
+Reasoning:
+Answer generated based on 3 relevant entities, 12 knowledge paths, and 2 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 137/202:
+Question: What is the title of Muhammad Nomani Kabir's paper on sensor-based fall detection published in 2022?
+Expected Answer: Sensor-based fall detection systems: a review
+Model Answer: The title of Muhammad Nomani Kabir's paper on sensor-based fall detection published in 2022 is "Sensor-based fall detection systems: a review."
+Reasoning:
+Answer generated based on 2 relevant entities, 14 knowledge paths, and 2 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 138/202:
+Question: What is the title of Muhammad Nomani Kabir's paper on RDWT-SVD watermarking?
+Expected Answer: A block-based RDWT-SVD image watermarking method using human visual system characteristics
+Model Answer: The title of Muhammad Nomani Kabir's paper on RDWT-SVD watermarking is "A block-based RDWT-SVD image watermarking method using human visual system characteristics."
+Reasoning:
+Answer generated based on 5 relevant entities, 15 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 139/202:
+Question: How many citations does the RDWT-SVD watermarking paper have?
+Expected Answer: 128
+Model Answer: The RDWT-SVD watermarking paper, titled "A Block-Based RDWT-SVD Image Watermarking Method Using Human Visual System Characteristics," has 128 citations.
+Reasoning:
+Answer generated based on 5 relevant entities, 15 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 140/202:
+Question: How many citations does the sentiment analysis paper have?
+Expected Answer: 118
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 141/202:
+Question: What is the title of Muhammad Nomani Kabir's paper on information systems alignment?
+Expected Answer: Strategic information systems alignment: alignment of IS/IT with business strategy
+Model Answer: The title of Muhammad Nomani Kabir's paper on information systems alignment is "Strategic information systems alignment: alignment of IS/IT with business strategy."
+Reasoning:
+Answer generated based on 1 relevant entities, 6 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 142/202:
+Question: What year was the IS alignment paper published?
+Expected Answer: 2010
+Model Answer: The IS alignment paper, titled "Strategic Information Systems Alignment: Alignment Of IS/IT With Business Strategy," was published in the year 2010.
+Reasoning:
+Answer generated based on 1 relevant entities, 6 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 143/202:
+Question: What is the title of Muhammad Nomani Kabir's paper on handwritten character recognition?
+Expected Answer: Handwritten character recognition using convolutional neural network
+Model Answer: The title of Muhammad Nomani Kabir's paper on handwritten character recognition is "Handwritten character recognition using convolutional neural network."
+Reasoning:
+Answer generated based on 1 relevant entities, 4 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 144/202:
+Question: What year was the handwritten recognition paper published?
+Expected Answer: 2021
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 145/202:
+Question: How many citations does the handwritten recognition paper have?
+Expected Answer: 91
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 146/202:
+Question: What is the title of Humayan Kabir Rana's paper on welding fumes?
+Expected Answer: Genetic effects of welding fumes on the progression of neurodegenerative diseases
+Model Answer: The title of Humayan Kabir Rana's paper on welding fumes is "Genetic effects of welding fumes on the progression of neurodegenerative diseases."
+Reasoning:
+Answer generated based on 1 relevant entities, 15 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 147/202:
+Question: What year was the welding fumes paper published?
+Expected Answer: 2019
+Model Answer: The paper "Genetic Effects Of Welding Fumes On The Progression Of Neurodegenerative Diseases" was published in the year 2019.
+Reasoning:
+Answer generated based on 1 relevant entities, 15 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 148/202:
+Question: What is the title of Humayan Kabir Rana's paper on type 2 diabetes?
+Expected Answer: A system biological approach to investigate the genetic profiling and comorbidities of type 2 diabetes
+Model Answer: ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-Z0pCJ1N86MLLO2eyoKNdozCq on tokens per min (TPM): Limit 30000, Used 29526, Requested 660. Please try again in 372ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+Reasoning:
+Error occurred during processing
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 149/202:
+Question: What year was the type 2 diabetes paper published?
+Expected Answer: 2020
+Model Answer: The paper titled "A system biological approach to investigate the genetic profiling and comorbidities of type 2 diabetes" was published in the year 2020.
+Reasoning:
+Answer generated based on 1 relevant entities, 2 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 150/202:
+Question: What is the title of Humayan Kabir Rana's paper on lung cancer detection?
+Expected Answer: Detection of Lung cancer from CT scan images using GLCM and SVM
+Model Answer: The title of Humayan Kabir Rana's paper on lung cancer detection is "Detection of Lung cancer from CT scan images using GLCM and SVM."
+Reasoning:
+Answer generated based on 1 relevant entities, 1 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 151/202:
+Question: What is the title of Mohammad Shorif Uddin's paper on rice leaf disease?
+Expected Answer: An efficient disease detection technique of rice leaf using AlexNet
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 152/202:
+Question: How many citations does the rice leaf disease paper have?
+Expected Answer: 91
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 153/202:
+Question: What year was the rice leaf disease paper published?
+Expected Answer: 2020
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 154/202:
+Question: What is the title of Mohammad Shorif Uddin's paper on COVID-19 detection?
+Expected Answer: Covid-19 detection in chest X-ray through random forest classifier using a hybridization of deep CNN and DWT optimized features
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 155/202:
+Question: How many citations does the COVID-19 X-ray detection paper have?
+Expected Answer: 98
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 156/202:
+Question: What is the title of Mohammad Shorif Uddin's hybrid watermarking paper?
+Expected Answer: A Hybrid robust watermarking system based on discrete cosine transform, discrete wavelet transform, and singular value decomposition
+Model Answer: The title of Mohammad Shorif Uddin's hybrid watermarking paper is "A Hybrid Robust Watermarking System Based On Discrete Cosine Transform, Discrete Wavelet Transform, And Singular Value Decomposition."
+Reasoning:
+Answer generated based on 5 relevant entities, 15 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 157/202:
+Question: How many citations does the hybrid watermarking paper have?
+Expected Answer: 155
+Model Answer: The paper titled "A Hybrid Robust Watermarking System Based On Discrete Cosine Transform, Discrete Wavelet Transform, And Singular Value Decomposition" has 155 citations.
+Reasoning:
+Answer generated based on 3 relevant entities, 9 knowledge paths, and 3 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 158/202:
+Question: What year was the hybrid watermarking paper published?
+Expected Answer: 2022
+Model Answer: The hybrid watermarking paper titled "A Hybrid Robust Watermarking System Based On Discrete Cosine Transform, Discrete Wavelet Transform, And Singular Value Decomposition" was published in the year 2022.
+Reasoning:
+Answer generated based on 5 relevant entities, 15 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 159/202:
+Question: What is the title of Mohammad Shorif Uddin's paper on depression prediction?
+Expected Answer: An in-depth analysis of machine learning approaches to predict depression
+Model Answer: The title of Mohammad Shorif Uddin's paper on depression prediction is "An in-depth analysis of machine learning approaches to predict depression."
+Reasoning:
+Answer generated based on 1 relevant entities, 1 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 160/202:
+Question: How many citations does the depression prediction paper have?
+Expected Answer: 168
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 161/202:
+Question: What is the title of Mohammad Shorif Uddin's paper on skin disease detection published in 2022?
+Expected Answer: A machine learning approach for skin disease detection and classification using image segmentation
+Model Answer: The title of Mohammad Shorif Uddin's paper on skin disease detection published in 2022 is "A machine learning approach for skin disease detection and classification using image segmentation."
+Reasoning:
+Answer generated based on 1 relevant entities, 2 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 162/202:
+Question: What is the title of Farhana Akter Sunny's paper on fraud detection in audits?
+Expected Answer: Investigating external audit records to detect fraudulent firms employing various machine learning methods
+Model Answer: The title of Farhana Akter Sunny's paper on fraud detection in audits is "Investigating external audit records to detect fraudulent firms employing various machine learning methods."
+Reasoning:
+Answer generated based on 1 relevant entities, 1 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 163/202:
+Question: What year was the audit fraud detection paper published?
+Expected Answer: 2022
+Model Answer: The audit fraud detection paper titled "Investigating external audit records to detect fraudulent firms employing various machine learning methods" was published in the year 2022.
+Reasoning:
+Answer generated based on 1 relevant entities, 1 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 164/202:
+Question: What is the title of Farhana Akter Sunny's paper on multi-path selection?
+Expected Answer: Multi-priority and trusted multi-path selection algorithm for ad-hoc network
+Model Answer: The title of Farhana Akter Sunny's paper on multi-path selection is "Multi-priority and trusted multi-path selection algorithm for ad-hoc network."
+Reasoning:
+Answer generated based on 1 relevant entities, 1 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 165/202:
+Question: What year was the multi-path selection paper published?
+Expected Answer: 2014
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 166/202:
+Question: What is the title of Farhana Akter Sunny's paper on credit card fraud?
+Expected Answer: Fraud detection of credit card using data mining techniques
+Model Answer: The title of Farhana Akter Sunny's paper on credit card fraud is "Fraud detection of credit card using data mining techniques."
+Reasoning:
+Answer generated based on 1 relevant entities, 7 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 167/202:
+Question: How many citations does the credit card fraud detection paper have?
+Expected Answer: 4
+Model Answer: The paper "Fraud Detection Of Credit Card Using Data Mining Techniques" has been cited 4 times.
+Reasoning:
+Answer generated based on 1 relevant entities, 7 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 168/202:
+Question: What is the title of Farhana Akter Sunny's paper on beamforming?
+Expected Answer: Counter propagation ANN based massive adaptive array antenna beamforming for mmWave communication system
+Model Answer: The title of Farhana Akter Sunny's paper on beamforming is "Counter propagation ANN based massive adaptive array antenna beamforming for mmWave communication system."
+Reasoning:
+Answer generated based on 1 relevant entities, 19 knowledge paths, and 2 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 169/202:
+Question: What is the title of Farhana Akter Sunny's paper on COVID-19 detection?
+Expected Answer: Machine learning and deep learning algorithms in detecting COVID-19 utilizing medical images: a comprehensive review
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 170/202:
+Question: What year was the COVID-19 detection review published?
+Expected Answer: 2024
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 171/202:
+Question: What is the title of Abdullah-Al Masud's meta-learning paper?
+Expected Answer: Meta-Learning in Supervised Machine Learning
+Model Answer: The title of Abdullah-Al Masud's meta-learning paper is "Meta-Learning in Supervised Machine Learning."
+Reasoning:
+Answer generated based on 1 relevant entities, 9 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 172/202:
+Question: How many citations does the meta-learning paper have?
+Expected Answer: 2
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 173/202:
+Question: What year was the meta-learning paper published?
+Expected Answer: 2022
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 174/202:
+Question: What is Abdullah-Al Masud's Google Scholar author ID?
+Expected Answer: QQ51Ty8AAAAJ
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 175/202:
+Question: What is the email of Abdullah-Al Masud?
+Expected Answer: amasud183040@bscse.uiu.ac.bd
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 176/202:
+Question: What are Abdullah-Al Masud's research interests?
+Expected Answer: robotics, computer vision, meta-learning, deep-learning
+Model Answer: Abdullah-Al Masud's research interests include robotics, computer vision, meta-learning, and deep learning.
+Reasoning:
+Answer generated based on 1 relevant entities, 8 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 177/202:
+Question: What is Jahidul Islam's Google Scholar author ID?
+Expected Answer: MOEMgYoAAAAJ
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 178/202:
+Question: What is Jahidul Islam's email?
+Expected Answer: jahidul.cse.gub@gmail.com
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 179/202:
+Question: What is Jahidul Islam's affiliation?
+Expected Answer: Green University of Bangladesh (Department of Computer Science and Engineering)
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 180/202:
+Question: What is Md Ataullha's Google Scholar author ID?
+Expected Answer: N2dzzwsAAAAJ
+Model Answer: The context provided does not contain information about Md Ataullha's Google Scholar author ID.
+Reasoning:
+Answer generated based on 1 relevant entities, 1 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 181/202:
+Question: What is Md Ataullha's affiliation?
+Expected Answer: Lecturer, Department of Computer Science and Engineering, Green University of Bangladesh
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 182/202:
+Question: How many citations does Md Ataullha's dengue paper have?
+Expected Answer: 28
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 183/202:
+Question: What year was the dengue prediction paper published?
+Expected Answer: 2024
+Model Answer: The dengue prediction paper was published in the year 2024.
+Reasoning:
+Answer generated based on 1 relevant entities, 13 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 184/202:
+Question: Which researchers are affiliated with Green University of Bangladesh?
+Expected Answer: Saiful Azad, Humayan Kabir Rana, Jahidul Islam, Md Ataullha, Farhana Akter Sunny
+Model Answer: The researchers affiliated with Green University of Bangladesh are:
+
+1. Saiful Azad, PhD
+2. Jahidul Islam
+3. Mohammad Shorif Uddin
+4. Md Ataullha
+5. Humayan Kabir Rana
+Reasoning:
+Answer generated based on 6 relevant entities, 6 knowledge paths, and 5 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 185/202:
+Question: Which researcher works on Deep Learning as their primary interest?
+Expected Answer: Ashish Vaswani
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 186/202:
+Question: Which researchers work on Machine Learning?
+Expected Answer: Saiful Azad, Humayan Kabir Rana, Jahidul Islam, Md Ataullha
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 187/202:
+Question: Which researchers work on Bioinformatics?
+Expected Answer: Humayan Kabir Rana
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 188/202:
+Question: Which researchers work on Computer Vision?
+Expected Answer: Mohammad Shorif Uddin, Abdullah-Al Masud
+Model Answer: The researchers who work on Computer Vision, as indicated by the context, include:
+
+- A Srinivas
+- TY Lin
+- N Parmar
+- J Shlens
+- P Abbeel
+- A Vaswani
+
+These researchers are authors of the paper "Bottleneck transformers for visual recognition," which was published in the Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern.
+Reasoning:
+Answer generated based on 1 relevant entities, 1 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 189/202:
+Question: Which researchers work on Natural Language Processing?
+Expected Answer: Jahidul Islam, Md Ataullha
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 190/202:
+Question: Which researcher published on blockchain applications?
+Expected Answer: Farhana Akter Sunny
+Model Answer: The researcher who published on blockchain applications is Farhana Akter Sunny.
+Reasoning:
+Answer generated based on 2 relevant entities, 12 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 191/202:
+Question: Which researcher published on smart grid cyber security?
+Expected Answer: Dr. Md. Abdur Razzaque
+Model Answer: The researcher who published on smart grid cyber security is Dr. Md. Abdur Razzaque.
+Reasoning:
+Answer generated based on 1 relevant entities, 5 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 192/202:
+Question: Which researcher published on transformer architectures?
+Expected Answer: Ashish Vaswani
+Model Answer: The researcher Ashish Vaswani published on transformer architectures.
+Reasoning:
+Answer generated based on 1 relevant entities, 7 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 193/202:
+Question: Which researcher published on keyphrase extraction?
+Expected Answer: Saiful Azad
+Model Answer: The researchers who published on keyphrase extraction are G Rabby, S Azad, M Mahmud, KZ Zamli, and MM Rahman. They authored the paper titled "A Flexible Keyphrase Extraction Technique For Academic Literature," which was published in Procedia Computer Science in 2018.
+Reasoning:
+Answer generated based on 2 relevant entities, 15 knowledge paths, and 2 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 194/202:
+Question: Which researcher published on fall detection systems?
+Expected Answer: Muhammad Nomani Kabir
+Model Answer: The researchers who published on fall detection systems are S Nooruddin, Mm Islam, Fa Sharna, H Alhetari, Mn Kabir, O Tayan, Mr Islam, and Ms Islam. They are associated with the papers "Sensor-Based Fall Detection Systems: A Review" and "Deep Learning Based Systems Developed For Fall Detection: A Review."
+Reasoning:
+Answer generated based on 2 relevant entities, 14 knowledge paths, and 2 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 195/202:
+Question: Which researcher published on UAV-based traffic monitoring?
+Expected Answer: Farhana Akter Sunny
+Model Answer: The researcher who published on UAV-based traffic monitoring is Farhana Akter Sunny.
+Reasoning:
+Answer generated based on 1 relevant entities, 3 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 196/202:
+Question: Which researcher published on cognitive radio networks?
+Expected Answer: Farhana Akter Sunny
+Model Answer: The researcher who published on cognitive radio networks is Farhana Akter Sunny.
+Reasoning:
+Answer generated based on 1 relevant entities, 3 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 197/202:
+Question: Which researcher published papers in 2007?
+Expected Answer: Saiful Azad
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 198/202:
+Question: Which researchers published papers in 2013?
+Expected Answer: MA Razzaque
+Model Answer: The context provided does not mention any researchers who published papers in 2013. All the information available pertains to a paper published in 2014.
+Reasoning:
+Answer generated based on 1 relevant entities, 11 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 199/202:
+Question: Which researchers published papers in 2012?
+Expected Answer: Saiful Azad
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 200/202:
+Question: Which researchers published papers in 2011?
+Expected Answer: S Lee, CS Hong, MA Razzaque, Dr. Md. Abdur Razzaque, MM Rahman, JH Kim, J Lee
+Model Answer: The provided context does not contain any information about researchers who published papers in 2011. The data only mentions a paper on advances in 2014 authored by MR Mahmud, M Afrin, and MA Razzaque.
+Reasoning:
+Answer generated based on 1 relevant entities, 11 knowledge paths, and 1 document chunks.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 201/202:
+Question: Which researchers published papers in 2010?
+Expected Answer: Muhammad Nomani Kabir
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant document chunks found.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 202/202:
+Question: Which researchers published papers in 2008?
+Expected Answer: Dr. Md. Abdur Razzaque, Saiful Azad
+Model Answer: I couldn't find relevant information to answer this question.
+Reasoning:
+No relevant entities found in the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+
+Evaluation Summary
+================================================================================
+Total Questions: 202
+Correct Answers: 0
+Accuracy: 0.00%

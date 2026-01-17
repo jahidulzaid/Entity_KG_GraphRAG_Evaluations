@@ -1,5 +1,6 @@
 """Document loading and processing utilities for KG-RAG approaches."""
 
+import json
 import os
 import pickle
 from typing import Any
@@ -18,6 +19,7 @@ class DocumentLoader:
         chunk_size: int = 512,
         chunk_overlap: int = 24,
         file_extension: str = ".pdf",
+        file_extensions: list[str] | None = None,
     ):
         """
         Initialize the document loader.
@@ -26,13 +28,66 @@ class DocumentLoader:
             chunk_size: Size of chunks for text splitting
             chunk_overlap: Overlap between chunks
             file_extension: File extension to filter for
+            file_extensions: Optional list of file extensions to allow
         """
         self.chunk_size = chunk_size
         self.chunk_overlap = chunk_overlap
-        self.file_extension = file_extension
+        if file_extensions is not None:
+            extensions = file_extensions
+        else:
+            extensions = [file_extension]
+        self.file_extensions = {ext.lower() for ext in extensions}
         self.text_splitter = TokenTextSplitter(
             chunk_size=chunk_size, chunk_overlap=chunk_overlap
         )
+
+    def _flatten_json(self, data: Any, prefix: str = "") -> list[str]:
+        lines: list[str] = []
+        if isinstance(data, dict):
+            for key, value in data.items():
+                next_prefix = f"{prefix}.{key}" if prefix else str(key)
+                lines.extend(self._flatten_json(value, next_prefix))
+            return lines
+        if isinstance(data, list):
+            for index, value in enumerate(data):
+                next_prefix = f"{prefix}[{index}]" if prefix else f"[{index}]"
+                lines.extend(self._flatten_json(value, next_prefix))
+            return lines
+        if data is None:
+            return lines
+        value_text = str(data).strip()
+        if not value_text:
+            return lines
+        if prefix:
+            lines.append(f"{prefix}: {value_text}")
+        else:
+            lines.append(value_text)
+        return lines
+
+    def _load_text_content(self, file_path: str) -> list[Document]:
+        try:
+            with open(file_path, "r", encoding="utf-8-sig") as f:
+                text = f.read()
+        except UnicodeDecodeError:
+            with open(file_path, "r", encoding="latin-1") as f:
+                text = f.read()
+
+        raw_documents = [Document(page_content=text, metadata={"source": file_path})]
+        split_documents = self.text_splitter.split_documents(raw_documents)
+        return filter_complex_metadata(split_documents)
+
+    def _load_json_content(self, file_path: str) -> list[Document]:
+        try:
+            with open(file_path, "r", encoding="utf-8-sig") as f:
+                data = json.load(f)
+        except json.JSONDecodeError as e:
+            print(f"Error parsing JSON {file_path}: {str(e)}")
+            return []
+
+        text = "\n".join(self._flatten_json(data))
+        raw_documents = [Document(page_content=text, metadata={"source": file_path})]
+        split_documents = self.text_splitter.split_documents(raw_documents)
+        return filter_complex_metadata(split_documents)
 
     def load_document(self, file_path: str) -> list[Document]:
         """
@@ -46,15 +101,17 @@ class DocumentLoader:
             List of processed document chunks
         """
         try:
-            # Load the document
-            raw_documents = PyPDFLoader(file_path=file_path).load()
-
-            # Split the document
-            split_documents = self.text_splitter.split_documents(raw_documents)
-
-            # Filter metadata
-            return filter_complex_metadata(split_documents)
-
+            extension = os.path.splitext(file_path)[1].lower()
+            if extension == ".pdf":
+                raw_documents = PyPDFLoader(file_path=file_path).load()
+                split_documents = self.text_splitter.split_documents(raw_documents)
+                return filter_complex_metadata(split_documents)
+            if extension == ".txt":
+                return self._load_text_content(file_path)
+            if extension == ".json":
+                return self._load_json_content(file_path)
+            print(f"Skipping unsupported file type {extension}: {file_path}")
+            return []
         except Exception as e:
             print(f"Error processing {file_path}: {str(e)}")
             return []
@@ -78,7 +135,8 @@ class DocumentLoader:
         # Loop through all files in the directory
         for filename in os.listdir(directory_path):
             # Apply filters
-            if not filename.endswith(self.file_extension):
+            extension = os.path.splitext(filename)[1].lower()
+            if extension not in self.file_extensions:
                 continue
 
             if file_filter and file_filter not in filename:
@@ -103,6 +161,7 @@ def load_documents(
     chunk_size: int = 512,
     chunk_overlap: int = 24,
     pickle_path: str | None = None,
+    file_extensions: list[str] | None = None,
 ) -> list[Document]:
     """
     Load documents from a directory or a pickle file.
@@ -113,6 +172,7 @@ def load_documents(
         chunk_size: Size of chunks for text splitting
         chunk_overlap: Overlap between chunks
         pickle_path: Optional path to a pickle file containing pre-chunked documents
+        file_extensions: Optional list of file extensions to load
 
     Returns
     -------
@@ -127,7 +187,11 @@ def load_documents(
             raise ValueError("Invalid pickle file format")
     else:
         # Otherwise load from directory
-        loader = DocumentLoader(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
+        loader = DocumentLoader(
+            chunk_size=chunk_size,
+            chunk_overlap=chunk_overlap,
+            file_extensions=file_extensions,
+        )
         return loader.load_directory(directory_path, file_filter)
 
 

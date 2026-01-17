@@ -368,6 +368,34 @@ class EntityBasedKGRAG:
 
         return "\n".join(context_lines)
 
+    def _format_chunk_context(self, chunks: list[Document]) -> str:
+        """Format only document chunks for downstream logging."""
+        if not chunks:
+            return ""
+        context_lines = []
+        for i, chunk in enumerate(chunks):
+            content = chunk.page_content
+            source = chunk.metadata.get(
+                "source", chunk.metadata.get("file_path", "unknown")
+            )
+            page = chunk.metadata.get("page", "")
+
+            source_info = f"[Source: {source}"
+            if page:
+                source_info += f", Page: {page}"
+            source_info += "]"
+
+            context_lines.append(f"Chunk {i + 1}: {source_info}")
+            context_lines.append(content)
+            context_lines.append("---")
+        return "\n".join(context_lines)
+
+    def _attach_context(self, response: Any, context: str) -> dict[str, Any]:
+        if isinstance(response, dict):
+            response["context"] = context
+            return response
+        return {"answer": str(response), "reasoning": "", "context": context}
+
     def _extract_answer_from_text(self, text: str) -> str:
         """
         Extract the main answer from text response.
@@ -437,9 +465,10 @@ class EntityBasedKGRAG:
                     "answer": self._extract_answer_from_text(content),
                 }
         else:
-            # For standard mode without structured output
+            chunk_context = self._format_chunk_context(top_chunks)
             return {
-                "reasoning": f"Answer generated based on {len(nodes)} relevant entities, {len(paths)} knowledge paths, and {len(top_chunks)} document chunks.",
+                "reasoning": chunk_context
+                or f"Answer generated based on {len(nodes)} relevant entities, {len(paths)} knowledge paths, and {len(top_chunks)} document chunks.",
                 "answer": content,
             }
 
@@ -491,6 +520,7 @@ class EntityBasedKGRAG:
             return {
                 "reasoning": "No relevant entities found in the knowledge graph.",
                 "answer": "I couldn't find relevant information to answer this question.",
+                "context": "",
             }
 
         # Extract node entities
@@ -546,10 +576,12 @@ class EntityBasedKGRAG:
             return {
                 "reasoning": "No relevant document chunks found.",
                 "answer": "I couldn't find relevant information to answer this question.",
+                "context": "",
             }
 
         # Format context
         context = self._format_context(paths, top_chunks)
+        chunk_context = self._format_chunk_context(top_chunks)
 
         # Create prompt using create_query_prompt
         messages = create_query_prompt(
@@ -563,4 +595,5 @@ class EntityBasedKGRAG:
         # Generate answer using LLM
         response = self.llm.invoke(messages)
 
-        return self._process_results(response, nodes, paths, top_chunks)
+        processed = self._process_results(response, nodes, paths, top_chunks)
+        return self._attach_context(processed, chunk_context)

@@ -4,8 +4,11 @@
 
 import argparse
 import os
+import pickle
 import sys
 from pathlib import Path
+
+from dotenv import load_dotenv
 
 
 # Add the parent directory to the path so we can import the modules
@@ -24,6 +27,8 @@ from kg_rag.utils.graph_utils import (
 
 def main():
     """Build an entity-based knowledge graph from documents."""
+    load_dotenv()
+
     args = parse_args()
 
     # Create output directory if it doesn't exist
@@ -41,8 +46,13 @@ def main():
         file_filter=args.file_filter,
         chunk_size=args.chunk_size,
         chunk_overlap=args.chunk_overlap,
+        file_extensions=parse_file_extensions(args.file_extensions),
     )
     print(f"Loaded {len(documents)} document chunks")
+
+    documents_path = output_dir / f"{args.documents_name}.pkl"
+    with open(documents_path, "wb") as f:
+        pickle.dump(documents, f)
 
     # Initialize LLM
     llm = ChatOpenAI(temperature=0, model_name="gpt-4o")
@@ -78,6 +88,7 @@ def main():
 
     print(f"\nGraph built successfully and saved to {graph_path}")
     print(f"Graph documents saved to {graph_docs_path}")
+    print(f"Documents saved to {documents_path}")
 
 
 def parse_args():
@@ -101,10 +112,22 @@ def parse_args():
         help="Optional string to filter filenames",
     )
     parser.add_argument(
+        "--file-extensions",
+        type=str,
+        default=".pdf",
+        help="Comma-separated list of file extensions to load (default: .pdf)",
+    )
+    parser.add_argument(
         "--chunk-size", type=int, default=512, help="Size of document chunks"
     )
     parser.add_argument(
         "--chunk-overlap", type=int, default=24, help="Overlap between document chunks"
+    )
+    parser.add_argument(
+        "--documents-name",
+        type=str,
+        default="documents",
+        help="Base name for saved document chunks pickle",
     )
     parser.add_argument(
         "--force-rebuild",
@@ -114,6 +137,15 @@ def parse_args():
     parser.add_argument("--verbose", action="store_true", help="Print verbose output")
 
     return parser.parse_args()
+
+
+def parse_file_extensions(value: str | None) -> list[str] | None:
+    if not value:
+        return None
+    items = [item.strip() for item in value.split(",") if item.strip()]
+    if not items:
+        return None
+    return [item if item.startswith(".") else f".{item}" for item in items]
 
 
 if __name__ == "__main__":

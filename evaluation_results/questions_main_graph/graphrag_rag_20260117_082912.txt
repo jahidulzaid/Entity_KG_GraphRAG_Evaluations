@@ -1,0 +1,536 @@
+graphrag_rag Evaluation Results
+Evaluation Date: 2026-01-17 08:29:12
+Total Questions: 202
+
+Configuration:
+{
+  "graph_documents_pkl_path": "data/researcher/entity_graph_documents.pkl",
+  "documents_pkl_path": "data/researcher/documents.pkl",
+  "documents_path": "new_data/researcher",
+  "artifacts_path": "data/researcher/graphrag_artifacts.pkl",
+  "vector_store_dir": "data/researcher/vector_stores",
+  "cache_dir": "data/researcher/cache",
+  "model_name": "gpt-4o",
+  "embedding_model": "text-embedding-3-small",
+  "search_strategy": "local",
+  "community_level": 2,
+  "top_k_nodes": 30,
+  "top_k_chunks": 5,
+  "max_hops": 1,
+  "similarity_threshold": 0.5,
+  "node_freq_weight": 0.4,
+  "node_sim_weight": 0.6,
+  "normalize_answers": false
+}
+================================================================================
+
+Question 1/202:
+Question: What is the email address of Dr. Md. Abdur Razzaque?
+Expected Answer: razzaque@du.ac.bd
+Model Answer: Dr. Md. Abdur Razzaque's email address is razzaque@du.ac.bd [Data: Sources (13)].
+Reasoning:
+Dr. Md. Abdur Razzaque's email address is razzaque@du.ac.bd [Data: Sources (13)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 2/202:
+Question: What are the research interests of Dr. Md. Abdur Razzaque?
+Expected Answer: Cloud and Edge Intelligence, AI for Internet of Things, 5IR Technologies, Energy Optimization
+Model Answer: ### Research Interests of Dr. Md. Abdur Razzaque
+
+Dr. Md. Abdur Razzaque is a distinguished professor at the University of Dhaka, Bangladesh, with a broad range of research interests in the field of computer science and engineering. His work is particularly focused on several cutting-edge areas that are pivotal in the advancement of technology.
+
+#### Cloud and Edge Intelligence
+
+One of Dr. Razzaque's primary research interests is in Cloud and Edge Intelligence. This area involves the development of intelligent systems that leverage cloud and edge computing to process and analyze data efficiently. His work in this domain aims to enhance the capabilities of distributed computing systems, making them more responsive and adaptive to real-time data processing needs [Data: Entities (73); Reports (5, 26)].
+
+#### AI for the Internet of Things (IoT)
+
+Dr. Razzaque is also deeply involved in research related to Artificial Intelligence (AI) for the Internet of Things (IoT). This involves creating AI-driven solutions that can manage and optimize IoT networks, which are crucial for smart city applications and other IoT-enabled environments. His contributions in this field are significant, as they address the challenges of integrating AI with IoT to improve efficiency and functionality [Data: Entities (73); Reports (5, 26)].
+
+#### 5IR Technologies
+
+The Fifth Industrial Revolution (5IR) technologies are another area of interest for Dr. Razzaque. His research in this field focuses on the integration of human intelligence with machine intelligence, aiming to create systems that enhance human capabilities and improve quality of life. This involves exploring new technologies that can drive the next wave of industrial advancements [Data: Entities (73); Reports (5, 26)].
+
+#### Energy Optimization
+
+Energy optimization is a critical aspect of Dr. Razzaque's research, particularly in the context of sensor networks and mobile cloud computing. His work seeks to develop strategies and protocols that minimize energy consumption while maintaining high performance levels in computing systems. This research is vital for creating sustainable and efficient technological solutions [Data: Entities (73); Reports (5, 26)].
+
+#### QoS-aware Routing Protocols
+
+Dr. Razzaque has made significant contributions to the development of Quality of Service (QoS)-aware routing protocols for sensor networks. These protocols are designed to ensure reliable and efficient data transmission in networks, which is essential for applications such as healthcare and environmental monitoring [Data: Entities (73); Reports (5, 26)].
+
+Overall, Dr. Md. Abdur Razzaque's research interests are diverse and impactful, contributing to advancements in several key areas of technology. His work not only addresses current challenges but also paves the way for future innovations in computer science and engineering.
+Reasoning:
+### Research Interests of Dr. Md. Abdur Razzaque
+Dr. Md. Abdur Razzaque is a distinguished professor at the University of Dhaka, Bangladesh, with a broad range of research interests in the field of computer science and engineering. His work is particularly focused on several cutting-edge areas that are pivotal in the advancement of technology.
+#### Cloud and Edge Intelligence
+One of Dr. Razzaque's primary research interests is in Cloud and Edge Intelligence. This area involves the development of intelligent systems that leverage cloud and edge computing to process and analyze data efficiently. His work in this domain aims to enhance the capabilities of distributed computing systems, making them more responsive and adaptive to real-time data processing needs [Data: Entities (73); Reports (5, 26)].
+#### AI for the Internet of Things (IoT)
+Dr. Razzaque is also deeply involved in research related to Artificial Intelligence (AI) for the Internet of Things (IoT). This involves creating AI-driven solutions that can manage and optimize IoT networks, which are crucial for smart city applications and other IoT-enabled environments. His contributions in this field are significant, as they address the challenges of integrating AI with IoT to improve efficiency and functionality [Data: Entities (73); Reports (5, 26)].
+#### 5IR Technologies
+The Fifth Industrial Revolution (5IR) technologies are another area of interest for Dr. Razzaque. His research in this field focuses on the integration of human intelligence with machine intelligence, aiming to create systems that enhance human capabilities and improve quality of life. This involves exploring new technologies that can drive the next wave of industrial advancements [Data: Entities (73); Reports (5, 26)].
+#### Energy Optimization
+Energy optimization is a critical aspect of Dr. Razzaque's research, particularly in the context of sensor networks and mobile cloud computing. His work seeks to develop strategies and protocols that minimize energy consumption while maintaining high performance levels in computing systems. This research is vital for creating sustainable and efficient technological solutions [Data: Entities (73); Reports (5, 26)].
+#### QoS-aware Routing Protocols
+Dr. Razzaque has made significant contributions to the development of Quality of Service (QoS)-aware routing protocols for sensor networks. These protocols are designed to ensure reliable and efficient data transmission in networks, which is essential for applications such as healthcare and environmental monitoring [Data: Entities (73); Reports (5, 26)].
+Overall, Dr. Md. Abdur Razzaque's research interests are diverse and impactful, contributing to advancements in several key areas of technology. His work not only addresses current challenges but also paves the way for future innovations in computer science and engineering.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 3/202:
+Question: What is the affiliation of Saiful Azad, PhD?
+Expected Answer: Professor, Department of Computer Science and Engineering, Green University of Bangladesh
+Model Answer: ### Affiliation of Saiful Azad, PhD
+
+Saiful Azad, PhD, is affiliated with the Green University of Bangladesh. He serves as a distinguished researcher and professor in the Department of Computer Science and Engineering at this institution. His academic interests include computer communication, machine learning, data mining, and information security, and he has made significant contributions to these fields through his research and publications [Data: Entities (103); Relationships (17)].
+Reasoning:
+### Affiliation of Saiful Azad, PhD
+Saiful Azad, PhD, is affiliated with the Green University of Bangladesh. He serves as a distinguished researcher and professor in the Department of Computer Science and Engineering at this institution. His academic interests include computer communication, machine learning, data mining, and information security, and he has made significant contributions to these fields through his research and publications [Data: Entities (103); Relationships (17)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 4/202:
+Question: What is the email of Md. Arafatur Rahman?
+Expected Answer: arafatur.Rahman@wlv.ac.uk
+Model Answer: Md. Arafatur Rahman's email is arafatur.Rahman@wlv.ac.uk [Data: Sources (24)].
+Reasoning:
+Md. Arafatur Rahman's email is arafatur.Rahman@wlv.ac.uk [Data: Sources (24)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 5/202:
+Question: What are the research interests of Muhammad Nomani Kabir?
+Expected Answer: Computational methods, Networking, Information System, Cryptography, Combustion Engine
+Model Answer: ### Research Interests of Muhammad Nomani Kabir
+
+Muhammad Nomani Kabir is a prolific researcher affiliated with United International University in Bangladesh. His research interests are diverse and span several domains, reflecting his broad expertise and contributions to multiple scientific fields.
+
+#### Computational Methods and Networking
+
+Kabir has a strong interest in computational methods and networking, which are foundational to many of his research projects. These areas involve the development and application of algorithms and computational techniques to solve complex problems, often in the context of networked systems [Data: Entities (154)].
+
+#### Information Systems and Cryptography
+
+Another significant area of interest for Kabir is information systems and cryptography. His work in these fields focuses on the strategic alignment of information systems with business strategies and the development of secure communication protocols. This research is crucial for enhancing the efficiency and security of information systems in various organizational contexts [Data: Entities (154)].
+
+#### Image Watermarking and Deep Learning
+
+Kabir has made notable contributions to the field of image watermarking, where he has developed techniques for embedding information into digital images in a way that is robust against various types of attacks. Additionally, his research in deep learning, particularly for sentiment analysis and fall detection systems, highlights his interest in applying artificial intelligence to practical problems [Data: Entities (154); Relationships (190, 191, 197, 198, 199, +more)].
+
+#### Bioconvection and Nanofluid Flow
+
+His research also extends to the study of bioconvection and nanofluid flow, where he collaborates with other researchers to explore the behavior of fluids containing microorganisms and nanoparticles. This work has applications in fields such as environmental engineering and materials science [Data: Entities (154); Relationships (192, 193, 202, 203, 204, +more)].
+
+#### Combustion Engines
+
+Kabir's interest in combustion engines involves the study of engine dynamics and the development of more efficient and environmentally friendly combustion technologies. This area of research is vital for advancing automotive and industrial engine technologies [Data: Entities (154)].
+
+Overall, Muhammad Nomani Kabir's research interests are characterized by their diversity and interdisciplinary nature, allowing him to contribute significantly to various scientific domains. His work not only advances theoretical knowledge but also has practical implications across multiple industries.
+Reasoning:
+### Research Interests of Muhammad Nomani Kabir
+Muhammad Nomani Kabir is a prolific researcher affiliated with United International University in Bangladesh. His research interests are diverse and span several domains, reflecting his broad expertise and contributions to multiple scientific fields.
+#### Computational Methods and Networking
+Kabir has a strong interest in computational methods and networking, which are foundational to many of his research projects. These areas involve the development and application of algorithms and computational techniques to solve complex problems, often in the context of networked systems [Data: Entities (154)].
+#### Information Systems and Cryptography
+Another significant area of interest for Kabir is information systems and cryptography. His work in these fields focuses on the strategic alignment of information systems with business strategies and the development of secure communication protocols. This research is crucial for enhancing the efficiency and security of information systems in various organizational contexts [Data: Entities (154)].
+#### Image Watermarking and Deep Learning
+Kabir has made notable contributions to the field of image watermarking, where he has developed techniques for embedding information into digital images in a way that is robust against various types of attacks. Additionally, his research in deep learning, particularly for sentiment analysis and fall detection systems, highlights his interest in applying artificial intelligence to practical problems [Data: Entities (154); Relationships (190, 191, 197, 198, 199, +more)].
+#### Bioconvection and Nanofluid Flow
+His research also extends to the study of bioconvection and nanofluid flow, where he collaborates with other researchers to explore the behavior of fluids containing microorganisms and nanoparticles. This work has applications in fields such as environmental engineering and materials science [Data: Entities (154); Relationships (192, 193, 202, 203, 204, +more)].
+#### Combustion Engines
+Kabir's interest in combustion engines involves the study of engine dynamics and the development of more efficient and environmentally friendly combustion technologies. This area of research is vital for advancing automotive and industrial engine technologies [Data: Entities (154)].
+Overall, Muhammad Nomani Kabir's research interests are characterized by their diversity and interdisciplinary nature, allowing him to contribute significantly to various scientific domains. His work not only advances theoretical knowledge but also has practical implications across multiple industries.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 6/202:
+Question: What is the affiliation of Humayan Kabir Rana?
+Expected Answer: Sr. Lecturer, Department of Computer Science and Engineering, Green University of Bangladesh
+Model Answer: ### Affiliation of Humayan Kabir Rana
+
+Humayan Kabir Rana is affiliated with the Green University of Bangladesh, where he serves as a Senior Lecturer in the Department of Computer Science and Engineering. His role at the university involves both teaching and conducting research in various fields, including bioinformatics, machine learning, data mining, and image processing [Data: Entities (180); Relationships (18)].
+Reasoning:
+### Affiliation of Humayan Kabir Rana
+Humayan Kabir Rana is affiliated with the Green University of Bangladesh, where he serves as a Senior Lecturer in the Department of Computer Science and Engineering. His role at the university involves both teaching and conducting research in various fields, including bioinformatics, machine learning, data mining, and image processing [Data: Entities (180); Relationships (18)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 7/202:
+Question: What are Jahidul Islam's research interests?
+Expected Answer: Machine Learning, Natural Language Processing, LLMs, RAG
+Model Answer: ### Jahidul Islam's Research Interests
+
+Jahidul Islam is a researcher affiliated with the Green University of Bangladesh, where he is involved in the Department of Computer Science and Engineering. His research interests are diverse and focus on several cutting-edge areas in computer science. Specifically, Jahidul Islam specializes in Machine Learning, Natural Language Processing, Large Language Models (LLMs), and Retrieval-Augmented Generation (RAG) [Data: Entities (223); Sources (41)].
+
+These areas of interest reflect a strong focus on the development and application of advanced computational techniques. Machine Learning and Natural Language Processing are foundational to many modern technological advancements, including artificial intelligence and data analysis. Large Language Models and Retrieval-Augmented Generation are particularly relevant in the context of improving the efficiency and accuracy of language-based AI systems, which are crucial for tasks such as translation, sentiment analysis, and automated content generation.
+Reasoning:
+### Jahidul Islam's Research Interests
+Jahidul Islam is a researcher affiliated with the Green University of Bangladesh, where he is involved in the Department of Computer Science and Engineering. His research interests are diverse and focus on several cutting-edge areas in computer science. Specifically, Jahidul Islam specializes in Machine Learning, Natural Language Processing, Large Language Models (LLMs), and Retrieval-Augmented Generation (RAG) [Data: Entities (223); Sources (41)].
+These areas of interest reflect a strong focus on the development and application of advanced computational techniques. Machine Learning and Natural Language Processing are foundational to many modern technological advancements, including artificial intelligence and data analysis. Large Language Models and Retrieval-Augmented Generation are particularly relevant in the context of improving the efficiency and accuracy of language-based AI systems, which are crucial for tasks such as translation, sentiment analysis, and automated content generation.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 8/202:
+Question: What is the email address of Md Ataullha?
+Expected Answer: Ataullha@cse.green.edu.bd
+Model Answer: Md Ataullha's email address is Ataullha@cse.green.edu.bd [Data: Sources (43)].
+Reasoning:
+Md Ataullha's email address is Ataullha@cse.green.edu.bd [Data: Sources (43)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 9/202:
+Question: Where does Ashish Vaswani work?
+Expected Answer: Startup
+Model Answer: Ashish Vaswani is affiliated with a startup, as indicated in his researcher profile. This affiliation reflects his active engagement in the research community, particularly in the field of deep learning [Data: Entities (231)].
+Reasoning:
+Ashish Vaswani is affiliated with a startup, as indicated in his researcher profile. This affiliation reflects his active engagement in the research community, particularly in the field of deep learning [Data: Entities (231)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 10/202:
+Question: What is Mohammad Shorif Uddin's research focus area?
+Expected Answer: Computer Vision, Agro-Biomedical Imaging, Artificial Intelligence, Smart Technologies
+Model Answer: ### Research Focus of Mohammad Shorif Uddin
+
+Mohammad Shorif Uddin is a distinguished researcher with a diverse range of interests and contributions in several cutting-edge fields. His primary research focus areas include **Computer Vision**, **Agro-Biomedical Imaging**, **Artificial Intelligence**, and **Smart Technologies**. These fields are at the forefront of technological innovation and have significant implications for various applications in both medical and agricultural domains [Data: Entities (0); Reports (11, 48, 55)].
+
+### Key Research Contributions
+
+Uddin's work is particularly notable for its application of **machine learning** techniques to solve complex problems. He has been involved in developing machine learning applications for **skin disease detection**, **depression prediction**, and **Covid-19 detection using chest X-rays**. These applications demonstrate his commitment to leveraging artificial intelligence for improving healthcare outcomes [Data: Entities (0); Reports (11, 48, 55)].
+
+### Interdisciplinary Approach
+
+In addition to his work in medical diagnostics, Uddin has also contributed to **data mining techniques for heart disease prediction** and **robust digital image watermarking systems**. His research on disease detection techniques for rice leaves using AlexNet highlights his interdisciplinary approach, combining expertise in computer vision and agriculture to address challenges in crop health management [Data: Entities (0); Reports (11, 48, 55)].
+
+### Institutional Affiliations
+
+Uddin's research is supported by his affiliations with several prestigious institutions, including **Jahangirnagar University**, **Green University of Bangladesh**, **KIT**, **TTI**, **BII**, **CAS**, **Chiba University**, and **Saitama University**. These affiliations provide a robust platform for collaborative research and underscore his influence in the academic community [Data: Entities (0, 1, 3, 4, 5, 6, 7, 8); Relationships (0, 2, 3, 4, 5, 6, 7)].
+
+Overall, Mohammad Shorif Uddin's research focus is characterized by a strong interdisciplinary approach, with significant contributions to both technological advancements and practical applications in healthcare and agriculture.
+Reasoning:
+### Research Focus of Mohammad Shorif Uddin
+Mohammad Shorif Uddin is a distinguished researcher with a diverse range of interests and contributions in several cutting-edge fields. His primary research focus areas include **Computer Vision**, **Agro-Biomedical Imaging**, **Artificial Intelligence**, and **Smart Technologies**. These fields are at the forefront of technological innovation and have significant implications for various applications in both medical and agricultural domains [Data: Entities (0); Reports (11, 48, 55)].
+### Key Research Contributions
+Uddin's work is particularly notable for its application of **machine learning** techniques to solve complex problems. He has been involved in developing machine learning applications for **skin disease detection**, **depression prediction**, and **Covid-19 detection using chest X-rays**. These applications demonstrate his commitment to leveraging artificial intelligence for improving healthcare outcomes [Data: Entities (0); Reports (11, 48, 55)].
+### Interdisciplinary Approach
+In addition to his work in medical diagnostics, Uddin has also contributed to **data mining techniques for heart disease prediction** and **robust digital image watermarking systems**. His research on disease detection techniques for rice leaves using AlexNet highlights his interdisciplinary approach, combining expertise in computer vision and agriculture to address challenges in crop health management [Data: Entities (0); Reports (11, 48, 55)].
+### Institutional Affiliations
+Uddin's research is supported by his affiliations with several prestigious institutions, including **Jahangirnagar University**, **Green University of Bangladesh**, **KIT**, **TTI**, **BII**, **CAS**, **Chiba University**, and **Saitama University**. These affiliations provide a robust platform for collaborative research and underscore his influence in the academic community [Data: Entities (0, 1, 3, 4, 5, 6, 7, 8); Relationships (0, 2, 3, 4, 5, 6, 7)].
+Overall, Mohammad Shorif Uddin's research focus is characterized by a strong interdisciplinary approach, with significant contributions to both technological advancements and practical applications in healthcare and agriculture.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 11/202:
+Question: What is the email address of Farhana Akter Sunny?
+Expected Answer: farhana@cse.green.edu.bd
+Model Answer: Farhana Akter Sunny's email address is farhana@cse.green.edu.bd [Data: Sources (0)].
+Reasoning:
+Farhana Akter Sunny's email address is farhana@cse.green.edu.bd [Data: Sources (0)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 12/202:
+Question: What is the email of Humayan Kabir Rana?
+Expected Answer: humayan@cse.green.edu.bd
+Model Answer: The email of Humayan Kabir Rana is humayan@cse.green.edu.bd [Data: Sources (0)].
+Reasoning:
+The email of Humayan Kabir Rana is humayan@cse.green.edu.bd [Data: Sources (0)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 13/202:
+Question: What is the email of Mohammad Shorif Uddin?
+Expected Answer: shorifuddin@juniv.edu
+Model Answer: The email of Mohammad Shorif Uddin is shorifuddin@juniv.edu [Data: Sources (0)].
+Reasoning:
+The email of Mohammad Shorif Uddin is shorifuddin@juniv.edu [Data: Sources (0)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 14/202:
+Question: What is Ashish Vaswani's email address?
+Expected Answer: Vaswani@fastmail.com
+Model Answer: Ashish Vaswani's email address is listed as Vaswani@fastmail.com [Data: Sources (45)].
+Reasoning:
+Ashish Vaswani's email address is listed as Vaswani@fastmail.com [Data: Sources (45)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 15/202:
+Question: What are Humayan Kabir Rana's research interests?
+Expected Answer: Bioinformatics, Machine Learning, Data Mining, Image Processing
+Model Answer: ### Humayan Kabir Rana's Research Interests
+
+Humayan Kabir Rana is a Senior Lecturer in the Department of Computer Science and Engineering at Green University of Bangladesh. His research interests are diverse and interdisciplinary, encompassing several cutting-edge fields in both computer science and medical research.
+
+#### Bioinformatics and System Biology
+
+Rana is deeply involved in bioinformatics and system biology, focusing on the pathophysiological impacts of diseases such as COVID-19, neurological diseases, and type 2 diabetes. His work in this area includes pathogenetic profiling of COVID-19 and SARS-like viruses, as well as genetic profiling related to type 2 diabetes [Data: Entities (180); Relationships (218, 219, 230, 231, 232, +more)].
+
+#### Machine Learning and Data Mining
+
+In the realm of computer science, Rana applies machine learning and data mining methodologies to explore complex medical challenges. His research extends to the study of central nervous system disorders and the progression of glioblastoma, showcasing the application of computational techniques in medical research [Data: Entities (180); Relationships (225, 233, 234)].
+
+#### Image Processing
+
+Rana's interests also include image processing, which is evident in his work on lung cancer detection using CT scan images. This research highlights his involvement in medical imaging and the use of advanced computational methods to improve diagnostic techniques [Data: Entities (180); Relationships (236)].
+
+#### Neurodegenerative Diseases
+
+Additionally, Rana has contributed significantly to the study of neurodegenerative diseases, including research on Parkinson's disease biomarkers. His work in this area underscores the intersection of bioinformatics and neurological research, aiming to identify biomarkers that could aid in early diagnosis and treatment [Data: Entities (180); Relationships (235)].
+
+Overall, Humayan Kabir Rana's research interests reflect a strong commitment to interdisciplinary approaches, combining bioinformatics, machine learning, and medical sciences to address complex health-related issues. His contributions are significant in advancing scientific knowledge and developing innovative solutions to pressing medical challenges.
+Reasoning:
+### Humayan Kabir Rana's Research Interests
+Humayan Kabir Rana is a Senior Lecturer in the Department of Computer Science and Engineering at Green University of Bangladesh. His research interests are diverse and interdisciplinary, encompassing several cutting-edge fields in both computer science and medical research.
+#### Bioinformatics and System Biology
+Rana is deeply involved in bioinformatics and system biology, focusing on the pathophysiological impacts of diseases such as COVID-19, neurological diseases, and type 2 diabetes. His work in this area includes pathogenetic profiling of COVID-19 and SARS-like viruses, as well as genetic profiling related to type 2 diabetes [Data: Entities (180); Relationships (218, 219, 230, 231, 232, +more)].
+#### Machine Learning and Data Mining
+In the realm of computer science, Rana applies machine learning and data mining methodologies to explore complex medical challenges. His research extends to the study of central nervous system disorders and the progression of glioblastoma, showcasing the application of computational techniques in medical research [Data: Entities (180); Relationships (225, 233, 234)].
+#### Image Processing
+Rana's interests also include image processing, which is evident in his work on lung cancer detection using CT scan images. This research highlights his involvement in medical imaging and the use of advanced computational methods to improve diagnostic techniques [Data: Entities (180); Relationships (236)].
+#### Neurodegenerative Diseases
+Additionally, Rana has contributed significantly to the study of neurodegenerative diseases, including research on Parkinson's disease biomarkers. His work in this area underscores the intersection of bioinformatics and neurological research, aiming to identify biomarkers that could aid in early diagnosis and treatment [Data: Entities (180); Relationships (235)].
+Overall, Humayan Kabir Rana's research interests reflect a strong commitment to interdisciplinary approaches, combining bioinformatics, machine learning, and medical sciences to address complex health-related issues. His contributions are significant in advancing scientific knowledge and developing innovative solutions to pressing medical challenges.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 16/202:
+Question: What are the research interests of Saiful Azad?
+Expected Answer: Computer communication, Machine learning, data mining, information security
+Model Answer: ### Research Interests of Saiful Azad
+
+Saiful Azad, PhD, is a distinguished researcher and professor in the Department of Computer Science and Engineering at Green University of Bangladesh. His research interests are diverse and encompass several key areas in computer science. These include computer communication, machine learning, data mining, and information security [Data: Entities (103)].
+
+#### Computer Communication
+
+Saiful Azad has made significant contributions to the field of computer communication, particularly in the context of Mobile Ad-Hoc Networks (MANET) and underwater networking. His work in this area includes research on routing protocols and network protocols, which are crucial for efficient data transmission and connectivity in various network environments [Data: Entities (103); Relationships (140, 130, 135, 137, 132, +more)].
+
+#### Machine Learning and Data Mining
+
+In the realm of machine learning and data mining, Saiful Azad has been involved in developing techniques for keyphrase extraction and other information retrieval processes. His research in these areas aims to enhance the efficiency and accuracy of data processing and analysis, which are vital for handling large datasets and extracting meaningful insights [Data: Entities (103, 110); Relationships (135, 134, 137, 136, 152, +more)].
+
+#### Information Security
+
+Information security is another critical area of interest for Saiful Azad. His research efforts in this domain focus on safeguarding data and communication systems from unauthorized access and cyber threats. This is increasingly important in today's digital age, where data breaches and cyber-attacks pose significant risks to individuals and organizations alike [Data: Entities (103)].
+
+Overall, Saiful Azad's research interests reflect a commitment to advancing technology and addressing complex challenges in computer science through innovative research and collaboration. His work has been published in reputable journals, underscoring the impact and relevance of his contributions to the field [Data: Entities (103); Relationships (130, 132, 138, 139, 133)].
+Reasoning:
+### Research Interests of Saiful Azad
+Saiful Azad, PhD, is a distinguished researcher and professor in the Department of Computer Science and Engineering at Green University of Bangladesh. His research interests are diverse and encompass several key areas in computer science. These include computer communication, machine learning, data mining, and information security [Data: Entities (103)].
+#### Computer Communication
+Saiful Azad has made significant contributions to the field of computer communication, particularly in the context of Mobile Ad-Hoc Networks (MANET) and underwater networking. His work in this area includes research on routing protocols and network protocols, which are crucial for efficient data transmission and connectivity in various network environments [Data: Entities (103); Relationships (140, 130, 135, 137, 132, +more)].
+#### Machine Learning and Data Mining
+In the realm of machine learning and data mining, Saiful Azad has been involved in developing techniques for keyphrase extraction and other information retrieval processes. His research in these areas aims to enhance the efficiency and accuracy of data processing and analysis, which are vital for handling large datasets and extracting meaningful insights [Data: Entities (103, 110); Relationships (135, 134, 137, 136, 152, +more)].
+#### Information Security
+Information security is another critical area of interest for Saiful Azad. His research efforts in this domain focus on safeguarding data and communication systems from unauthorized access and cyber threats. This is increasingly important in today's digital age, where data breaches and cyber-attacks pose significant risks to individuals and organizations alike [Data: Entities (103)].
+Overall, Saiful Azad's research interests reflect a commitment to advancing technology and addressing complex challenges in computer science through innovative research and collaboration. His work has been published in reputable journals, underscoring the impact and relevance of his contributions to the field [Data: Entities (103); Relationships (130, 132, 138, 139, 133)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 17/202:
+Question: What is the Google Scholar author ID of Dr. Md. Abdur Razzaque?
+Expected Answer: 1yMUb7wAAAAJ
+Model Answer: The Google Scholar author ID of Dr. Md. Abdur Razzaque is `1yMUb7wAAAAJ` [Data: Sources (13, 57)].
+Reasoning:
+The Google Scholar author ID of Dr. Md. Abdur Razzaque is `1yMUb7wAAAAJ` [Data: Sources (13, 57)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 18/202:
+Question: What is the Google Scholar author ID of Ashish Vaswani?
+Expected Answer: oR9sCGYAAAAJ
+Model Answer: The Google Scholar author ID of Ashish Vaswani is `oR9sCGYAAAAJ` [Data: Sources (45)].
+Reasoning:
+The Google Scholar author ID of Ashish Vaswani is `oR9sCGYAAAAJ` [Data: Sources (45)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 19/202:
+Question: What is the Google Scholar author ID of Saiful Azad?
+Expected Answer: 9nMul40AAAAJ
+Model Answer: The Google Scholar author ID of Saiful Azad is `9nMul40AAAAJ` [Data: Sources (0)].
+Reasoning:
+The Google Scholar author ID of Saiful Azad is `9nMul40AAAAJ` [Data: Sources (0)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 20/202:
+Question: What university is Dr. Md. Abdur Razzaque affiliated with?
+Expected Answer: University of Dhaka, Bangladesh
+Model Answer: Dr. Md. Abdur Razzaque is affiliated with the University of Dhaka, where he serves as a distinguished Professor of Computer Science and Engineering. The University of Dhaka is located in Bangladesh, and it plays a crucial role in supporting Dr. Razzaque's extensive research activities in fields such as Cloud and Edge Intelligence, AI for the Internet of Things, and 5IR Technologies [Data: Entities (73, 74); Relationships (97, 108, 109)].
+Reasoning:
+Dr. Md. Abdur Razzaque is affiliated with the University of Dhaka, where he serves as a distinguished Professor of Computer Science and Engineering. The University of Dhaka is located in Bangladesh, and it plays a crucial role in supporting Dr. Razzaque's extensive research activities in fields such as Cloud and Edge Intelligence, AI for the Internet of Things, and 5IR Technologies [Data: Entities (73, 74); Relationships (97, 108, 109)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 21/202:
+Question: What is Mohammad Shorif Uddin's affiliation?
+Expected Answer: Jahangirnagar Univ. | Green Univ. of Bangladesh | KIT, TTI, BII, CAS, Chiba Univ, Saitama Univ.
+Model Answer: ### Mohammad Shorif Uddin's Affiliations
+
+Mohammad Shorif Uddin is affiliated with several prestigious institutions, reflecting his extensive involvement in the academic and research communities. His affiliations include:
+
+- **Jahangirnagar University**: This is one of the primary institutions with which Mohammad Shorif Uddin is associated. It is located in Bangladesh and is known for its strong academic programs [Data: Entities (1); Relationships (0)].
+
+- **Green University of Bangladesh**: Another significant affiliation, this university is also based in Bangladesh and supports various research initiatives [Data: Entities (0); Relationships (1)].
+
+- **KIT (Karlsruhe Institute of Technology)**: Located in Germany, KIT is a renowned institution for research and higher education, particularly in the fields of engineering and technology [Data: Entities (3); Relationships (2)].
+
+- **TTI (Tokyo Tech Institute)**: This affiliation highlights his connection with Japanese academic institutions, known for their innovation and research excellence [Data: Entities (4); Relationships (3)].
+
+- **BII (Bioinformatics Institute)**: This institution is part of his network, emphasizing his involvement in bioinformatics and related research areas [Data: Entities (5); Relationships (4)].
+
+- **CAS (Chinese Academy of Sciences)**: As a leading research institution in China, CAS is a significant part of his international affiliations [Data: Entities (6); Relationships (5)].
+
+- **Chiba University**: Located in Japan, Chiba University is another key institution in his academic network, known for its contributions to various research fields [Data: Entities (7); Relationships (6)].
+
+- **Saitama University**: Also in Japan, this university is part of his collaborative network, further showcasing his international research collaborations [Data: Entities (8); Relationships (7)].
+
+These affiliations underscore Mohammad Shorif Uddin's influence and the collaborative nature of his research endeavors, facilitating a broad range of research activities and collaborations across different countries and disciplines [Data: Reports (11, 48, 55)].
+Reasoning:
+### Mohammad Shorif Uddin's Affiliations
+Mohammad Shorif Uddin is affiliated with several prestigious institutions, reflecting his extensive involvement in the academic and research communities. His affiliations include:
+- **Jahangirnagar University**: This is one of the primary institutions with which Mohammad Shorif Uddin is associated. It is located in Bangladesh and is known for its strong academic programs [Data: Entities (1); Relationships (0)].
+- **Green University of Bangladesh**: Another significant affiliation, this university is also based in Bangladesh and supports various research initiatives [Data: Entities (0); Relationships (1)].
+- **KIT (Karlsruhe Institute of Technology)**: Located in Germany, KIT is a renowned institution for research and higher education, particularly in the fields of engineering and technology [Data: Entities (3); Relationships (2)].
+- **TTI (Tokyo Tech Institute)**: This affiliation highlights his connection with Japanese academic institutions, known for their innovation and research excellence [Data: Entities (4); Relationships (3)].
+- **BII (Bioinformatics Institute)**: This institution is part of his network, emphasizing his involvement in bioinformatics and related research areas [Data: Entities (5); Relationships (4)].
+- **CAS (Chinese Academy of Sciences)**: As a leading research institution in China, CAS is a significant part of his international affiliations [Data: Entities (6); Relationships (5)].
+- **Chiba University**: Located in Japan, Chiba University is another key institution in his academic network, known for its contributions to various research fields [Data: Entities (7); Relationships (6)].
+- **Saitama University**: Also in Japan, this university is part of his collaborative network, further showcasing his international research collaborations [Data: Entities (8); Relationships (7)].
+These affiliations underscore Mohammad Shorif Uddin's influence and the collaborative nature of his research endeavors, facilitating a broad range of research activities and collaborations across different countries and disciplines [Data: Reports (11, 48, 55)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 22/202:
+Question: What is the title of Dr. Md. Abdur Razzaque's most cited paper?
+Expected Answer: Review on cyber-physical and cyber-security system in smart grid: Standards, protocols, constraints, and recommendations
+Model Answer: Dr. Md. Abdur Razzaque's most cited paper is titled "Data-centric multiobjective QoS-aware routing protocol for body sensor networks," which has been cited 192 times [Data: Sources (14)].
+Reasoning:
+Dr. Md. Abdur Razzaque's most cited paper is titled "Data-centric multiobjective QoS-aware routing protocol for body sensor networks," which has been cited 192 times [Data: Sources (14)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 23/202:
+Question: How many citations does the paper 'Attention is all you need' by Ashish Vaswani have?
+Expected Answer: 223052
+Model Answer: The paper "Attention is All You Need" by Ashish Vaswani has been cited 223,052 times [Data: Sources (45)]. This high citation count underscores the paper's significant impact and influence in the field of machine learning and artificial intelligence.
+Reasoning:
+The paper "Attention is All You Need" by Ashish Vaswani has been cited 223,052 times [Data: Sources (45)]. This high citation count underscores the paper's significant impact and influence in the field of machine learning and artificial intelligence.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 24/202:
+Question: What is the title of Saiful Azad's paper published in 2012?
+Expected Answer: DESERT Underwater: An NS-Miracle-based framework to design, simulate, emulate and realize test-beds for underwater network protocols
+Model Answer: The title of Saiful Azad's paper published in 2012 is "DESERT Underwater: An NS-Miracle-based framework to design, simulate, emulate and realize test-beds for underwater network protocols" [Data: Sources (1)].
+Reasoning:
+The title of Saiful Azad's paper published in 2012 is "DESERT Underwater: An NS-Miracle-based framework to design, simulate, emulate and realize test-beds for underwater network protocols" [Data: Sources (1)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 25/202:
+Question: What is the title of Muhammad Nomani Kabir's most cited paper?
+Expected Answer: Breast cancer prediction: a comparative study using machine learning techniques
+Model Answer: The title of Muhammad Nomani Kabir's most cited paper is "Breast Cancer Prediction: A Comparative Study Using Machine Learning Techniques," which has been cited 438 times [Data: Entities (155); Relationships (189)].
+Reasoning:
+The title of Muhammad Nomani Kabir's most cited paper is "Breast Cancer Prediction: A Comparative Study Using Machine Learning Techniques," which has been cited 438 times [Data: Entities (155); Relationships (189)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 26/202:
+Question: How many times has the paper 'PrivacyProtector: Privacy-Protected Patient Data Collection in IoT-Based Healthcare Systems' been cited?
+Expected Answer: 306
+Model Answer: The paper titled 'PrivacyProtector: Privacy-Protected Patient Data Collection in IoT-Based Healthcare Systems' has been cited 306 times [Data: Sources (24)].
+Reasoning:
+The paper titled 'PrivacyProtector: Privacy-Protected Patient Data Collection in IoT-Based Healthcare Systems' has been cited 306 times [Data: Sources (24)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 27/202:
+Question: What paper did Md. Arafatur Rahman publish in 2021?
+Expected Answer: Evolution of IoT-enabled connectivity and applications in automotive industry: A review
+Model Answer: Md. Arafatur Rahman published a paper titled "Evolution of IoT-enabled connectivity and applications in automotive industry: A review" in 2021. This research paper was published in the journal Vehicular Communications and is part of his extensive work in the field of IoT and its applications in the automotive industry [Data: Sources (25, 26)].
+Reasoning:
+Md. Arafatur Rahman published a paper titled "Evolution of IoT-enabled connectivity and applications in automotive industry: A review" in 2021. This research paper was published in the journal Vehicular Communications and is part of his extensive work in the field of IoT and its applications in the automotive industry [Data: Sources (25, 26)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 28/202:
+Question: What is the title of Farhana Akter Sunny's most cited paper?
+Expected Answer: A systematic review of blockchain applications
+Model Answer: The title of Farhana Akter Sunny's most cited paper is "A systematic review of blockchain applications." This paper was published in IEEE Access in 2022 and has been cited 170 times [Data: Entities (39); Relationships (53, 63)].
+Reasoning:
+The title of Farhana Akter Sunny's most cited paper is "A systematic review of blockchain applications." This paper was published in IEEE Access in 2022 and has been cited 170 times [Data: Entities (39); Relationships (53, 63)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 29/202:
+Question: In which journal was Dr. Md. Abdur Razzaque's paper on smart grid published?
+Expected Answer: Journal of network and computer applications
+Model Answer: Dr. Md. Abdur Razzaque's paper on the smart grid, titled "Review on Cyber-Physical and Cyber-Security System in Smart Grid: Standards, Protocols, Constraints, and Recommendations," was published in the Journal of Network and Computer Applications in 2023 [Data: Entities (76); Sources (13)].
+Reasoning:
+Dr. Md. Abdur Razzaque's paper on the smart grid, titled "Review on Cyber-Physical and Cyber-Security System in Smart Grid: Standards, Protocols, Constraints, and Recommendations," was published in the Journal of Network and Computer Applications in 2023 [Data: Entities (76); Sources (13)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 30/202:
+Question: Who are the authors of the paper 'Attention is all you need'?
+Expected Answer: A Vaswani, N Shazeer, N Parmar, J Uszkoreit, L Jones, AN Gomez, ...
+Model Answer: The paper "Attention is All You Need" is authored by Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, and others. This influential paper was published in 2017 at the Advances in Neural Information Processing Systems conference and has been widely cited for introducing the transformer model, which has become a foundational architecture in natural language processing and other AI applications [Data: Entities (232, 233); Relationships (272, 264); Sources (45)].
+Reasoning:
+The paper "Attention is All You Need" is authored by Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, and others. This influential paper was published in 2017 at the Advances in Neural Information Processing Systems conference and has been widely cited for introducing the transformer model, which has become a foundational architecture in natural language processing and other AI applications [Data: Entities (232, 233); Relationships (272, 264); Sources (45)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 31/202:
+Question: In what year was 'Data-centric multiobjective QoS-aware routing protocol for body sensor networks' published?
+Expected Answer: 2011
+Model Answer: The research paper titled 'Data-Centric Multiobjective QoS-Aware Routing Protocol for Body Sensor Networks' was published in the year 2011 [Data: Entities (79); Sources (14)].
+Reasoning:
+The research paper titled 'Data-Centric Multiobjective QoS-Aware Routing Protocol for Body Sensor Networks' was published in the year 2011 [Data: Entities (79); Sources (14)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 32/202:
+Question: What is the citation count for 'Breast cancer prediction: a comparative study using machine learning techniques'?
+Expected Answer: 438
+Model Answer: The research paper titled "Breast Cancer Prediction: A Comparative Study Using Machine Learning Techniques" has been cited 438 times. This paper was authored by Muhammad Nomani Kabir and others, and it was published in SN Computer Science in 2020 [Data: Entities (155); Sources (28)].
+Reasoning:
+The research paper titled "Breast Cancer Prediction: A Comparative Study Using Machine Learning Techniques" has been cited 438 times. This paper was authored by Muhammad Nomani Kabir and others, and it was published in SN Computer Science in 2020 [Data: Entities (155); Sources (28)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 33/202:
+Question: In which year did Saiful Azad publish the paper 'TeKET: a Tree-Based Unsupervised Keyphrase Extraction Technique'?
+Expected Answer: 2020
+Model Answer: Saiful Azad published the paper titled 'TeKET: a Tree-Based Unsupervised Keyphrase Extraction Technique' in the year 2020 [Data: Entities (108); Sources (21)].
+Reasoning:
+Saiful Azad published the paper titled 'TeKET: a Tree-Based Unsupervised Keyphrase Extraction Technique' in the year 2020 [Data: Entities (108); Sources (21)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 34/202:
+Question: How many citations does Mohammad Shorif Uddin's paper on image quality assessment have?
+Expected Answer: 2065
+Model Answer: Mohammad Shorif Uddin's paper titled "Image Quality Assessment through FSIM, SSIM, MSE and PSNR—A Comparative Study" has been cited 2,065 times [Data: Sources (1)].
+Reasoning:
+Mohammad Shorif Uddin's paper titled "Image Quality Assessment through FSIM, SSIM, MSE and PSNR—A Comparative Study" has been cited 2,065 times [Data: Sources (1)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 35/202:
+Question: What is the email address of Saiful Azad?
+Expected Answer: dean@fse.green.edu.bd
+Model Answer: The email address of Saiful Azad is dean@fse.green.edu.bd [Data: Sources (0)].
+Reasoning:
+The email address of Saiful Azad is dean@fse.green.edu.bd [Data: Sources (0)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 36/202:
+Question: What paper did Humayan Kabir Rana publish in 2021 about COVID-19?
+Expected Answer: Pathogenetic profiling of COVID-19 and SARS-like viruses

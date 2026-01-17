@@ -52,6 +52,16 @@ def parse_args():
         action="store_true",
         help="Format answer as numerical value only",
     )
+    parser.add_argument(
+        "--normalize-answers",
+        action="store_true",
+        help="Normalize answers as numbers before comparison",
+    )
+    parser.add_argument(
+        "--exact-match",
+        action="store_true",
+        help="Use exact string matching for answers",
+    )
     parser.add_argument("--verbose", action="store_true", help="Print verbose output")
     parser.add_argument(
         "--output-dir",
@@ -334,6 +344,14 @@ def main():
     # Suffix for CoT evaluation
     cot_suffix = "-cot" if args.use_cot else ""
 
+    normalize_answers = config.get("normalize_answers", True)
+    if args.normalize_answers and args.exact_match:
+        raise ValueError("Use only one of --normalize-answers or --exact-match")
+    if args.normalize_answers:
+        normalize_answers = True
+    if args.exact_match:
+        normalize_answers = False
+
     results = {}
 
     # Evaluate each method
@@ -374,6 +392,7 @@ def main():
                 question_col=question_col,
                 answer_col=answer_col,
                 max_samples=args.max_samples,
+                normalize_answers=normalize_answers,
             )
 
             results[method_name] = method_results

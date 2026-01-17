@@ -1,0 +1,272 @@
+cypher_rag Evaluation Results
+Evaluation Date: 2026-01-17 07:04:02
+Total Questions: 202
+
+Configuration:
+No configuration provided
+================================================================================
+
+Question 1/202:
+Question: What is the email address of Dr. Md. Abdur Razzaque?
+Expected Answer: razzaque@du.ac.bd
+Model Answer: The context provided does not contain any information about Dr. Md. Abdur Razzaque's email address. Therefore, I am unable to provide that information. If you have access to a specific SEC 10-Q filing or any other document that might contain this information, please provide it, and I will do my best to assist you.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 2/202:
+Question: What are the research interests of Dr. Md. Abdur Razzaque?
+Expected Answer: Cloud and Edge Intelligence, AI for Internet of Things, 5IR Technologies, Energy Optimization
+Model Answer: The context provided does not contain any information about the research interests of Dr. Md. Abdur Razzaque. To answer your question, I would need specific details or data regarding Dr. Razzaque's research interests. If you have access to additional information or another source, please provide it, and I will do my best to assist you.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 3/202:
+Question: What is the affiliation of Saiful Azad, PhD?
+Expected Answer: Professor, Department of Computer Science and Engineering, Green University of Bangladesh
+Model Answer: The context provided does not contain any information about Saiful Azad, PhD, or his affiliation. Therefore, I am unable to determine his affiliation based on the given data. If you have more specific information or another context, please provide it, and I will do my best to assist you.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 4/202:
+Question: What is the email of Md. Arafatur Rahman?
+Expected Answer: arafatur.Rahman@wlv.ac.uk
+Model Answer: The context provided does not contain any information about Md. Arafatur Rahman or their email address. Therefore, I am unable to provide an answer to your question. If you have access to a specific SEC 10-Q filing or any other document that might contain this information, please provide it, and I will do my best to assist you.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 5/202:
+Question: What are the research interests of Muhammad Nomani Kabir?
+Expected Answer: Computational methods, Networking, Information System, Cryptography, Combustion Engine
+Model Answer: The context provided does not contain any information about the research interests of Muhammad Nomani Kabir. To answer your question, I would need more specific information or data related to Muhammad Nomani Kabir's research interests. If you have access to additional sources or documents, please provide them, and I will do my best to assist you.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 6/202:
+Question: What is the affiliation of Humayan Kabir Rana?
+Expected Answer: Sr. Lecturer, Department of Computer Science and Engineering, Green University of Bangladesh
+Model Answer: The context provided does not contain any information about Humayan Kabir Rana or his affiliation. Therefore, I am unable to determine his affiliation based on the given data. If you have access to additional information or context, please provide it, and I will do my best to assist you.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 7/202:
+Question: What are Jahidul Islam's research interests?
+Expected Answer: Machine Learning, Natural Language Processing, LLMs, RAG
+Model Answer: The context provided does not contain any information about Jahidul Islam's research interests. If you have more specific information or another context, please provide it, and I will do my best to assist you.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 8/202:
+Question: What is the email address of Md Ataullha?
+Expected Answer: Ataullha@cse.green.edu.bd
+Model Answer: The context provided does not contain any information about Md Ataullha's email address. If you have access to a specific SEC 10-Q filing or any other document that might contain this information, please provide it, and I will do my best to assist you.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 9/202:
+Question: Where does Ashish Vaswani work?
+Expected Answer: Startup
+Model Answer: The context provided does not contain any information about Ashish Vaswani's place of work. Therefore, I am unable to determine where Ashish Vaswani works based on the given context. If you have more specific information or another query, feel free to ask!
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 10/202:
+Question: What is Mohammad Shorif Uddin's research focus area?
+Expected Answer: Computer Vision, Agro-Biomedical Imaging, Artificial Intelligence, Smart Technologies
+Model Answer: The context provided does not contain any information about Mohammad Shorif Uddin's research focus area. Therefore, I am unable to answer the question based on the given context. If you have more specific information or another context, please provide it, and I will do my best to assist you.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 11/202:
+Question: What is the email address of Farhana Akter Sunny?
+Expected Answer: farhana@cse.green.edu.bd
+Model Answer: The context provided does not contain any information about Farhana Akter Sunny's email address. Therefore, I am unable to provide an answer. If you have access to a specific SEC 10-Q filing or any other document that might contain this information, please provide it, and I will do my best to assist you.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 12/202:
+Question: What is the email of Humayan Kabir Rana?
+Expected Answer: humayan@cse.green.edu.bd
+Model Answer: The context provided does not contain any information about Humayan Kabir Rana's email. If you have access to a specific SEC 10-Q filing or any other document that might contain this information, please provide it, and I can help you extract the relevant details.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 13/202:
+Question: What is the email of Mohammad Shorif Uddin?
+Expected Answer: shorifuddin@juniv.edu
+Model Answer: The context provided does not contain any information about Mohammad Shorif Uddin's email. If you have access to a specific SEC 10-Q filing or another document that might contain this information, please provide it, and I will do my best to assist you.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 14/202:
+Question: What is Ashish Vaswani's email address?
+Expected Answer: Vaswani@fastmail.com
+Model Answer: The context provided does not contain any information about Ashish Vaswani's email address. If you have access to a specific SEC 10-Q filing or any other document that might contain this information, please provide it, and I will do my best to assist you.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 15/202:
+Question: What are Humayan Kabir Rana's research interests?
+Expected Answer: Bioinformatics, Machine Learning, Data Mining, Image Processing
+Model Answer: The context provided does not contain any information about Humayan Kabir Rana's research interests. If you have more specific information or another context, please provide it, and I will do my best to assist you.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 16/202:
+Question: What are the research interests of Saiful Azad?
+Expected Answer: Computer communication, Machine learning, data mining, information security
+Model Answer: The context provided does not contain any information about the research interests of Saiful Azad. If you have access to additional data or documents, please provide them so I can assist you further.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 17/202:
+Question: What is the Google Scholar author ID of Dr. Md. Abdur Razzaque?
+Expected Answer: 1yMUb7wAAAAJ
+Model Answer: The context provided does not contain the Google Scholar author ID of Dr. Md. Abdur Razzaque. To find this information, you would typically need to search directly on Google Scholar or have access to a database that includes this specific detail.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 18/202:
+Question: What is the Google Scholar author ID of Ashish Vaswani?
+Expected Answer: oR9sCGYAAAAJ
+Model Answer: The context provided does not contain the Google Scholar author ID of Ashish Vaswani. To find this information, you would typically need to search directly on Google Scholar or use a search engine.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 19/202:
+Question: What is the Google Scholar author ID of Saiful Azad?
+Expected Answer: 9nMul40AAAAJ
+Model Answer: The context provided does not contain the information needed to determine the Google Scholar author ID of Saiful Azad. You may need to search directly on Google Scholar or another database that contains author profiles to find this information.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 20/202:
+Question: What university is Dr. Md. Abdur Razzaque affiliated with?
+Expected Answer: University of Dhaka, Bangladesh
+Model Answer: The context provided does not contain any information about Dr. Md. Abdur Razzaque or his university affiliation. Therefore, I am unable to determine which university he is affiliated with based on the given context. If you have more information or another context, please provide it, and I will do my best to assist you.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 21/202:
+Question: What is Mohammad Shorif Uddin's affiliation?
+Expected Answer: Jahangirnagar Univ. | Green Univ. of Bangladesh | KIT, TTI, BII, CAS, Chiba Univ, Saitama Univ.
+Model Answer: The context provided does not contain any information about Mohammad Shorif Uddin's affiliation. If you have access to additional data or specific documents, please provide them so I can assist you further.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 22/202:
+Question: What is the title of Dr. Md. Abdur Razzaque's most cited paper?
+Expected Answer: Review on cyber-physical and cyber-security system in smart grid: Standards, protocols, constraints, and recommendations
+Model Answer: The context provided does not contain any information about Dr. Md. Abdur Razzaque or his publications. Therefore, I am unable to determine the title of his most cited paper based on the given context. If you have more specific information or another context, please provide it, and I will do my best to assist you.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 23/202:
+Question: How many citations does the paper 'Attention is all you need' by Ashish Vaswani have?
+Expected Answer: 223052
+Model Answer: Based on the provided context, the paper "Attention is all you need" by Ashish Vaswani has 0 citations.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 24/202:
+Question: What is the title of Saiful Azad's paper published in 2012?
+Expected Answer: DESERT Underwater: An NS-Miracle-based framework to design, simulate, emulate and realize test-beds for underwater network protocols
+Model Answer: The context provided does not contain any information about Saiful Azad's paper published in 2012. Therefore, I am unable to provide the title of the paper.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 25/202:
+Question: What is the title of Muhammad Nomani Kabir's most cited paper?
+Expected Answer: Breast cancer prediction: a comparative study using machine learning techniques
+Model Answer: The context provided does not contain any information about Muhammad Nomani Kabir or his publications. Therefore, I am unable to determine the title of his most cited paper based on the given context. If you have access to additional information or a different context, please provide it, and I will do my best to assist you.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 26/202:
+Question: How many times has the paper 'PrivacyProtector: Privacy-Protected Patient Data Collection in IoT-Based Healthcare Systems' been cited?
+Expected Answer: 306
+Model Answer: The paper 'PrivacyProtector: Privacy-Protected Patient Data Collection in IoT-Based Healthcare Systems' has been cited 0 times.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 27/202:
+Question: What paper did Md. Arafatur Rahman publish in 2021?
+Expected Answer: Evolution of IoT-enabled connectivity and applications in automotive industry: A review
+Model Answer: The context provided does not contain any information about a paper published by Md. Arafatur Rahman in 2021. Therefore, I am unable to answer your question based on the given context. If you have more specific information or another context, please provide it, and I will do my best to assist you.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 28/202:
+Question: What is the title of Farhana Akter Sunny's most cited paper?
+Expected Answer: A systematic review of blockchain applications
+Model Answer: The context provided does not contain any information about Farhana Akter Sunny or her publications. Therefore, I am unable to determine the title of her most cited paper. If you have access to additional information or another source, I recommend checking there for details about her publications and citation counts.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 29/202:
+Question: In which journal was Dr. Md. Abdur Razzaque's paper on smart grid published?
+Expected Answer: Journal of network and computer applications
+Model Answer: The context provided does not contain any information about Dr. Md. Abdur Razzaque or his paper on smart grid. Therefore, I am unable to determine in which journal his paper was published. If you have more specific information or another source, please provide it, and I will do my best to assist you.
+Reasoning:
+This answer was generated based on data retrieved using Cypher queries against the knowledge graph.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 30/202:
+Question: Who are the authors of the paper 'Attention is all you need'?
+Expected Answer: A Vaswani, N Shazeer, N Parmar, J Uszkoreit, L Jones, AN Gomez, ...

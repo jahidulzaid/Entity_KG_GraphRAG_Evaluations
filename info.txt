@@ -1,0 +1,20 @@
+questions_main:
+
+Build entity artifacts + document chunks (JSON):
+python scripts/build_entity_graph.py --docs-dir new_data/researcher --output-dir data/researcher --file-extensions .json
+
+Build GraphRAG artifacts:
+python scripts/build_graphrag.py --docs-dir new_data/researcher --output-dir data/researcher --file-extensions .json
+
+Run evaluations (exact match is already set in the config):
+python kg_rag/evaluation/run_evaluation.py --data-path new_data/questions_main.csv --config-path kg_rag/configs/researcher-kgrag.json --method entity --output-dir evaluation_results/questions_main
+
+python kg_rag/evaluation/run_evaluation.py --data-path new_data/questions_main.csv --config-path kg_rag/configs/researcher-kgrag.json --method graphrag --output-dir evaluation_results/questions_main
+
+If you also want cypher-based results from the Aura DB:
+
+python kg_rag/evaluation/run_evaluation.py --data-path new_data/questions_main.csv --config-path kg_rag/configs/researcher-kgrag.json --method cypher --output-dir evaluation_results/questions_main
+Next steps you might want:
+
+Run the three commands above to generate entity_rag_*.txt and graphrag_rag_*.txt under evaluation_results/questions_main.
+If you want automatic execution here, tell me which methods to run and whether I should rebuild the Neo4j graph.

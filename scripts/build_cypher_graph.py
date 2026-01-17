@@ -45,6 +45,12 @@ def parse_args():
         help="Optional string to filter filenames",
     )
     parser.add_argument(
+        "--file-extensions",
+        type=str,
+        default=".pdf",
+        help="Comma-separated list of file extensions to load (default: .pdf)",
+    )
+    parser.add_argument(
         "--chunk-size", type=int, default=512, help="Size of document chunks"
     )
     parser.add_argument(
@@ -99,6 +105,7 @@ def main():
         file_filter=args.file_filter,
         chunk_size=args.chunk_size,
         chunk_overlap=args.chunk_overlap,
+        file_extensions=parse_file_extensions(args.file_extensions),
     )
     print(f"Loaded {len(documents)} document chunks")
 
@@ -153,6 +160,15 @@ def main():
 
     print("\nGraph built successfully")
     print(f"Graph documents saved to {graph_docs_path}")
+
+
+def parse_file_extensions(value: str | None) -> list[str] | None:
+    if not value:
+        return None
+    items = [item.strip() for item in value.split(",") if item.strip()]
+    if not items:
+        return None
+    return [item if item.startswith(".") else f".{item}" for item in items]
 
 
 if __name__ == "__main__":

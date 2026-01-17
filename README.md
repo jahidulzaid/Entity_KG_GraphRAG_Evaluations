@@ -57,7 +57,68 @@ NEO4J_USER=neo4j
 NEO4J_PASSWORD=your_password
 ```
 
+## Data
+
+The latest evaluation dataset lives under `new_data/`:
+
+- `new_data/researcher/`: JSON source documents used to build entity and GraphRAG artifacts
+- `new_data/questions_main.csv`: question/answer pairs for evaluation
+
+Artifacts are written under `data/researcher/`, and evaluation outputs go under
+`evaluation_results/questions_main` (or a separate directory if you want to
+separate GraphRAG runs).
+
 ## Usage
+
+### Questions_main dataset (new_data)
+
+Build entity artifacts + document chunks (JSON):
+
+```bash
+python scripts/build_entity_graph.py \
+    --docs-dir new_data/researcher \
+    --output-dir data/researcher \
+    --file-extensions .json
+```
+
+Build GraphRAG artifacts:
+
+```bash
+python scripts/build_graphrag.py \
+    --docs-dir new_data/researcher \
+    --output-dir data/researcher \
+    --file-extensions .json
+```
+
+Run evaluations (exact match is already set in `kg_rag/configs/researcher-kgrag.json`):
+
+```bash
+python kg_rag/evaluation/run_evaluation.py \
+    --data-path new_data/questions_main.csv \
+    --config-path kg_rag/configs/researcher-kgrag.json \
+    --method entity \
+    --output-dir evaluation_results/questions_main
+```
+
+```bash
+python kg_rag/evaluation/run_evaluation.py \
+    --data-path new_data/questions_main.csv \
+    --config-path kg_rag/configs/researcher-kgrag.json \
+    --method graphrag \
+    --output-dir evaluation_results/questions_main_graph
+```
+
+If you also want cypher-based results from Neo4j:
+
+```bash
+python kg_rag/evaluation/run_evaluation.py \
+    --data-path new_data/questions_main.csv \
+    --config-path kg_rag/configs/researcher-kgrag.json \
+    --method cypher \
+    --output-dir evaluation_results/questions_main
+```
+
+### Legacy SEC-10-Q example
 
 ### 1. Building Vector Store for Baseline Methods
 
