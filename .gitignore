@@ -219,7 +219,6 @@ chroma_db/
 *.pkl
 # dataset
 .old
-.vscode
 
 *.pyc
 *.egg-info
@@ -244,7 +243,6 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
-.vscode/
 
 ## Other
 # Cache files
@@ -253,3 +251,6 @@ cache.db*
 # All DS_Store files
 .DS_Store
 
+temp_auto_push.bat
+temp_interactive_push.bat
+branch_structure.json
