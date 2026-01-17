@@ -15,21 +15,65 @@ The repository implements several RAG approaches:
    - **Cypher-based approach**: Uses Cypher queries to retrieve information from a Neo4j graph database
    - **GraphRAG-based approach**: Implements a community detection and hierarchical search strategy
 
-## Installation
-
-### Using uv (Recommended)
-
-[uv](https://github.com/astral-sh/uv) for dependency.
+## Quickstart (after cloning)
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/kg-rag.git
+git clone https://github.com/VectorInstitute/kg-rag.git
 cd kg-rag
 
+# Install dependencies (recommended: uv)
+uv sync
+
+# Activate the virtual environment
+# Windows (PowerShell)
+.\.venv\Scripts\Activate.ps1
+# macOS/Linux
+source .venv/bin/activate
+```
+
+If you do not have `uv` installed yet, see the Installation section below.
+
+Create a `.env` file in the repo root (or export variables in your shell):
+
+```
+OPENAI_API_KEY=your_openai_api_key
+```
+
+Build artifacts and run a sample evaluation:
+
+```bash
+python scripts/build_entity_graph.py \
+    --docs-dir new_data/researcher \
+    --output-dir data/researcher \
+    --file-extensions .json
+
+python kg_rag/evaluation/run_evaluation.py \
+    --data-path new_data/questions_main.csv \
+    --config-path kg_rag/configs/researcher-kgrag.json \
+    --method entity \
+    --output-dir evaluation_results/questions_main
+```
+
+## Installation
+
+Python 3.11 is recommended (see `.python-version`).
+
+### Using uv (Recommended)
+
+[uv](https://github.com/astral-sh/uv) for dependencies.
+
+```bash
 # Install uv if you don't have it
+# macOS/Linux
 curl -sSf https://astral.sh/uv/install.sh | bash
+# Windows (PowerShell)
+irm https://astral.sh/uv/install.ps1 | iex
 
 uv sync
+# Windows (PowerShell)
+.\.venv\Scripts\Activate.ps1
+# macOS/Linux
 source .venv/bin/activate
 ```
 
@@ -37,13 +81,37 @@ For development, you can install the dev dependencies:
 
 ```bash
 uv sync --dev
+# Windows (PowerShell)
+.\.venv\Scripts\Activate.ps1
+# macOS/Linux
 source .venv/bin/activate
+```
+
+### Using pip (Alternative)
+
+```bash
+python -m venv .venv
+# Windows (PowerShell)
+.\.venv\Scripts\Activate.ps1
+# macOS/Linux
+source .venv/bin/activate
+
+python -m pip install -U pip
+pip install -e .
+```
+
+For development:
+
+```bash
+pip install -e ".[dev]"
 ```
 
 
 ## Environment Variables
 
-Export the following environment variables:
+Create a `.env` file in the repo root (or export variables in your shell):
+
+Most scripts call `python-dotenv` and will load `.env` automatically.
 
 ```
 OPENAI_API_KEY=your_openai_api_key
