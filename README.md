@@ -1,6 +1,6 @@
-# KG-RAG: Knowledge Graph-based Retrieval Augmented Generation
+# Knowledge Graph-based Retrieval Augmented Generation
 
-This repository contains a collection of implementations for Knowledge Graph-based RAG (Retrieval Augmented Generation) approaches and baseline methods for comparison. The code is structured as a Python package with modular components.
+A collection of implementations for Knowledge Graph-based RAG  approaches and baseline methods for comparison.
 
 ## Overview
 
@@ -19,7 +19,7 @@ The repository implements several RAG approaches:
 
 ### Using uv (Recommended)
 
-This project uses [uv](https://github.com/astral-sh/uv) for dependency management.
+[uv](https://github.com/astral-sh/uv) for dependency.
 
 ```bash
 # Clone the repository
@@ -118,80 +118,84 @@ python kg_rag/evaluation/run_evaluation.py \
     --output-dir evaluation_results/questions_main
 ```
 
-### Legacy SEC-10-Q example
+### Running Scripts (new_data)
 
-### 1. Building Vector Store for Baseline Methods
+### 1. Building Entity Graph Artifacts
 
-First, build a vector store for the baseline RAG methods:
+Build the entity graph artifacts used by the entity-based KG-RAG methods:
 
 ```bash
-python -m scripts.build_baseline_vectordb \
-    --docs-dir data/sec-10-q/docs \
-    --collection-name sec_10q \
-    --persist-dir chroma_db \
-    --verbose
+python scripts/build_entity_graph.py \
+    --docs-dir new_data/researcher \
+    --output-dir data/researcher \
+    --file-extensions .json
 ```
 
-### 2. Building Knowledge Graphs
+### 2. Building GraphRAG Artifacts
 
-Build a knowledge graph for KG-RAG methods:
+Build GraphRAG artifacts and vector stores:
 
 ```bash
-python -m scripts.build_entity_graph \
-    --docs-dir data/sec-10-q/docs \
-    --output-dir data/graphs \
-    --graph-name sec10q_entity_graph \
-    --verbose
+python scripts/build_graphrag.py \
+    --docs-dir new_data/researcher \
+    --output-dir data/researcher \
+    --file-extensions .json
 ```
 
-### 3. Running Interactive Query Mode
-
-To interactively query using baseline methods:
+### 3. Running Interactive Query Mode (Entity KG-RAG)
 
 ```bash
-python -m scripts.run_baseline_rag \
-    --collection-name sec_10q \
-    --persist-dir chroma_db \
-    --model gpt-4o \
-    --verbose
-```
-
-To interactively query using KG-RAG methods:
-
-```bash
-python -m scripts.run_entity_rag \
-    --graph-path data/graphs/sec10q_entity_graph.pkl \
-    --beam-width 10 \
-    --max-depth 8 \
-    --top-k 100 \
-    --verbose
+python scripts/run_entity_rag.py \
+    --graph-documents-pkl-path data/researcher/entity_graph_documents.pkl \
+    --documents-pkl-path data/researcher/documents.pkl \
+    --documents-path new_data/researcher
 ```
 
 ### 4. Running Evaluation
 
-To evaluate the performance of various RAG methods on a test dataset:
+```bash
+python kg_rag/evaluation/run_evaluation.py \
+    --data-path new_data/questions_main.csv \
+    --config-path kg_rag/configs/researcher-kgrag.json \
+    --method entity \
+    --output-dir evaluation_results/questions_main
+```
 
 ```bash
-python -m kg_rag.evaluation.run_evaluation \
-    --data-path data/test_questions.csv \
-    --graph-path data/graphs/sec10q_entity_graph.pkl \
-    --method all \
-    --output-dir evaluation_results \
-    --collection-name sec_10q \
-    --persist-dir chroma_db \
-    --max-samples 50 \
-    --verbose
+python kg_rag/evaluation/run_evaluation.py \
+    --data-path new_data/questions_main.csv \
+    --config-path kg_rag/configs/researcher-kgrag.json \
+    --method graphrag \
+    --output-dir evaluation_results/questions_main_graph
+```
+
+```bash
+python kg_rag/evaluation/run_evaluation.py \
+    --data-path new_data/questions_main.csv \
+    --config-path kg_rag/configs/researcher-kgrag.json \
+    --method cypher \
+    --output-dir evaluation_results/questions_main
 ```
 
 ### 5. Running Hyperparameter Search
 
-To find the optimal hyperparameters for a method:
+```bash
+python kg_rag/evaluation/hyperparameter_search.py \
+    --data-path new_data/questions_main.csv \
+    --graph-path data/researcher/entity_graph.pkl \
+    --method entity \
+    --configs-path kg_rag/evaluation/hyperparameter_configs.json \
+    --output-dir hyperparameter_search \
+    --max-samples 10 \
+    --verbose
+```
 
 ```bash
-python -m kg_rag.evaluation.hyperparameter_search \
-    --data-path data/test_questions.csv \
-    --graph-path data/graphs/sec10q_entity_graph.pkl \
-    --method entity \
+python kg_rag/evaluation/hyperparameter_search.py \
+    --data-path new_data/questions_main.csv \
+    --method graphrag \
+    --graphrag-artifacts data/researcher/graphrag_artifacts.pkl \
+    --vector-store-dir data/researcher/vector_stores \
     --configs-path kg_rag/evaluation/hyperparameter_configs.json \
     --output-dir hyperparameter_search \
     --max-samples 10 \

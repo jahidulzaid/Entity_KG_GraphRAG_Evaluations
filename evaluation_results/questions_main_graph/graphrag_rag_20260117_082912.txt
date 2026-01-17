@@ -534,3 +534,244 @@ Correct: False
 Question 36/202:
 Question: What paper did Humayan Kabir Rana publish in 2021 about COVID-19?
 Expected Answer: Pathogenetic profiling of COVID-19 and SARS-like viruses
+Model Answer: ### Paper on COVID-19 and Neurological Diseases
+
+In 2021, Humayan Kabir Rana published a research paper titled "Bioinformatics and System Biology Approaches to Identify Pathophysiological Impact of COVID-19 to the Progression and Severity of Neurological Diseases." This paper focuses on the impact of COVID-19 on neurological diseases, utilizing bioinformatics and system biology methodologies to explore the pathophysiological effects of the virus [Data: Entities (199); Relationships (243); Sources (38)].
+
+### Collaborative Efforts
+
+The paper was co-authored by several researchers, including MH Rahman, S Peng, MG Kibria, MZ Islam, and SMH Mahmud, highlighting the collaborative nature of this research effort. The study was published in the journal "Computers in Biology and Medicine," which underscores its contribution to the field of medical research [Data: Sources (38); Relationships (227, 228, 229)].
+
+### Research Community and Impact
+
+This publication is part of a broader research community focused on the intersection of COVID-19 and neurological diseases. Humayan Kabir Rana's leadership in this area is evident through his extensive research contributions and collaborations with other experts in the field. The paper has been cited multiple times, indicating its significance and impact on ongoing research related to COVID-19 and its neurological implications [Data: Reports (9); Sources (38)].
+Reasoning:
+### Paper on COVID-19 and Neurological Diseases
+In 2021, Humayan Kabir Rana published a research paper titled "Bioinformatics and System Biology Approaches to Identify Pathophysiological Impact of COVID-19 to the Progression and Severity of Neurological Diseases." This paper focuses on the impact of COVID-19 on neurological diseases, utilizing bioinformatics and system biology methodologies to explore the pathophysiological effects of the virus [Data: Entities (199); Relationships (243); Sources (38)].
+### Collaborative Efforts
+The paper was co-authored by several researchers, including MH Rahman, S Peng, MG Kibria, MZ Islam, and SMH Mahmud, highlighting the collaborative nature of this research effort. The study was published in the journal "Computers in Biology and Medicine," which underscores its contribution to the field of medical research [Data: Sources (38); Relationships (227, 228, 229)].
+### Research Community and Impact
+This publication is part of a broader research community focused on the intersection of COVID-19 and neurological diseases. Humayan Kabir Rana's leadership in this area is evident through his extensive research contributions and collaborations with other experts in the field. The paper has been cited multiple times, indicating its significance and impact on ongoing research related to COVID-19 and its neurological implications [Data: Reports (9); Sources (38)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 37/202:
+Question: What are the research interests of Farhana Akter Sunny?
+Expected Answer: Cyber Security, Semantic Communication, Blockchain Technology, IoT, Wireless Communication
+Model Answer: ### Farhana Akter Sunny's Research Interests
+
+Farhana Akter Sunny is a researcher with a diverse range of interests and expertise in several advanced technological fields. Her primary research interests include:
+
+1. **Cyber Security**: Farhana is actively involved in research related to securing digital information and communication systems. This area is crucial for protecting data integrity and privacy in various applications [Data: Entities (37)].
+
+2. **Semantic Communication**: She explores the use of semantic technologies to enhance communication systems, which involves understanding and processing the meaning of information exchanged between systems [Data: Entities (37)].
+
+3. **Blockchain Technology**: Farhana has contributed to research on blockchain applications, which are pivotal in creating secure and decentralized digital ledgers for various industries [Data: Entities (37); Relationships (53)].
+
+4. **Internet of Things (IoT)**: Her work includes studies on IoT, focusing on the interconnection of devices and systems to enable smart environments and applications [Data: Entities (37); Relationships (54, 55)].
+
+5. **Wireless Communication**: Farhana is involved in research on wireless communication systems, including the development of algorithms and technologies to improve connectivity and data transmission [Data: Entities (37)].
+
+These interests are reflected in her numerous research papers and collaborations, highlighting her contributions to advancing knowledge in these fields [Data: Entities (37, 51); Relationships (59, 52, 53, 54, 55)].
+Reasoning:
+### Farhana Akter Sunny's Research Interests
+Farhana Akter Sunny is a researcher with a diverse range of interests and expertise in several advanced technological fields. Her primary research interests include:
+1. **Cyber Security**: Farhana is actively involved in research related to securing digital information and communication systems. This area is crucial for protecting data integrity and privacy in various applications [Data: Entities (37)].
+2. **Semantic Communication**: She explores the use of semantic technologies to enhance communication systems, which involves understanding and processing the meaning of information exchanged between systems [Data: Entities (37)].
+3. **Blockchain Technology**: Farhana has contributed to research on blockchain applications, which are pivotal in creating secure and decentralized digital ledgers for various industries [Data: Entities (37); Relationships (53)].
+4. **Internet of Things (IoT)**: Her work includes studies on IoT, focusing on the interconnection of devices and systems to enable smart environments and applications [Data: Entities (37); Relationships (54, 55)].
+5. **Wireless Communication**: Farhana is involved in research on wireless communication systems, including the development of algorithms and technologies to improve connectivity and data transmission [Data: Entities (37)].
+These interests are reflected in her numerous research papers and collaborations, highlighting her contributions to advancing knowledge in these fields [Data: Entities (37, 51); Relationships (59, 52, 53, 54, 55)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 38/202:
+Question: What is the affiliation of Abdullah-Al Masud?
+Expected Answer: United International University
+Model Answer: ### Affiliation of Abdullah-Al Masud
+
+Abdullah-Al Masud is affiliated with United International University, an academic institution located in Bangladesh. He is a researcher with interests in robotics, computer vision, meta-learning, and deep learning [Data: Entities (70, 71); Relationships (92)]. His affiliation with United International University is further supported by his Google Scholar profile, which lists the university as his primary institution [Data: Sources (12)]. 
+
+United International University serves as a significant platform for Abdullah-Al Masud's research activities, providing an environment that supports his academic pursuits in various advanced fields of study [Data: Reports (33)].
+Reasoning:
+### Affiliation of Abdullah-Al Masud
+Abdullah-Al Masud is affiliated with United International University, an academic institution located in Bangladesh. He is a researcher with interests in robotics, computer vision, meta-learning, and deep learning [Data: Entities (70, 71); Relationships (92)]. His affiliation with United International University is further supported by his Google Scholar profile, which lists the university as his primary institution [Data: Sources (12)]. 
+United International University serves as a significant platform for Abdullah-Al Masud's research activities, providing an environment that supports his academic pursuits in various advanced fields of study [Data: Reports (33)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 39/202:
+Question: How many citations does the paper 'iWorksafe: Towards Healthy Workplaces During COVID-19' have?
+Expected Answer: 110
+Model Answer: The paper titled "iWorksafe: Towards Healthy Workplaces During COVID-19 With an Intelligent Phealth App for Industrial Settings" has been cited 110 times [Data: Sources (20)].
+Reasoning:
+The paper titled "iWorksafe: Towards Healthy Workplaces During COVID-19 With an Intelligent Phealth App for Industrial Settings" has been cited 110 times [Data: Sources (20)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 40/202:
+Question: In what year was the paper 'Scalable machine learning-based intrusion detection system for IoT-enabled smart cities' published?
+Expected Answer: 2020
+Model Answer: The paper titled 'Scalable machine learning-based intrusion detection system for IoT-enabled smart cities' was published in the year 2020 [Data: Sources (3)].
+Reasoning:
+The paper titled 'Scalable machine learning-based intrusion detection system for IoT-enabled smart cities' was published in the year 2020 [Data: Sources (3)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 41/202:
+Question: What is the title of Md Ataullha's paper on dengue outbreak prediction?
+Expected Answer: Mathematical analysis and prediction of future outbreak of dengue on time-varying contact rate using machine learning approach
+Model Answer: The title of Md Ataullha's paper on dengue outbreak prediction is "Mathematical Analysis and Prediction of Future Outbreak of Dengue on Time-Varying Contact Rate Using Machine Learning Approach" [Data: Entities (229); Relationships (263)].
+Reasoning:
+The title of Md Ataullha's paper on dengue outbreak prediction is "Mathematical Analysis and Prediction of Future Outbreak of Dengue on Time-Varying Contact Rate Using Machine Learning Approach" [Data: Entities (229); Relationships (263)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 42/202:
+Question: How many citations does the paper 'A systematic review of blockchain applications' have?
+Expected Answer: 170
+Model Answer: The paper titled "A Systematic Review of Blockchain Applications," authored by Farhana Akter Sunny and others, has been cited 170 times [Data: Entities (39); Sources (6)].
+Reasoning:
+The paper titled "A Systematic Review of Blockchain Applications," authored by Farhana Akter Sunny and others, has been cited 170 times [Data: Entities (39); Sources (6)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 43/202:
+Question: What is the email of Muhammad Nomani Kabir?
+Expected Answer: kabir@cse.uiu.ac.bd
+Model Answer: The email of Muhammad Nomani Kabir is kabir@cse.uiu.ac.bd [Data: Sources (0)].
+Reasoning:
+The email of Muhammad Nomani Kabir is kabir@cse.uiu.ac.bd [Data: Sources (0)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 44/202:
+Question: Which researcher is affiliated with University of Wolverhampton?
+Expected Answer: Md. Arafatur Rahman
+Model Answer: ### Researcher Affiliated with University of Wolverhampton
+
+Md. Arafatur Rahman is the researcher affiliated with the University of Wolverhampton. He holds the position of a Reader in Cyber Security at the School of Mathematics and Computer Science within the university [Data: Entities (127, 128); Relationships (166)]. His research interests are diverse, encompassing areas such as Cyber Security, Vehicular Technology, Wireless Communication, IoT, and Big Data Analytics [Data: Entities (127)]. 
+
+Md. Arafatur Rahman has contributed to various research studies, including those on the economic impacts of Covid-19 and big data security, as well as IoT-enabled connectivity and applications in the automotive industry and smart cities [Data: Entities (127); Relationships (170, 168, 169, 171)]. His work reflects a strong focus on the intersection of technology and security, making significant contributions to the field.
+Reasoning:
+### Researcher Affiliated with University of Wolverhampton
+Md. Arafatur Rahman is the researcher affiliated with the University of Wolverhampton. He holds the position of a Reader in Cyber Security at the School of Mathematics and Computer Science within the university [Data: Entities (127, 128); Relationships (166)]. His research interests are diverse, encompassing areas such as Cyber Security, Vehicular Technology, Wireless Communication, IoT, and Big Data Analytics [Data: Entities (127)]. 
+Md. Arafatur Rahman has contributed to various research studies, including those on the economic impacts of Covid-19 and big data security, as well as IoT-enabled connectivity and applications in the automotive industry and smart cities [Data: Entities (127); Relationships (170, 168, 169, 171)]. His work reflects a strong focus on the intersection of technology and security, making significant contributions to the field.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 45/202:
+Question: Which researcher published a paper on iris recognition in 2019?
+Expected Answer: Humayan Kabir Rana
+Model Answer: The researcher who published a paper on iris recognition in 2019 is Humayan Kabir Rana. The paper is titled "A Fast Iris Recognition System Through Optimum Feature Extraction" and was published in the journal PeerJ Computer Science [Data: Entities (181, 182); Relationships (237); Sources (35)].
+Reasoning:
+The researcher who published a paper on iris recognition in 2019 is Humayan Kabir Rana. The paper is titled "A Fast Iris Recognition System Through Optimum Feature Extraction" and was published in the journal PeerJ Computer Science [Data: Entities (181, 182); Relationships (237); Sources (35)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 46/202:
+Question: What is the title of the paper on cyber security in smart grid?
+Expected Answer: Review on cyber-physical and cyber-security system in smart grid: Standards, protocols, constraints, and recommendations
+Model Answer: The title of the paper on cyber security in smart grid is "Review on Cyber-Physical and Cyber-Security System in Smart Grid: Standards, Protocols, Constraints, and Recommendations" [Data: Sources (13)].
+Reasoning:
+The title of the paper on cyber security in smart grid is "Review on Cyber-Physical and Cyber-Security System in Smart Grid: Standards, Protocols, Constraints, and Recommendations" [Data: Sources (13)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 47/202:
+Question: Who are the co-authors of PyBangla paper?
+Expected Answer: J Islam, M Ataullha, S Azad
+Model Answer: The PyBangla paper, titled "PyBangla at BLP-2025 Task 2: Enhancing Bangla-to-Python Code Generation with Iterative Self-Correction and Multilingual Agents," is co-authored by J Islam, M Ataullha, and S Azad. This paper was published as an arXiv preprint in 2025 and focuses on improving the process of converting Bangla language instructions into Python code through innovative techniques [Data: Entities (224, 230, 110, 228); Relationships (154, 257, 258)].
+Reasoning:
+The PyBangla paper, titled "PyBangla at BLP-2025 Task 2: Enhancing Bangla-to-Python Code Generation with Iterative Self-Correction and Multilingual Agents," is co-authored by J Islam, M Ataullha, and S Azad. This paper was published as an arXiv preprint in 2025 and focuses on improving the process of converting Bangla language instructions into Python code through innovative techniques [Data: Entities (224, 230, 110, 228); Relationships (154, 257, 258)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 48/202:
+Question: What paper did Ashish Vaswani publish on image processing in 2018?
+Expected Answer: Image transformer
+Model Answer: ### Image Transformer Paper by Ashish Vaswani
+
+In 2018, Ashish Vaswani co-authored a research paper titled "Image Transformer," which was published at the International Conference on Machine Learning. This paper focuses on the application of transformer models to image processing tasks, showcasing the versatility and power of self-attention mechanisms in handling complex data [Data: Entities (243); Relationships (267)].
+
+### Significance and Impact
+
+The "Image Transformer" paper has been highly influential, with over 2500 citations, indicating its significant impact on the field of image processing and machine learning. The research demonstrates how transformer architectures, initially developed for natural language processing, can be effectively adapted for visual data, thus broadening the scope of their application [Data: Sources (47); Reports (22)].
+
+### Authors and Contributions
+
+The paper was authored by a team including N Parmar, A Vaswani, J Uszkoreit, L Kaiser, N Shazeer, A Ku, and D Tran. Ashish Vaswani's involvement in this work highlights his role in advancing the application of deep learning techniques across different domains, particularly in the realm of image processing [Data: Sources (47); Entities (231)].
+Reasoning:
+### Image Transformer Paper by Ashish Vaswani
+In 2018, Ashish Vaswani co-authored a research paper titled "Image Transformer," which was published at the International Conference on Machine Learning. This paper focuses on the application of transformer models to image processing tasks, showcasing the versatility and power of self-attention mechanisms in handling complex data [Data: Entities (243); Relationships (267)].
+### Significance and Impact
+The "Image Transformer" paper has been highly influential, with over 2500 citations, indicating its significant impact on the field of image processing and machine learning. The research demonstrates how transformer architectures, initially developed for natural language processing, can be effectively adapted for visual data, thus broadening the scope of their application [Data: Sources (47); Reports (22)].
+### Authors and Contributions
+The paper was authored by a team including N Parmar, A Vaswani, J Uszkoreit, L Kaiser, N Shazeer, A Ku, and D Tran. Ashish Vaswani's involvement in this work highlights his role in advancing the application of deep learning techniques across different domains, particularly in the realm of image processing [Data: Sources (47); Entities (231)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 49/202:
+Question: How many citations does 'Digital image watermarking techniques: a review' have?
+Expected Answer: 361
+Model Answer: The research paper titled 'Digital Image Watermarking Techniques: A Review' has been cited 361 times [Data: Sources (2)].
+Reasoning:
+The research paper titled 'Digital Image Watermarking Techniques: A Review' has been cited 361 times [Data: Sources (2)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 50/202:
+Question: How many papers did Dr. Md. Abdur Razzaque publish between 2008 and 2013?
+Expected Answer: 4
+Model Answer: Dr. Md. Abdur Razzaque published several papers between 2008 and 2013. Here is a summary of his publications during that period:
+
+1. **2008**: Dr. Razzaque co-authored a paper titled "Multi-constrained QoS geographic routing for heterogeneous traffic in sensor networks," which was published in 2008 [Data: Sources (15); Reports (26)].
+
+2. **2011**: In 2011, he contributed to two papers:
+   - "Data-centric multiobjective QoS-aware routing protocol for body sensor networks," published in Sensors [Data: Sources (14)].
+   - "Medium access control for power line communications: an overview of the IEEE 1901 and ITU-T G. hn standards," published in IEEE Communications Magazine [Data: Sources (17)].
+
+3. **2013**: He co-authored the paper "Traffic priority and load adaptive MAC protocol for QoS provisioning in body sensor networks," published in the International Journal of Distributed Sensor Networks [Data: Sources (16)].
+
+In total, Dr. Md. Abdur Razzaque published four papers between 2008 and 2013.
+Reasoning:
+Dr. Md. Abdur Razzaque published several papers between 2008 and 2013. Here is a summary of his publications during that period:
+1. **2008**: Dr. Razzaque co-authored a paper titled "Multi-constrained QoS geographic routing for heterogeneous traffic in sensor networks," which was published in 2008 [Data: Sources (15); Reports (26)].
+2. **2011**: In 2011, he contributed to two papers:
+   - "Data-centric multiobjective QoS-aware routing protocol for body sensor networks," published in Sensors [Data: Sources (14)].
+   - "Medium access control for power line communications: an overview of the IEEE 1901 and ITU-T G. hn standards," published in IEEE Communications Magazine [Data: Sources (17)].
+3. **2013**: He co-authored the paper "Traffic priority and load adaptive MAC protocol for QoS provisioning in body sensor networks," published in the International Journal of Distributed Sensor Networks [Data: Sources (16)].
+In total, Dr. Md. Abdur Razzaque published four papers between 2008 and 2013.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 51/202:
+Question: What was the earliest paper published by Saiful Azad in the dataset?
+Expected Answer: A performance comparison of proactive and reactive routing protocols of Mobile Ad-hoc NETwork (MANET) in 2007
+Model Answer: The earliest paper published by Saiful Azad in the dataset is titled "A performance comparison of proactive and reactive routing protocols of Mobile Ad-hoc NETwork (MANET)." This paper was published in 2007 in the Journal of Engineering and Applied Sciences [Data: Sources (23); Reports (6)].
+Reasoning:
+The earliest paper published by Saiful Azad in the dataset is titled "A performance comparison of proactive and reactive routing protocols of Mobile Ad-hoc NETwork (MANET)." This paper was published in 2007 in the Journal of Engineering and Applied Sciences [Data: Sources (23); Reports (6)].
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 52/202:
+Question: How many years passed between Dr. Md. Abdur Razzaque's first and last recorded papers?
+Expected Answer: 15
+Model Answer: 16 years have passed between his first and last recorded papers
+Reasoning:
+Dr. Md. Abdur Razzaque's first recorded paper is from 2008, titled "Multi-constrained QoS geographic routing for heterogeneous traffic in sensor networks" [Data: Sources (15)]. His last recorded paper is from 2024, titled "Traffic priority and load adaptive MAC protocol for QoS provisioning in body sensor networks" [Data: Sources (10)]. Therefore, 16 years have passed between his first and last recorded papers.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 53/202:
+Question: Which researcher published the most recent paper in 2025?
+Expected Answer: Jahidul Islam
+Model Answer: I cannot determine which researcher published the most recent paper in 2025 based on the available information
+Reasoning:
+The most recent paper published in 2025, according to the data provided, is the preprint identified by the code arXiv:2512.23713. This preprint was published on the arXiv platform in 2025 [Data: Entities (226, 227); Relationships (262, 260)]. However, the specific researchers or authors associated with this preprint are not listed in the data provided. Therefore, I cannot determine which researcher published the most recent paper in 2025 based on the available information.
+Correct: False
+--------------------------------------------------------------------------------
+
+Question 54/202:
+Question: How many papers did Muhammad Nomani Kabir publish in 2020?
+Expected Answer: 3
